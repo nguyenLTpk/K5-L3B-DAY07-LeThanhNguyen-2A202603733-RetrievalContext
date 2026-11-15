@@ -1,0 +1,49 @@
+{
+ "page": 57,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "",
+   "box_2d": [
+    91,
+    117,
+    368,
+    882
+   ],
+   "informative": true,
+   "description": "Bảng dữ liệu liệt kê các thay đổi về chi phí trong ngành điện bao gồm năng lượng tái tạo, chi phí vận hành và bảo trì, chi phí môi trường. Bảng so sánh các giá trị tuyệt đối và phần trăm thay đổi cho các hạng mục chi phí khác nhau.",
+   "transcription": "| | | |\n|---|---|---|\n| Mặt trời | +21 | + 429% |\n| Gió (trên bờ) | +8 | + 55% |\n| Gió (ngoài khơi) | +39 | + 402% |\n| Thủy điện và các năng lượng tái tạo khác | ~0 | + 4% |\n| Lưu trữ (ắc quy và thuỷ điện tích năng) | +3 | Không có sẵn |\n| Chi phí nâng cấp và mở rộng mạng lưới | +13 | +52% |\n| Chi phí vận hành và bảo trì thay đổi | +2 | +40% |\n| Chi phí vận hành và bảo trì cố định | +6 | +12% |\n| Tổng chi phí | +65 | 56% |\n| trừ khoản tiết kiệm chi phí nhiên liệu | -32 | -31% |\n| Tổng chi phí ròng | +33 | +13% |\n| Chi phí thiệt hại môi trường địa phương | -14 | -40% |\n| Chi phí thiệt hại môi trường toàn cầu | -40 | -37% |",
+   "units": "Đơn vị được thể hiện là giá trị tăng/giảm và tỷ lệ phần trăm thay đổi (%)",
+   "crop": "p057_e0.png"
+  },
+  {
+   "label": "Hộp 7",
+   "kind": "box",
+   "title": "Tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam",
+   "box_2d": [
+    426,
+    117,
+    788,
+    882
+   ],
+   "informative": true,
+   "description": "Hộp nội dung thảo luận về ảnh hưởng của xung đột tại Ukraina đối với thị trường năng lượng toàn cầu và các rủi ro liên quan đến nhập khẩu năng lượng của Việt Nam. Hộp đề xuất các biện pháp giảm thiểu thông qua quy hoạch ngành điện và phát triển năng lượng sạch nội địa.",
+   "transcription": "Hộp 7: Tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam Xung đột đang diễn ra đã ảnh hưởng đến chuỗi cung cấp năng lượng hoá thạch, và giá dầu khí trên toàn cầu đang ở mức cao nhất trong 10 năm qua. Các nước có quan hệ mua bán năng lượng trực tiếp (chủ yếu ở châu Âu) đang gấp rút tìm kiếm các nguồn thay thế, và biến động giá năng lượng trong ngắn hạn được kỳ vọng sẽ tiếp tục. Tuy nhiên, viễn cảnh trong dài hạn vẫn bất định. Trong lịch sử, các cú sốc năng lượng thường khiến các nhà sản xuất tìm cánh tăng và đa dạng hoá nguồn cung, hoặc người tiêu dùng thay đổi nhu cầu (hiệu quả, các nguồn thay thế). Trong bối cảnh hiện tại, vẫn còn quá sớm để dự báo mức độ tác động của cuộc xung đột lên giá năng lượng trong dài hạn. Là một nước nhập khẩu năng lượng ròng, Việt Nam sẽ trở nên ngày càng dễ bị tổn thương bởi các cú sốc hàng hoá năng lượng từ bên ngoài. Giá xăng dầu cho giao thông vận tải đã tăng trong nhiều tháng vừa rồi, dù đã trích quỹ bình ổn giá (hiện quỹ đã âm, tính tại thời điểm tháng 4/2022). Trong ngành điện, mặc dù nhập khẩu than chưa bị tác động lớn, nhưng việc mở rộng khả năng sản xuất điện từ nguồn năng lượng hoá thạch theo quy hoạch, nhất là thị trường nhập khí để sản xuất điện có thể phải đối mặt với các rủi ro tăng cao. Một số biện pháp giảm thiểu tác động cho Việt Nam có thể là: (i) sử dụng công cụ quy hoạch ngành điện –PDP8- như một nền tảng cho các quyết định đầu tư linh hoạt, để làm sao thích ứng với bản chất hay thay đổi của giá dầu; (ii) ưu tiên phát triển các nguồn năng lượng sạch nội địa, ví dụ như năng lượng gió ngoài khơi; và (iii) hướng đến các dự án điện có công nghệ trung tính theo phương thức đầu thầu cạnh tranh.",
+   "crop": "p057_e1.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2589,
+  "output_tokens": 1024,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.5,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.011564,
+ "seconds": 4.7
+}

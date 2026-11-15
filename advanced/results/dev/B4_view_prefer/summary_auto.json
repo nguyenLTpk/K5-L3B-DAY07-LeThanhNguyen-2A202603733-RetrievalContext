@@ -1,0 +1,35 @@
+{
+ "config": "B4_view_prefer",
+ "detail": {
+  "retriever": "hybrid",
+  "scope_lock": null,
+  "view": true,
+  "prefer_view": true,
+  "llm": "gemini-3.1-flash-lite",
+  "vision": "gemini-3.1-flash-lite",
+  "hypothesis": "B2 + quy tắc: khi view_page (ảnh gốc) khác chunk trích xuất lúc index thì tin view_page -> sửa ad10, không làm sai câu khác."
+ },
+ "split": "dev",
+ "n": 18,
+ "errors": 0,
+ "status_counts": {
+  "answered": 18
+ },
+ "context_page_coverage_all_groups": "15/15",
+ "citation_page_coverage_all_groups": "15/15",
+ "first_search_page_hit1": "14/15",
+ "first_search_page_hit3": "14/15",
+ "abstain_on_unanswerable": "0/3",
+ "abstain_on_answerable": "0/15",
+ "search_calls_distribution": {
+  "1": 15,
+  "2": 1,
+  "4": 1,
+  "8": 1
+ },
+ "view_page_calls": 19,
+ "median_s": 10.1,
+ "wall_s": 386.2,
+ "cost_usd": 0.0782,
+ "errors_detail": []
+}

@@ -1,0 +1,33 @@
+{
+ "page": 76,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "Huy động tài chính",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh chụp toàn cảnh một thành phố lớn ở Việt Nam với các tòa nhà cao tầng, đường phố và kênh rạch, được sử dụng làm ảnh bìa chương để giới thiệu chủ đề Huy động tài chính.",
+   "transcription": "5 Huy động tài chính",
+   "crop": "p076_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1695,
+  "output_tokens": 139,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.57,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.003585,
+ "seconds": 3.8
+}

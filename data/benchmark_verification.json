@@ -1,0 +1,464 @@
+{
+ "evidence": [
+  {
+   "id": "q01",
+   "group": 0,
+   "evidence": "Một năm học có 02 hoặc 03 học kỳ chính với tổng số tối thiểu 30 tuần lên lớp.",
+   "chunks_containing": [
+    "tt08-2021:p7:st03"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q02",
+   "group": 0,
+   "evidence": "Đối với đào tạo theo hình thức chính quy và vừa làm vừa học, tối đa 30% tổng khối lượng của chương trình đào tạo được thực hiện bằng lớp học trực tuyến.",
+   "chunks_containing": [
+    "tt08-2021:p9:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q03",
+   "group": 0,
+   "evidence": "Sinh viên vắng mặt có lý do chính đáng được dự thi, đánh giá ở một đợt khác và được tính điểm lần đầu.",
+   "chunks_containing": [
+    "tt08-2021:p10:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q04",
+   "group": 0,
+   "evidence": "Điểm trung bình học kỳ đạt dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo;",
+   "chunks_containing": [
+    "tt08-2021:p13:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q05",
+   "group": 0,
+   "evidence": "Theo thang điểm 4: Từ 3,6 đến 4,0: Xuất sắc;",
+   "chunks_containing": [
+    "tt08-2021:p12:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q06",
+   "group": 0,
+   "evidence": "ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với cơ sở đào tạo.",
+   "chunks_containing": [
+    "tt08-2021:p15:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q07",
+   "group": 0,
+   "evidence": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất.",
+   "chunks_containing": [
+    "tt08-2021:p18:st03"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q08",
+   "group": 0,
+   "evidence": "Sinh viên thi hộ hoặc nhờ người thi hộ đều bị kỷ luật ở mức đình chỉ học tập 01 năm đối với trường hợp vi phạm lần thứ nhất và buộc thôi học đối với trường hợp vi phạm lần thứ hai.",
+   "chunks_containing": [
+    "tt08-2021:p20:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q09",
+   "group": 0,
+   "evidence": "a) Từ 90 đến 100 điểm: loại xuất sắc;\nb) Từ 80 đến dưới 90 điểm: loại tốt;",
+   "chunks_containing": [
+    "tt16-2015:u05:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q10",
+   "group": 0,
+   "evidence": "Điểm rèn luyện của năm học là trung bình cộng của điểm rèn luyện các học kỳ của năm học đó.",
+   "chunks_containing": [
+    "tt16-2015:u09:st00"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q11",
+   "group": 0,
+   "evidence": "b) Ý thức chấp hành các nội quy, quy chế và các quy định khác được áp dụng trong cơ sở giáo dục đại học.\n2. Khung điểm đánh giá từ 0 đến 25 điểm.",
+   "chunks_containing": [
+    "tt16-2015:u04:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q12",
+   "group": 0,
+   "evidence": "Đạt danh hiệu sinh viên Giỏi: xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên;",
+   "chunks_containing": [
+    "tt10-2016:u08:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q13",
+   "group": 0,
+   "evidence": "Đối với sinh viên bị kỷ luật khiển trách: sau 03 tháng kể từ ngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật thì đương nhiên được chấm dứt hiệu lực của quyết định kỷ luật",
+   "chunks_containing": [
+    "tt10-2016:u11:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q14",
+   "group": 0,
+   "evidence": "Cảnh cáo: áp dụng đối với sinh viên đã bị khiển trách mà tái phạm",
+   "chunks_containing": [
+    "tt10-2016:u10:st00"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q15",
+   "group": 0,
+   "evidence": "Chấp hành nghĩa vụ làm việc có thời hạn theo sự điều động của Nhà nước khi được hưởng học bổng, chi phí đào tạo do Nhà nước cấp hoặc do nước ngoài tài trợ theo Hiệp định ký kết với Nhà nước, nếu không chấp hành phải bồi hoàn học bổng, chi phí đào tạo theo quy định của Chính phủ.",
+   "chunks_containing": [
+    "tt10-2016:u04:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q16",
+   "group": 0,
+   "evidence": "Vì lý do cá nhân khác nhưng đã phải học tối thiểu 01 học kỳ ở cơ sở đào tạo và không thuộc các trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật.",
+   "chunks_containing": [
+    "tt08-2021:p16:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q17",
+   "group": 0,
+   "evidence": "Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của chương trình đào tạo;",
+   "chunks_containing": [
+    "tt08-2021:p15:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q18",
+   "group": 0,
+   "evidence": "Trong thời gian người học bị kỷ luật mức khiển trách, khi đánh giá kết quả rèn luyện không được vượt quá loại khá.",
+   "chunks_containing": [
+    "tt16-2015:u05:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q19",
+   "group": 0,
+   "evidence": "Chủ tịch Hội đồng: là Thủ trưởng hoặc cấp phó của Thủ trưởng cơ sở giáo dục đại học.",
+   "chunks_containing": [
+    "tt10-2016:u12:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "q20",
+   "group": 0,
+   "evidence": "Người học bị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp thì phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo và nếu bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp lần thứ hai thì sẽ bị buộc thôi học.",
+   "chunks_containing": [
+    "tt16-2015:u09:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "d21",
+   "group": 0,
+   "evidence": "Đạt danh hiệu sinh viên Xuất sắc: kết quả học tập đạt từ 3,6 (thang điểm 4) hoặc từ 9,0 (thang điểm 10) trở lên và xếp loại rèn luyện xuất sắc",
+   "chunks_containing": [
+    "tt10-2016:u08:st03"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "d21",
+   "group": 1,
+   "evidence": "Từ 90 đến 100 điểm: loại xuất sắc",
+   "chunks_containing": [
+    "tt16-2015:u05:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "d22",
+   "group": 0,
+   "evidence": "Từ 3,2 đến cận 3,6: Giỏi",
+   "chunks_containing": [
+    "tt08-2021:p12:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "d22",
+   "group": 1,
+   "evidence": "Từ 80 đến dưới 90 điểm: loại tốt",
+   "chunks_containing": [
+    "tt16-2015:u05:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "d22",
+   "group": 2,
+   "evidence": "Đạt danh hiệu sinh viên Giỏi: xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên",
+   "chunks_containing": [
+    "tt10-2016:u08:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t21",
+   "group": 0,
+   "evidence": "từ 1,2 trở lên đối với năm thứ hai",
+   "chunks_containing": [
+    "tt08-2021:p14:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t22",
+   "group": 0,
+   "evidence": "Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa",
+   "chunks_containing": [
+    "tt08-2021:p17:st01",
+    "tt08-2021:p17:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t23",
+   "group": 0,
+   "evidence": "Trong trường hợp sinh viên không chấp hành làm bản tự kiểm điểm thì Hội đồng khen thưởng và kỷ luật sinh viên vẫn họp để xử lý trên cơ sở các chứng cứ thu thập được",
+   "chunks_containing": [
+    "tt10-2016:u11:st00"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t24",
+   "group": 0,
+   "evidence": "thông báo cho người học biết trước 20 ngày trước khi ban hành quyết định chính thức",
+   "chunks_containing": [
+    "tt16-2015:u07:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t25",
+   "group": 0,
+   "evidence": "Hút thuốc, uống rượu, bia trong trường học",
+   "chunks_containing": [
+    "tt10-2016:u07:st00"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t26",
+   "group": 0,
+   "evidence": "được đánh giá kết quả rèn luyện tại đơn vị quản lý chương trình thứ nhất và lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai",
+   "chunks_containing": [
+    "tt16-2015:u06:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t27",
+   "group": 0,
+   "evidence": "Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa",
+   "chunks_containing": [
+    "tt08-2021:p17:st01",
+    "tt08-2021:p17:st02"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t27",
+   "group": 1,
+   "evidence": "được bảo lưu kết quả rèn luyện của cơ sở giáo dục đại học cũ khi học tại cơ sở giáo dục đại học mới",
+   "chunks_containing": [
+    "tt16-2015:u06:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t28",
+   "group": 0,
+   "evidence": "Điểm trung bình năm học đạt dưới 0,8",
+   "chunks_containing": [
+    "tt08-2021:p14:st01"
+   ],
+   "same_text_elsewhere": []
+  },
+  {
+   "id": "t28",
+   "group": 1,
+   "evidence": "muốn quay trở lại học phải dự tuyển đầu vào như những thí sinh khác",
+   "chunks_containing": [
+    "tt08-2021:p17:st00"
+   ],
+   "same_text_elsewhere": []
+  }
+ ],
+ "absence": [
+  {
+   "id": "d23",
+   "question": "Mức học bổng khuyến khích học tập dành cho sinh viên xếp loại xuất sắc là bao nhiêu tiền mỗi tháng?",
+   "keywords": {
+    "học bổng khuyến khích": [
+     "tt10-2016:u06:st00"
+    ],
+    "đồng": [
+     "tt08-2021:p4:st01",
+     "tt08-2021:p7:st00",
+     "tt08-2021:p7:st02",
+     "tt08-2021:p8:st03",
+     "tt08-2021:p10:st00",
+     "tt08-2021:p15:st00",
+     "tt08-2021:p17:st02",
+     "tt08-2021:p17:st03",
+     "tt08-2021:p18:st01",
+     "tt08-2021:p19:st02",
+     "tt08-2021:p20:st02",
+     "tt10-2016:u02:st01",
+     "tt10-2016:u04:st01",
+     "tt10-2016:u05:st00",
+     "tt10-2016:u09:st01",
+     "tt10-2016:u09:st02",
+     "tt10-2016:u11:st00",
+     "tt10-2016:u11:st01",
+     "tt10-2016:u12:st02",
+     "tt10-2016:u13:st00",
+     "tt10-2016:u13:st03",
+     "tt16-2015:u02:st02",
+     "tt16-2015:u03:st01",
+     "tt16-2015:u03:st02",
+     "tt16-2015:u04:st03",
+     "tt16-2015:u06:st01",
+     "tt16-2015:u07:st00",
+     "tt16-2015:u07:st01",
+     "tt16-2015:u07:st02",
+     "tt16-2015:u08:st00",
+     "tt16-2015:u08:st01",
+     "tt16-2015:u09:st05"
+    ],
+    "triệu": []
+   }
+  },
+  {
+   "id": "d24",
+   "question": "Sinh viên được nghỉ hè tối thiểu bao nhiêu tuần trong mỗi năm học?",
+   "keywords": {
+    "nghỉ hè": [
+     "tt10-2016:u06:st00"
+    ],
+    "tuần": [
+     "tt08-2021:p5:st02",
+     "tt08-2021:p6:st00",
+     "tt08-2021:p7:st03",
+     "tt08-2021:p8:st00",
+     "tt10-2016:u17:st02"
+    ]
+   }
+  },
+  {
+   "id": "d25",
+   "question": "Điểm thi kết thúc học phần phải chiếm tối thiểu bao nhiêu phần trăm điểm học phần?",
+   "keywords": {
+    "trọng số": [
+     "tt08-2021:p9:st03",
+     "tt08-2021:p10:st00",
+     "tt08-2021:p10:st01",
+     "tt08-2021:p12:st00"
+    ],
+    "thi kết thúc": []
+   }
+  },
+  {
+   "id": "d26",
+   "question": "Sinh viên muốn vay vốn tín dụng sinh viên thì cần đáp ứng điều kiện gì?",
+   "keywords": {
+    "vay": [],
+    "tín dụng": []
+   }
+  },
+  {
+   "id": "t29",
+   "question": "Sinh viên có tối đa bao nhiêu ngày để khiếu nại quyết định kỷ luật kể từ ngày nhận quyết định?",
+   "keywords": {
+    "khiếu nại": [
+     "tt10-2016:u06:st01",
+     "tt10-2016:u13:st01",
+     "tt16-2015:u09:st03"
+    ],
+    "thời hạn khiếu nại": [],
+    "ngày kể từ": []
+   }
+  },
+  {
+   "id": "t30",
+   "question": "Sinh viên vi phạm quy định an toàn giao thông bị trừ bao nhiêu điểm rèn luyện?",
+   "keywords": {
+    "giao thông": [
+     "tt10-2016:u05:st00",
+     "tt10-2016:u06:st00",
+     "tt10-2016:u14:st00",
+     "tt10-2016:u22:st03"
+    ],
+    "trừ điểm": [
+     "tt10-2016:u22:st03"
+    ]
+   }
+  },
+  {
+   "id": "t31",
+   "question": "Lệ phí làm thủ tục chuyển trường là bao nhiêu?",
+   "keywords": {
+    "lệ phí": [],
+    "chuyển trường": [
+     "tt10-2016:u06:st00",
+     "tt16-2015:u06:st01"
+    ]
+   }
+  },
+  {
+   "id": "t32",
+   "question": "Sinh viên tham gia hiến máu tình nguyện được cộng bao nhiêu điểm rèn luyện?",
+   "keywords": {
+    "hiến máu": [],
+    "cộng điểm": [
+     "tt10-2016:u19:st01",
+     "tt10-2016:u20:st00",
+     "tt16-2015:u06:st00"
+    ]
+   }
+  }
+ ],
+ "problems": [],
+ "dev_test_article_overlap": [],
+ "counts": {
+  "dev_answerable": 17,
+  "test_answerable": 13,
+  "dev_unanswerable": 4,
+  "test_unanswerable": 4
+ },
+ "benchmark_sha256": "ba441760942200ec9f0f345cb959178f9c87d3697db63d1da81714d21871dc00"
+}

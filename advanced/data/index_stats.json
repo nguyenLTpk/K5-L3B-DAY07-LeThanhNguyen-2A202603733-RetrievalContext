@@ -1,0 +1,46 @@
+{
+ "pages": 104,
+ "text_chunks": 426,
+ "visual_chunks": 40,
+ "total_chunks": 466,
+ "pages_with_text_chunks": 98,
+ "pages_with_visual_chunks": 36,
+ "pages_without_any_chunk": [
+  21,
+  47,
+  75,
+  89,
+  103,
+  104
+ ],
+ "visual_elements_by_kind": {
+  "photo_decor": 7,
+  "diagram_info": 1,
+  "chart_info": 16,
+  "table_info": 16,
+  "box_info": 2,
+  "map_info": 4,
+  "infographic_info": 1,
+  "box_decor": 1
+ },
+ "embedding_model": "intfloat/multilingual-e5-small@614241f6",
+ "dimensions": 384,
+ "chunks_over_512_tokens_truncated_for_embedding": 11,
+ "max_tokens": 512,
+ "collection": "day07_ccdr_e5small",
+ "build_s": 61.7,
+ "truncated_chunk_ids": [
+  "ccdr:p018:v0",
+  "ccdr:p019:v0",
+  "ccdr:p057:v1",
+  "ccdr:p091:v0",
+  "ccdr:p092:v0",
+  "ccdr:p094:v0",
+  "ccdr:p095:v0",
+  "ccdr:p097:v0",
+  "ccdr:p100:v0",
+  "ccdr:p101:v0",
+  "ccdr:p102:v0"
+ ],
+ "note_truncation": "tokenizer cắt ở 512 token nên chunk đạt đúng 512 là chunk bị cắt phần cuối khi embed (BM25 và nội dung gửi model vẫn đủ)."
+}

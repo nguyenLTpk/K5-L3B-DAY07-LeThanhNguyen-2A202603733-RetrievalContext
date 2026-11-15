@@ -1,0 +1,34 @@
+{
+ "page": 32,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Bảng 2",
+   "kind": "table",
+   "title": "Ước tính nhu cầu tài chính tăng thêm cho các biện pháp thích ứng, 2022–2050",
+   "box_2d": [
+    92,
+    115,
+    354,
+    883
+   ],
+   "informative": true,
+   "description": "Bảng ước tính nhu cầu tài chính tăng thêm cho các biện pháp thích ứng tại Việt Nam giai đoạn 2022-2050. Dữ liệu bao gồm các mục chi tiêu như nhu cầu tài chính tăng thêm, tổng nhu cầu tài chính, đầu tư tài sản tư nhân, hạ tầng và hỗ trợ người dân/doanh nghiệp, so sánh với nguồn tài chính hiện có. Số liệu được thể hiện dưới dạng % GDP và tỷ USD theo giá trị hiện tại thuần (NPV).",
+   "transcription": "| | Trung bình mỗi năm (% GDP) | Giá trị tích lũy (tỷ USD tính theo NPV) |\n|---|---|---|\n| Nhu cầu tài chính tăng thêm | 4,5–5,4 | 342,3–410,7 |\n| Tổng nhu cầu tài chính | 6,3–7,2 | 479,2–547,6 |\n| Nhu cầu đầu tư cho các tài sản tư nhân có khả năng phục hồi | 3,0 | 228,2 |\n| Đầu tư mới và bổ sung thêm cơ sở hạ tầng có khả năng phục hồi | 3,0–3,5 | 228,2–266,2 |\n| Hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng | 0,3–0,7 | 22,8-53,2 |\n| Nguồn tài chính hiện có | 1,8 | 136,9 |",
+   "units": "tỷ USD; % GDP; 6% (tỷ lệ chiết khấu)",
+   "crop": "p032_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2690,
+  "output_tokens": 478,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.62,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.00762,
+ "seconds": 4.7
+}

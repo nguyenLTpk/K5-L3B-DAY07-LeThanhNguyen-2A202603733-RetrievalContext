@@ -1,0 +1,35 @@
+{
+  "day6_dir": "K5-L3B-DAY06-LeThanhNguyen-2A202603733-DataIngestion",
+  "collection": "day06_b_e5small",
+  "n_chunks": 178,
+  "documents": [
+    "tt08-2021",
+    "tt10-2016",
+    "tt16-2015"
+  ],
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "onnx_sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+    "dimensions": 384,
+    "max_length_tokens": 512,
+    "pooling": "mean + L2",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "provider": "local ONNX Runtime (CPU)",
+    "truncated_inputs": 0
+  },
+  "vector_store": {
+    "engine": "chromadb.PersistentClient",
+    "path": "results/chroma_db",
+    "space": "cosine",
+    "index": "HNSW (approximate)",
+    "collections": {
+      "A": "day06_a_e5small",
+      "B": "day06_b_e5small"
+    }
+  },
+  "day6_run_at_utc": "2026-11-14T04:08:23+00:00",
+  "chroma_sqlite_sha256": "5dada69d3f8a7fb5ace436b902e8b15c94fda54223ce105681550f5d6edd0364",
+  "chunks_json_sha256": "26a2539d9b660d30888891013fb646b6f210d54cdb28fdd3d1af0c7847b2225b"
+}

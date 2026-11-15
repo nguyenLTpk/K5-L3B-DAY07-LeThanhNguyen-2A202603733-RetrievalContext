@@ -1,0 +1,3125 @@
+[
+ {
+  "query_id": "q01",
+  "question": "Một năm học có bao nhiêu học kỳ chính và tối thiểu bao nhiêu tuần lên lớp?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Một năm học có 02 hoặc 03 học kỳ chính với tổng số tối thiểu 30 tuần lên lớp [tt08-2021:p7:st03].",
+  "citations": [
+   "tt08-2021:p7:st03"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học kỳ chính tuần lên lớp",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.18,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p8:st00",
+      "score": 0.862425,
+      "source_id": "tt08-2021",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.857324,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p7:st03",
+      "score": 0.851259,
+      "source_id": "tt08-2021",
+      "page": 7,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2251
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Một năm học có 02 hoặc 03 học kỳ chính với tổng số tối thiểu 30 tuần lên lớp [tt08-2021:p7:st03].",
+     "citations": [
+      "tt08-2021:p7:st03"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt08-2021:p8:st00",
+   "tt10-2016:u21:st00",
+   "tt08-2021:p7:st03"
+  ],
+  "context_chars": 2251,
+  "elapsed_s": 2.74,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2712,
+   "output_tokens": 105,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.56,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001076
+ },
+ {
+  "query_id": "q02",
+  "question": "Tối đa bao nhiêu phần trăm khối lượng chương trình đào tạo được phép học bằng lớp trực tuyến?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Đối với đào tạo theo hình thức chính quy và vừa làm vừa học, tối đa 30% tổng khối lượng của chương trình đào tạo được thực hiện bằng lớp học trực tuyến (trừ trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác theo hướng dẫn của Bộ Giáo dục và Đào tạo) [tt08-2021:p9:st01].",
+  "citations": [
+   "tt08-2021:p9:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "trực tuyến",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.012,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st00",
+      "score": 0.849869,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p9:st01",
+      "score": 0.83887,
+      "source_id": "tt08-2021",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p9:st00",
+      "score": 0.83658,
+      "source_id": "tt08-2021",
+      "page": 9,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1922
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "tối đa 30%",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.018,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p15:st01",
+      "score": 0.83779,
+      "source_id": "tt08-2021",
+      "page": 15,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p4:st02",
+      "score": 0.828593,
+      "source_id": "tt08-2021",
+      "page": 4,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.826133,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3597
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt08-2021:p9:st01"
+     ],
+     "answer": "Đối với đào tạo theo hình thức chính quy và vừa làm vừa học, tối đa 30% tổng khối lượng của chương trình đào tạo được thực hiện bằng lớp học trực tuyến (trừ trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác theo hướng dẫn của Bộ Giáo dục và Đào tạo) [tt08-2021:p9:st01].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_tool_calls": 2,
+  "n_llm_calls": 3,
+  "context_ids": [
+   "tt08-2021:p10:st00",
+   "tt08-2021:p9:st01",
+   "tt08-2021:p9:st00",
+   "tt08-2021:p15:st01",
+   "tt08-2021:p4:st02",
+   "tt08-2021:p10:st01"
+  ],
+  "context_chars": 3597,
+  "elapsed_s": 61.92,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5001,
+   "output_tokens": 193,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.67,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001983
+ },
+ {
+  "query_id": "q03",
+  "question": "Nếu sinh viên vắng thi nhưng có lý do chính đáng thì được xử lý như thế nào?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Theo quy định, sinh viên vắng mặt trong buổi thi hoặc đánh giá có lý do chính đáng sẽ được dự thi hoặc đánh giá ở một đợt khác và được tính điểm lần đầu [tt08-2021:p10:st01].",
+  "citations": [
+   "tt08-2021:p10:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "vắng thi có lý do chính đáng",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.015,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.853926,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u07:st00",
+      "score": 0.853176,
+      "source_id": "tt10-2016",
+      "page": 7,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u04:st00",
+      "score": 0.845311,
+      "source_id": "tt16-2015",
+      "page": 4,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1606
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "vắng mặt có lý do chính đáng",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.013,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u14:st02",
+      "score": 0.84253,
+      "source_id": "tt10-2016",
+      "page": 14,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.842524,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u22:st01",
+      "score": 0.833205,
+      "source_id": "tt10-2016",
+      "page": 22,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2725
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt08-2021:p10:st01"
+     ],
+     "status": "answered",
+     "answer": "Theo quy định, sinh viên vắng mặt trong buổi thi hoặc đánh giá có lý do chính đáng sẽ được dự thi hoặc đánh giá ở một đợt khác và được tính điểm lần đầu [tt08-2021:p10:st01]."
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_tool_calls": 2,
+  "n_llm_calls": 3,
+  "context_ids": [
+   "tt08-2021:p10:st01",
+   "tt10-2016:u07:st00",
+   "tt16-2015:u04:st00",
+   "tt10-2016:u14:st02",
+   "tt10-2016:u22:st01"
+  ],
+  "context_chars": 2725,
+  "elapsed_s": 4.58,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4834,
+   "output_tokens": 147,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.55,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001818
+ },
+ {
+  "query_id": "q04",
+  "question": "Điểm trung bình học kỳ thấp dưới mức nào thì sinh viên học theo tín chỉ bị cảnh báo học tập?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Sinh viên học theo tín chỉ bị cảnh báo học tập dựa trên điểm trung bình học kỳ khi đạt dưới các mức sau:\n- Dưới 0,8 đối với học kỳ đầu của khóa học [tt08-2021:p13:st01].\n- Dưới 1,0 đối-với các học kỳ tiếp theo [tt08-2021:p13:st01].",
+  "citations": [
+   "tt08-2021:p13:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "cảnh báo học tập điểm trung bình học kỳ",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.139,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p13:st01",
+      "score": 0.901533,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p19:st00",
+      "score": 0.88346,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p12:st02",
+      "score": 0.882674,
+      "source_id": "tt08-2021",
+      "page": 12,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2002
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Sinh viên học theo tín chỉ bị cảnh báo học tập dựa trên điểm trung bình học kỳ khi đạt dưới các mức sau:\n- Dưới 0,8 đối với học kỳ đầu của khóa học [tt08-2021:p13:st01].\n- Dưới 1,0 đối-với các học kỳ tiếp theo [tt08-2021:p13:st01].",
+     "citations": [
+      "tt08-2021:p13:st01"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt08-2021:p13:st01",
+   "tt08-2021:p19:st00",
+   "tt08-2021:p12:st02"
+  ],
+  "context_chars": 2002,
+  "elapsed_s": 3.14,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2620,
+   "output_tokens": 174,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001221
+ },
+ {
+  "query_id": "q05",
+  "question": "Điểm trung bình tích lũy bao nhiêu thì sinh viên được xếp loại học lực xuất sắc theo thang điểm 4?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": {
+   "regulation": "quy_che_dao_tao"
+  },
+  "status": "answered",
+  "answer": "Theo thang điểm 4, sinh viên được xếp loại học lực xuất sắc khi điểm trung bình tích lũy đạt từ 3,6 đến 4,0 [tt08-2021:p12:st02].",
+  "citations": [
+   "tt08-2021:p12:st02"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "xếp loại học lực xuất sắc điểm trung bình tích lũy thang điểm 4",
+    "user_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.021,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p12:st02",
+      "score": 0.907497,
+      "source_id": "tt08-2021",
+      "page": 12,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p13:st00",
+      "score": 0.892921,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p19:st00",
+      "score": 0.890823,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1811
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo thang điểm 4, sinh viên được xếp loại học lực xuất sắc khi điểm trung bình tích lũy đạt từ 3,6 đến 4,0 [tt08-2021:p12:st02].",
+     "status": "answered",
+     "citations": [
+      "tt08-2021:p12:st02"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt08-2021:p12:st02",
+   "tt08-2021:p13:st00",
+   "tt08-2021:p19:st00"
+  ],
+  "context_chars": 1811,
+  "elapsed_s": 1.71,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2755,
+   "output_tokens": 138,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.69,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001172
+ },
+ {
+  "query_id": "q06",
+  "question": "Sau khi sinh viên đủ điều kiện tốt nghiệp, trường phải ra quyết định công nhận và cấp bằng trong thời hạn bao lâu?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Những sinh viên đủ điều kiện tốt nghiệp được hiệu trưởng cơ sở đào tạo ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với cơ sở đào tạo [tt08-2021:p15:st02].",
+  "citations": [
+   "tt08-2021:p15:st02"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "công nhận tốt nghiệp cấp bằng trong thời hạn",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p15:st02",
+      "score": 0.901571,
+      "source_id": "tt08-2021",
+      "page": 15,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p16:st00",
+      "score": 0.876537,
+      "source_id": "tt08-2021",
+      "page": 16,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.866958,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2263
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Những sinh viên đủ điều kiện tốt nghiệp được hiệu trưởng cơ sở đào tạo ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với cơ sở đào tạo [tt08-2021:p15:st02].",
+     "status": "answered",
+     "citations": [
+      "tt08-2021:p15:st02"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt08-2021:p15:st02",
+   "tt08-2021:p16:st00",
+   "tt10-2016:u12:st00"
+  ],
+  "context_chars": 2263,
+  "elapsed_s": 58.06,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2610,
+   "output_tokens": 144,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.75,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001143
+ },
+ {
+  "query_id": "q07",
+  "question": "Phải đến năm học thứ mấy thì sinh viên mới được đăng ký theo học thêm một chương trình thứ hai?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất và phải đáp ứng các điều kiện theo quy định của cơ sở đào tạo [tt08-2021:p18:st03].",
+  "citations": [
+   "tt08-2021:p18:st03"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "đăng ký theo học thêm một chương trình thứ hai năm học thứ mấy",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.023,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p18:st03",
+      "score": 0.918825,
+      "source_id": "tt08-2021",
+      "page": 18,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p19:st02",
+      "score": 0.903513,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p19:st01",
+      "score": 0.898832,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1457
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "Điều 18 sinh viên được đăng ký học chương trình thứ hai sớm nhất",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.018,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p18:st03",
+      "score": 0.918235,
+      "source_id": "tt08-2021",
+      "page": 18,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p19:st01",
+      "score": 0.893317,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p19:st02",
+      "score": 0.885353,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 1457
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "điều kiện đăng ký học chương trình thứ hai",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.012,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p18:st03",
+      "score": 0.9263,
+      "source_id": "tt08-2021",
+      "page": 18,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p19:st02",
+      "score": 0.920265,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p19:st01",
+      "score": 0.911612,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 1457
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "Điều 18 học cùng lúc hai chương trình điểm a b",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.023,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p18:st03",
+      "score": 0.891966,
+      "source_id": "tt08-2021",
+      "page": 18,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u22:st01",
+      "score": 0.877171,
+      "source_id": "tt10-2016",
+      "page": 22,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p11:st01",
+      "score": 0.871327,
+      "source_id": "tt08-2021",
+      "page": 11,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2918
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt08-2021:p18:st03"
+     ],
+     "answer": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất và phải đáp ứng các điều kiện theo quy định của cơ sở đào tạo [tt08-2021:p18:st03].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt08-2021:p18:st03",
+   "tt08-2021:p19:st02",
+   "tt08-2021:p19:st01",
+   "tt10-2016:u22:st01",
+   "tt08-2021:p11:st01"
+  ],
+  "context_chars": 2918,
+  "elapsed_s": 60.51,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 8597,
+   "output_tokens": 219,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.0,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003127
+ },
+ {
+  "query_id": "q08",
+  "question": "Sinh viên đi thi hộ người khác bị kỷ luật thế nào ở lần vi phạm đầu và lần thứ hai?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Theo quy định, sinh viên thi hộ hoặc nhờ người thi hộ sẽ bị xử lý kỷ luật như sau:\n- Vi phạm lần thứ nhất: Đình chỉ học tập 01 năm [tt08-2021:p20:st01].\n- Vi phạm lần thứ hai: Buộc thôi học [tt08-2021:p20:st01].",
+  "citations": [
+   "tt08-2021:p20:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "thi hộ kỷ luật sinh viên",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.015,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p20:st01",
+      "score": 0.901657,
+      "source_id": "tt08-2021",
+      "page": 20,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.879096,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u11:st01",
+      "score": 0.877024,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2182
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt08-2021:p20:st01"
+     ],
+     "answer": "Theo quy định, sinh viên thi hộ hoặc nhờ người thi hộ sẽ bị xử lý kỷ luật như sau:\n- Vi phạm lần thứ nhất: Đình chỉ học tập 01 năm [tt08-2021:p20:st01].\n- Vi phạm lần thứ hai: Buộc thôi học [tt08-2021:p20:st01].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt08-2021:p20:st01",
+   "tt10-2016:u12:st00",
+   "tt10-2016:u11:st01"
+  ],
+  "context_chars": 2182,
+  "elapsed_s": 56.78,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2599,
+   "output_tokens": 150,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.55,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001155
+ },
+ {
+  "query_id": "q09",
+  "question": "Sinh viên được 85 điểm rèn luyện thì được xếp loại gì?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": {
+   "regulation": "quy_che_danh_gia_ren_luyen"
+  },
+  "status": "answered",
+  "answer": "Sinh viên đạt 85 điểm rèn luyện sẽ được xếp loại **tốt** [tt16-2015:u05:st01].",
+  "citations": [
+   "tt16-2015:u05:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "85 điểm rèn luyện xếp loại gì",
+    "user_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "inferred_filter": "quy_che_danh_gia_ren_luyen",
+    "applied_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "elapsed_s": 0.02,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u05:st01",
+      "score": 0.891216,
+      "source_id": "tt16-2015",
+      "page": 5,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u03:st02",
+      "score": 0.869379,
+      "source_id": "tt16-2015",
+      "page": 3,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u09:st02",
+      "score": 0.863769,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1445
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Sinh viên đạt 85 điểm rèn luyện sẽ được xếp loại **tốt** [tt16-2015:u05:st01].",
+     "status": "answered",
+     "citations": [
+      "tt16-2015:u05:st01"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt16-2015:u05:st01",
+   "tt16-2015:u03:st02",
+   "tt16-2015:u09:st02"
+  ],
+  "context_chars": 1445,
+  "elapsed_s": 1.64,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2601,
+   "output_tokens": 121,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.62,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001083
+ },
+ {
+  "query_id": "q10",
+  "question": "Điểm rèn luyện cả năm học được tính từ điểm các học kỳ như thế nào?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Điểm rèn luyện của năm học được tính bằng trung bình cộng của điểm rèn luyện các học kỳ của năm học đó [tt16-2015:u09:st00].",
+  "citations": [
+   "tt16-2015:u09:st00"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "điểm rèn luyện cả năm học tính từ điểm các học kỳ",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u09:st00",
+      "score": 0.908624,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p11:st03",
+      "score": 0.882347,
+      "source_id": "tt08-2021",
+      "page": 11,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u09:st01",
+      "score": 0.878515,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1457
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Điểm rèn luyện của năm học được tính bằng trung bình cộng của điểm rèn luyện các học kỳ của năm học đó [tt16-2015:u09:st00].",
+     "citations": [
+      "tt16-2015:u09:st00"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt16-2015:u09:st00",
+   "tt08-2021:p11:st03",
+   "tt16-2015:u09:st01"
+  ],
+  "context_chars": 1457,
+  "elapsed_s": 1.69,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2429,
+   "output_tokens": 116,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.67,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001019
+ },
+ {
+  "query_id": "q11",
+  "question": "Tiêu chí ý thức chấp hành nội quy, quy chế trong trường có khung điểm đánh giá là bao nhiêu?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Tiêu chí ý thức chấp hành nội quy, quy chế trong nhà trường có khung điểm đánh giá từ 0 đến 25 điểm [tt16-2015:u04:st01].",
+  "citations": [
+   "tt16-2015:u04:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "ý thức chấp hành nội quy quy chế khung điểm",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.017,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u04:st01",
+      "score": 0.916839,
+      "source_id": "tt16-2015",
+      "page": 4,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u03:st02",
+      "score": 0.888664,
+      "source_id": "tt16-2015",
+      "page": 3,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u04:st03",
+      "score": 0.882626,
+      "source_id": "tt16-2015",
+      "page": 4,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1505
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt16-2015:u04:st01"
+     ],
+     "status": "answered",
+     "answer": "Tiêu chí ý thức chấp hành nội quy, quy chế trong nhà trường có khung điểm đánh giá từ 0 đến 25 điểm [tt16-2015:u04:st01]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt16-2015:u04:st01",
+   "tt16-2015:u03:st02",
+   "tt16-2015:u04:st03"
+  ],
+  "context_chars": 1505,
+  "elapsed_s": 1.9,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2470,
+   "output_tokens": 114,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.88,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001026
+ },
+ {
+  "query_id": "q12",
+  "question": "Muốn đạt danh hiệu sinh viên Giỏi cuối năm học thì cần đạt tiêu chuẩn gì?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": {
+   "regulation": "quy_che_cong_tac_sinh_vien"
+  },
+  "status": "answered",
+  "answer": "Tiêu chuẩn để đạt danh hiệu sinh viên Giỏi cuối năm học bao gồm:\n- Xếp loại học tập từ giỏi trở lên [tt10-2016:u08:st02].\n- Xếp loại rèn luyện từ tốt trở lên [tt10-2016:u08:st02].",
+  "citations": [
+   "tt10-2016:u08:st02"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "sinh viên Giỏi cuối năm học",
+    "user_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.031,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u08:st02",
+      "score": 0.859101,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.842295,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u15:st01",
+      "score": 0.837353,
+      "source_id": "tt10-2016",
+      "page": 15,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2206
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "Đạt danh hiệu sinh viên Xuất sắc",
+    "user_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.015,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u08:st03",
+      "score": 0.910896,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u08:st02",
+      "score": 0.875219,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u08:st01",
+      "score": 0.859477,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2982
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "tt10-2016:u08:st02"
+     ],
+     "answer": "Tiêu chuẩn để đạt danh hiệu sinh viên Giỏi cuối năm học bao gồm:\n- Xếp loại học tập từ giỏi trở lên [tt10-2016:u08:st02].\n- Xếp loại rèn luyện từ tốt trở lên [tt10-2016:u08:st02]."
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_tool_calls": 2,
+  "n_llm_calls": 3,
+  "context_ids": [
+   "tt10-2016:u08:st02",
+   "tt10-2016:u21:st00",
+   "tt10-2016:u15:st01",
+   "tt10-2016:u08:st03",
+   "tt10-2016:u08:st01"
+  ],
+  "context_chars": 2982,
+  "elapsed_s": 58.39,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5266,
+   "output_tokens": 198,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.12,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002075
+ },
+ {
+  "query_id": "q13",
+  "question": "Quyết định kỷ luật khiển trách sinh viên tự chấm dứt hiệu lực sau bao lâu?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Đối với sinh viên bị kỷ luật khiển trách, quyết định kỷ luật sẽ đương nhiên chấm dứt hiệu lực sau **03 tháng** kể từ ngày có quyết định, với điều kiện sinh viên đó không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật [tt10-2016:u11:st02].",
+  "citations": [
+   "tt10-2016:u11:st02"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "kỷ luật khiển trách chấm dứt hiệu lực sau bao lâu",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u11:st02",
+      "score": 0.926165,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.880028,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.871314,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1820
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "tt10-2016:u11:st02"
+     ],
+     "answer": "Đối với sinh viên bị kỷ luật khiển trách, quyết định kỷ luật sẽ đương nhiên chấm dứt hiệu lực sau **03 tháng** kể từ ngày có quyết định, với điều kiện sinh viên đó không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật [tt10-2016:u11:st02].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_tool_calls": 1,
+  "n_llm_calls": 2,
+  "context_ids": [
+   "tt10-2016:u11:st02",
+   "tt10-2016:u12:st00",
+   "tt10-2016:u21:st00"
+  ],
+  "context_chars": 1820,
+  "elapsed_s": 1.67,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2577,
+   "output_tokens": 146,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.66,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001138
+ },
+ {
+  "query_id": "q14",
+  "question": "Sinh viên đã từng bị khiển trách mà lại vi phạm tiếp thì sẽ chịu hình thức kỷ luật nào?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Theo quy chế công tác sinh viên, hình thức kỷ luật **cảnh cáo** được áp dụng đối với sinh viên đã bị khiển trách mà tái phạm [tt10-2016:u10:st00].",
+  "citations": [
+   "tt10-2016:u10:st00"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "khiển trách vi phạm tiếp kỷ luật",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.879711,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u22:st03",
+      "score": 0.877657,
+      "source_id": "tt10-2016",
+      "page": 22,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u11:st02",
+      "score": 0.87758,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1699
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "tái phạm kỷ luật khiển trách",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.012,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u11:st02",
+      "score": 0.874195,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.862545,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u10:st00",
+      "score": 0.861807,
+      "source_id": "tt10-2016",
+      "page": 10,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2714
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "Điều 10 các hình thức kỷ luật sinh viên",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.017,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u11:st00",
+      "score": 0.921438,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u09:st03",
+      "score": 0.919493,
+      "source_id": "tt10-2016",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u11:st02",
+      "score": 0.906497,
+      "source_id": "tt10-2016",
+      "page": 11,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 3552
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "cảnh cáo áp dụng đối với sinh viên đã bị khiển trách mà tái phạm",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u10:st00",
+      "score": 0.906867,
+      "source_id": "tt10-2016",
+      "page": 10,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.882783,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u10:st02",
+      "score": 0.867303,
+      "source_id": "tt10-2016",
+      "page": 10,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3552
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "tt10-2016:u10:st00"
+     ],
+     "answer": "Theo quy chế công tác sinh viên, hình thức kỷ luật **cảnh cáo** được áp dụng đối với sinh viên đã bị khiển trách mà tái phạm [tt10-2016:u10:st00]."
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt10-2016:u21:st00",
+   "tt10-2016:u22:st03",
+   "tt10-2016:u11:st02",
+   "tt10-2016:u12:st00",
+   "tt10-2016:u10:st00",
+   "tt10-2016:u11:st00",
+   "tt10-2016:u09:st03"
+  ],
+  "context_chars": 3552,
+  "elapsed_s": 60.36,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 10655,
+   "output_tokens": 262,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.03,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003851
+ },
+ {
+  "query_id": "q15",
+  "question": "Sinh viên nhận học bổng do Nhà nước cấp nhưng không chấp hành sự điều động làm việc thì phải làm gì?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Theo quy định, sinh viên khi được hưởng học bổng, chi phí đào tạo do Nhà nước cấp có nghĩa vụ chấp hành sự điều động làm việc có thời hạn của Nhà nước; nếu không chấp hành thì phải bồi hoàn học bổng và chi phí đào tạo theo quy định của Chính phủ [tt10-2016:u04:st01].",
+  "citations": [
+   "tt10-2016:u04:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng Nhà nước điều động làm việc",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.019,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.88979,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.871807,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u02:st01",
+      "score": 0.85368,
+      "source_id": "tt10-2016",
+      "page": 2,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1966
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "bồi hoàn học bổng chi phí đào tạo",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.883971,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.880106,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p4:st02",
+      "score": 0.862926,
+      "source_id": "tt08-2021",
+      "page": 4,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2600
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Theo quy định, sinh viên khi được hưởng học bổng, chi phí đào tạo do Nhà nước cấp có nghĩa vụ chấp hành sự điều động làm việc có thời hạn của Nhà nước; nếu không chấp hành thì phải bồi hoàn học bổng và chi phí đào tạo theo quy định của Chính phủ [tt10-2016:u04:st01].",
+     "citations": [
+      "tt10-2016:u04:st01"
+     ]
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_tool_calls": 2,
+  "n_llm_calls": 3,
+  "context_ids": [
+   "tt10-2016:u04:st01",
+   "tt10-2016:u06:st00",
+   "tt10-2016:u02:st01",
+   "tt08-2021:p4:st02"
+  ],
+  "context_chars": 2600,
+  "elapsed_s": 58.16,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4748,
+   "output_tokens": 172,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.9,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001854
+ },
+ {
+  "query_id": "d21",
+  "question": "Muốn đạt danh hiệu sinh viên Xuất sắc cuối năm thì cần xếp loại rèn luyện gì, và loại rèn luyện đó tương ứng với khung điểm rèn luyện bao nhiêu?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Để đạt danh hiệu sinh viên Xuất sắc, sinh viên cần phải xếp loại rèn luyện xuất sắc [tt10-2016:u08:st03]. Xếp loại rèn luyện xuất sắc tương ứng với khung điểm rèn luyện từ 90 đến 100 điểm [tt16-2015:u05:st01].",
+  "citations": [
+   "tt10-2016:u08:st03",
+   "tt16-2015:u05:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "sinh viên Xuất sắc rèn luyện",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.018,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u08:st03",
+      "score": 0.896713,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u15:st01",
+      "score": 0.864886,
+      "source_id": "tt10-2016",
+      "page": 15,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u08:st01",
+      "score": 0.85783,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1505
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "xếp loại rèn luyện xuất sắc điểm rèn luyện",
+    "user_filter": null,
+    "inferred_filter": "quy_che_danh_gia_ren_luyen",
+    "applied_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "elapsed_s": 0.017,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u05:st01",
+      "score": 0.912936,
+      "source_id": "tt16-2015",
+      "page": 5,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u09:st02",
+      "score": 0.890544,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u03:st02",
+      "score": 0.886846,
+      "source_id": "tt16-2015",
+      "page": 3,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2950
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Để đạt danh hiệu sinh viên Xuất sắc, sinh viên cần phải xếp loại rèn luyện xuất sắc [tt10-2016:u08:st03]. Xếp loại rèn luyện xuất sắc tương ứng với khung điểm rèn luyện từ 90 đến 100 điểm [tt16-2015:u05:st01].",
+     "citations": [
+      "tt10-2016:u08:st03",
+      "tt16-2015:u05:st01"
+     ]
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_tool_calls": 2,
+  "n_llm_calls": 3,
+  "context_ids": [
+   "tt10-2016:u08:st03",
+   "tt10-2016:u15:st01",
+   "tt10-2016:u08:st01",
+   "tt16-2015:u05:st01",
+   "tt16-2015:u09:st02",
+   "tt16-2015:u03:st02"
+  ],
+  "context_chars": 2950,
+  "elapsed_s": 57.28,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4974,
+   "output_tokens": 230,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.01,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002067
+ },
+ {
+  "query_id": "d22",
+  "question": "Một sinh viên có điểm trung bình tích lũy 3,3 theo thang điểm 4 và 82 điểm rèn luyện thì có đủ tiêu chuẩn danh hiệu sinh viên Giỏi không?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Sinh viên có điểm trung bình tích lũy 3,3 (thang điểm 4) đạt tiêu chuẩn học tập từ Giỏi trở lên (loại Giỏi theo thang điểm 4 tương ứng với điểm trung bình chung tích lũy từ 3,2 đến 3,6 theo quy chế của nhiều cơ sở đào tạo, hoặc xét theo kết quả học tập đạt mức Giỏi) [tt10-2016:u08:st02]. \n\nBên cạnh đó, với 82 điểm rèn luyện, sinh viên đạt mức điểm từ 80 đến dưới 90 điểm, tương ứng với xếp loại rèn luyện **tốt** [tt16-2015:u05:st01]. \n\nTheo quy chế công tác sinh viên, tiêu chuẩn để đạt danh hiệu sinh viên Giỏi bao gồm: xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên [tt10-2016:u08:st02]. Do đó, sinh viên hoàn toàn **đủ tiêu chuẩn** đạt danh hiệu sinh viên Giỏi [tt10-2016:u08:st02].",
+  "citations": [
+   "tt10-2016:u08:st02",
+   "tt16-2015:u05:st01"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "sinh viên giỏi tiêu chuẩn rèn luyện học tập",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.015,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u08:st03",
+      "score": 0.885787,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p13:st00",
+      "score": 0.871657,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u06:st01",
+      "score": 0.871062,
+      "source_id": "tt16-2015",
+      "page": 6,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1508
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "sinh viên Giỏi kết quả học tập xếp loại rèn luyện",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.02,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u08:st03",
+      "score": 0.880962,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u08:st02",
+      "score": 0.879629,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u15:st01",
+      "score": 0.863313,
+      "source_id": "tt10-2016",
+      "page": 15,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2990
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "xếp loại rèn luyện tốt từ bao nhiêu điểm",
+    "user_filter": null,
+    "inferred_filter": "quy_che_danh_gia_ren_luyen",
+    "applied_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "elapsed_s": 0.017,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u05:st01",
+      "score": 0.911177,
+      "source_id": "tt16-2015",
+      "page": 5,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u09:st02",
+      "score": 0.883528,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u03:st02",
+      "score": 0.875861,
+      "source_id": "tt16-2015",
+      "page": 3,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3769
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "xếp loại học tập giỏi thang điểm 4",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.02,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.872431,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "over_budget"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p12:st02",
+      "score": 0.872157,
+      "source_id": "tt08-2021",
+      "page": 12,
+      "context": "over_budget"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p13:st00",
+      "score": 0.871434,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 3769
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Sinh viên có điểm trung bình tích lũy 3,3 (thang điểm 4) đạt tiêu chuẩn học tập từ Giỏi trở lên (loại Giỏi theo thang điểm 4 tương ứng với điểm trung bình chung tích lũy từ 3,2 đến 3,6 theo quy chế của nhiều cơ sở đào tạo, hoặc xét theo kết quả học tập đạt mức Giỏi) [tt10-2016:u08:st02]. \n\nBên cạnh đó, với 82 điểm rèn luyện, sinh viên đạt mức điểm từ 80 đến dưới 90 điểm, tương ứng với xếp loại rèn luyện **tốt** [tt16-2015:u05:st01]. \n\nTheo quy chế công tác sinh viên, tiêu chuẩn để đạt danh hiệu sinh viên Giỏi bao gồm: xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên [tt10-2016:u08:st02]. Do đó, sinh viên hoàn toàn **đủ tiêu chuẩn** đạt danh hiệu sinh viên Giỏi [tt10-2016:u08:st02].",
+     "status": "answered",
+     "citations": [
+      "tt10-2016:u08:st02",
+      "tt16-2015:u05:st01"
+     ]
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt10-2016:u08:st03",
+   "tt08-2021:p13:st00",
+   "tt16-2015:u06:st01",
+   "tt10-2016:u08:st02",
+   "tt10-2016:u15:st01",
+   "tt16-2015:u05:st01",
+   "tt16-2015:u09:st02"
+  ],
+  "context_chars": 3769,
+  "elapsed_s": 61.9,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 11198,
+   "output_tokens": 476,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.62,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.004549
+ },
+ {
+  "query_id": "d23",
+  "question": "Mức học bổng khuyến khích học tập dành cho sinh viên xếp loại xuất sắc là bao nhiêu tiền mỗi tháng?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "abstain",
+  "answer": "Các văn bản trong kho tài liệu (gồm Quy chế đào tạo đại học TT 08/2021/TT-BGDĐT, Quy chế công tác sinh viên TT 10/2016/TT-BGDĐT và Quy chế đánh giá kết quả rèn luyện TT 16/2015/TT-BGDĐT) không quy định mức tiền cụ thể của học bổng khuyến khích học tập dành cho sinh viên xếp loại xuất sắc. Các quy chế chỉ ghi nhận quyền được xét nhận học bổng khuyến khích học tập theo quy định hiện hành [tt10-2016:u06:st00].",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng khuyến khích học tập xuất sắc bao nhiêu tiền",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.016,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u17:st00",
+      "score": 0.87709,
+      "source_id": "tt10-2016",
+      "page": 17,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.867921,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.866569,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1740
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng khuyến khích học tập",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.011,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u17:st00",
+      "score": 0.872522,
+      "source_id": "tt10-2016",
+      "page": 17,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.87202,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.869056,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 1740
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.013,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p19:st03",
+      "score": 0.845571,
+      "source_id": "tt08-2021",
+      "page": 19,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p16:st02",
+      "score": 0.83865,
+      "source_id": "tt08-2021",
+      "page": 16,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p3:st00",
+      "score": 0.838096,
+      "source_id": "tt08-2021",
+      "page": 3,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3378
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng",
+    "user_filter": null,
+    "inferred_filter": "quy_che_danh_gia_ren_luyen",
+    "applied_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "elapsed_s": 0.012,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u09:st01",
+      "score": 0.845676,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "over_budget"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u01:st00",
+      "score": 0.840825,
+      "source_id": "tt16-2015",
+      "page": 1,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u06:st00",
+      "score": 0.834208,
+      "source_id": "tt16-2015",
+      "page": 6,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3518
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Các văn bản trong kho tài liệu (gồm Quy chế đào tạo đại học TT 08/2021/TT-BGDĐT, Quy chế công tác sinh viên TT 10/2016/TT-BGDĐT và Quy chế đánh giá kết quả rèn luyện TT 16/2015/TT-BGDĐT) không quy định mức tiền cụ thể của học bổng khuyến khích học tập dành cho sinh viên xếp loại xuất sắc. Các quy chế chỉ ghi nhận quyền được xét nhận học bổng khuyến khích học tập theo quy định hiện hành [tt10-2016:u06:st00].",
+     "citations": [
+      "tt10-2016:u06:st00"
+     ],
+     "status": "insufficient_evidence"
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt10-2016:u17:st00",
+   "tt10-2016:u04:st01",
+   "tt10-2016:u06:st00",
+   "tt08-2021:p19:st03",
+   "tt08-2021:p16:st02",
+   "tt08-2021:p3:st00",
+   "tt16-2015:u01:st00"
+  ],
+  "context_chars": 3518,
+  "elapsed_s": 59.29,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 9941,
+   "output_tokens": 311,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.9,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00376
+ },
+ {
+  "query_id": "d24",
+  "question": "Sinh viên được nghỉ hè tối thiểu bao nhiêu tuần trong mỗi năm học?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Các văn bản quy chế hiện hành (Quy chế đào tạo, Quy chế công tác sinh viên, Quy chế đánh giá kết quả rèn luyện) ghi nhận sinh viên có quyền được nghỉ hè [tt10-2016:u06:st00], nhưng không quy định cụ thể số tuần nghỉ hè tối thiểu trong mỗi năm học.",
+  "citations": [
+   "tt10-2016:u06:st00"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "nghỉ hè tối thiểu mấy tuần năm học",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.017,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p16:st02",
+      "score": 0.871516,
+      "source_id": "tt08-2021",
+      "page": 16,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p8:st00",
+      "score": 0.858092,
+      "source_id": "tt08-2021",
+      "page": 8,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p4:st02",
+      "score": 0.854707,
+      "source_id": "tt08-2021",
+      "page": 4,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2157
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "nghỉ hè",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.021,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p16:st02",
+      "score": 0.846607,
+      "source_id": "tt08-2021",
+      "page": 16,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p17:st00",
+      "score": 0.819595,
+      "source_id": "tt08-2021",
+      "page": 17,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p3:st00",
+      "score": 0.819585,
+      "source_id": "tt08-2021",
+      "page": 3,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2807
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "nghỉ hè",
+    "user_filter": null,
+    "inferred_filter": "quy_che_cong_tac_sinh_vien",
+    "applied_filter": {
+     "regulation": "quy_che_cong_tac_sinh_vien"
+    },
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.85313,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u01:st00",
+      "score": 0.834807,
+      "source_id": "tt10-2016",
+      "page": 1,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.833351,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3707
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "nghỉ hè",
+    "user_filter": null,
+    "inferred_filter": "quy_che_danh_gia_ren_luyen",
+    "applied_filter": {
+     "regulation": "quy_che_danh_gia_ren_luyen"
+    },
+    "elapsed_s": 0.013,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt16-2015:u01:st00",
+      "score": 0.832116,
+      "source_id": "tt16-2015",
+      "page": 1,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt16-2015:u06:st01",
+      "score": 0.830472,
+      "source_id": "tt16-2015",
+      "page": 6,
+      "context": "over_budget"
+     },
+     {
+      "rank": 3,
+      "id": "tt16-2015:u09:st02",
+      "score": 0.822338,
+      "source_id": "tt16-2015",
+      "page": 9,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3847
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Các văn bản quy chế hiện hành (Quy chế đào tạo, Quy chế công tác sinh viên, Quy chế đánh giá kết quả rèn luyện) ghi nhận sinh viên có quyền được nghỉ hè [tt10-2016:u06:st00], nhưng không quy định cụ thể số tuần nghỉ hè tối thiểu trong mỗi năm học.",
+     "citations": [
+      "tt10-2016:u06:st00"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt08-2021:p16:st02",
+   "tt08-2021:p8:st00",
+   "tt08-2021:p4:st02",
+   "tt08-2021:p17:st00",
+   "tt08-2021:p3:st00",
+   "tt10-2016:u06:st00",
+   "tt10-2016:u01:st00",
+   "tt16-2015:u01:st00"
+  ],
+  "context_chars": 3847,
+  "elapsed_s": 61.33,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 10874,
+   "output_tokens": 263,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.11,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00392
+ },
+ {
+  "query_id": "d25",
+  "question": "Điểm thi kết thúc học phần phải chiếm tối thiểu bao nhiêu phần trăm điểm học phần?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "answered",
+  "answer": "Tài liệu quy chế hiện hành (Quy chế đào tạo trình độ đại học ban hành kèm theo Thông tư 08/2021/TT-BGDĐT) không quy định tỷ lệ phần trăm tối thiểu cụ thể cho điểm thi kết thúc học phần, mà giao cho cơ sở đào tạo quy định cụ thể phương pháp đánh giá, hình thức đánh giá và trọng số của các điểm thành phần [tt08-2021:p9:st03, tt08-2021:p11:st00].",
+  "citations": [
+   "tt08-2021:p9:st03",
+   "tt08-2021:p11:st00"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "điểm thi kết thúc học phần tối thiểu phần trăm",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.019,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.884758,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p9:st03",
+      "score": 0.872654,
+      "source_id": "tt08-2021",
+      "page": 9,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p15:st03",
+      "score": 0.865382,
+      "source_id": "tt08-2021",
+      "page": 15,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 1528
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "trọng số điểm thi kết thúc học phần",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.895313,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p9:st03",
+      "score": 0.878572,
+      "source_id": "tt08-2021",
+      "page": 9,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p12:st00",
+      "score": 0.87844,
+      "source_id": "tt08-2021",
+      "page": 12,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2093
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "trọng số",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.016,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.845645,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p12:st00",
+      "score": 0.834938,
+      "source_id": "tt08-2021",
+      "page": 12,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p13:st00",
+      "score": 0.81839,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2686
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "thi kết thúc học phần",
+    "user_filter": null,
+    "inferred_filter": "quy_che_dao_tao",
+    "applied_filter": {
+     "regulation": "quy_che_dao_tao"
+    },
+    "elapsed_s": 0.011,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p10:st01",
+      "score": 0.864705,
+      "source_id": "tt08-2021",
+      "page": 10,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p11:st00",
+      "score": 0.859746,
+      "source_id": "tt08-2021",
+      "page": 11,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt08-2021:p20:st01",
+      "score": 0.857473,
+      "source_id": "tt08-2021",
+      "page": 20,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3334
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Tài liệu quy chế hiện hành (Quy chế đào tạo trình độ đại học ban hành kèm theo Thông tư 08/2021/TT-BGDĐT) không quy định tỷ lệ phần trăm tối thiểu cụ thể cho điểm thi kết thúc học phần, mà giao cho cơ sở đào tạo quy định cụ thể phương pháp đánh giá, hình thức đánh giá và trọng số của các điểm thành phần [tt08-2021:p9:st03, tt08-2021:p11:st00].",
+     "citations": [
+      "tt08-2021:p9:st03",
+      "tt08-2021:p11:st00"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt08-2021:p10:st01",
+   "tt08-2021:p9:st03",
+   "tt08-2021:p15:st03",
+   "tt08-2021:p12:st00",
+   "tt08-2021:p13:st00",
+   "tt08-2021:p11:st00"
+  ],
+  "context_chars": 3334,
+  "elapsed_s": 117.52,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 10029,
+   "output_tokens": 319,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.73,
+   "retries": 2,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003806
+ },
+ {
+  "query_id": "d26",
+  "question": "Sinh viên muốn vay vốn tín dụng sinh viên thì cần đáp ứng điều kiện gì?",
+  "config": {
+   "name": "A0_dense",
+   "llm": "gemini-3.5-flash-lite",
+   "thinking_level": null,
+   "retriever": "dense",
+   "top_k": 3,
+   "max_tool_calls": 4,
+   "budget_chars": 4000,
+   "allow_adjacent": false
+  },
+  "user_filter": null,
+  "status": "abstain",
+  "answer": "Các văn bản quy chế hiện hành trong hệ thống (Quy chế đào tạo trình độ đại học, Quy chế công tác sinh viên và Quy chế đánh giá kết quả rèn luyện) không chứa quy định về điều kiện vay vốn tín dụng sinh viên.",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "vay vốn tín dụng sinh viên điều kiện",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.013,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p15:st02",
+      "score": 0.865878,
+      "source_id": "tt08-2021",
+      "page": 15,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p13:st01",
+      "score": 0.865567,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u12:st00",
+      "score": 0.862364,
+      "source_id": "tt10-2016",
+      "page": 12,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2264
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "vay vốn",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u01:st00",
+      "score": 0.824156,
+      "source_id": "tt10-2016",
+      "page": 1,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u21:st00",
+      "score": 0.821407,
+      "source_id": "tt10-2016",
+      "page": 21,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u08:st00",
+      "score": 0.817832,
+      "source_id": "tt10-2016",
+      "page": 8,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3191
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "tín dụng",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.009,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt08-2021:p13:st01",
+      "score": 0.843382,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "tt08-2021:p13:st00",
+      "score": 0.840659,
+      "source_id": "tt08-2021",
+      "page": 13,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.839694,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3784
+   },
+   {
+    "event": "search",
+    "tool": "search_regulations",
+    "retriever": "dense",
+    "query": "học bổng trợ cấp xã hội",
+    "user_filter": null,
+    "inferred_filter": null,
+    "applied_filter": null,
+    "elapsed_s": 0.014,
+    "results": [
+     {
+      "rank": 1,
+      "id": "tt10-2016:u06:st00",
+      "score": 0.875111,
+      "source_id": "tt10-2016",
+      "page": 6,
+      "context": "over_budget"
+     },
+     {
+      "rank": 2,
+      "id": "tt10-2016:u04:st01",
+      "score": 0.873764,
+      "source_id": "tt10-2016",
+      "page": 4,
+      "context": "over_budget"
+     },
+     {
+      "rank": 3,
+      "id": "tt10-2016:u17:st00",
+      "score": 0.870103,
+      "source_id": "tt10-2016",
+      "page": 17,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 3784
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [],
+     "status": "insufficient_evidence",
+     "answer": "Các văn bản quy chế hiện hành trong hệ thống (Quy chế đào tạo trình độ đại học, Quy chế công tác sinh viên và Quy chế đánh giá kết quả rèn luyện) không chứa quy định về điều kiện vay vốn tín dụng sinh viên."
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_tool_calls": 4,
+  "n_llm_calls": 5,
+  "context_ids": [
+   "tt08-2021:p15:st02",
+   "tt08-2021:p13:st01",
+   "tt10-2016:u12:st00",
+   "tt10-2016:u01:st00",
+   "tt10-2016:u21:st00",
+   "tt10-2016:u08:st00",
+   "tt08-2021:p13:st00"
+  ],
+  "context_chars": 3784,
+  "elapsed_s": 4.71,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 11197,
+   "output_tokens": 163,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.66,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003767
+ }
+]

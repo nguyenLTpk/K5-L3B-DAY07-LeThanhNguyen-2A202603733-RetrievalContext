@@ -1,0 +1,153 @@
+[
+  {
+    "id": "d21", "split": "dev", "type": "multi_hop", "answerable": true,
+    "question": "Muốn đạt danh hiệu sinh viên Xuất sắc cuối năm thì cần xếp loại rèn luyện gì, và loại rèn luyện đó tương ứng với khung điểm rèn luyện bao nhiêu?",
+    "expected_answer": "Cần kết quả học tập từ 3,6 (thang 4) hoặc từ 9,0 (thang 10) trở lên và xếp loại rèn luyện xuất sắc; loại xuất sắc là từ 90 đến 100 điểm rèn luyện.",
+    "gold_groups": [
+      [{"source_id": "tt10-2016", "page": 8, "article": "Điều 7", "evidence": "Đạt danh hiệu sinh viên Xuất sắc: kết quả học tập đạt từ 3,6 (thang điểm 4) hoặc từ 9,0 (thang điểm 10) trở lên và xếp loại rèn luyện xuất sắc"}],
+      [{"source_id": "tt16-2015", "page": 5, "article": "Điều 9", "evidence": "Từ 90 đến 100 điểm: loại xuất sắc"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "d22", "split": "dev", "type": "multi_hop", "answerable": true,
+    "question": "Một sinh viên có điểm trung bình tích lũy 3,3 theo thang điểm 4 và 82 điểm rèn luyện thì có đủ tiêu chuẩn danh hiệu sinh viên Giỏi không?",
+    "expected_answer": "Có. Điểm 3,3 thuộc học lực Giỏi (từ 3,2 đến cận 3,6); 82 điểm rèn luyện là loại tốt (từ 80 đến dưới 90); danh hiệu Giỏi yêu cầu học tập từ giỏi trở lên và rèn luyện từ tốt trở lên.",
+    "gold_groups": [
+      [{"source_id": "tt08-2021", "page": 12, "article": "Điều 10", "evidence": "Từ 3,2 đến cận 3,6: Giỏi"}],
+      [{"source_id": "tt16-2015", "page": 5, "article": "Điều 9", "evidence": "Từ 80 đến dưới 90 điểm: loại tốt"}],
+      [{"source_id": "tt10-2016", "page": 8, "article": "Điều 7", "evidence": "Đạt danh hiệu sinh viên Giỏi: xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "d23", "split": "dev", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Mức học bổng khuyến khích học tập dành cho sinh viên xếp loại xuất sắc là bao nhiêu tiền mỗi tháng?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus chỉ nói sinh viên 'được xét nhận học bổng khuyến khích học tập ... theo quy định hiện hành' (TT10 Điều 5) và việc xây dựng quỹ học bổng (TT10 Điều 16); không có mức tiền. Kiểm tra: tìm 'học bổng' (6 vị trí, không có số tiền), 'đồng', 'triệu' trong toàn bộ 51 đơn vị.",
+    "filter": null
+  },
+  {
+    "id": "d24", "split": "dev", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Sinh viên được nghỉ hè tối thiểu bao nhiêu tuần trong mỗi năm học?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "TT10 Điều 5 chỉ ghi 'được nghỉ hè, nghỉ tết, nghỉ lễ theo quy định'; TT08 Điều 6 quy định năm học tối thiểu 30 tuần lên lớp nhưng không quy định số tuần nghỉ hè. Kiểm tra: tìm 'nghỉ hè' (1 vị trí) và 'tuần' (7 vị trí).",
+    "filter": null
+  },
+  {
+    "id": "d25", "split": "dev", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Điểm thi kết thúc học phần phải chiếm tối thiểu bao nhiêu phần trăm điểm học phần?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "TT08 Điều 9 chỉ nói trọng số mỗi điểm thành phần do đề cương chi tiết học phần quy định; con số 50% trong Điều 9 là giới hạn trên của đánh giá trực tuyến, không phải tỷ trọng tối thiểu của thi cuối kỳ. Kiểm tra: tìm 'trọng số' (5 vị trí), 'thi kết thúc'.",
+    "filter": null
+  },
+  {
+    "id": "d26", "split": "dev", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Sinh viên muốn vay vốn tín dụng sinh viên thì cần đáp ứng điều kiện gì?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không văn bản nào nói về vay vốn; TT10 Điều 16 (hỗ trợ tài chính) chỉ nói quỹ học bổng tài trợ. Kiểm tra: tìm 'vay', 'tín dụng' (0 vị trí).",
+    "filter": null
+  },
+  {
+    "id": "t21", "split": "test", "type": "dieu_kien_ngoai_le", "answerable": true,
+    "question": "Theo đào tạo niên chế, sinh viên năm thứ hai phải đạt điểm trung bình năm học tối thiểu bao nhiêu để được học tiếp lên năm sau?",
+    "expected_answer": "Từ 1,2 trở lên (đồng thời số tín chỉ nợ đọng từ đầu khóa không vượt quá 16).",
+    "gold_groups": [
+      [{"source_id": "tt08-2021", "page": 14, "article": "Điều 12", "evidence": "từ 1,2 trở lên đối với năm thứ hai"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t22", "split": "test", "type": "dien_dat_lai", "answerable": true,
+    "question": "Sinh viên đang học năm nhất có được xét chuyển sang trường đại học khác không?",
+    "expected_answer": "Không. Điều kiện chuyển cơ sở đào tạo yêu cầu không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa (cùng các điều kiện khác).",
+    "gold_groups": [
+      [{"source_id": "tt08-2021", "page": 17, "article": "Điều 16", "evidence": "Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t23", "split": "test", "type": "dieu_kien_ngoai_le", "answerable": true,
+    "question": "Nếu sinh viên vi phạm không chịu làm bản tự kiểm điểm thì Hội đồng khen thưởng và kỷ luật có xét kỷ luật không?",
+    "expected_answer": "Có. Hội đồng vẫn họp để xử lý trên cơ sở các chứng cứ thu thập được.",
+    "gold_groups": [
+      [{"source_id": "tt10-2016", "page": 11, "article": "Điều 10", "evidence": "Trong trường hợp sinh viên không chấp hành làm bản tự kiểm điểm thì Hội đồng khen thưởng và kỷ luật sinh viên vẫn họp để xử lý trên cơ sở các chứng cứ thu thập được"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t24", "split": "test", "type": "truc_tiep", "answerable": true,
+    "question": "Kết quả phân loại rèn luyện phải được công bố cho người học biết trước bao nhiêu ngày trước khi ban hành quyết định chính thức?",
+    "expected_answer": "Trước 20 ngày.",
+    "gold_groups": [
+      [{"source_id": "tt16-2015", "page": 7, "article": "Điều 11", "evidence": "thông báo cho người học biết trước 20 ngày trước khi ban hành quyết định chính thức"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t25", "split": "test", "type": "dien_dat_lai", "answerable": true,
+    "question": "Sinh viên có được phép hút thuốc trong khuôn viên trường không?",
+    "expected_answer": "Không. Hút thuốc, uống rượu, bia trong trường học thuộc các hành vi sinh viên không được làm.",
+    "gold_groups": [
+      [{"source_id": "tt10-2016", "page": 7, "article": "Điều 6", "evidence": "Hút thuốc, uống rượu, bia trong trường học"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t26", "split": "test", "type": "truc_tiep", "answerable": true,
+    "question": "Người học đồng thời học hai chương trình đào tạo được đánh giá kết quả rèn luyện ở đâu?",
+    "expected_answer": "Tại đơn vị quản lý chương trình thứ nhất, có lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai làm căn cứ; nếu đã hoàn thành chương trình thứ nhất thì đơn vị quản lý chương trình thứ hai tiếp tục đánh giá.",
+    "gold_groups": [
+      [{"source_id": "tt16-2015", "page": 6, "article": "Điều 10", "evidence": "được đánh giá kết quả rèn luyện tại đơn vị quản lý chương trình thứ nhất và lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t27", "split": "test", "type": "multi_hop", "answerable": true,
+    "question": "Sinh viên năm cuối khóa có được chuyển ngành không, và nếu chuyển trường (được hai hiệu trưởng đồng ý) thì kết quả rèn luyện ở trường cũ được xử lý thế nào?",
+    "expected_answer": "Không được chuyển ngành khi đang là sinh viên năm cuối khóa. Khi chuyển trường được hiệu trưởng hai cơ sở đồng ý thì được bảo lưu kết quả rèn luyện của trường cũ và tiếp tục được đánh giá ở các học kỳ tiếp theo.",
+    "gold_groups": [
+      [{"source_id": "tt08-2021", "page": 17, "article": "Điều 16", "evidence": "Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa"}],
+      [{"source_id": "tt16-2015", "page": 6, "article": "Điều 10", "evidence": "được bảo lưu kết quả rèn luyện của cơ sở giáo dục đại học cũ khi học tại cơ sở giáo dục đại học mới"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t28", "split": "test", "type": "multi_hop", "answerable": true,
+    "question": "Theo niên chế, điểm trung bình năm học dưới bao nhiêu thì sinh viên bị buộc thôi học; và sinh viên xin thôi học vì lý do cá nhân muốn quay lại học thì phải làm gì?",
+    "expected_answer": "Bị buộc thôi học nếu điểm trung bình năm học dưới 0,8; sinh viên xin thôi học vì lý do cá nhân muốn quay lại phải dự tuyển đầu vào như những thí sinh khác.",
+    "gold_groups": [
+      [{"source_id": "tt08-2021", "page": 14, "article": "Điều 12", "evidence": "Điểm trung bình năm học đạt dưới 0,8"}],
+      [{"source_id": "tt08-2021", "page": 17, "article": "Điều 15", "evidence": "muốn quay trở lại học phải dự tuyển đầu vào như những thí sinh khác"}]
+    ],
+    "filter": null
+  },
+  {
+    "id": "t29", "split": "test", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Sinh viên có tối đa bao nhiêu ngày để khiếu nại quyết định kỷ luật kể từ ngày nhận quyết định?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "TT10 Điều 13 và TT16 Điều 15 chỉ nêu quyền khiếu nại và nơi khiếu nại, không có thời hạn. Kiểm tra: tìm 'khiếu nại' (8 vị trí), 'thời hạn', 'ngày kể từ'.",
+    "filter": null
+  },
+  {
+    "id": "t30", "split": "test", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Sinh viên vi phạm quy định an toàn giao thông bị trừ bao nhiêu điểm rèn luyện?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phụ lục TT10 chỉ ghi vi phạm an toàn giao thông 'tùy theo mức độ, xử lý từ khiển trách đến buộc thôi học' và mục vi phạm khác có thể 'trừ điểm rèn luyện' nhưng không có số điểm cụ thể; TT16 chỉ có khung điểm từng tiêu chí. Kiểm tra: tìm 'giao thông', 'trừ điểm'.",
+    "filter": null
+  },
+  {
+    "id": "t31", "split": "test", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Lệ phí làm thủ tục chuyển trường là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "TT08 Điều 16 chỉ quy định điều kiện chuyển cơ sở đào tạo; không có lệ phí. Kiểm tra: tìm 'lệ phí' (0 vị trí), 'phí'.",
+    "filter": null
+  },
+  {
+    "id": "t32", "split": "test", "type": "khong_du_bang_chung", "answerable": false,
+    "question": "Sinh viên tham gia hiến máu tình nguyện được cộng bao nhiêu điểm rèn luyện?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "TT16 Điều 6–7 chỉ có khung điểm cho tiêu chí hoạt động xã hội/cộng đồng, không có điểm cộng cho từng hoạt động. Kiểm tra: tìm 'hiến máu' (0 vị trí), 'cộng điểm'.",
+    "filter": null
+  }
+]

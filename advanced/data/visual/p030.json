@@ -1,0 +1,34 @@
+{
+ "page": 30,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 8",
+   "kind": "chart",
+   "title": "Hình 8: Các tác động kinh tế ước tính khi nhiệt độ và lượng mưa cao hơn, thay đổi nhiều hơn, mực nước biển dâng cao - thiệt hại GDP",
+   "box_2d": [
+    414,
+    138,
+    666,
+    867
+   ],
+   "informative": true,
+   "description": "Biểu đồ đường thể hiện dự báo thiệt hại GDP của Việt Nam từ năm 2022 đến 2050 theo hai kịch bản RCP 2.6 và RCP 4.5. Xu hướng chung cho thấy mức độ thiệt hại GDP tăng dần theo thời gian trong cả hai kịch bản, với kịch bản RCP 4.5 gây ra thiệt hại cao hơn kịch bản RCP 2.6 vào năm 2050.",
+   "transcription": "Biểu đồ đường. Trục tung: Thiệt hại GDP, % độ lệch so với đường cơ sở (thang từ 0 đến 14). Trục hoành: Năm (từ 2022 đến 2050). Chú giải: RCP 2.6 (đường màu xanh), RCP 4.5 (đường màu cam). Tại năm 2022, cả hai đường bắt đầu ở mức khoảng 6-7%. Đến năm 2050, đường RCP 2.6 đạt mức ≈ 10% và đường RCP 4.5 đạt mức ≈ 12-13%.",
+   "units": "Thiệt hại GDP, % độ lệch so với đường cơ sở",
+   "crop": "p030_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2627,
+  "output_tokens": 391,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.34,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006873,
+ "seconds": 4.4
+}

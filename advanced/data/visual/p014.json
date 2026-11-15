@@ -1,0 +1,35 @@
+{
+ "page": 14,
+ "model": "gemini-3.5-flash",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh minh họa trang bìa chương 1 thể hiện người dân đi xe máy trong tình trạng ô nhiễm không khí/khói bụi, che miệng khi tham gia giao thông.",
+   "transcription": "",
+   "notes": "© Vietnam News Agency",
+   "units": "",
+   "crop": "p014_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1703,
+  "output_tokens": 137,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 9.15,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.003582,
+ "seconds": 9.9
+}

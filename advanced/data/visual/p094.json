@@ -1,0 +1,33 @@
+{
+ "page": 94,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "Các kịch bản khí hậu toàn cầu: Các giả định và kết quả",
+   "box_2d": [
+    217,
+    115,
+    765,
+    881
+   ],
+   "informative": true,
+   "description": "Bảng so sánh các kịch bản khí hậu toàn cầu dựa trên giả định CMIP5/6 với ba mức độ: bi quan, trung gian và lạc quan. Các tiêu chí bao gồm chính sách khí hậu, ứng phó khí hậu, mức độ ấm lên toàn cầu và các yếu tố khác như mực nước biển dâng và năng suất cây trồng.",
+   "transcription": "| Kịch bản CMIP5/6 và các giả định chính | Những bất ngờ xấu về khí hậu (trường hợp bi quan) | Kết quả khí hậu trung gian (trường hợp trung gian) | Tình trạng ấm lên có giới hạn (trường hợp lạc quan) |\n|---|---|---|---|\n| Các kịch bản | CMIP5: RCP8.5 <br> CMIP6: SSP3-7.0 | CMIP5: RCP4.5 <br> CMIP6: SSP2-4.5 | CMIP5: RCP2.6 <br> CMIP6: SSP1-1.9 |\n| Chính sách khí hậu | Ít đạt được các cam kết hiện tại về khí hậu | Đạt được các cam kết hiện tại về khí hậu và các mục tiêu năm 2030 | Tham vọng toàn cầu cao và đạt nhiều thành tựu trong khử và cô lập carbon |\n| Ứng phó khí hậu | Nhạy cảm với khí hậu ở mức độ cao; Khả năng khuếch đại thông qua việc giảm bồn carbon tự nhiên | Nhạy cảm với khí hậu ở mức trung bình | Nhạy cảm với khí hậu ở mức độ thấp |\n| Mức độ ấm lên toàn cầu | Nhiệt độ trung bình toàn cầu tăng khoảng 4°C vào năm 2100 | Nhiệt độ trung bình toàn cầu tăng 2-3°C vào năm 2100 | Nhiệt độ trung bình toàn cầu tăng dưới hơn 2°C vào năm 2100 |\n| Những yếu tố khác | Mực nước biển dâng cao hơn 100 cm vào năm 2100 <br> Cường độ các cơn bão lớn tăng <br> Bón phân CO2 bị hạn chế bởi các yếu tố khác và thiệt hại về năng suất cây trồng ở phạm vi cao hơn <br> Điểm giới hạn trong các hệ sinh thái chính | Mực nước biển dâng trung bình toàn cầu vào năm 2100 là 50 cm <br> Bón phân CO2 gây thiệt hại năng suất cây trồng hạn chế (và mang lại lợi ích ở một số vùng) <br> Một số khả năng phục hồi của các hệ sinh thái chính | Mực nước biển dâng trung bình toàn cầu vào năm 2100 là 30 cm <br> Bón phân CO2 gây thiệt hại năng suất cây trồng hạn chế (và mang lại lợi ích ở một số vùng) <br> Khả năng phục hồi của các hệ sinh thái chính tốt |",
+   "crop": "p094_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2379,
+  "output_tokens": 725,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.67,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.009006,
+ "seconds": 3.7
+}

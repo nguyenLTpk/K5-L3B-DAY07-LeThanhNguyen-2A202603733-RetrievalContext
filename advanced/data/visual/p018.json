@@ -1,0 +1,34 @@
+{
+ "page": 18,
+ "model": "gemini-3.5-flash",
+ "elements": [
+  {
+   "label": "Hình 4",
+   "kind": "chart",
+   "title": "Hình 4: Gia tăng mức phát thải GHG",
+   "box_2d": [
+    217,
+    121,
+    655,
+    896
+   ],
+   "informative": true,
+   "description": "Biểu đồ miền chồng thể hiện xu hướng gia tăng tổng lượng phát thải GHG của Việt Nam theo các ngành/nguồn phát thải từ năm 1990 đến năm 2018. Giai đoạn 1990-2010 ngành lâm nghiệp và thay đổi mục đích sử dụng đất đóng vai trò hấp thụ carbon (giá trị âm), tuy nhiên lượng phát thải tổng thể liên tục tăng mạnh từ mức dưới 100 MtCO2e lên gần 400 MtCO2e vào năm 2018, trong đó ngành Điện/Nhiệt và Nông nghiệp chiếm tỷ trọng lớn.",
+   "transcription": "Biểu đồ miền chồng (Stacked Area Chart)\n- Trục tung (Y): Lượng phát thải, đơn vị MtCO2e, thang từ -100 đến 400.\n- Trục hoành (X): Năm, từ 1990 đến 2018 (các mốc 2 năm/lần).\n- Chú giải:\n  + Điện/Nhiệt (tím đậm)\n  + Nông nghiệp (xanh dương)\n  + Công trình xây dựng (xanh lá mạ)\n  + Quy trình công nghiệp (xanh lá cây)\n  + Giao thông (xanh lá mạ đậm)\n  + Chất thải (vàng)\n  + Khí thải từ các bình áp suất (cam)\n  + Cơ sở (nâu/đỏ đất)\n  + Dầu thô (tím hồng)\n  + Các loại nhiên liệu khác (xám/tím xám)\n  + Thay đổi mục đích sử dụng đất và lâm nghiệp (tím hồng/nhạt)\n- Giá trị ước lượng chính:\n  + Năm 1990: Thay đổi mục đích sử dụng đất & lâm nghiệp ở mức âm (≈ -100 MtCO2e), tổng lượng phát thải ròng ở mức rất thấp (≈ 0 - 50 MtCO2e).\n  + Năm 2000: Thay đổi mục đích sử dụng đất vẫn ở mức âm (≈ -70 MtCO2e).\n  + Năm 2010: Thay đổi mục đích sử dụng đất chuyển từ âm sang dương hoặc giảm đáng kể mức hấp thụ ròng.\n  + Năm 2018: Tổng phát thải GHG đạt gần 400 MtCO2e, trong đó ngành Điện/Nhiệt chiếm tỷ trọng lớn nhất ở phần đáy biểu đồ.",
+   "units": "MtCO2e, Năm năm 1990-2018 (mỗi 2 năm một lần). Nguồn: Ngân hàng Thế giới, dựa trên dữ liệu từ Climate Watch, 2020.9",
+   "crop": "p018_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2420,
+  "output_tokens": 706,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 10.26,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.008925,
+ "seconds": 10.5
+}

@@ -1,0 +1,1 @@
+{"config": "B0_text", "errors": 0, "status_counts": {"answered": 27, "abstain": 3}, "context_page_coverage_all_groups": "24/24", "first_search_page_hit3": "23/24", "abstain_on_unanswerable": "2/6", "abstain_on_answerable": "1/24", "view_page_calls": 0, "median_s": 35.7, "cost_usd": 0.1523}

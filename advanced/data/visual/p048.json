@@ -1,0 +1,33 @@
+{
+ "page": 48,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "Ảnh bìa chương 4",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh chụp ống khói nhà máy đang xả khí thải, minh họa cho nội dung về giảm thiểu biến đổi khí hậu và lộ trình khử carbon của chương 4.",
+   "transcription": "© The World Bank, 4, Giảm thiểu Biến đổi Khí hậu - Lộ trình khử carbon",
+   "crop": "p048_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1704,
+  "output_tokens": 150,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 2.42,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.003681,
+ "seconds": 2.7
+}

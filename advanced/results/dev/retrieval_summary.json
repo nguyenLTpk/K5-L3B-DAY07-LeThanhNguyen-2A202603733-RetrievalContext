@@ -1,0 +1,86 @@
+{
+ "dense_text": {
+  "hit1": "13/15",
+  "hit3": "15/15",
+  "hit5": "15/15",
+  "full5": "14/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ },
+ "dense_any": {
+  "hit1": "14/15",
+  "hit3": "15/15",
+  "hit5": "15/15",
+  "full5": "15/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ },
+ "bm25_text": {
+  "hit1": "13/15",
+  "hit3": "14/15",
+  "hit5": "15/15",
+  "full5": "15/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ },
+ "bm25_any": {
+  "hit1": "15/15",
+  "hit3": "15/15",
+  "hit5": "15/15",
+  "full5": "15/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ },
+ "hybrid_text": {
+  "hit1": "13/15",
+  "hit3": "15/15",
+  "hit5": "15/15",
+  "full5": "15/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ },
+ "hybrid_any": {
+  "hit1": "14/15",
+  "hit3": "15/15",
+  "hit5": "15/15",
+  "full5": "15/15",
+  "full10": "15/15",
+  "hit5_by_group": {
+   "table": "3/3",
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "3/3",
+   "text": "3/3"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "page": 56,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 13",
+   "kind": "chart",
+   "title": "So sánh nguồn điện và phát thải GHG giữa CPS và ADS",
+   "box_2d": [
+    91,
+    119,
+    365,
+    887
+   ],
+   "informative": true,
+   "description": "Biểu đồ gồm cột so sánh sản lượng điện năm 2040 giữa BAU, CPS, ADS và biểu đồ đường thể hiện dự báo phát thải GHG ngành điện giai đoạn 2020-2040. Biểu đồ cột phân tách cơ cấu nguồn điện, trong đó ADS giảm đáng kể tỷ trọng than và khí đốt so với các kịch bản khác. Biểu đồ đường cho thấy ADS có xu hướng phát thải giảm nhanh hơn hẳn so với CPS.",
+   "transcription": "Biểu đồ cột (trái): Trục tung là TWh, các cột BAU (922 TWh), CPS (788 TWh), ADS (812 TWh). Các nhóm nguồn điện gồm: Truyền tải liên vùng, Thủy điện tích năng, Sinh khối, Mặt trời, Gió ngoài khơi, Gió gần bờ, Thủy điện, Dầu, Khí, Than, Lưu trữ, Hạt nhân. Một số nhãn giá trị: BAU (550, 106, 922), CPS (276, 188, 788), ADS (26, 124, 812). Biểu đồ đường (phải): Trục tung là triệu tấn CO2e, trục hoành là năm (2020-2040). Series CPS đạt đỉnh ≈260, kết thúc tại 246. Series ADS giảm dần, kết thúc tại 63.",
+   "units": "TWh, triệu tấn CO2e",
+   "crop": "p056_e0.png"
+  },
+  {
+   "label": "Bảng 5",
+   "kind": "table",
+   "title": "Nhu cầu đầu tư và Chi phí kinh tế: Kịch bản tăng tốc khử carbon (ADS), 2022–2040",
+   "box_2d": [
+    751,
+    116,
+    921,
+    885
+   ],
+   "informative": true,
+   "description": "Bảng tóm tắt các thay đổi về chi phí vốn và đầu tư trong kịch bản ADS so với kịch bản cơ sở CPS. Bảng cho thấy mức tăng chi phí đầu tư cho lưu trữ và phát điện mới đi kèm với sự cắt giảm chi phí cho nhiên liệu hóa thạch là than đá và khí đốt.",
+   "transcription": "| | tỷ USD | Thay đổi |\n|---|---|---|\n| Chi phí vốn để lưu trữ và phát điện mới | +44 | +52% |\n| Trong đó: | | |\n| Than đá | -19 | - 72% |\n| Khí đốt | -8 | - 42% |",
+   "notes": "NPV, độ chênh lệch giữa CPS (đường cơ sở) và ADS",
+   "crop": "p056_e1.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2592,
+  "output_tokens": 705,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.53,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.009175,
+ "seconds": 3.6
+}

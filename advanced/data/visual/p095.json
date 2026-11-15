@@ -1,0 +1,33 @@
+{
+ "page": 95,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "Những thiệt hại chính và kết quả kinh tế vĩ mô từ mô hình CGE",
+   "box_2d": [
+    100,
+    318,
+    834,
+    886
+   ],
+   "informative": true,
+   "description": "Bảng dữ liệu so sánh kết quả kinh tế vĩ mô và thiệt hại dự báo theo hai kịch bản biến đổi khí hậu RCP 2.6 và RCP 4.5 so với đường cơ sở cho các năm 2022, 2030, 2040 và 2050. Bảng bao gồm các chỉ số về tăng trưởng GDP, thu nhập bình quân, cơ cấu chi tiêu thực tế, đóng góp các khu vực, cán cân vãng lai, tài khóa, phát thải khí nhà kính và các thiệt hại ước tính theo phần trăm GDP.",
+   "transcription": "| Mức tăng trưởng trung bình, %(1) | Đường cơ sở 2022 | Đường cơ sở 2030 | Đường cơ sở 2040 | Đường cơ sở 2050 | RCP 2.6 2022 | RCP 2.6 2030 | RCP 2.6 2040 | RCP 2.6 2050 | RCP 4.5 2022 | RCP 4.5 2030 | RCP 4.5 2040 | RCP 4.5 2050 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| GPD thực tế | 7,29 | 5,45 | 4,41 | 4,24 | -0,23 | -0,35 | -0,08 | -0,03 | -0,18 | -0,39 | -0,19 | -0,15 |\n| GDP bình quân dầu người thực tế | 6,35 | 4,73 | 3,88 | 3,88 | -0,23 | -0,35 | -0,08 | -0,03 | -0,18 | -0,39 | -0,19 | -0,15 |\n| Mức thu nhập tiêu thụ tính bình quân đầu người | 3.329 | 5.162 | 7.588 | 11.095 | -2,81 | -6,39 | -7,49 | -7,95 | -2,59 | -6,19 | -8,02 | -9,47 |\n| GDP bình quân đầu người thực tế (Đồng đô không đổi 2020)* | 2.150 | 3.305 | 4.871 | 7.111 | -2,93 | -7,60 | -8,91 | -9,39 | -2,74 | -7,37 | -9,45 | -11,02 |\n| Các khoản chi tiêu thực tế trong GDP thực | | | | | | | | | | | | |\n| Tổng chi tiêu doanh nghiệp | 64,59 | 64,03 | 64,19 | 64,09 | -0,13 | -0,93 | -0,95 | -0,83 | -0,14 | -0,91 | -0,97 | -0,92 |\n| Tổng chi tiêu chính quyền (% GDP) | 6,23 | 6,23 | 6,23 | 6,23 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |\n| Đầu tư doanh nghiệp (% GDP) | 16,72 | 18,30 | 18,96 | 19,50 | -0,36 | -0,05 | -0,08 | -0,17 | -0,33 | -0,04 | -0,12 | -0,23 |\n| Đầu tư công (% GDP) | 6,82 | 6,38 | 5,99 | 5,74 | 0,20 | 0,44 | 0,48 | 0,50 | 0,18 | 0,42 | 0,52 | 0,60 |\n| Xuất khẩu ròng (% GDP) | 3,42 | 3,71 | 3,79 | 3,88 | -0,01 | 0,19 | 0,22 | 0,19 | 0,00 | 0,19 | 0,22 | 0,22 |\n| Đóng góp của các khu vực trong GDP | | | | | | | | | | | | |\n| Nông nghiệp | 13,10 | 10,84 | 9,29 | 8,15 | -1,28 | -2,17 | -2,22 | -2,30 | -1,29 | -2,18 | -2,20 | -2,24 |\n| Công nghiệp | 63,90 | 65,40 | 66,33 | 66,97 | 1,52 | 2,67 | 2,52 | 2,41 | 1,53 | 2,68 | 2,51 | 2,38 |\n| Dịch vụ | 22,99 | 23,77 | 24,37 | 24,87 | -0,25 | -0,50 | -0,30 | -0,12 | -0,24 | -0,50 | -0,31 | -0,14 |\n| Cân bằng xuất nhập khẩu | | | | | | | | | | | | |\n| Cán cân vãng lai (% GDP) | -0,54 | -0,50 | -0,47 | -0,45 | -0,01 | -0,04 | -0,04 | -0,04 | -0,01 | -0,04 | -0,04 | -0,05 |\n| Báo cáo tài khóa tổng hợp | | | | | | | | | | | | |\n| Doanh thu hoạt động tài chính (% GDP) | 27,70 | 27,68 | 27,07 | 26,80 | -0,15 | 0,27 | 0,56 | 0,61 | -0,15 | 0,26 | 0,55 | 0,65 |\n| Chi tiêu tài khóa | 20,47 | 20,44 | 20,16 | 20,03 | -0,06 | -0,01 | 0,12 | 0,16 | -0,06 | -0,02 | 0,11 | 0,17 |\n| Trả lãi (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Thâm hụt ngân sách (% GDP) | 0,37 | 0,89 | 1,00 | 1,14 | -0,31 | -0,17 | -0,10 | -0,11 | -0,31 | -0,16 | -0,12 | -0,17 |\n| Nợ công (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Nợ nước ngoài (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Khí thải | | | | | | | | | | | | |\n| Lượng khí thải (Triệu tấn CO2)* | 436 | 691 | 1.106 | 1.695 | -4,18 | -15,90 | -16,95 | -12,36 | -3,86 | -15,57 | -18,99 | -18,08 |\n| Lượng khí thải trên đơn vị đầu ra (tấn CO2) | 60,0 | 57,5 | 58,7 | 59,0 | -1,42 | -10,16 | -10,22 | -4,80 | -1,30 | -10,00 | -11,93 | -9,51 |\n| Thiệt hại | | | | | | | | | | | | |\n| Tổng (% GDP) | NA | NA | NA | NA | 6,46 | 8,14 | 7,80 | 7,36 | 6,26 | 8,08 | 8,72 | 9,36 |\n| Nông nghiệp (% GDP) | NA | NA | NA | NA | 2,53 | 3,85 | 2,93 | 2,25 | 2,53 | 3,84 | 2,95 | 2,31 |\n| Nhiệt (% GDP) | NA | NA | NA | NA | 1,48 | 1,46 | 1,55 | 1,56 | 1,35 | 1,46 | 2,23 | 2,92 |\n| Lũ lụt (% GDP) | NA | NA | NA | NA | 2,37 | 2,73 | 3,22 | 3,47 | 2,31 | 2,68 | 3,42 | 4,00 |\n| Các mục ghi nhớ: | | | | | | | | | | | | |\n| Dân số (Triệu dân) | 99 | 106 | 113 | 118 | - | - | - | - | - | - | - | - |\n| Dân số trong độ tuổi lao động (Triệu người) | 68 | 70 | 71 | 72 | - | - | - | - | - | - | - | - |",
+   "crop": "p095_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 3864,
+  "output_tokens": 2597,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 6.46,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.025274,
+ "seconds": 6.5
+}

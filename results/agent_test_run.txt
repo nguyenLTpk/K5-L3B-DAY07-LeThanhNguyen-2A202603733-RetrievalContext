@@ -1,0 +1,4 @@
+{"config": "A0_dense", "errors": 0, "status_counts": {"answered": 16, "abstain": 1}, "context_evidence_rate": "12/13", "first_search_hit3": "13/13", "answered_on_answerable": "13/13", "abstain_on_unanswerable": "1/4", "median_s": 7.35, "cost_usd": 0.04101}
+{"config": "A3_hybrid_strict", "errors": 0, "status_counts": {"answered": 13, "abstain": 4}, "context_evidence_rate": "12/13", "first_search_hit3": "13/13", "answered_on_answerable": "13/13", "abstain_on_unanswerable": "4/4", "median_s": 47.1, "cost_usd": 0.06486}
+{"method": "rerank", "filter": "none", "hit1": "13/13", "hit3": "13/13", "full3": "13/13", "full5": "13/13", "mrr10": 1.0, "median_query_s": 2.362, "cost_usd": 0.04027, "misses_hit3": []}
+{"method": "multiquery", "filter": "none", "hit1": "10/13", "hit3": "13/13", "full3": "12/13", "full5": "12/13", "mrr10": 0.885, "median_query_s": 1.509, "cost_usd": 0.00311, "misses_hit3": []}

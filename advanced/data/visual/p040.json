@@ -1,0 +1,34 @@
+{
+ "page": 40,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 10",
+   "kind": "map",
+   "title": "Đồng bằng sông Cửu Long có nguy cơ cao với tình trạng nước biển",
+   "box_2d": [
+    239,
+    528,
+    626,
+    888
+   ],
+   "informative": true,
+   "description": "Bản đồ thể hiện dự báo tình trạng ngập mặn do triều cường vào năm 2050 tại khu vực sông Mekong. Các khu vực bị ngập mặn được tô màu xanh đậm trên bản đồ, bao phủ phần lớn diện tích đồng bằng.",
+   "transcription": "Hình 10: Đồng bằng sông Cửu Long có nguy cơ cao với tình trạng nước biển. Dự báo tình trạng ngập mặn do triều cường vào năm 2050 tại khu vực sông Mekong. CAM PU CHIA. BIỂN ĐÔNG.",
+   "units": "N/A",
+   "crop": "p040_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2741,
+  "output_tokens": 233,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 50.62,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.005859,
+ "seconds": 50.7
+}

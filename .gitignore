@@ -9,3 +9,12 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Day 7: bản sao vector store Day 6 (tạo lại bằng scripts/import_day6.py)
+data/day6_store/
+# Thử thách nâng cao: PDF gốc (tải bằng advanced/scripts/fetch_pdf.py), ảnh trang, crop, vector store (tạo lại được)
+advanced/data/raw/
+advanced/data/pages/
+advanced/data/crops/
+advanced/data/store/
+*.log

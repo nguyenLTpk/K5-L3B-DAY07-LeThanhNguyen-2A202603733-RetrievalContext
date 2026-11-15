@@ -1,0 +1,33 @@
+{
+ "config": "B0_text",
+ "detail": {
+  "retriever": "hybrid",
+  "scope_lock": "text",
+  "view": false,
+  "llm": "gemini-3.1-flash-lite",
+  "hypothesis": "Baseline chỉ text layer PDF: trả lời được câu text và bảng/biểu đồ có nhãn số dạng vector; hụt ở ảnh raster, bản đồ, màu chú giải."
+ },
+ "split": "test",
+ "n": 30,
+ "errors": 0,
+ "status_counts": {
+  "answered": 27,
+  "abstain": 3
+ },
+ "context_page_coverage_all_groups": "24/24",
+ "citation_page_coverage_all_groups": "23/24",
+ "first_search_page_hit1": "17/24",
+ "first_search_page_hit3": "23/24",
+ "abstain_on_unanswerable": "2/6",
+ "abstain_on_answerable": "1/24",
+ "search_calls_distribution": {
+  "1": 17,
+  "2": 3,
+  "8": 10
+ },
+ "view_page_calls": 0,
+ "median_s": 35.7,
+ "wall_s": 539.0,
+ "cost_usd": 0.1523,
+ "errors_detail": []
+}

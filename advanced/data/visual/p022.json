@@ -1,0 +1,34 @@
+{
+ "page": 22,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "Ảnh minh họa lũ lụt",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh chụp toàn cảnh khu vực bị ngập lụt nghiêm trọng, với các ngôi nhà và công trình kiến trúc nằm chìm trong nước lũ đục. Hình ảnh minh họa cho những rủi ro và tác động tiêu cực của biến đổi khí hậu đối với các khu dân cư.",
+   "transcription": "2 Khu vực công và khu vực tư nhân không được chuẩn bị đồng đều để đối phó với rủi ro biến đổi khí hậu",
+   "notes": "© Ho Cau/Vietnam News Agency",
+   "crop": "p022_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1722,
+  "output_tokens": 191,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.16,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.004015,
+ "seconds": 3.5
+}

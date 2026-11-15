@@ -1,0 +1,34 @@
+{
+ "page": 102,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "HÀNH ĐỘNG XUYÊN SUỐT",
+   "box_2d": [
+    91,
+    115,
+    808,
+    882
+   ],
+   "informative": true,
+   "description": "Bảng liệt kê các hành động xuyên suốt theo các mức độ ưu tiên: Khẩn cấp (Cao, Trung bình). Nội dung tập trung vào các chiến lược khí hậu, chính sách tài chính, và các biện pháp thực thi.",
+   "transcription": "| Mức độ | Hành động | Hành động |\n| :--- | :--- | :--- |\n| **HÀNH ĐỘNG XUYÊN SUỐT** | | |\n| Cao | Kết hợp hài hòa các chiến lược khí hậu hiện có (NDC, VGG) và việc thực hiện các chiến lược này bằng cách tăng cường chức năng nhiệm vụ Ủy ban Quốc gia về Biến đổi Khí hậu của Chính phủ. | Giám sát thực hiện khung về xanh hóa ngành ngân hàng đã được NHNN thông qua gần đây. |\n| | Thiết lập các khung thể chế mới để thực hiện các chương trình khí hậu quốc gia và khu vực (Đại đô thị Đồng bằng sông Cửu Long, TP.HCM, Hà Nội). | Xây dựng và thực hiện chiến lược truyền thông về khí hậu trên toàn quốc, bao gồm cả việc phổ biến trong trường học, nhằm nâng cao nhận thức của cộng đồng. |\n| | Thiết lập quỹ khí hậu với các nhà tài trợ công và tư nhân quốc tế tiềm năng cho các cam kết COP26 của Việt Nam. | Ban hành các quy định thứ cấp cần thiết để thực hiện PPP trong các lĩnh vực cơ sở hạ tầng quan trọng liên quan đến khí hậu. |\n| | Kết nối hỗ trợ của Chính phủ tới các DNNN với các hành động đẩy nhanh quá trình chuyển đổi sang khử carbon, tăng cường khả năng chống chịu với khí hậu và giảm thiểu rủi ro liên quan đến khí hậu. | Đẩy nhanh chương trình cổ phần hóa các DNNN hoạt động trong các lĩnh vực then chốt liên quan đến khí hậu. |\n| | | Tạo sân chơi bình đẳng cho các nhà đầu tư tư nhân bằng cách dỡ bỏ các rào cản gia nhập và thúc đẩy cạnh tranh thị trường trong các lĩnh vực liên quan đến khí hậu. |\n| Khẩn cấp | Thiết lập phân loại xanh để mở rộng quy mô đầu tư bền vững và áp dụng các tiêu chí điều kiện cho tín dụng xanh. | Tăng cường theo dõi chi tiêu liên quan đến khí hậu trong cả ngân sách trung ương và ngân sách tỉnh. |\n| | Kích hoạt thị trường trái phiếu xanh thông qua việc tạo ra các tiêu chí tiêu chuẩn hóa và miễn thuế cho phiếu trái phiếu xanh. | Lồng ghép rủi ro khí hậu vào Luật Mua sắm công phù hợp với các thông lệ quốc tế tốt nhất. |\n| | Xây dựng một chương trình kỹ năng quốc gia toàn diện để khắc phục tình trạng thiếu kỹ năng trong các ngành xanh/sạch bằng cách đổi mới các chương trình giáo dục/đào tạo nghề. | Xây dựng hệ thống tài khoản kinh tế và môi trường cũng như hệ thống MRV hiện đại cho các lĩnh vực khác nhau. |\n| Trung bình | | Điều chỉnh chiến lược nợ và chi tiêu công trung hạn với nguồn tài chính cho các kế hoạch hành động quốc gia về biến đổi khí hậu. |\n| | | Triển khai chương trình đào tạo xanh cho các tổ chức tài chính. |\n| | | Huy động các nguồn tài chính ưu đãi quốc tế và tài chính trong nước để tạo đòn bẩy và bổ sung tài chính ngân hàng cho các hoạt động đầu tư vốn xanh. |\n| | | Cho phép các tổ chức tài chính nước ngoài đăng ký thế chấp tài sản bất động sản theo một cơ cấu hợp lý và minh bạch để huy động vốn cho các khoản đầu tư vào khí hậu. |",
+   "units": "không có đơn vị cụ thể",
+   "crop": "p102_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2463,
+  "output_tokens": 885,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.6,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.010332,
+ "seconds": 3.7
+}

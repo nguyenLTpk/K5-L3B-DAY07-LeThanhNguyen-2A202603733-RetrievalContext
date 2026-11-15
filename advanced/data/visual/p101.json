@@ -1,0 +1,34 @@
+{
+ "page": 101,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "LỘ TRÌNH KHỬ CARBON",
+   "box_2d": [
+    90,
+    114,
+    891,
+    882
+   ],
+   "informative": true,
+   "description": "Bảng liệt kê các giải pháp khử carbon chia theo mức độ ưu tiên Cao và Trung bình. Bảng bao gồm các hành động cụ thể trong nhiều lĩnh vực như năng lượng, giao thông, nông nghiệp và chính sách.",
+   "transcription": "| Mức độ | Các giải pháp | Các giải pháp |\n|---|---|---|\n| Cao | Giảm thiểu ô nhiễm không khí ở Hà Nội bằng cách nhắm vào các nguồn gây ô nhiễm quan trọng (nhà máy nhiệt điện than, phương tiện giao thông, đốt rơm rạ, v.v.) để đạt được mục tiêu giữa kỳ của WHO vào năm 2030. Hoàn thiện PDP8 để phù hợp với các cam kết phát thải ròng bằng “0” của COP26. Thúc đẩy đầu tư tư nhân vào năng lượng tái tạo bằng cách ban hành khung cạnh tranh (đấu giá), sửa đổi các thỏa thuận mua bán điện dựa trên điều kiện trong nước và các thông lệ quốc tế tốt nhất, đồng thời cho phép các bên cho vay nước ngoài đăng ký thế chấp tài sản đất đai. Mở rộng sử dụng định giá carbon, đồng thời bảo vệ các bộ phận dân cư dễ bị tổn thương nhất trước tình trạng tăng giá vận tải và năng lượng. Đưa ra các tiêu chuẩn tiết kiệm nhiên liệu của phương tiện đối với xe động cơ đốt trong mới. Đầu tư và mở rộng quy mô sử dụng các công nghệ và kỹ thuật tiên tiến (AWD, IoT, v.v.) trong sản xuất lúa gạo. Giảm cường độ carbon trong thương mại quốc tế thông qua truy xuất nguồn gốc việc sử dụng carbon theo chuỗi giá trị và nâng cấp các khu công nghiệp sinh thái. | Sử dụng quy hoạch hệ thống điện cải tiến làm công cụ quyết định đầu tư năng động. Tăng cường năng lực và tính linh hoạt của lưới điện để hấp thụ thêm năng lượng tái tạo. Đẩy nhanh thực hiện các kế hoạch tiết kiệm năng lượng, bao gồm cả việc thông qua các chính sách định giá hiệu quả. Hỗ trợ chuyển đổi sang xe điện thông qua các tiêu chuẩn, ưu đãi và đầu tư vào các trạm sạc công cộng và xe buýt. Tạo điều kiện thuận lợi cho nhập khẩu công nghệ sạch bằng cách cắt giảm các biện pháp phi thuế quan áp dụng đối với hàng hóa và dịch vụ môi trường. |\n| Trung bình | Mở rộng quy mô đầu tư vào phương tiện giao thông công cộng (tàu điện ngầm, BRT, v.v.) và hỗ trợ việc sử dụng phương tiện này (bao gồm thông qua các thẻ đi xe buýt, đường sắt hoặc phương tiện giao thông công cộng nói chung miễn phí hoặc giảm giá). Đầu tư vào các chương trình phát triển kỹ năng để hỗ trợ người lao động buộc phải rời thị trường lao động (lương thưởng, thông tin, tái đào tạo). Thiết kế các chương trình hỗ trợ có mục tiêu cho các doanh nghiệp vừa và nhỏ và các công ty khởi nghiệp đầu tư vào công nghệ ít carbon. Tạo điều kiện thuận lợi cho chuyển đổi phương thức vận tải hàng hóa từ đường bộ (xe tải, v.v.) sang hệ thống vận tải đường thủy bằng cách mở rộng quy mô đầu tư và các chính sách hỗ trợ. | Thay đổi mục đích của chi tiêu công trong nông nghiệp sang hỗ trợ áp dụng các giống cây trồng và công nghệ sản xuất ít phát thải khí nhà kính hơn. Giảm lượng phát thải chăn nuôi thông qua các hướng dẫn về cải thiện khẩu phần ăn và thực hành quản lý chất thải. Đặt nhu cầu về điện sinh ra do chuyển sang nhu cầu xe điện phù hợp với quá trình khử carbon trong ngành năng lượng. Xây dựng khung chính sách rõ ràng để khu vực tư nhân đóng vai trò chính trong quá trình khử carbon trong giao thông vận tải. Phát triển khí tự nhiên khi cần thiết để làm nhiên liệu chuyển tiếp. Mở rộng quy mô đầu tư vào bể chứa carbon để đạt được mục tiêu phát thải ròng bằng 0. |",
+   "units": "không có đơn vị cụ thể",
+   "crop": "p101_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2609,
+  "output_tokens": 929,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.98,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.010881,
+ "seconds": 4.0
+}

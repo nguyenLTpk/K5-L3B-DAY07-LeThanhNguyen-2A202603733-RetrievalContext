@@ -1,0 +1,328 @@
+{
+ "summary": {
+  "config": "B0_text",
+  "split": "test",
+  "pass": "23/30",
+  "pass_rate": 76.7,
+  "by_group": {
+   "chart": "2/5",
+   "image": "2/5",
+   "multi_hop": "3/4",
+   "table": "6/6",
+   "text": "4/4",
+   "unanswerable": "6/6"
+  },
+  "errors": 0,
+  "grader": "Claude (AI), học viên rà soát"
+ },
+ "labels": [
+  {
+   "query_id": "at01",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p019:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đông Timor + 4.271,0. Trả lời Mông Cổ là sai.'; citation ['ccdr:p019:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at02",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p032:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cả hai khoảng giá trị.'; citation ['ccdr:p032:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at03",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p050:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cả −134,9 và −1,3, gán đúng kịch bản.'; citation ['ccdr:p050:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at04",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p091:t1"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '4,88 và 109,13.'; citation ['ccdr:p091:t1'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at05",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p092:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '927,9 và 677 (không nhầm với 844 của mục tiêu vô điều kiện).'; citation ['ccdr:p092:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at06",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p053:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đúng kịch bản + 3,3% + −71,9%.'; citation ['ccdr:p053:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at07",
+   "group": "image",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p036:t3",
+    "ccdr:p037:t1",
+    "ccdr:p039:t1",
+    "ccdr:p041:t5"
+   ],
+   "reason": "Đủ ba loại thiên tai nhưng ý 2 sai: nêu ven biển + ĐBSCL + vùng núi phía Bắc (suy từ văn bản, không đọc bản đồ bão lũ)."
+  },
+  {
+   "query_id": "at08",
+   "group": "image",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p007:t2",
+    "ccdr:p037:t1"
+   ],
+   "reason": "Nói tài liệu không mô tả chú giải — chú giải 'Percentage exposure' chỉ có trên ảnh raster."
+  },
+  {
+   "query_id": "at09",
+   "group": "image",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p007:t2",
+    "ccdr:p039:t0",
+    "ccdr:p042:t0"
+   ],
+   "reason": "Không nêu được thành phố (nói ĐBSCL có nguy cơ cao) — đúng là Đà Nẵng."
+  },
+  {
+   "query_id": "at10",
+   "group": "image",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p059:t0",
+    "ccdr:p058:t3"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Quảng Ninh + Hòn Gai + Cẩm Phả.'; citation ['ccdr:p059:t0', 'ccdr:p058:t3'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at11",
+   "group": "image",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p077:t3"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '130/2,4% và 54/1%.'; citation ['ccdr:p077:t3'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at12",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p017:t1"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Du lịch + 148.'; citation ['ccdr:p017:t1'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at13",
+   "group": "chart",
+   "pass": false,
+   "status": "abstain",
+   "citations": [],
+   "reason": "Từ chối ('Hình 4 không cung cấp con số') — câu có đáp án trên ảnh (≈ −70)."
+  },
+  {
+   "query_id": "at14",
+   "group": "chart",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p072:t2"
+   ],
+   "reason": "Trả lời Công nghiệp −9,4% — sai (−9,4 là mốc trục); đúng là Vận tải −6,3%."
+  },
+  {
+   "query_id": "at15",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p078:t3"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '3,7 và 14,5.'; citation ['ccdr:p078:t3'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at16",
+   "group": "chart",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p054:t0"
+   ],
+   "reason": "Khí đốt 25% công suất — sai (25% là năng lượng tái tạo; đúng 13%), ý 17% đúng."
+  },
+  {
+   "query_id": "at17",
+   "group": "multi_hop",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p018:t0",
+    "ccdr:p091:t1"
+   ],
+   "reason": "Ý 2 đúng (19,69) nhưng ý 1 nói báo cáo không có năm chuyển đổi — thiếu nhóm evidence Hình 4."
+  },
+  {
+   "query_id": "at18",
+   "group": "multi_hop",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p077:t3",
+    "ccdr:p078:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '184 tỷ USD (hoặc 3,4% GDP/năm) và 20% GDP.'; citation ['ccdr:p077:t3', 'ccdr:p078:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at19",
+   "group": "multi_hop",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p050:t0",
+    "ccdr:p077:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '81,3 (hoặc 81) và 114 tỷ USD.'; citation ['ccdr:p050:t0', 'ccdr:p077:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at20",
+   "group": "multi_hop",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p017:t1",
+    "ccdr:p041:t5"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '4.219 triệu USD và 1,1 triệu tấn.'; citation ['ccdr:p017:t1', 'ccdr:p041:t5'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at21",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p057:t3"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đủ 3 biện pháp. (Bản gốc in 'đầu thầu', nghĩa là đấu thầu.)'; citation ['ccdr:p057:t3'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at22",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p078:t2"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '72 và 74 (trên 85).'; citation ['ccdr:p078:t2'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at23",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p059:t1"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '16,5 GW + top 10.'; citation ['ccdr:p059:t1'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at24",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p038:t1"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí '1,5 triệu USD/km.'; citation ['ccdr:p038:t1'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "at25",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p017:t1"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "at26",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p019:t0"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "at27",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p078:t2",
+    "ccdr:p078:t3"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "at28",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p072:t4",
+    "ccdr:p085:t7",
+    "ccdr:p086:t4"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "at29",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "abstain",
+   "citations": [],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=abstain)."
+  },
+  {
+   "query_id": "at30",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "abstain",
+   "citations": [],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=abstain)."
+  }
+ ]
+}

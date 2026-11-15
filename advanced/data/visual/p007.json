@@ -1,0 +1,17 @@
+{
+ "page": 7,
+ "model": "gemini-3.5-flash",
+ "elements": [],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2448,
+  "output_tokens": 5,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 9.14,
+  "retries": 2,
+  "errors": []
+ },
+ "cost_usd": 0.00371,
+ "seconds": 101.0
+}

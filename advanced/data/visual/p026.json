@@ -1,0 +1,34 @@
+{
+ "page": 26,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 7",
+   "kind": "chart",
+   "title": "Hình 7: Biến thiên tỷ trọng sản lượng của các DNNN trong các ngành công nghiệp sử dụng nhiều carbon tại Việt Nam (%)",
+   "box_2d": [
+    408,
+    113,
+    783,
+    926
+   ],
+   "informative": true,
+   "description": "Biểu đồ đường thể hiện xu hướng biến thiên tỷ trọng sản lượng của các doanh nghiệp nhà nước (DNNN) trong các ngành công nghiệp thâm dụng carbon tại Việt Nam từ năm 2005 đến 2018. Kết quả cho thấy tỷ trọng của hầu hết các ngành đều có xu hướng giảm dần qua các năm, trong đó ngành than và hóa chất vẫn giữ mức tỷ trọng cao nhất.",
+   "transcription": "Loại biểu đồ: Biểu đồ đường (Line chart). Trục tung (Y): Từ 0% đến 100%, đơn vị %. Trục hoành (X): Các năm 2005, 2010, 2012, 2014, 2016, 2018 (sơ bộ). Các series (chú giải nhãn tại điểm cuối 2018): Than: 98%; Phân hóa học: 94%; Điện: 85%; Vận tải hàng hóa: 55%; Phân bón NPK: 55%; Xi măng: 35%; Vận chuyển hành khách: 27%; Kim loại: 14%.",
+   "units": "% cho trục tung; năm cho trục hoành; tấn, kWh, triệu tấn/km, triệu người-km cho sản lượng cơ sở tính toán theo ghi chú dưới hình.",
+   "crop": "p026_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2453,
+  "output_tokens": 420,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 65.39,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006829,
+ "seconds": 65.5
+}

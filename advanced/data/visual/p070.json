@@ -1,0 +1,34 @@
+{
+ "page": 70,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 18",
+   "kind": "chart",
+   "title": "Hình 18: Tác động của NZP đối với tình trạng đói nghèo, an ninh kinh tế và bất bình đẳng (sai lệch so với BAU) vào năm 2040",
+   "box_2d": [
+    146,
+    276,
+    427,
+    686
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột thể hiện tác động của NZP (sai lệch so với BAU vào năm 2040) đối với ba chỉ số: Mức nghèo ($3,20), Kinh tế không ổn định ($5,50) và Bất bình đẳng (Chỉ số Gini). Kết quả cho thấy cả ba chỉ số đều có mức giảm so với kịch bản phát triển thông thường (BAU).",
+   "transcription": "Biểu đồ cột dọc; trục tung là \"Sai số so với kịch bản phát triển thông thường (BAU)\", thang đo từ -1,2 đến 0; các cột lần lượt là: Mức nghèo ($3,20) đạt -0,1; Kinh tế không ổn định ($5,50) đạt -0,1; Bất bình đẳng (Chỉ số Gini) đạt -1,1.",
+   "units": "Sai số so với BAU (đơn vị phần trăm hoặc tỷ lệ phần trăm theo ngữ cảnh), mức tiền tệ ($). Thang đo trục tung từ -1,2 đến 0 (đơn vị âm). Nhãn số: -0,1; -0,1; -1,1 tương ứng với các cột lần lượt từ trái sang phải trên trục hoành có nhãn: Mức nghèo ($3,20), Kinh tế không ổn định ($5,50), Bất bình đẳng (Chỉ số Gini). Ghi chú nguồn: \"Nguồn: Ngân hàng Thế giới.\"",
+   "crop": "p070_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2402,
+  "output_tokens": 452,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 2.66,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006993,
+ "seconds": 2.7
+}

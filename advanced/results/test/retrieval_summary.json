@@ -1,0 +1,86 @@
+{
+ "dense_text": {
+  "hit1": "14/24",
+  "hit3": "22/24",
+  "hit5": "22/24",
+  "full5": "22/24",
+  "full10": "22/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "4/5",
+   "chart": "5/5",
+   "multi_hop": "3/4",
+   "text": "4/4"
+  }
+ },
+ "dense_any": {
+  "hit1": "18/24",
+  "hit3": "23/24",
+  "hit5": "23/24",
+  "full5": "22/24",
+  "full10": "23/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "4/5",
+   "chart": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4"
+  }
+ },
+ "bm25_text": {
+  "hit1": "18/24",
+  "hit3": "23/24",
+  "hit5": "24/24",
+  "full5": "24/24",
+  "full10": "24/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "5/5",
+   "chart": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4"
+  }
+ },
+ "bm25_any": {
+  "hit1": "22/24",
+  "hit3": "24/24",
+  "hit5": "24/24",
+  "full5": "24/24",
+  "full10": "24/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "5/5",
+   "chart": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4"
+  }
+ },
+ "hybrid_text": {
+  "hit1": "16/24",
+  "hit3": "21/24",
+  "hit5": "24/24",
+  "full5": "23/24",
+  "full10": "24/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "5/5",
+   "chart": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4"
+  }
+ },
+ "hybrid_any": {
+  "hit1": "21/24",
+  "hit3": "23/24",
+  "hit5": "24/24",
+  "full5": "24/24",
+  "full10": "24/24",
+  "hit5_by_group": {
+   "table": "6/6",
+   "image": "5/5",
+   "chart": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4"
+  }
+ }
+}

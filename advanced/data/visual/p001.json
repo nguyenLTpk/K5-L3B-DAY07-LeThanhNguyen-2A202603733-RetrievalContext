@@ -1,0 +1,35 @@
+{
+ "page": 1,
+ "model": "gemini-3.5-flash",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Trang bìa của báo cáo 'Việt Nam - Báo cáo Quốc gia về Khí hậu và Phát triển' của Nhóm Ngân hàng Thế giới (World Bank Group), xuất bản tháng 7 năm 2022, thuộc khu vực Đông Á và Thái Bình Dương.",
+   "transcription": "",
+   "notes": "",
+   "units": "",
+   "crop": "p001_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1696,
+  "output_tokens": 124,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 8.65,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.003474,
+ "seconds": 9.1
+}

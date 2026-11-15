@@ -1,0 +1,33 @@
+{
+ "page": 91,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Phụ lục 1",
+   "kind": "table",
+   "title": "Dữ liệu Khí hậu và Phát triển chính của Việt Nam",
+   "box_2d": [
+    96,
+    110,
+    896,
+    915
+   ],
+   "informative": true,
+   "description": "Bảng tổng hợp dữ liệu kinh tế vĩ mô và phát thải khí nhà kính của Việt Nam qua các năm 1990, 2005 và 2018/2020. Dữ liệu bao gồm các chỉ số về GDP, năng suất lao động, xuất khẩu tài nguyên và các nguồn phát thải khí nhà kính theo lĩnh vực.",
+   "transcription": "| Đơn vị | # | Năm | # | Năm | # | Năm | Nguồn |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **BỐI CẢNH KINH TẾ VĨ MÔ HIỆN NAY** | | | | | | | | |\n| GDP bình quân đầu người (tốc độ tăng trưởng hàng năm) | % | 5,1 | 1990 | 7,5 | 2005 | 2,9 | 2020 | WDI |\n| Năng suất lao động (tốc độ tăng hàng năm) | % | - | 1990 | - | 2005 | 6,9 | 2020 | OECD |\n| Sản lượng kinh tế phi chính thức | % GDP | 23,0 | 1990 | 15,2 | 2005 | 11,6 | 2018 | WBG |\n| Thất nghiệp trung bình | % lao động | 1,8 | 1991 | 2,1 | 2005 | 2,2 | 2020 | WDI |\n| Cán cân vãng lai | % GDP | - | 1990 | -0,9 | 2005 | -5,5 | 2020 | WDI |\n| Trợ cấp trước thuế cho nhiên liệu hóa thạch | USD/người | 0,9 | 2015 | 5,1 | 2017 | 2,8 | 2019 | CCRDB |\n| Mức độ xuất khẩu than | Mst (triệu tấn non) | 2.910 | 1990 | 15.138 | 2005 | 982 | 2020 | EIA |\n| Mức xuất khẩu dầu | Triệu thùng/ngày | 53,0 | 1990 | 361,0 | 2005 | 67,0 | 2020 | EIA |\n| **GIẢM NHẸ BIẾN ĐỔI KHÍ HẬU** | | | | | | | | |\n| Phát thải khí nhà kính | | | | | | | | |\n| Phát thải bình quân đầu người | Tấn CO2e/người | 0,3 | 1990 | 1,1 | 2005 | 2,7 | 2018 | Climatewatch |\n| Tổng lượng phát thải khí nhà kính, bao gồm LUCF | Triệu tấn CO2e | 1,17 | 1990 | 207,64 | 2005 | 364,43 | 2018 | Climatewatch |\n| Nông nghiệp | Triệu tấn CO2e | 46,34 | 1990 | 65,9 | 2005 | 70,99 | 2018 | Climatewatch |\n| Xây dựng | Triệu tấn CO2e | 1,97 | 1990 | 9,88 | 2005 | 15,79 | 2018 | Climatewatch |\n| Điện/nhiệt | Triệu tấn CO2e | 4,88 | 1990 | 24,28 | 2005 | 109,13 | 2018 | Climatewatch |\n| Khí thải thoát ra | Triệu tấn CO2e | 0,66 | 1990 | 12,85 | 2005 | 18,66 | 2018 | Climatewatch |\n| Quy trình công nghiệp | Triệu tấn CO2e | 1,06 | 1990 | 13,15 | 2005 | 37,13 | 2018 | Climatewatch |\n| Chế biến, chế tạo/xây dựng | Triệu tấn CO2e | 5,66 | 1990 | 24,06 | 2005 | 63,91 | 2018 | Climatewatch |\n| Đốt cháy nhiên liệu khác | Triệu tấn CO2e | 5,35 | 1990 | 4,96 | 2005 | 4,21 | 2018 | Climatewatch |\n| Vận tải | Triệu tấn CO2e | 4,17 | 1990 | 19,36 | 2005 | 36,32 | 2018 | Climatewatch |\n| Rác thải | Triệu tấn CO2e | 2,46 | 1990 | 13,5 | 2005 | 20,4 | 2018 | Climatewatch |\n| Thay đổi sử dụng đất và lâm nghiệp | Triệu tấn CO2e | -71,38 | 1990 | 19,69 | 2005 | -12,09 | 2018 | Climatewatch |",
+   "crop": "p091_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2762,
+  "output_tokens": 1402,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.5,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.014658,
+ "seconds": 4.6
+}

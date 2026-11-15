@@ -1,0 +1,34 @@
+{
+ "page": 98,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "Lượng khí thải ước tính (triệu tấn CO2 phát thải)",
+   "box_2d": [
+    604,
+    116,
+    765,
+    658
+   ],
+   "informative": true,
+   "description": "Bảng liệt kê các nguồn thông tin khác nhau và ước tính lượng khí thải (triệu tấn CO2) mà các tổ chức này đưa ra cho Việt Nam. Dữ liệu cho thấy sự khác biệt đáng kể giữa số liệu trong NDC của Chính phủ (104,5) so với các tổ chức quốc tế (thấp nhất là 61 từ Climate Transparency).",
+   "transcription": "| Nguồn thông tin | Lượng khí thải ước tính (triệu tấn CO2 phát thải) |\n|---|---|\n| Chính phủ Việt Nam/NDC cập nhật (2020) | 104,5 |\n| Dự thảo Nghiên cứu thông tin nền (2020) | 104,5 |\n| FAO (2019) | 72,74 |\n| Climate Watch (WRI) (2018) | 71 |\n| Climate Transparency (2018) | 61 |",
+   "units": "triệu tấn CO2 phát thải",
+   "crop": "p098_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2712,
+  "output_tokens": 321,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 2.36,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006476,
+ "seconds": 2.4
+}

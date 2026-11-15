@@ -1,0 +1,8428 @@
+[
+ {
+  "query_id": "at01",
+  "question": "Theo Bảng 1 (So sánh phát thải giữa các nước), nước nào có phát thải carbon trên một triệu USD GDP cao nhất và giá trị là bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 1 \"So sánh phát thải giữa các nước\" (trang 9 in), nước có phát thải carbon trên một triệu USD GDP cao nhất trong danh sách là Đông Timor với giá trị 4.271,0 tCO2e/triệu $GDP. [ccdr:p019:t0]",
+  "citations": [
+   "ccdr:p019:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 1 So sánh phát thải giữa các nước phát thải carbon trên một triệu USD GDP",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.388,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t1",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.030092,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.02879,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.028219,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4284
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Bảng 1 \"So sánh phát thải giữa các nước\" (trang 9 in), nước có phát thải carbon trên một triệu USD GDP cao nhất trong danh sách là Đông Timor với giá trị 4.271,0 tCO2e/triệu $GDP. [ccdr:p019:t0]",
+     "status": "answered",
+     "citations": [
+      "ccdr:p019:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p019:t0",
+   "ccdr:p018:t1",
+   "ccdr:p006:t1",
+   "ccdr:p092:t0",
+   "ccdr:p050:t1"
+  ],
+  "context_chars": 4284,
+  "elapsed_s": 5.09,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3321,
+   "output_tokens": 142,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.7,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001351,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at02",
+  "question": "Theo Bảng 2, nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng giai đoạn 2022–2050 là bao nhiêu % GDP mỗi năm và bao nhiêu tỷ USD tính theo NPV?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 2 (trang 22), nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng trong giai đoạn 2022–2050 là 0,3–0,7% GDP mỗi năm, tương đương với 22,8–53,2 tỷ USD tính theo giá trị hiện tại thuần (NPV). [ccdr:p032:t0]",
+  "citations": [
+   "ccdr:p032:t0"
+  ],
+  "note": "đã nối citation: ['ccdr:p032:t0']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 2 nhu cầu hỗ trợ tài chính 2022-2050 GDP NPV",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.072,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p031:t3",
+      "page": 31,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p077:t3",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3379
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Theo Bảng 2 (trang 22), nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng trong giai đoạn 2022–2050 là 0,3–0,7% GDP mỗi năm, tương đương với 22,8–53,2 tỷ USD tính theo giá trị hiện tại thuần (NPV).",
+     "citations": [
+      "ccdr:p032:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p032:t0",
+   "ccdr:p006:t1",
+   "ccdr:p031:t3",
+   "ccdr:p077:t3",
+   "ccdr:p050:t0"
+  ],
+  "context_chars": 3379,
+  "elapsed_s": 33.71,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2768,
+   "output_tokens": 153,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 33.63,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001213,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at03",
+  "question": "Theo Bảng 3, tác động kinh tế ròng của Lộ trình NZP giai đoạn 2022–2040 là bao nhiêu khi không có và khi có những cải cách hỗ trợ?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 3 (trang 40 in), tác động kinh tế ròng của Lộ trình phát thải carbon ròng bằng “0” (NZP) giai đoạn 2022–2040 được ước tính như sau (đơn vị: tỷ USD theo NPV):\n\n*   **Lộ trình NZP (không có cải cách hỗ trợ):** Tác động kinh tế ròng là **-134,9 tỷ USD**.\n*   **Lộ trình NZP với những cải cách hỗ trợ:** Tác động kinh tế ròng là **-1,3 tỷ USD** (giúp giảm thiểu đáng kể thiệt hại kinh tế so với kịch bản không có cải cách). [ccdr:p050:t0]",
+  "citations": [
+   "ccdr:p050:t0"
+  ],
+  "note": "đã nối citation: ['ccdr:p050:t0']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 3 tác động kinh tế ròng Lộ trình NZP 2022-2040",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.152,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030118,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4135
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p050:t0"
+     ],
+     "answer": "Theo Bảng 3 (trang 40 in), tác động kinh tế ròng của Lộ trình phát thải carbon ròng bằng “0” (NZP) giai đoạn 2022–2040 được ước tính như sau (đơn vị: tỷ USD theo NPV):\n\n*   **Lộ trình NZP (không có cải cách hỗ trợ):** Tác động kinh tế ròng là **-134,9 tỷ USD**.\n*   **Lộ trình NZP với những cải cách hỗ trợ:** Tác động kinh tế ròng là **-1,3 tỷ USD** (giúp giảm thiểu đáng kể thiệt hại kinh tế so với kịch bản không có cải cách).",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p050:t0",
+   "ccdr:p006:t1",
+   "ccdr:p050:t1",
+   "ccdr:p049:t6",
+   "ccdr:p007:t3"
+  ],
+  "context_chars": 4135,
+  "elapsed_s": 2.43,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2840,
+   "output_tokens": 228,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.28,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001422,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at04",
+  "question": "Theo Phụ lục 1, phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam năm 1990 và năm 2018 lần lượt là bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Phụ lục 1 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam là 4,88 triệu tấn CO2e vào năm 1990 và 109,13 triệu tấn CO2e vào năm 2018 [ccdr:p091:t1].",
+  "citations": [
+   "ccdr:p091:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 phát thải khí nhà kính lĩnh vực Điện/nhiệt 1990 2018",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.068,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p017:t2",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.030886,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030579,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4155
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Phụ lục 1 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam là 4,88 triệu tấn CO2e vào năm 1990 và 109,13 triệu tấn CO2e vào năm 2018 [ccdr:p091:t1].",
+     "citations": [
+      "ccdr:p091:t1"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p091:t0",
+   "ccdr:p091:t1",
+   "ccdr:p017:t2",
+   "ccdr:p007:t3",
+   "ccdr:p049:t6"
+  ],
+  "context_chars": 4155,
+  "elapsed_s": 2.47,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3282,
+   "output_tokens": 167,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.4,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001402,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at05",
+  "question": "Theo Phụ lục 1, phát thải năm 2030 theo kịch bản BAU và theo mục tiêu NDC có điều kiện (27% dưới BAU) là bao nhiêu triệu tấn CO2e?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Phụ lục 1 trong báo cáo, dự báo phát thải năm 2030 cho Việt Nam như sau:\n- Theo kịch bản BAU (Business as Usual): 927,9 triệu tấn CO2e [ccdr:p092:t0].\n- Theo mục tiêu NDC có điều kiện (27% dưới BAU): 677 triệu tấn CO2e [ccdr:p092:t0].\n\nNguồn: Phụ lục 1, trang in 82 (trang PDF 92).",
+  "citations": [
+   "ccdr:p092:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 phát thải năm 2030 BAU NDC có điều kiện triệu tấn CO2e",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.055,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p098:t4",
+      "page": 98,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.031025,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p098:t3",
+      "page": 98,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4094
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p092:t0"
+     ],
+     "status": "answered",
+     "answer": "Theo Phụ lục 1 trong báo cáo, dự báo phát thải năm 2030 cho Việt Nam như sau:\n- Theo kịch bản BAU (Business as Usual): 927,9 triệu tấn CO2e [ccdr:p092:t0].\n- Theo mục tiêu NDC có điều kiện (27% dưới BAU): 677 triệu tấn CO2e [ccdr:p092:t0].\n\nNguồn: Phụ lục 1, trang in 82 (trang PDF 92)."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p092:t0",
+   "ccdr:p098:t4",
+   "ccdr:p091:t1",
+   "ccdr:p098:t3",
+   "ccdr:p091:t0"
+  ],
+  "context_chars": 4094,
+  "elapsed_s": 31.63,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3473,
+   "output_tokens": 195,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 31.57,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001529,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at06",
+  "question": "Theo Bảng 4, kịch bản nào cho tỷ lệ thay đổi GDP năm 2040 cao nhất, và kịch bản đó làm phát thải khí nhà kính năm 2040 thay đổi bao nhiêu phần trăm?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Dựa trên Bảng 4 (trang 43), kịch bản có tỷ lệ thay đổi GDP năm 2040 cao nhất là \"NZP và tất cả các biện pháp hỗ trợ\", với mức tăng 3,3% [ccdr:p053:t0]. Trong kịch bản này, tỷ lệ thay đổi mức phát thải khí nhà kính năm 2040 là -71,9% so với đường cơ sở [ccdr:p053:t0].",
+  "citations": [
+   "ccdr:p053:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 4 tỷ lệ thay đổi GDP năm 2040",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p053:t0",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p052:t5",
+      "page": 52,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p074:t5",
+      "page": 74,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3623
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Dựa trên Bảng 4 (trang 43), kịch bản có tỷ lệ thay đổi GDP năm 2040 cao nhất là \"NZP và tất cả các biện pháp hỗ trợ\", với mức tăng 3,3% [ccdr:p053:t0]. Trong kịch bản này, tỷ lệ thay đổi mức phát thải khí nhà kính năm 2040 là -71,9% so với đường cơ sở [ccdr:p053:t0].",
+     "citations": [
+      "ccdr:p053:t0"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p053:t0",
+   "ccdr:p052:t5",
+   "ccdr:p074:t5",
+   "ccdr:p030:t1",
+   "ccdr:p050:t1"
+  ],
+  "context_chars": 3623,
+  "elapsed_s": 42.12,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2857,
+   "output_tokens": 176,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 42.07,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001297,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at07",
+  "question": "Hình 9 gồm ba bản đồ về ba loại thiên tai nào, và trên bản đồ bão lũ các tuyến đường bị ảnh hưởng tập trung ở khu vực nào?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Hình 9 (trang 27) gồm ba bản đồ thể hiện mức độ dễ bị ảnh hưởng của các tuyến đường có quy mô quốc gia tại Việt Nam trước ba loại thiên tai: **Lở đất**, **Lũ lụt 1.000 năm** và **Bão lũ** [ccdr:p037:t1].\n\nĐối với bản đồ bão lũ, các tuyến đường bị ảnh hưởng tập trung chủ yếu ở các khu vực:\n- **Vùng ven biển**: Nơi có rủi ro cao đối với cơ sở hạ tầng do tác động trực tiếp của các cơn bão nhiệt đới [ccdr:p036:t3, ccdr:p039:t1, ccdr:p041:t5].\n- **Đồng bằng sông Cửu Long**: Khu vực chịu ảnh hưởng nặng nề bởi nguy cơ ngập lụt và bão [ccdr:p036:t3].\n- **Vùng núi phía Bắc**: Cũng được xác định là một trong những điểm nóng thiên tai có mức độ rủi ro đặc biệt cao đối với cơ sở hạ tầng giao thông [ccdr:p036:t3].",
+  "citations": [
+   "ccdr:p036:t3",
+   "ccdr:p037:t1",
+   "ccdr:p039:t1",
+   "ccdr:p041:t5"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 thiên tai bão lũ",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031025,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p039:t5",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3270
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 Lở đất Lũ lụt 1.000 năm Bão lũ",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.039,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p039:t5",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.029418,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 4857
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 Bão lũ tuyến đường bị ảnh hưởng khu vực nào",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p039:t1",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031025,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6495
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 Bản đồ 3 loại thiên tai",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.02938,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8132
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 các tuyến đường bị ảnh hưởng tập trung ở khu vực nào Bão lũ",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.046,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p039:t1",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8132
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Bão lũ\" Hình 9 tuyến đường",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.039,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.028595,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.028283,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p039:t5",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.027783,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8944
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" Lở đất Lũ lụt Bão lũ",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031778,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.030018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p039:t5",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.028083,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.027972,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p041:t1",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.026199,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9448
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"đường\" \"tập trung\" \"khu vực\" bão lũ Hình 9",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.045,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p046:t1",
+      "page": 46,
+      "kind": "text",
+      "label": "",
+      "score": 0.027526,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p028:t0",
+      "page": 28,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 10658
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p036:t3",
+      "ccdr:p037:t1",
+      "ccdr:p039:t1",
+      "ccdr:p041:t5"
+     ],
+     "status": "answered",
+     "answer": "Hình 9 (trang 27) gồm ba bản đồ thể hiện mức độ dễ bị ảnh hưởng của các tuyến đường có quy mô quốc gia tại Việt Nam trước ba loại thiên tai: **Lở đất**, **Lũ lụt 1.000 năm** và **Bão lũ** [ccdr:p037:t1].\n\nĐối với bản đồ bão lũ, các tuyến đường bị ảnh hưởng tập trung chủ yếu ở các khu vực:\n- **Vùng ven biển**: Nơi có rủi ro cao đối với cơ sở hạ tầng do tác động trực tiếp của các cơn bão nhiệt đới [ccdr:p036:t3, ccdr:p039:t1, ccdr:p041:t5].\n- **Đồng bằng sông Cửu Long**: Khu vực chịu ảnh hưởng nặng nề bởi nguy cơ ngập lụt và bão [ccdr:p036:t3].\n- **Vùng núi phía Bắc**: Cũng được xác định là một trong những điểm nóng thiên tai có mức độ rủi ro đặc biệt cao đối với cơ sở hạ tầng giao thông [ccdr:p036:t3]."
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p037:t1",
+   "ccdr:p007:t2",
+   "ccdr:p036:t3",
+   "ccdr:p007:t1",
+   "ccdr:p039:t5",
+   "ccdr:p041:t5",
+   "ccdr:p016:t4",
+   "ccdr:p039:t1",
+   "ccdr:p037:t0",
+   "ccdr:p004:t1",
+   "ccdr:p093:t1",
+   "ccdr:p006:t0",
+   "ccdr:p041:t1",
+   "ccdr:p046:t1",
+   "ccdr:p042:t0",
+   "ccdr:p028:t0"
+  ],
+  "context_chars": 10658,
+  "elapsed_s": 9.73,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 30128,
+   "output_tokens": 584,
+   "thinking_tokens": 0,
+   "cached_tokens": 1999,
+   "llm_seconds": 9.4,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.010498,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at08",
+  "question": "Chú giải trên các bản đồ của Hình 9 đo đại lượng gì và mức cao nhất trong chú giải là khoảng nào?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (tháng 7/2022) nêu tại trang 27 (PDF) rằng Hình 9 thể hiện \"Mức độ dễ bị ảnh hưởng khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam\".\n\nTuy nhiên, tài liệu không cung cấp mô tả chi tiết về chú giải (đơn vị đo lường cụ thể hoặc giá trị con số cao nhất) của bản đồ trong Hình 9 [ccdr:p007:t2, ccdr:p037:t1]. Do đó, không đủ thông tin để xác định đơn vị đo chính xác hoặc mức cao nhất trong chú giải của các bản đồ này.",
+  "citations": [
+   "ccdr:p007:t2",
+   "ccdr:p037:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 chú giải",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.03,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031778,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.02901,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.028283,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2963
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.027,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029828,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p095:t0",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.02837,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.026686,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5596
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 \"Mức độ dễ bị ảnh hưởng\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.046,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p100:t2",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.027444,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7898
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 trang 27 chú giải",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.033,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t1",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.028898,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.028405,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.027313,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 9638
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"chú giải\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.035,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029551,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.027584,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p076:t0",
+      "page": 76,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9683
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"mức độ\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.033,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030886,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.025833,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 10145
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"mức cao nhất\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.027984,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.026154,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 11588
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tài liệu Hình 9 chú giải trang 27",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.042,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.028718,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.028531,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.027212,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p018:t2",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 11942
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (tháng 7/2022) nêu tại trang 27 (PDF) rằng Hình 9 thể hiện \"Mức độ dễ bị ảnh hưởng khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam\".\n\nTuy nhiên, tài liệu không cung cấp mô tả chi tiết về chú giải (đơn vị đo lường cụ thể hoặc giá trị con số cao nhất) của bản đồ trong Hình 9 [ccdr:p007:t2, ccdr:p037:t1]. Do đó, không đủ thông tin để xác định đơn vị đo chính xác hoặc mức cao nhất trong chú giải của các bản đồ này.",
+     "citations": [
+      "ccdr:p007:t2",
+      "ccdr:p037:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p007:t2",
+   "ccdr:p093:t1",
+   "ccdr:p025:t1",
+   "ccdr:p082:t0",
+   "ccdr:p036:t3",
+   "ccdr:p091:t0",
+   "ccdr:p095:t0",
+   "ccdr:p006:t1",
+   "ccdr:p037:t1",
+   "ccdr:p100:t2",
+   "ccdr:p006:t0",
+   "ccdr:p095:t1",
+   "ccdr:p092:t0",
+   "ccdr:p076:t0",
+   "ccdr:p036:t6",
+   "ccdr:p034:t5",
+   "ccdr:p009:t0",
+   "ccdr:p018:t2"
+  ],
+  "context_chars": 11942,
+  "elapsed_s": 55.6,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 40498,
+   "output_tokens": 409,
+   "thinking_tokens": 0,
+   "cached_tokens": 10071,
+   "llm_seconds": 17.06,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.013172,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": false
+  }
+ },
+ {
+  "query_id": "at09",
+  "question": "Trên bản đồ rủi ro ngập lụt ven biển (Hình 11), trong các thành phố được ghi tên, thành phố nào nằm trong vùng có rủi ro ngập lụt tương đối cao nhất (màu đậm nhất)?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\", Hình 11 (trang 32 PDF, trang 32 in) minh họa rủi ro ngập lụt tại các vùng ven biển. Mặc dù báo cáo không liệt kê trực tiếp tên các thành phố tương ứng với vùng màu đậm nhất trên bản đồ này, báo cáo nêu rõ rằng Đồng bằng sông Cửu Long có nguy cơ cao với tình trạng nước biển dâng (Hình 10, trang 30 PDF) và TP. Hồ Chí Minh được xác định là nơi tập trung các khu công nghiệp nằm trong vùng dễ bị ngập lụt (trang 39 PDF). [ccdr:p007:t2][ccdr:p039:t0][ccdr:p042:t0]",
+  "citations": [
+   "ccdr:p007:t2",
+   "ccdr:p039:t0",
+   "ccdr:p042:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 bản đồ rủi ro ngập lụt ven biển",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.029324,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3314
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 Rủi ro ngập lụt tại các vùng ven biển các thành phố được ghi tên",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p039:t0",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 3785
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 trang 32 PDF 42",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.042,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p020:t2",
+      "page": 20,
+      "kind": "text",
+      "label": "",
+      "score": 0.028543,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p063:t5",
+      "page": 63,
+      "kind": "text",
+      "label": "",
+      "score": 0.027746,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.026501,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7063
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 \"thành phố\" ngập lụt",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.036,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031778,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p039:t0",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p093:t2",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.028814,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7164
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 \"đậm nhất\" \"cao nhất\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.034,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.029514,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8607
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 \"thành phố\" \"màu\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.039,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p093:t2",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.030092,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p010:t0",
+      "page": 10,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9305
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 11\" \"ngập lụt\" \"ven biển\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031025,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030415,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.030118,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.028898,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 9305
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 \"thành phố\" nguy cơ ngập lụt cao nhất",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p039:t0",
+      "page": 39,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.030835,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 9305
+   },
+   {
+    "event": "invalid_citations",
+    "args": {
+     "citations": [
+      "ccdr:p007:t2",
+      "ccdr:p030:t2",
+      "ccdr:p039:t0",
+      "ccdr:p042:t0"
+     ],
+     "answer": "Trong \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\", Hình 11 (trang 32 PDF, trang 32 in) cho thấy các khu vực có nguy cơ cao về ngập lụt ven biển. Mặc dù báo cáo không liệt kê trực tiếp tên các thành phố tương ứng với vùng màu đậm nhất trong hình, dữ liệu trong báo cáo chỉ rõ Đồng bằng sông Cửu Long có nguy cơ cao với tình trạng nước biển dâng (trang 30 in), và TP. Hồ Chí Minh được xác định là nơi tập trung phần lớn các khu công nghiệp nằm trong vùng dễ bị ngập lụt (trang 39 in). Tuy nhiên, nếu chỉ dựa vào yêu cầu đọc trực tiếp thành phố \"được ghi tên\" trong Hình 11, báo cáo không cung cấp danh mục này. [ccdr:p007:t2][ccdr:p030:t2][ccdr:p039:t0][ccdr:p042:t0]",
+     "status": "answered"
+    },
+    "feedback": {
+     "error": "Citation không hợp lệ: ['ccdr:p030:t2']. Chỉ trích các id đã có: ['ccdr:p042:t0', 'ccdr:p007:t2', 'ccdr:p041:t5', 'ccdr:p016:t4', 'ccdr:p037:t1', 'ccdr:p039:t0', 'ccdr:p095:t2', 'ccdr:p020:t2', 'ccdr:p063:t5', 'ccdr:p025:t1', 'ccdr:p093:t2', 'ccdr:p034:t5', 'ccdr:p009:t0', 'ccdr:p010:t0']. Gọi lại final_answer."
+    }
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p007:t2",
+      "ccdr:p039:t0",
+      "ccdr:p042:t0"
+     ],
+     "answer": "Trong \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\", Hình 11 (trang 32 PDF, trang 32 in) minh họa rủi ro ngập lụt tại các vùng ven biển. Mặc dù báo cáo không liệt kê trực tiếp tên các thành phố tương ứng với vùng màu đậm nhất trên bản đồ này, báo cáo nêu rõ rằng Đồng bằng sông Cửu Long có nguy cơ cao với tình trạng nước biển dâng (Hình 10, trang 30 PDF) và TP. Hồ Chí Minh được xác định là nơi tập trung các khu công nghiệp nằm trong vùng dễ bị ngập lụt (trang 39 PDF). [ccdr:p007:t2][ccdr:p039:t0][ccdr:p042:t0]"
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p042:t0",
+   "ccdr:p007:t2",
+   "ccdr:p041:t5",
+   "ccdr:p016:t4",
+   "ccdr:p037:t1",
+   "ccdr:p039:t0",
+   "ccdr:p095:t2",
+   "ccdr:p020:t2",
+   "ccdr:p063:t5",
+   "ccdr:p025:t1",
+   "ccdr:p093:t2",
+   "ccdr:p034:t5",
+   "ccdr:p009:t0",
+   "ccdr:p010:t0"
+  ],
+  "context_chars": 9305,
+  "elapsed_s": 36.68,
+  "usage": {
+   "calls": 10,
+   "prompt_tokens": 40144,
+   "output_tokens": 790,
+   "thinking_tokens": 0,
+   "cached_tokens": 6066,
+   "llm_seconds": 11.04,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.014018,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at10",
+  "question": "Theo bản đồ sản xuất than nội địa (Hình 14), tỉnh nào được đánh dấu là tỉnh sản xuất than chính và hai địa điểm nào được khoanh tròn ở tỉnh đó?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 49 in, 59 PDF), Hình 14 xác định tỉnh **Quảng Ninh** là tỉnh sản xuất than chính của Việt Nam. Trên bản đồ tại hình này, hai địa điểm được khoanh tròn nằm trong tỉnh Quảng Ninh là **Hòn Gai** và **Cẩm Phả**. [ccdr:p059:t0] [ccdr:p058:t3]",
+  "citations": [
+   "ccdr:p059:t0",
+   "ccdr:p058:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 14 bản đồ sản xuất than nội địa tỉnh sản xuất than chính địa điểm khoanh tròn",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.058,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.029274,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.029211,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3580
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 14 Quảng Ninh Hòn Gai Cẩm Phả khoanh tròn",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029631,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.026519,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5124
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 14 địa điểm khoanh tròn Quảng Ninh",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.032,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.030835,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.028372,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5659
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 14\" Quảng Ninh khoanh tròn",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p028:t0",
+      "page": 28,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5769
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 14\" Na Dương Thái Nguyên Hòn Gai Cẩm Phả",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p001:t0",
+      "page": 1,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 6719
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 14\" \"Quảng Ninh\" khoanh tròn",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.029551,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p028:t0",
+      "page": 28,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 6719
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hòn Gai\" \"Cẩm Phả\" khoanh tròn",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p028:t0",
+      "page": 28,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p076:t0",
+      "page": 76,
+      "kind": "text",
+      "label": "",
+      "score": 0.015625,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7663
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tỉnh nào được đánh dấu là \"tỉnh sản xuất than chính\" trong Hình 14",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p058:t3",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.027106,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7663
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 49 in, 59 PDF), Hình 14 xác định tỉnh **Quảng Ninh** là tỉnh sản xuất than chính của Việt Nam. Trên bản đồ tại hình này, hai địa điểm được khoanh tròn nằm trong tỉnh Quảng Ninh là **Hòn Gai** và **Cẩm Phả**. [ccdr:p059:t0] [ccdr:p058:t3]",
+     "citations": [
+      "ccdr:p059:t0",
+      "ccdr:p058:t3"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p059:t0",
+   "ccdr:p007:t2",
+   "ccdr:p058:t3",
+   "ccdr:p054:t0",
+   "ccdr:p092:t1",
+   "ccdr:p007:t3",
+   "ccdr:p057:t0",
+   "ccdr:p040:t0",
+   "ccdr:p082:t0",
+   "ccdr:p028:t0",
+   "ccdr:p001:t0",
+   "ccdr:p095:t2",
+   "ccdr:p009:t0",
+   "ccdr:p076:t0"
+  ],
+  "context_chars": 7663,
+  "elapsed_s": 73.63,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 31450,
+   "output_tokens": 400,
+   "thinking_tokens": 0,
+   "cached_tokens": 4004,
+   "llm_seconds": 23.05,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.010435,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at11",
+  "question": "Theo sơ đồ Hình 21 về nhu cầu và nguồn tài chính 2022–2040, khu vực công và nguồn bên ngoài được kỳ vọng đóng góp bao nhiêu (tỷ USD và % GDP mỗi năm)?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 21 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 67), các nguồn tài chính tiềm năng giai đoạn 2022–2040 được kỳ vọng đóng góp như sau:\n\n*   **Khu vực công:** 130 tỷ USD, tương đương khoảng 2,4% GDP mỗi năm [ccdr:p077:t3].\n*   **Nguồn bên ngoài:** 54 tỷ USD, tương đương khoảng 1% GDP mỗi năm [ccdr:p077:t3].",
+  "citations": [
+   "ccdr:p077:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 21 nhu cầu và nguồn tài chính 2022–2040 khu vực công nguồn bên ngoài",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.065,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:t3",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p077:t1",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p080:t1",
+      "page": 80,
+      "kind": "text",
+      "label": "",
+      "score": 0.028783,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3384
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 21 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 67), các nguồn tài chính tiềm năng giai đoạn 2022–2040 được kỳ vọng đóng góp như sau:\n\n*   **Khu vực công:** 130 tỷ USD, tương đương khoảng 2,4% GDP mỗi năm [ccdr:p077:t3].\n*   **Nguồn bên ngoài:** 54 tỷ USD, tương đương khoảng 1% GDP mỗi năm [ccdr:p077:t3].",
+     "citations": [
+      "ccdr:p077:t3"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p077:t3",
+   "ccdr:p077:t1",
+   "ccdr:p007:t3",
+   "ccdr:p032:t0",
+   "ccdr:p080:t1"
+  ],
+  "context_chars": 3384,
+  "elapsed_s": 51.63,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2633,
+   "output_tokens": 206,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 30.22,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001305,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at12",
+  "question": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020, hạng mục nào có chi phí thấp nhất và là bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020 (trang 7 in, trang 17 PDF), hạng mục có chi phí thấp nhất là Du lịch với giá trị ước tính là 148 triệu USD [ccdr:p017:t1].",
+  "citations": [
+   "ccdr:p017:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 3 chi phí ước tính do biến đổi khí hậu năm 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t0",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p029:t4",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.028958,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3530
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020 (trang 7 in, trang 17 PDF), hạng mục có chi phí thấp nhất là Du lịch với giá trị ước tính là 148 triệu USD [ccdr:p017:t1].",
+     "citations": [
+      "ccdr:p017:t1"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p017:t1",
+   "ccdr:p007:t0",
+   "ccdr:p030:t0",
+   "ccdr:p029:t4",
+   "ccdr:p025:t1"
+  ],
+  "context_chars": 3530,
+  "elapsed_s": 2.24,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2622,
+   "output_tokens": 136,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.18,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001127,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at13",
+  "question": "Theo Hình 4, phát thải ròng từ thay đổi mục đích sử dụng đất và lâm nghiệp trong giai đoạn 1990–2000 ở mức xấp xỉ bao nhiêu MtCO2e?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "abstain",
+  "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 8) có đề cập đến Hình 4 \"Gia tăng mức phát thải GHG\", trong đó liệt kê mục \"Thay đổi mục đích sử dụng đất và lâm nghiệp\" cùng với thang đo MtCO2e. Tuy nhiên, Hình 4 là biểu đồ thể hiện xu hướng phát thải qua các năm, không cung cấp con số cụ thể cho giai đoạn 1990–2000. Báo cáo không có thông tin chính xác về mức phát thải ròng này theo biểu đồ tại Hình 4.",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 4 phát thải ròng thay đổi mục đích sử dụng đất và lâm nghiệp 1990-2000",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p065:t0",
+      "page": 65,
+      "kind": "text",
+      "label": "",
+      "score": 0.027212,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p017:t2",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.026585,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3932
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "view_page 18",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.029,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p097:t1",
+      "page": 97,
+      "kind": "text",
+      "label": "",
+      "score": 0.029643,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.028612,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p095:t0",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.027972,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.027584,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.027242,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8375
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 4 \"Thay đổi mục đích sử dụng đất và lâm nghiệp\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.049,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p043:t1",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.02885,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.027444,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.026334,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 10738
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" 1990 2000 \"lâm nghiệp\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.039,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.029572,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029052,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.028595,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.028485,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 13173
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "view_page 18",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.03,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p097:t1",
+      "page": 97,
+      "kind": "text",
+      "label": "",
+      "score": 0.029643,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.028612,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p095:t0",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.027972,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.027584,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.027242,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 13173
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" trang 18",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.034,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p048:t0",
+      "page": 48,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p076:t0",
+      "page": 76,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p010:t0",
+      "page": 10,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "over_budget"
+     }
+    ],
+    "context_chars_after": 13893
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" trang 8",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.033,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.02748,
+      "context": "over_budget"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.026334,
+      "context": "over_budget"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p048:t0",
+      "page": 48,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 13893
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" \"lâm nghiệp\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.026501,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p048:t0",
+      "page": 48,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 13958
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 8) có đề cập đến Hình 4 \"Gia tăng mức phát thải GHG\", trong đó liệt kê mục \"Thay đổi mục đích sử dụng đất và lâm nghiệp\" cùng với thang đo MtCO2e. Tuy nhiên, Hình 4 là biểu đồ thể hiện xu hướng phát thải qua các năm, không cung cấp con số cụ thể cho giai đoạn 1990–2000. Báo cáo không có thông tin chính xác về mức phát thải ròng này theo biểu đồ tại Hình 4.",
+     "status": "insufficient_evidence",
+     "citations": [
+      "ccdr:p018:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p096:t1",
+   "ccdr:p018:t0",
+   "ccdr:p067:t0",
+   "ccdr:p065:t0",
+   "ccdr:p017:t2",
+   "ccdr:p097:t1",
+   "ccdr:p095:t2",
+   "ccdr:p095:t0",
+   "ccdr:p007:t3",
+   "ccdr:p091:t1",
+   "ccdr:p043:t1",
+   "ccdr:p004:t1",
+   "ccdr:p085:t1",
+   "ccdr:p092:t1",
+   "ccdr:p091:t0",
+   "ccdr:p007:t0",
+   "ccdr:p048:t0",
+   "ccdr:p072:t2",
+   "ccdr:p076:t0",
+   "ccdr:p082:t0"
+  ],
+  "context_chars": 13958,
+  "elapsed_s": 60.93,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 51632,
+   "output_tokens": 387,
+   "thinking_tokens": 0,
+   "cached_tokens": 18194,
+   "llm_seconds": 10.34,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.016457,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": false,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at14",
+  "question": "Theo Hình 20, trong kịch bản NZP (không cải cách), lĩnh vực nào có mức giảm việc làm lớn nhất vào năm 2040 so với BAU và giảm bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 20 (trang 62), trong kịch bản NZP (không cải cách) vào năm 2040 so với kịch bản phát triển thông thường (BAU), lĩnh vực **công nghiệp** có mức giảm việc làm lớn nhất với tỷ lệ **9,4%** (độ lệch so với BAU) [ccdr:p072:t2].",
+  "citations": [
+   "ccdr:p072:t2"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 20 việc làm NZP BAU 2040",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p070:t0",
+      "page": 70,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p051:t0",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3571
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "trang 62 Hình 20 \"những thay đổi về việc làm theo lĩnh vực vào năm 2040\" NZP kịch bản không cải cách",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.076,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p096:t0",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.030331,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p053:t0",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.029958,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5103
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 20\" việc làm 2040 \"NZP\" \"Không hoạt động\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.047,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p053:t0",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030579,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p070:t0",
+      "page": 70,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5103
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 20\" \"thay đổi về việc làm\" \"2040\" giá trị",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.052,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.029572,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.028372,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6442
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 20\" \"6,3\" \"9,4\" việc làm",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.055,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.029958,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.028778,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p095:t0",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.027106,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8225
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 20\" \"giảm\" việc làm 2040",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031778,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8225
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 20\" \"công nghiệp\" \"nông nghiệp\" việc làm 2040",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.052,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.030835,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.029851,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8225
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "trang 72 Hình 20 \"công nghiệp\" \"nông nghiệp\" \"thương mại\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.049,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.029437,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.029387,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p026:t0",
+      "page": 26,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9888
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Theo Hình 20 (trang 62), trong kịch bản NZP (không cải cách) vào năm 2040 so với kịch bản phát triển thông thường (BAU), lĩnh vực **công nghiệp** có mức giảm việc làm lớn nhất với tỷ lệ **9,4%** (độ lệch so với BAU) [ccdr:p072:t2].",
+     "citations": [
+      "ccdr:p072:t2"
+     ]
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p007:t3",
+   "ccdr:p072:t2",
+   "ccdr:p071:t3",
+   "ccdr:p070:t0",
+   "ccdr:p051:t0",
+   "ccdr:p096:t0",
+   "ccdr:p053:t0",
+   "ccdr:p072:t0",
+   "ccdr:p072:t4",
+   "ccdr:p095:t2",
+   "ccdr:p095:t0",
+   "ccdr:p004:t1",
+   "ccdr:p025:t1",
+   "ccdr:p026:t0"
+  ],
+  "context_chars": 9888,
+  "elapsed_s": 55.66,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 33882,
+   "output_tokens": 418,
+   "thinking_tokens": 0,
+   "cached_tokens": 4012,
+   "llm_seconds": 12.98,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.01121,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at15",
+  "question": "Theo Hình 22, dư nợ tín dụng xanh tăng từ bao nhiêu năm 2016 lên bao nhiêu năm 2020?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 22 trong báo cáo, dư nợ tín dụng xanh tại Việt Nam tăng từ **3,7 tỷ USD** vào năm 2016 lên **14,5 tỷ USD** vào năm 2020 (Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 68). [ccdr:p078:t3]",
+  "citations": [
+   "ccdr:p078:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 22 dư nợ tín dụng xanh 2016 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.047,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.028125,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3313
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "giá trị dư nợ tín dụng xanh Hình 22 2016 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.03009,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.029958,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.027746,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4154
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "giá trị cột Hình 22 tín dụng xanh 2016 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.029762,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.029469,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.028309,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 4154
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 22\" tín dụng xanh \"2016\" \"2020\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p077:t2",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.029851,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4948
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 22\" \"dư nợ tín dụng xanh\" 2016 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.042,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p077:t2",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 4948
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 22\" \"dư nợ\" xanh",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p080:t6",
+      "page": 80,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.02879,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5653
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"tín dụng xanh\" 3,7 14,5",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.029911,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.029907,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029083,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p095:t0",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.026686,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7414
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 22\" dư nợ tín dụng xanh số liệu",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p080:t6",
+      "page": 80,
+      "kind": "text",
+      "label": "",
+      "score": 0.027885,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7414
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p078:t3"
+     ],
+     "answer": "Theo Hình 22 trong báo cáo, dư nợ tín dụng xanh tại Việt Nam tăng từ **3,7 tỷ USD** vào năm 2016 lên **14,5 tỷ USD** vào năm 2020 (Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 68). [ccdr:p078:t3]",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p007:t4",
+   "ccdr:p078:t3",
+   "ccdr:p078:t2",
+   "ccdr:p079:t5",
+   "ccdr:p095:t2",
+   "ccdr:p092:t0",
+   "ccdr:p077:t2",
+   "ccdr:p080:t6",
+   "ccdr:p019:t0",
+   "ccdr:p095:t0"
+  ],
+  "context_chars": 7414,
+  "elapsed_s": 59.19,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 31630,
+   "output_tokens": 392,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 12.59,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.010469,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at16",
+  "question": "Theo Hình 12, năm 2020 khí đốt chiếm bao nhiêu phần trăm công suất lắp đặt và bao nhiêu phần trăm điện năng sản xuất?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 12 tại trang 44 của báo cáo (trang 54 PDF), vào năm 2020:\n- **Công suất lắp đặt:** Khí đốt chiếm **25%** tổng công suất lắp đặt.\n- **Điện năng sản xuất:** Khí đốt chiếm **17%** tổng sản lượng điện năng sản xuất. [ccdr:p054:t0]",
+  "citations": [
+   "ccdr:p054:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 12 khí đốt 2020 công suất lắp đặt điện năng sản xuất",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.049,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.029631,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p055:t0",
+      "page": 55,
+      "kind": "text",
+      "label": "",
+      "score": 0.029236,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3769
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 12 \"Khí đốt\" \"công suất lắp đặt\" \"điện năng sản xuất\" 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.072,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p055:t0",
+      "page": 55,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p061:t1",
+      "page": 61,
+      "kind": "text",
+      "label": "",
+      "score": 0.028595,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.028439,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 4581
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 12\" \"công suất lắp đặt\" \"khí đốt\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p061:t1",
+      "page": 61,
+      "kind": "text",
+      "label": "",
+      "score": 0.029199,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.029116,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.027588,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p061:t2",
+      "page": 61,
+      "kind": "text",
+      "label": "",
+      "score": 0.027526,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5706
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Công suất lắp đặt theo loại hình nhiên liệu hóa thạch (2020)\" \"13%\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p055:t1",
+      "page": 55,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.029907,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029199,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8248
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 12\" \"Khí đốt\" \"13%\" \"17%\" \"30%\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.052,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.029907,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.029644,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029206,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.028006,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 11397
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 12\" \"Khí đốt\" \"13%\" \"25%\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.043,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.030886,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.030077,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029274,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.029139,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p095:t2",
+      "page": 95,
+      "kind": "text",
+      "label": "",
+      "score": 0.027619,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 11397
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"công suất lắp đặt\" \"2020\" \"khí đốt\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030579,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.029052,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.027651,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 12296
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "site:ccdr:p054:t0 \"Khí đốt\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p003:t0",
+      "page": 3,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p061:t1",
+      "page": 61,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p009:t1",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p048:t0",
+      "page": 48,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 12450
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 12 tại trang 44 của báo cáo (trang 54 PDF), vào năm 2020:\n- **Công suất lắp đặt:** Khí đốt chiếm **25%** tổng công suất lắp đặt.\n- **Điện năng sản xuất:** Khí đốt chiếm **17%** tổng sản lượng điện năng sản xuất. [ccdr:p054:t0]",
+     "citations": [
+      "ccdr:p054:t0"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p054:t0",
+   "ccdr:p053:t2",
+   "ccdr:p053:t3",
+   "ccdr:p092:t1",
+   "ccdr:p055:t0",
+   "ccdr:p061:t1",
+   "ccdr:p056:t4",
+   "ccdr:p061:t2",
+   "ccdr:p055:t1",
+   "ccdr:p092:t0",
+   "ccdr:p091:t0",
+   "ccdr:p057:t0",
+   "ccdr:p095:t2",
+   "ccdr:p025:t1",
+   "ccdr:p091:t1",
+   "ccdr:p009:t0",
+   "ccdr:p003:t0",
+   "ccdr:p009:t1",
+   "ccdr:p048:t0"
+  ],
+  "context_chars": 12450,
+  "elapsed_s": 53.91,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 41623,
+   "output_tokens": 411,
+   "thinking_tokens": 0,
+   "cached_tokens": 8072,
+   "llm_seconds": 8.32,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.013514,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at17",
+  "question": "Theo Hình 4, phát thải từ thay đổi mục đích sử dụng đất và lâm nghiệp chuyển từ âm sang dương vào khoảng năm nào, và theo Phụ lục 1 giá trị của lĩnh vực này năm 2005 là bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Dựa trên dữ liệu tại Phụ lục 1 (trang 91 PDF), giá trị của lĩnh vực \"Thay đổi sử dụng đất và lâm nghiệp\" năm 2005 là 19,69 triệu tấn CO2e [ccdr:p091:t1].\n\nĐối với câu hỏi về thời điểm chuyển đổi từ âm sang dương của lĩnh vực này trong Hình 4 (trang 8 PDF), báo cáo không cung cấp thông tin chi tiết về các năm chuyển đổi cụ thể trong biểu đồ này [ccdr:p018:t0].",
+  "citations": [
+   "ccdr:p018:t0",
+   "ccdr:p091:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 4 phát thải từ thay đổi mục đích sử dụng đất và lâm nghiệp",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.052,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p065:t0",
+      "page": 65,
+      "kind": "text",
+      "label": "",
+      "score": 0.02837,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p053:t1",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.028259,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3870
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 giá trị của lĩnh vực Thay đổi mục đích sử dụng đất và lâm nghiệp năm 2005",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.029211,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p005:t0",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p005:t1",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.028787,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6448
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Phụ lục 1\" \"lâm nghiệp\" phát thải",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.043,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.029324,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.02837,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.028083,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8139
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" \"Thay đổi mục đích sử dụng đất và lâm nghiệp\" âm dương",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p043:t1",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.029083,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.028694,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.028382,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.026857,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 10502
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" trang 8 \"Thay đổi mục đích sử dụng đất và lâm nghiệp\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.063,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.030415,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p043:t1",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.029139,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.027364,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.026857,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 10502
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" trang 8 \"gia tăng mức phát thải GHG\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:t2",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.031778,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.029828,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p053:t1",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.029437,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.029387,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 12838
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 4\" \"Thay đổi mục đích sử dụng đất và lâm nghiệp\" \"âm\" \"dương\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.058,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p043:t1",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.029828,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.029644,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.027746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p004:t1",
+      "page": 4,
+      "kind": "text",
+      "label": "",
+      "score": 0.027444,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 12838
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"thay đổi mục đích sử dụng đất và lâm nghiệp\" \"chuyển\" \"âm sang dương\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.062,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.029083,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.028446,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p043:t1",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.028219,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.027444,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 13431
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p018:t0",
+      "ccdr:p091:t1"
+     ],
+     "status": "answered",
+     "answer": "Dựa trên dữ liệu tại Phụ lục 1 (trang 91 PDF), giá trị của lĩnh vực \"Thay đổi sử dụng đất và lâm nghiệp\" năm 2005 là 19,69 triệu tấn CO2e [ccdr:p091:t1].\n\nĐối với câu hỏi về thời điểm chuyển đổi từ âm sang dương của lĩnh vực này trong Hình 4 (trang 8 PDF), báo cáo không cung cấp thông tin chi tiết về các năm chuyển đổi cụ thể trong biểu đồ này [ccdr:p018:t0]."
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p096:t1",
+   "ccdr:p018:t0",
+   "ccdr:p067:t0",
+   "ccdr:p065:t0",
+   "ccdr:p053:t1",
+   "ccdr:p091:t0",
+   "ccdr:p005:t0",
+   "ccdr:p005:t1",
+   "ccdr:p091:t1",
+   "ccdr:p049:t6",
+   "ccdr:p043:t1",
+   "ccdr:p085:t1",
+   "ccdr:p004:t1",
+   "ccdr:p017:t2",
+   "ccdr:p007:t0",
+   "ccdr:p019:t0",
+   "ccdr:p034:t3"
+  ],
+  "context_chars": 13431,
+  "elapsed_s": 61.75,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 40207,
+   "output_tokens": 452,
+   "thinking_tokens": 0,
+   "cached_tokens": 10068,
+   "llm_seconds": 8.95,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.013192,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at18",
+  "question": "Khu vực tư nhân được kỳ vọng đóng góp bao nhiêu trong nhu cầu tài chính khí hậu 2022–2040, và năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng bao nhiêu % GDP?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong giai đoạn 2022–2040, khu vực tư nhân được kỳ vọng đóng góp 184 tỷ USD trong tổng nhu cầu tài chính khí hậu, tương đương khoảng 3,4% GDP mỗi năm [ccdr:p077:t3]. Năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng 20% GDP [ccdr:p078:t0].",
+  "citations": [
+   "ccdr:p077:t3",
+   "ccdr:p078:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "nhu cầu tài chính khí hậu 2022–2040 khu vực tư nhân",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:t3",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.030331,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p083:t5",
+      "page": 83,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p005:t2",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.029762,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p078:t0",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.029324,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2973
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Trong giai đoạn 2022–2040, khu vực tư nhân được kỳ vọng đóng góp 184 tỷ USD trong tổng nhu cầu tài chính khí hậu, tương đương khoảng 3,4% GDP mỗi năm [ccdr:p077:t3]. Năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng 20% GDP [ccdr:p078:t0].",
+     "citations": [
+      "ccdr:p077:t3",
+      "ccdr:p078:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p077:t3",
+   "ccdr:p032:t0",
+   "ccdr:p083:t5",
+   "ccdr:p005:t2",
+   "ccdr:p078:t0"
+  ],
+  "context_chars": 2973,
+  "elapsed_s": 1.84,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2538,
+   "output_tokens": 181,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.79,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001214,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at19",
+  "question": "Nhu cầu đầu tư của Lộ trình NZP giai đoạn 2022–2040 theo Bảng 3 là bao nhiêu, và khi cộng thêm chi phí cho các chương trình xã hội thì hành trình khử carbon cần tổng cộng bao nhiêu đến năm 2040?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 3 (trang 40), nhu cầu đầu tư cho Lộ trình phát thải carbon ròng bằng “0” (NZP) trong giai đoạn 2022–2040 là 81,3 tỷ USD [ccdr:p050:t0].\n\nKhi cộng thêm chi phí cho các chương trình xã hội (như lưới an sinh, đào tạo lại và trợ cấp nghỉ hưu sớm) ước tính là 33 tỷ USD, hành trình khử carbon đòi hỏi tổng cộng 114 tỷ USD đến năm 2040 (bao gồm 81 tỷ USD đầu tư và 33 tỷ USD chi phí xã hội) [ccdr:p077:t0].",
+  "citations": [
+   "ccdr:p050:t0",
+   "ccdr:p077:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 3 nhu cầu đầu tư NZP 2022-2040 chi phí xã hội",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.056,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p006:t2",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.030018,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3608
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí chương trình xã hội NZP 2040 tổng cộng",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:t0",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p069:t4",
+      "page": 69,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.029911,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p074:t4",
+      "page": 74,
+      "kind": "text",
+      "label": "",
+      "score": 0.029031,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p052:t5",
+      "page": 52,
+      "kind": "text",
+      "label": "",
+      "score": 0.027584,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6850
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Bảng 3 (trang 40), nhu cầu đầu tư cho Lộ trình phát thải carbon ròng bằng “0” (NZP) trong giai đoạn 2022–2040 là 81,3 tỷ USD [ccdr:p050:t0].\n\nKhi cộng thêm chi phí cho các chương trình xã hội (như lưới an sinh, đào tạo lại và trợ cấp nghỉ hưu sớm) ước tính là 33 tỷ USD, hành trình khử carbon đòi hỏi tổng cộng 114 tỷ USD đến năm 2040 (bao gồm 81 tỷ USD đầu tư và 33 tỷ USD chi phí xã hội) [ccdr:p077:t0].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p050:t0",
+      "ccdr:p077:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 0,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p050:t0",
+   "ccdr:p006:t1",
+   "ccdr:p050:t1",
+   "ccdr:p007:t3",
+   "ccdr:p006:t2",
+   "ccdr:p077:t0",
+   "ccdr:p069:t4",
+   "ccdr:p074:t4",
+   "ccdr:p052:t5"
+  ],
+  "context_chars": 6850,
+  "elapsed_s": 85.88,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5841,
+   "output_tokens": 277,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 85.78,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002445,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at20",
+  "question": "Chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là bao nhiêu, và mỗi năm bao nhiêu sản lượng nuôi trồng thủy sản có nguy cơ bị ảnh hưởng bởi ngập lụt?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo báo cáo, chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là 4.219 triệu USD [ccdr:p017:t1]. Ngoài ra, mỗi năm có 1,1 triệu tấn sản lượng nuôi trồng thủy sản có nguy cơ bị ảnh hưởng bởi ngập lụt, chiếm gần 1 tỷ USD kim ngạch xuất khẩu [ccdr:p041:t5].\n\nNguồn:\n- Hình 3, trang 7 (in)\n- Trang 31 (in)",
+  "citations": [
+   "ccdr:p017:t1",
+   "ccdr:p041:t5"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí biến đổi khí hậu ngành thủy sản 2020 sản lượng nuôi trồng ngập lụt",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t0",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030835,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p040:t1",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.029116,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t4",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.028898,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3785
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p017:t1",
+      "ccdr:p041:t5"
+     ],
+     "answer": "Theo báo cáo, chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là 4.219 triệu USD [ccdr:p017:t1]. Ngoài ra, mỗi năm có 1,1 triệu tấn sản lượng nuôi trồng thủy sản có nguy cơ bị ảnh hưởng bởi ngập lụt, chiếm gần 1 tỷ USD kim ngạch xuất khẩu [ccdr:p041:t5].\n\nNguồn:\n- Hình 3, trang 7 (in)\n- Trang 31 (in)"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p017:t1",
+   "ccdr:p041:t5",
+   "ccdr:p030:t0",
+   "ccdr:p040:t1",
+   "ccdr:p036:t4"
+  ],
+  "context_chars": 3785,
+  "elapsed_s": 35.34,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2717,
+   "output_tokens": 209,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 35.28,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001338,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at21",
+  "question": "Theo Hộp 7, ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam là gì?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hộp 7 trong báo cáo (trang 47), ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam bao gồm:\n1. Sử dụng công cụ quy hoạch ngành điện (PDP8) làm nền tảng cho các quyết định đầu tư linh hoạt để thích ứng với giá dầu biến động.\n2. Ưu tiên phát triển các nguồn năng lượng sạch nội địa (ví dụ: năng lượng gió ngoài khơi).\n3. Hướng đến các dự án điện có công nghệ trung tính thông qua phương thức đấu thầu cạnh tranh [ccdr:p057:t3].",
+  "citations": [
+   "ccdr:p057:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hộp 7 ba biện pháp giảm thiểu tác động xung đột Ukraina ngành năng lượng",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p057:t3",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p005:t0",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.030331,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.02885,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3637
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p057:t3"
+     ],
+     "answer": "Theo Hộp 7 trong báo cáo (trang 47), ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam bao gồm:\n1. Sử dụng công cụ quy hoạch ngành điện (PDP8) làm nền tảng cho các quyết định đầu tư linh hoạt để thích ứng với giá dầu biến động.\n2. Ưu tiên phát triển các nguồn năng lượng sạch nội địa (ví dụ: năng lượng gió ngoài khơi).\n3. Hướng đến các dự án điện có công nghệ trung tính thông qua phương thức đấu thầu cạnh tranh [ccdr:p057:t3].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p006:t1",
+   "ccdr:p057:t0",
+   "ccdr:p057:t3",
+   "ccdr:p005:t0",
+   "ccdr:p093:t1"
+  ],
+  "context_chars": 3637,
+  "elapsed_s": 2.39,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2648,
+   "output_tokens": 202,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.33,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001299,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at22",
+  "question": "Trong số các tổ chức tín dụng do Ngân hàng Nhà nước quản lý, bao nhiêu tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh và bao nhiêu tổ chức thiếu quy trình thẩm định tín dụng xanh?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong số 85 tổ chức tín dụng do Ngân hàng Nhà nước quản lý:\n- Có 72 tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh.\n- Có 74 tổ chức thiếu quy trình cụ thể về thẩm định tín dụng xanh.\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 68. [ccdr:p078:t2]",
+  "citations": [
+   "ccdr:p078:t2"
+  ],
+  "note": "đã nối citation: ['ccdr:p078:t2']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tổ chức tín dụng đơn vị kinh doanh chuyên trách tài chính xanh quy trình thẩm định tín dụng xanh",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.031025,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t1",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p079:t0",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3531
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p078:t2"
+     ],
+     "answer": "Trong số 85 tổ chức tín dụng do Ngân hàng Nhà nước quản lý:\n- Có 72 tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh.\n- Có 74 tổ chức thiếu quy trình cụ thể về thẩm định tín dụng xanh.\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 68."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p078:t2",
+   "ccdr:p078:t3",
+   "ccdr:p079:t5",
+   "ccdr:p079:t1",
+   "ccdr:p079:t0"
+  ],
+  "context_chars": 3531,
+  "elapsed_s": 2.46,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2635,
+   "output_tokens": 156,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.4,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00118,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at23",
+  "question": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là bao nhiêu và điều này đưa Việt Nam vào nhóm nào?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là 16,5 GW. Con số này đã đưa Việt Nam vào danh sách 10 quốc gia hàng đầu có công suất điện mặt trời lắp đặt lớn nhất thế giới [ccdr:p059:t1].",
+  "citations": [
+   "ccdr:p059:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "công suất điện mặt trời Việt Nam năm 2020",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.04,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.028778,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3184
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p059:t1"
+     ],
+     "status": "answered",
+     "answer": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là 16,5 GW. Con số này đã đưa Việt Nam vào danh sách 10 quốc gia hàng đầu có công suất điện mặt trời lắp đặt lớn nhất thế giới [ccdr:p059:t1]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p053:t3",
+   "ccdr:p059:t1",
+   "ccdr:p054:t0",
+   "ccdr:p053:t2",
+   "ccdr:p056:t0"
+  ],
+  "context_chars": 3184,
+  "elapsed_s": 36.04,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2584,
+   "output_tokens": 133,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 25.78,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001108,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at24",
+  "question": "Chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao là bao nhiêu cho mỗi km?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao (tiêu chuẩn chống chịu với khí hậu) là khoảng 1,5 triệu USD cho mỗi km [1].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 28. [ccdr:p038:t1]",
+  "citations": [
+   "ccdr:p038:t1"
+  ],
+  "note": "đã nối citation: ['ccdr:p038:t1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí nâng cấp quốc lộ cao tốc địa hình bằng phẳng tiêu chuẩn cao",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.054,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p031:t2",
+      "page": 31,
+      "kind": "text",
+      "label": "",
+      "score": 0.030331,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.029572,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.028898,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t1",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.028485,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3948
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p038:t1"
+     ],
+     "answer": "Theo Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao (tiêu chuẩn chống chịu với khí hậu) là khoảng 1,5 triệu USD cho mỗi km [1].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 28.",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p038:t1",
+   "ccdr:p031:t2",
+   "ccdr:p057:t0",
+   "ccdr:p017:t1",
+   "ccdr:p056:t1"
+  ],
+  "context_chars": 3948,
+  "elapsed_s": 20.39,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2776,
+   "output_tokens": 157,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.08,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001225,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at25",
+  "question": "Chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch tại Phú Quốc là bao nhiêu?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp số liệu cụ thể về chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch riêng tại Phú Quốc.\n\nBáo cáo chỉ đưa ra con số ước tính về chi phí do biến đổi khí hậu năm 2020 đối với ngành du lịch trên quy mô toàn quốc là 148 triệu USD (theo Hình 3, tr. 7). [ccdr:p017:t1]",
+  "citations": [
+   "ccdr:p017:t1"
+  ],
+  "note": "đã nối citation: ['ccdr:p017:t1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "thiệt hại biến đổi khí hậu Phú Quốc 2020 ngành du lịch",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:t0",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p024:t4",
+      "page": 24,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029911,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3832
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp số liệu cụ thể về chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch riêng tại Phú Quốc.\n\nBáo cáo chỉ đưa ra con số ước tính về chi phí do biến đổi khí hậu năm 2020 đối với ngành du lịch trên quy mô toàn quốc là 148 triệu USD (theo Hình 3, tr. 7).",
+     "status": "answered",
+     "citations": [
+      "ccdr:p017:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p017:t0",
+   "ccdr:p017:t1",
+   "ccdr:p041:t5",
+   "ccdr:p024:t4",
+   "ccdr:p007:t1"
+  ],
+  "context_chars": 3832,
+  "elapsed_s": 1.72,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2573,
+   "output_tokens": 174,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.66,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001207,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at26",
+  "question": "Theo Bảng 1, phát thải trên đầu người của Hàn Quốc là bao nhiêu tCO2e?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không liệt kê số liệu phát thải trên đầu người của Hàn Quốc trong Bảng 1 (trang 9). Bảng này chỉ bao gồm số liệu của một số quốc gia và khu vực được chọn như Hoa Kỳ, Mông Cổ, Malaysia, các nước OECD, Đức, Trung Quốc, Papua New Guinea, Vương quốc Anh, Indonesia, Thái Lan, Lào, Pháp, Đông Timor, Thổ Nhĩ Kỳ, Myanmar, Campuchia, Việt Nam và Philipin. [ccdr:p019:t0]",
+  "citations": [
+   "ccdr:p019:t0"
+  ],
+  "note": "đã nối citation: ['ccdr:p019:t0']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 1 phát thải trên đầu người Hàn Quốc tCO2e",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.061,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t1",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p015:t0",
+      "page": 15,
+      "kind": "text",
+      "label": "",
+      "score": 0.029274,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p015:t1",
+      "page": 15,
+      "kind": "text",
+      "label": "",
+      "score": 0.029031,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.028694,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4182
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p019:t0"
+     ],
+     "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không liệt kê số liệu phát thải trên đầu người của Hàn Quốc trong Bảng 1 (trang 9). Bảng này chỉ bao gồm số liệu của một số quốc gia và khu vực được chọn như Hoa Kỳ, Mông Cổ, Malaysia, các nước OECD, Đức, Trung Quốc, Papua New Guinea, Vương quốc Anh, Indonesia, Thái Lan, Lào, Pháp, Đông Timor, Thổ Nhĩ Kỳ, Myanmar, Campuchia, Việt Nam và Philipin."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p019:t0",
+   "ccdr:p018:t1",
+   "ccdr:p015:t0",
+   "ccdr:p015:t1",
+   "ccdr:p092:t0"
+  ],
+  "context_chars": 4182,
+  "elapsed_s": 54.17,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3489,
+   "output_tokens": 186,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 54.11,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001512,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at27",
+  "question": "Dư nợ tín dụng xanh của Việt Nam năm 2015 chính xác là bao nhiêu tỷ USD?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp con số chính xác về dư nợ tín dụng xanh của Việt Nam trong năm 2015. Báo cáo chỉ nêu rằng tín dụng xanh đã tăng gần gấp 5 lần kể từ năm 2015 và cung cấp dữ liệu về dư nợ tín dụng xanh từ năm 2016 đến 2020 trong Hình 22 [ccdr:p078:t2, ccdr:p078:t3].",
+  "citations": [
+   "ccdr:p078:t2",
+   "ccdr:p078:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "dư nợ tín dụng xanh 2015 tỷ USD",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.109,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p077:t2",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.02885,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3219
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p078:t2",
+      "ccdr:p078:t3"
+     ],
+     "status": "answered",
+     "answer": "Báo cáo không cung cấp con số chính xác về dư nợ tín dụng xanh của Việt Nam trong năm 2015. Báo cáo chỉ nêu rằng tín dụng xanh đã tăng gần gấp 5 lần kể từ năm 2015 và cung cấp dữ liệu về dư nợ tín dụng xanh từ năm 2016 đến 2020 trong Hình 22 [ccdr:p078:t2, ccdr:p078:t3]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p007:t4",
+   "ccdr:p078:t3",
+   "ccdr:p078:t2",
+   "ccdr:p079:t5",
+   "ccdr:p077:t2"
+  ],
+  "context_chars": 3219,
+  "elapsed_s": 50.48,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2535,
+   "output_tokens": 183,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 43.66,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001218,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at28",
+  "question": "Báo cáo ước tính ngành điện gió ngoài khơi sẽ tạo ra bao nhiêu việc làm đến năm 2030?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không đưa ra con số ước tính cụ thể về số lượng việc làm sẽ được tạo ra từ ngành điện gió ngoài khơi đến năm 2030. Báo cáo đề cập đến việc thúc đẩy triển khai điện gió ngoài khơi như một ưu tiên trong quá trình chuyển dịch năng lượng, nhưng các phân tích về việc làm trong báo cáo chủ yếu dừng lại ở mức độ tổng quát toàn cầu hoặc chưa cập nhật chi tiết về thị trường lao động Việt Nam cho lĩnh vực này [72, 75, 86]. [ccdr:p072:t4] [ccdr:p085:t7] [ccdr:p086:t4]",
+  "citations": [
+   "ccdr:p072:t4",
+   "ccdr:p085:t7",
+   "ccdr:p086:t4"
+  ],
+  "note": "đã nối citation: ['ccdr:p072:t4', 'ccdr:p085:t7', 'ccdr:p086:t4']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "việc làm điện gió ngoài khơi 2030",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.023,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p085:t7",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.030282,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.028624,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3536
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"việc làm\" \"điện gió ngoài khơi\" 2030",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.03009,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.027746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p086:t4",
+      "page": 86,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4349
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không đưa ra con số ước tính cụ thể về số lượng việc làm sẽ được tạo ra từ ngành điện gió ngoài khơi đến năm 2030. Báo cáo đề cập đến việc thúc đẩy triển khai điện gió ngoài khơi như một ưu tiên trong quá trình chuyển dịch năng lượng, nhưng các phân tích về việc làm trong báo cáo chủ yếu dừng lại ở mức độ tổng quát toàn cầu hoặc chưa cập nhật chi tiết về thị trường lao động Việt Nam cho lĩnh vực này [72, 75, 86].",
+     "citations": [
+      "ccdr:p072:t4",
+      "ccdr:p085:t7",
+      "ccdr:p086:t4"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 0,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p059:t1",
+   "ccdr:p072:t4",
+   "ccdr:p085:t7",
+   "ccdr:p056:t0",
+   "ccdr:p057:t0",
+   "ccdr:p086:t4"
+  ],
+  "context_chars": 4349,
+  "elapsed_s": 14.1,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5019,
+   "output_tokens": 254,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 14.06,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002141,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at29",
+  "question": "Theo Hình 9, tổng chiều dài các tuyến quốc lộ bị phơi nhiễm lở đất là bao nhiêu km?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "abstain",
+  "answer": "Thông tin về tổng chiều dài các tuyến quốc lộ bị phơi nhiễm lở đất không được báo cáo nêu cụ thể dưới dạng một con số km tổng cộng trong Hình 9 [ccdr:p007:t2, ccdr:p036:t3]. Hình 9 tập trung minh họa mức độ dễ bị ảnh hưởng (phơi nhiễm) khi gặp thiên tai (lở đất, lũ lụt, bão lũ) của các tuyến đường có quy mô quốc gia tại Việt Nam [ccdr:p037:t1].",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 tổng chiều dài các tuyến quốc lộ bị phơi nhiễm lở đất",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.074,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.029643,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p038:t2",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.029418,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3493
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 km lở đất đường bộ",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.039,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p062:t2",
+      "page": 62,
+      "kind": "text",
+      "label": "",
+      "score": 0.027984,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.027746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5825
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"phơi nhiễm\" \"lở đất\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.038,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.030018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.028309,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p014:t0",
+      "page": 14,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5976
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lở đất\" km \"tuyến đường\" \"quốc gia\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.061,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.029211,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.028043,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.026876,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5976
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"km\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p026:t3",
+      "page": 26,
+      "kind": "text",
+      "label": "",
+      "score": 0.031514,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.025978,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p093:t1",
+      "page": 93,
+      "kind": "text",
+      "label": "",
+      "score": 0.025808,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 8211
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"km\" \"đường bộ\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.091,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p026:t3",
+      "page": 26,
+      "kind": "text",
+      "label": "",
+      "score": 0.029324,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p062:t2",
+      "page": 62,
+      "kind": "text",
+      "label": "",
+      "score": 0.029199,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p061:t3",
+      "page": 61,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8967
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Hình 9\" \"phơi nhiễm\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029116,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p044:t1",
+      "page": 44,
+      "kind": "text",
+      "label": "",
+      "score": 0.027212,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.027072,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p051:t1",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 11105
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 \"lở đất\"",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.035,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.030282,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p065:t1",
+      "page": 65,
+      "kind": "text",
+      "label": "",
+      "score": 0.027106,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p085:t1",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.026491,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 12800
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "insufficient_evidence",
+     "answer": "Thông tin về tổng chiều dài các tuyến quốc lộ bị phơi nhiễm lở đất không được báo cáo nêu cụ thể dưới dạng một con số km tổng cộng trong Hình 9 [ccdr:p007:t2, ccdr:p036:t3]. Hình 9 tập trung minh họa mức độ dễ bị ảnh hưởng (phơi nhiễm) khi gặp thiên tai (lở đất, lũ lụt, bão lũ) của các tuyến đường có quy mô quốc gia tại Việt Nam [ccdr:p037:t1].",
+     "citations": [
+      "ccdr:p007:t2",
+      "ccdr:p036:t3",
+      "ccdr:p037:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p037:t1",
+   "ccdr:p007:t2",
+   "ccdr:p037:t0",
+   "ccdr:p036:t3",
+   "ccdr:p038:t2",
+   "ccdr:p038:t1",
+   "ccdr:p062:t2",
+   "ccdr:p009:t0",
+   "ccdr:p082:t0",
+   "ccdr:p014:t0",
+   "ccdr:p026:t3",
+   "ccdr:p091:t0",
+   "ccdr:p093:t1",
+   "ccdr:p061:t3",
+   "ccdr:p044:t1",
+   "ccdr:p006:t0",
+   "ccdr:p051:t1",
+   "ccdr:p065:t1",
+   "ccdr:p085:t1"
+  ],
+  "context_chars": 12800,
+  "elapsed_s": 49.25,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 33289,
+   "output_tokens": 405,
+   "thinking_tokens": 0,
+   "cached_tokens": 4012,
+   "llm_seconds": 31.45,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.010999,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at30",
+  "question": "Lượng mưa trung bình năm ở Đồng bằng sông Cửu Long là bao nhiêu mm?",
+  "config": {
+   "name": "B0_text",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": null,
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": false,
+   "scope_lock": "text",
+   "prefer_view": false
+  },
+  "status": "abstain",
+  "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp thông tin về lượng mưa trung bình năm tại Đồng bằng sông Cửu Long.",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "lượng mưa trung bình năm Đồng bằng sông Cửu Long",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.023,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.030679,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p066:t6",
+      "page": 66,
+      "kind": "text",
+      "label": "",
+      "score": 0.029631,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3456
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lượng mưa\" Đồng bằng sông Cửu Long mm",
+    "scope": "text",
+    "scope_locked": true,
+    "elapsed_s": 0.018,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p040:t4",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.029514,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3936
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp thông tin về lượng mưa trung bình năm tại Đồng bằng sông Cửu Long.",
+     "citations": [],
+     "status": "insufficient_evidence"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 0,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p040:t2",
+   "ccdr:p040:t0",
+   "ccdr:p045:t2",
+   "ccdr:p100:t0",
+   "ccdr:p066:t6",
+   "ccdr:p040:t4"
+  ],
+  "context_chars": 3936,
+  "elapsed_s": 2.69,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4892,
+   "output_tokens": 123,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.65,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001775,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ }
+]

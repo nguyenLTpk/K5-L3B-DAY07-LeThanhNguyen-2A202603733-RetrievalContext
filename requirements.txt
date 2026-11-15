@@ -1,0 +1,9 @@
+# Day 07 (đã chạy với Python 3.11.9, Windows 11, CPU)
+chromadb==1.5.9
+onnxruntime==1.32.0
+tokenizers==0.23.3
+numpy==2.4.6
+requests==2.34.2
+# thử thách nâng cao
+pymupdf==1.26.5
+pillow==12.2.0

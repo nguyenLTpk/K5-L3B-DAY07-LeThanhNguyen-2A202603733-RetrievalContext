@@ -1,0 +1,202 @@
+[
+ {
+  "query_id": "q16",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Đã học tối thiểu 01 học kỳ ở cơ sở đào tạo và không thuộc các trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q17",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   false,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Không vượt quá 50% khối lượng học tập tối thiểu của chương trình đào tạo (ngành đào tạo giáo viên theo hướng dẫn riêng của Bộ). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q18",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Không được vượt quá loại khá. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q19",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Thủ trưởng hoặc cấp phó của Thủ trưởng cơ sở giáo dục đại học. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q20",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo; nếu bị yếu, kém hai học kỳ liên tiếp lần thứ hai thì bị buộc thôi học. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t21",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Từ 1,2 trở lên (đồng thời số tín chỉ nợ đọng từ đầu khóa không vượt quá 16). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t22",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Không. Điều kiện chuyển cơ sở đào tạo yêu cầu không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa (cùng các điều kiện khác). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t23",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   false
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Có. Hội đồng vẫn họp để xử lý trên cơ sở các chứng cứ thu thập được. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t24",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Trước 20 ngày. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t25",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   false
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Không. Hút thuốc, uống rượu, bia trong trường học thuộc các hành vi sinh viên không được làm. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t26",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Tại đơn vị quản lý chương trình thứ nhất, có lấy ý kiến nhận xét của đơn vị quản lý chương trình thứ hai làm căn cứ; nếu đã hoàn thành chương trình thứ nhất thì đơn vị quản lý chương trình thứ hai tiếp tục đánh giá. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t27",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   false,
+   false
+  ],
+  "citation_gold_hit": [
+   true,
+   true,
+   false
+  ],
+  "answer_grade": 1,
+  "reason": "Ý 1 đúng. Ý 2 sai: 'không có quy định' (TT16 Điều 10 khoản 9 có). Trace: model tự suy filter sai (quy_che_cong_tac_sinh_vien) cho 3 lượt tìm 'kết quả rèn luyện'; lượt TT16 cuối không đưa được chunk khoản 9 vào context (1/2 nhóm). p17:st02, p18:st00 (Quy chế đào tạo) gắn cho khẳng định sai."
+ },
+ {
+  "query_id": "t28",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Bị buộc thôi học nếu điểm trung bình năm học dưới 0,8; sinh viên xin thôi học vì lý do cá nhân muốn quay lại phải dự tuyển đầu vào như những thí sinh khác. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "t29",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "t30",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "t31",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "t32",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ }
+]

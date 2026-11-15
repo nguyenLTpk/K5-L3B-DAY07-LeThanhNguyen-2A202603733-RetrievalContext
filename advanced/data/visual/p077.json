@@ -1,0 +1,34 @@
+{
+ "page": 77,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 21",
+   "kind": "infographic",
+   "title": "Nhu cầu và các nguồn tài chính tiềm năng giai đoạn 2022–2040",
+   "box_2d": [
+    638,
+    345,
+    876,
+    796
+   ],
+   "informative": true,
+   "description": "Sơ đồ thể hiện tổng nhu cầu tài chính giai đoạn 2022-2040 là 368 tỷ USD và phân bổ nguồn lực từ ba khu vực chính: khu vực tư nhân, khu vực công và nguồn bên ngoài. Các số liệu được trình bày dưới dạng giá trị tuyệt đối (tỷ USD) và tỷ lệ % GDP mỗi năm.",
+   "transcription": "NHU CẦU TÀI CHÍNH 368 tỷ USD Khả năng chống chịu: 4,7% GDP mỗi năm Khử carbon: 2,1% GDP mỗi năm; KHU VỰC TƯ NHÂN 184 tỷ USD ~3,4% GDP mỗi năm; KHU VỰC CÔNG 130 tỷ USD ~2,4% GDP mỗi năm; BÊN NGOÀI 54 tỷ USD ~1% GDP mỗi năm",
+   "notes": "Ghi chú: NPV chiết khấu ở tỷ lệ 6%.",
+   "crop": "p077_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2544,
+  "output_tokens": 321,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 2.76,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006223,
+ "seconds": 2.8
+}

@@ -1,0 +1,518 @@
+{
+ "counts": {
+  "dev": {
+   "table": 3,
+   "chart": 4,
+   "image": 2,
+   "multi_hop": 3,
+   "text": 3,
+   "unanswerable": 3,
+   "total": 18,
+   "answerable": 15
+  },
+  "test": {
+   "table": 6,
+   "image": 5,
+   "chart": 5,
+   "multi_hop": 4,
+   "text": 4,
+   "unanswerable": 6,
+   "total": 30,
+   "answerable": 24
+  }
+ },
+ "quote_checks": [
+  {
+   "id": "ad01",
+   "group": 0,
+   "page": 56,
+   "element": "Bảng 5",
+   "kind": "values",
+   "found_in_text_layer": {
+    "+44": true,
+    "+52%": true
+   }
+  },
+  {
+   "id": "ad02",
+   "group": 0,
+   "page": 94,
+   "element": "Phụ lục 3 — bảng Các kịch bản khí hậu toàn cầu",
+   "kind": "values",
+   "found_in_text_layer": {
+    "CMIP5: RCP4.5; CMIP6: SSP2-4.5; Mực nước biển dâng trung bình toàn cầu vào năm 2100 là 50 cm": false
+   }
+  },
+  {
+   "id": "ad03",
+   "group": 0,
+   "page": 100,
+   "element": "Phụ lục 4 — Ma trận tác động khẩn cấp–ưu tiên",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long": true
+   }
+  },
+  {
+   "id": "ad04",
+   "group": 0,
+   "page": 30,
+   "element": "Hình 8",
+   "kind": "values",
+   "found_in_text_layer": {
+    "RCP 2.6 ≈ 10; RCP 4.5 ≈ 12,4": false
+   }
+  },
+  {
+   "id": "ad04",
+   "group": 0,
+   "page": 30,
+   "element": "đoạn văn dưới Hình 8",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "lên 9,8% (theo kịch bản RCP 2.6) hay 12,3% GDP (theo kịch bản RCP 4.5) vào năm 2050 (Hình 8)": true
+   }
+  },
+  {
+   "id": "ad05",
+   "group": 0,
+   "page": 56,
+   "element": "Hình 13 (biểu đồ phải: Phát thải GHG ngành điện 2020–40)",
+   "kind": "values",
+   "found_in_text_layer": {
+    "CPS 246; ADS 63": false
+   }
+  },
+  {
+   "id": "ad06",
+   "group": 0,
+   "page": 65,
+   "element": "Hình 16",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Chuyển từ trồng lúa sang ngô ≈ 390 $/tCO2e; Chuyển từ trồng lúa sang nuôi tôm ≈ −80 $/tCO2e": false
+   }
+  },
+  {
+   "id": "ad07",
+   "group": 0,
+   "page": 25,
+   "element": "Hình 6",
+   "kind": "values",
+   "found_in_text_layer": {}
+  },
+  {
+   "id": "ad08",
+   "group": 0,
+   "page": 13,
+   "element": "Hình 1",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Lộ trình xây dựng khả năng chống chịu; Hành trình khử carbon": false
+   }
+  },
+  {
+   "id": "ad09",
+   "group": 0,
+   "page": 40,
+   "element": "Hình 10",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Dự báo tình trạng ngập mặn do triều cường vào năm 2050 tại khu vực sông Mekong": true
+   }
+  },
+  {
+   "id": "ad10",
+   "group": 0,
+   "page": 100,
+   "element": "Phụ lục 4",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro": true
+   }
+  },
+  {
+   "id": "ad10",
+   "group": 1,
+   "page": 84,
+   "element": "Bảng 6",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Các hành động cần thời gian để hình thành và thực hiện nhưng có thể mang lại tác động lớn": true
+   }
+  },
+  {
+   "id": "ad11",
+   "group": 0,
+   "page": 56,
+   "element": "Hình 13 (biểu đồ trái: Điện được sản xuất năm 2040)",
+   "kind": "values",
+   "found_in_text_layer": {}
+  },
+  {
+   "id": "ad11",
+   "group": 1,
+   "page": 56,
+   "element": "Bảng 5",
+   "kind": "values",
+   "found_in_text_layer": {
+    "-19": true,
+    "- 72%": true
+   }
+  },
+  {
+   "id": "ad12",
+   "group": 0,
+   "page": 45,
+   "element": "Hộp 4",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Dự báo các điểm nóng di cư đi do khí hậu lớn nhất vào năm 2050 là Đồng bằng sông Cửu Long và các khu vực lân cận quanh Thành phố Hồ Chí Minh": true
+   }
+  },
+  {
+   "id": "ad12",
+   "group": 1,
+   "page": 40,
+   "element": "đoạn văn mục 3.3.4",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Nếu không có các biện pháp thích ứng, khoảng 45% diện tích Đồng bằng sông Cửu Long sẽ bị ngập mặn, với tổn thất khoảng 17 tỷ USD vào năm 2030": true
+   }
+  },
+  {
+   "id": "ad13",
+   "group": 0,
+   "page": 68,
+   "element": "Hộp 8",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Xuất khẩu pin mặt trời và pin heliostat có tốc độ tăng trưởng hàng năm đặc biệt cao từ năm 2010 đến năm 2020 - lần lượt là 81,6% và 71,2%": true
+   }
+  },
+  {
+   "id": "ad14",
+   "group": 0,
+   "page": 73,
+   "element": "Hộp 9",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Người lao động được tái đào tạo càng sớm sau khi nghỉ việc, thì tác động của chương trình đào tạo càng cao": true,
+    "chương trình tái đào tạo càng ngắn và chuyên sâu thì tác động tới người lao động trong việc chuyển dịch sang nghề mới càng lớn": true
+   }
+  },
+  {
+   "id": "ad15",
+   "group": 0,
+   "page": 65,
+   "element": "đoạn văn đầu trang",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "(i) giảm 14% mức sử dụng phân bón và thuốc trừ sâu": true,
+    "(ii)": true,
+    "giảm phát thải 14% trên một đơn vị trong chăn nuôi; và (iii) tăng 50% trợ cấp cho các dịch vụ lâm nghiệp": true,
+    "ước tính khoảng 15,6 tỷ USD trong giai đoạn 2022–2040": true
+   }
+  },
+  {
+   "id": "at01",
+   "group": 0,
+   "page": 19,
+   "element": "Bảng 1",
+   "kind": "values",
+   "found_in_text_layer": {
+    "4.271,0": true
+   }
+  },
+  {
+   "id": "at02",
+   "group": 0,
+   "page": 32,
+   "element": "Bảng 2",
+   "kind": "values",
+   "found_in_text_layer": {
+    "0,3–0,7": true,
+    "22,8-53,2": true
+   }
+  },
+  {
+   "id": "at03",
+   "group": 0,
+   "page": 50,
+   "element": "Bảng 3",
+   "kind": "values",
+   "found_in_text_layer": {
+    "-134,9 (NZP)": true,
+    "-1,3 (NZP với những cải cách hỗ trợ)": false
+   }
+  },
+  {
+   "id": "at04",
+   "group": 0,
+   "page": 91,
+   "element": "Phụ lục 1",
+   "kind": "values",
+   "found_in_text_layer": {
+    "4,88 (1990)": true,
+    "24,28 (2005)": true,
+    "109,13 (2018)": true
+   }
+  },
+  {
+   "id": "at05",
+   "group": 0,
+   "page": 92,
+   "element": "Phụ lục 1 (tiếp)",
+   "kind": "values",
+   "found_in_text_layer": {
+    "927,9": true,
+    "677": true
+   }
+  },
+  {
+   "id": "at06",
+   "group": 0,
+   "page": 53,
+   "element": "Bảng 4",
+   "kind": "values",
+   "found_in_text_layer": {
+    "-40,2": true,
+    "-71,9": true,
+    "1,7": true,
+    "3,3": true
+   }
+  },
+  {
+   "id": "at07",
+   "group": 0,
+   "page": 37,
+   "element": "Hình 9",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Lở đất": true,
+    "Lũ lụt 1.000 năm": true,
+    "Bão lũ; vùng tô màu xanh lá chạy dọc bờ biển từ Bắc Bộ tới Nam Trung Bộ": false
+   }
+  },
+  {
+   "id": "at08",
+   "group": 0,
+   "page": 37,
+   "element": "Hình 9",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Percentage exposure: 0 to 10; 10 to 20; 20 to 30; 30 to 40; 40 to 100; No value": false
+   }
+  },
+  {
+   "id": "at09",
+   "group": 0,
+   "page": 42,
+   "element": "Hình 11",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Nhãn thành phố: Hanoi, Haiphong, Da Nang, Ho Chi Minh City, Can Tho; vùng đậm nhất ở miền Trung": false
+   }
+  },
+  {
+   "id": "at10",
+   "group": 0,
+   "page": 59,
+   "element": "Hình 14",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Quảng Ninh": true,
+    "Tỉnh sản xuất than chính": true,
+    "Hòn Gai": true,
+    "Cẩm Phả": true
+   }
+  },
+  {
+   "id": "at11",
+   "group": 0,
+   "page": 77,
+   "element": "Hình 21",
+   "kind": "values",
+   "found_in_text_layer": {
+    "KHU VỰC CÔNG 130 tỷ USD ~2,4% GDP mỗi năm": true,
+    "BÊN NGOÀI 54 tỷ USD ~1% GDP mỗi năm": true
+   }
+  },
+  {
+   "id": "at12",
+   "group": 0,
+   "page": 17,
+   "element": "Hình 3",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Du lịch, 148": true
+   }
+  },
+  {
+   "id": "at13",
+   "group": 0,
+   "page": 18,
+   "element": "Hình 4",
+   "kind": "values",
+   "found_in_text_layer": {
+    "≈ −70 MtCO2e": false
+   }
+  },
+  {
+   "id": "at14",
+   "group": 0,
+   "page": 72,
+   "element": "Hình 20",
+   "kind": "values",
+   "found_in_text_layer": {
+    "-6,3": true
+   }
+  },
+  {
+   "id": "at15",
+   "group": 0,
+   "page": 78,
+   "element": "Hình 22 (biểu đồ trái: Dư nợ tín dụng xanh)",
+   "kind": "values",
+   "found_in_text_layer": {
+    "3,7": true,
+    "14,5": true
+   }
+  },
+  {
+   "id": "at16",
+   "group": 0,
+   "page": 54,
+   "element": "Hình 12",
+   "kind": "values",
+   "found_in_text_layer": {
+    "13% (68 GW)": false,
+    "17% (200 TWh)": false
+   }
+  },
+  {
+   "id": "at17",
+   "group": 0,
+   "page": 18,
+   "element": "Hình 4",
+   "kind": "values",
+   "found_in_text_layer": {
+    "âm tới 2000, dương từ ~2001": false
+   }
+  },
+  {
+   "id": "at17",
+   "group": 1,
+   "page": 91,
+   "element": "Phụ lục 1",
+   "kind": "values",
+   "found_in_text_layer": {
+    "19,69": true
+   }
+  },
+  {
+   "id": "at18",
+   "group": 0,
+   "page": 77,
+   "element": "Hình 21",
+   "kind": "values",
+   "found_in_text_layer": {
+    "184 tỷ USD ~3,4% GDP mỗi năm": true
+   }
+  },
+  {
+   "id": "at18",
+   "group": 1,
+   "page": 78,
+   "element": "đoạn văn mục 5.1",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "năng lực tiết kiệm của khu vực tư nhân Việt Nam thuộc nhóm cao nhất trên thế giới, đạt khoảng 20% GDP trong những năm qua": true
+   }
+  },
+  {
+   "id": "at19",
+   "group": 0,
+   "page": 50,
+   "element": "Bảng 3",
+   "kind": "values",
+   "found_in_text_layer": {
+    "81,3": true
+   }
+  },
+  {
+   "id": "at19",
+   "group": 1,
+   "page": 77,
+   "element": "đoạn văn mục 5",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Hành trình khử carbon nhằm đáp ứng các cam kết quốc tế sẽ đòi hỏi thêm 114 tỷ USD đến năm 2040, bao gồm 81 tỷ USD đầu tư và 33 tỷ USD cho các chương trình xã hội": true
+   }
+  },
+  {
+   "id": "at20",
+   "group": 0,
+   "page": 17,
+   "element": "Hình 3",
+   "kind": "values",
+   "found_in_text_layer": {
+    "Thủy sản, 4219": true
+   }
+  },
+  {
+   "id": "at20",
+   "group": 1,
+   "page": 41,
+   "element": "đoạn văn",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "ngành nuôi trồng thủy sản đã có 1,1 triệu tấn sản lượng có nguy cơ bị ảnh hưởng bởi ngập lụt mỗi năm, chiếm gần 1 tỷ USD kim ngạch xuất khẩu": true
+   }
+  },
+  {
+   "id": "at21",
+   "group": 0,
+   "page": 57,
+   "element": "Hộp 7",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "(i) sử dụng công cụ quy hoạch ngành điện –PDP8- như một nền tảng cho các quyết định đầu tư linh hoạt": true,
+    "(ii) ưu tiên phát triển các nguồn năng lượng sạch nội địa, ví dụ như năng lượng gió ngoài khơi; và (iii) hướng đến các dự án điện có công nghệ trung tính theo phương thức đầu thầu cạnh tranh": true
+   }
+  },
+  {
+   "id": "at22",
+   "group": 0,
+   "page": 78,
+   "element": "đoạn văn mục 5.1",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Trong số 85 tổ chức tín dụng do NHNN quản lý, 72 tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh và 74 tổ chức thiếu quy trình cụ thể về thẩm định tín dụng xanh": true
+   }
+  },
+  {
+   "id": "at23",
+   "group": 0,
+   "page": 59,
+   "element": "đoạn Khuyến nghị",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "đã đưa Việt Nam vào danh sách 10 quốc gia hàng đầu có công suất điện mặt trời lắp đặt lớn nhất tính đến năm 2020 (16,5 GW)": true
+   }
+  },
+  {
+   "id": "at24",
+   "group": 0,
+   "page": 38,
+   "element": "đoạn Khuyến nghị",
+   "kind": "quote",
+   "found_in_text_layer": {
+    "Nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao cần khoảng 1,5 triệu USD cho mỗi km": true
+   }
+  }
+ ],
+ "problems": [],
+ "pages_shared_dev_test": [],
+ "sha256": "917d1e110a3c19e6456e417408e1bdce465ae59e31b65d9cf409c6daadeb1cbd"
+}

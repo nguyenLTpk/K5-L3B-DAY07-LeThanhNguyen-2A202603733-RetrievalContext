@@ -1,0 +1,34 @@
+{
+ "page": 54,
+ "model": "gemini-3.5-flash",
+ "elements": [
+  {
+   "label": "Hình 12",
+   "kind": "chart",
+   "title": "Ngành điện Việt Nam phụ thuộc rất nhiều vào than",
+   "box_2d": [
+    203,
+    113,
+    539,
+    886
+   ],
+   "informative": true,
+   "description": "Hai biểu đồ tròn thể hiện cơ cấu công suất lắp đặt (tổng cộng 68 GW) và sản lượng điện năng sản xuất (tổng cộng 200 TWh) của Việt Nam theo nguồn nhiên liệu năm 2020. Than đá chiếm tỷ trọng lớn nhất ở cả sản lượng (59%) và công suất lắp đặt (30% cùng với thủy điện).",
+   "transcription": "Biểu đồ tròn 1: Công suất lắp đặt theo loại hình nhiên liệu hóa thạch (2020)\nTổng công suất: 68 GW\n- Than đá: 30%\n- Thủy điện: 30%\n- Năng lượng tái tạo: 25%\n- Khí đốt: 13%\n- Khác/Không rõ: 2% (phần màu hồng nhạt không đánh số)\n\nBiểu đồ tròn 2: Điện năng sản xuất từ nhiên liệu hóa thạch (2020)\nTổng sản lượng: 200 TWh\n- Than đá: 59%\n- Thủy điện: 20%\n- Khí đốt: 17%\n- Năng lượng tái tạo: 2% (phần màu cam)\n- Khác/Không rõ: 2% (phần màu hồng nhạt)\n\nChú giải:\n- Màu hồng nhạt: Khí đốt (ghi trong chú giải bên dưới là Khí đốt cho màu cam nhạt/nâu)\n- Màu nâu/cam nhạt: Khí đốt\n- Màu cam: Năng lượng tái tạo\n- Màu xanh đậm: Thủy điện\n- Màu xanh dương: Than đá",
+   "units": "GW, TWh, %List của các loại hình nhiên liệu (Khí đốt, Năng lượng tái tạo, Thủy điện, Than đá). Note: Biểu đồ có nhãn 'Khí đốt', 'Năng lượng tái tạo', 'Thủy điện', 'Than đá'. Trong biểu đồ tròn 1: 13% (khí đốt), 25% (năng lượng tái tạo), 30% (thủy điện), 30% (than đá). Trong biểu đồ tròn 2: 17% (khí đốt), 20% (thủy điện), 59% (than đá). Color coding trong chú giải dưới biểu đồ: Nâu nhạt: Khí đốt, Cam: Năng lượng tái tạo, Xanh đen: Thủy điện, Xanh dương: Than đá.",
+   "crop": "p054_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2588,
+  "output_tokens": 657,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 8.08,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.008809,
+ "seconds": 8.4
+}

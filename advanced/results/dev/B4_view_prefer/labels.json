@@ -1,0 +1,216 @@
+{
+ "summary": {
+  "config": "B4_view_prefer",
+  "split": "dev",
+  "pass": "16/18",
+  "pass_rate": 88.9,
+  "by_group": {
+   "chart": "4/4",
+   "image": "2/2",
+   "multi_hop": "1/3",
+   "table": "3/3",
+   "text": "3/3",
+   "unanswerable": "3/3"
+  },
+  "errors": 0,
+  "grader": "Claude (AI), học viên rà soát"
+ },
+ "labels": [
+  {
+   "query_id": "ad01",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p056:page",
+    "ccdr:p056:t4"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Phải có cả +44 tỷ USD và +52%.'; citation ['ccdr:p056:page', 'ccdr:p056:t4'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad02",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p094:v0",
+    "ccdr:p094:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cần RCP4.5 (hoặc SSP2-4.5) và 50 cm.'; citation ['ccdr:p094:v0', 'ccdr:p094:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad03",
+   "group": "table",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p100:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Khẩn cấp Cao + tác động Trung bình.'; citation ['ccdr:p100:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad04",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p030:v0",
+    "ccdr:p030:t2",
+    "ccdr:p030:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Chấp nhận giá trị đọc từ biểu đồ trong khoảng ±0,5; phải nói RCP 4.5 cao hơn.'; citation ['ccdr:p030:v0', 'ccdr:p030:t2', 'ccdr:p030:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad05",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p056:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cả 246 và 63.'; citation ['ccdr:p056:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad06",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p065:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đúng tên hai biện pháp; giá trị gần đúng không bắt buộc.'; citation ['ccdr:p065:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad07",
+   "group": "chart",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p025:t1",
+    "ccdr:p025:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đúng hạng mục và 33%.'; citation ['ccdr:p025:t1', 'ccdr:p025:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad08",
+   "group": "image",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p013:v0",
+    "ccdr:p013:page",
+    "ccdr:p012:t2"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cả hai con đường.'; citation ['ccdr:p013:v0', 'ccdr:p013:page', 'ccdr:p012:t2'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad09",
+   "group": "image",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p040:page"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Ngập mặn/triều cường + 2050 + Mekong/ĐBSCL.'; citation ['ccdr:p040:page'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad10",
+   "group": "multi_hop",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p100:page",
+    "ccdr:p084:page"
+   ],
+   "reason": "Lần này view_page đọc ô Trung bình × Trung bình (vision không ổn định giữa các lần) và agent tin view_page — sai ô."
+  },
+  {
+   "query_id": "ad11",
+   "group": "multi_hop",
+   "pass": false,
+   "status": "answered",
+   "citations": [
+    "ccdr:p056:t0",
+    "ccdr:p056:page",
+    "ccdr:p056:v1"
+   ],
+   "reason": "Điện than ADS năm 2040 trả lời 124 TWh — đó là giá trị của Khí; đúng là 26 TWh (view_page đọc nhầm series, quy tắc ưu tiên view_page khiến bỏ qua chunk trích xuất đúng)."
+  },
+  {
+   "query_id": "ad12",
+   "group": "multi_hop",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p045:t2",
+    "ccdr:p040:t2"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'ĐBSCL + 45% + 17 tỷ USD.'; citation ['ccdr:p045:t2', 'ccdr:p040:t2'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad13",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p068:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đúng cặp số và đúng thứ tự.'; citation ['ccdr:p068:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad14",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p073:t2",
+    "ccdr:p073:t3"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Cả hai ý (càng sớm; càng ngắn và chuyên sâu).'; citation ['ccdr:p073:t2', 'ccdr:p073:t3'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad15",
+   "group": "text",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p065:t0"
+   ],
+   "reason": "Đúng và đủ theo tiêu chí 'Đủ 3 biện pháp (có thể tóm tắt) và 15,6 tỷ USD.'; citation ['ccdr:p065:t0'] chỉ đúng trang/phần tử evidence."
+  },
+  {
+   "query_id": "ad16",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p016:t3",
+    "ccdr:p029:t1",
+    "ccdr:p045:t1",
+    "ccdr:p051:t1"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "ad17",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p050:v0",
+    "ccdr:p050:page"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  },
+  {
+   "query_id": "ad18",
+   "group": "unanswerable",
+   "pass": true,
+   "status": "answered",
+   "citations": [
+    "ccdr:p034:t3"
+   ],
+   "reason": "Nêu rõ báo cáo không có thông tin được hỏi, không bịa số (status=answered)."
+  }
+ ]
+}

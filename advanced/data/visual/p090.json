@@ -1,0 +1,33 @@
+{
+ "page": 90,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Phụ lục",
+   "kind": "box",
+   "title": "Phụ lục",
+   "box_2d": [
+    757,
+    117,
+    794,
+    271
+   ],
+   "informative": false,
+   "description": "Trang văn bản hiển thị tiêu đề phần Phụ lục của Báo cáo Quốc gia về Khí hậu và Phát triển Việt Nam.",
+   "transcription": "Phụ lục",
+   "crop": "p090_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1683,
+  "output_tokens": 126,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 1.68,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.003469,
+ "seconds": 1.7
+}

@@ -1,0 +1,34 @@
+{
+ "page": 25,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 6",
+   "kind": "chart",
+   "title": "Các tác động của biến đổi khí hậu và rủi ro thiên tai dưới sự quan sát của các doanh nghiệp (2019)",
+   "box_2d": [
+    224,
+    115,
+    561,
+    834
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột chồng thể hiện mức độ tác động của biến đổi khí hậu và rủi ro thiên tai đối với các hoạt động kinh doanh, dựa trên khảo sát năm 2019. Các doanh nghiệp đánh giá tác động qua 4 mức độ: Hầu như không, Khá ít, Tương đối nhiều và Rất nhiều. Kết quả cho thấy các yếu tố như 'Thiếu nguồn cung nguyên liệu đầu vào' và 'Thiếu hụt nhân lực' được báo cáo với mức độ tác động đáng kể.",
+   "transcription": "Biểu đồ cột chồng; Trục ngang là phần trăm doanh nghiệp (%), thang từ 0 đến 100; Chú giải: Hầu như không (xanh đậm), Khá ít (xanh nhạt), Tương đối nhiều (cam nhạt), Rất nhiều (cam đậm). Dữ liệu cụ thể (hàng: Hầu như không, Khá ít, Tương đối nhiều, Rất nhiều): Giai đoạn kinh doanh sản xuất (11, 35, 38, 16); Giảm năng suất lao động (12, 37, 38, 13); Doanh thu sụt giảm (12, 37, 35, 16); Gián đoạn kênh vận chuyển (16, 38, 33, 13); Tăng chi phí sản xuất (16, 39, 35, 9); Trì hoãn mạng lưới phân phối (24, 38, 28, 10); Giảm chất lượng sản phẩm/dịch vụ (27, 36, 26, 11); Thiệt hại về cơ sở vật chất (21, 45, 25, 9); Thiếu hụt nhân lực (24, 43, 25, 8); Thiếu nguồn cung nguyên liệu đầu vào (33, 34, 24, 9).",
+   "units": "Phần trăm doanh nghiệp báo cáo (%)",
+   "crop": "p025_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2713,
+  "output_tokens": 569,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.51,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.008337,
+ "seconds": 4.6
+}

@@ -1,0 +1,35 @@
+{
+ "page": 13,
+ "model": "gemini-3.5-flash",
+ "elements": [
+  {
+   "label": "Hình 1",
+   "kind": "diagram",
+   "title": "Mô hình phát triển mới cho Việt Nam",
+   "box_2d": [
+    100,
+    115,
+    396,
+    882
+   ],
+   "informative": true,
+   "description": "Sơ đồ thể hiện Mô hình phát triển mới cho Việt Nam chuyển từ \"Việt Nam hiện nay\" sang \"Việt Nam năm 2045\" qua hai nhánh: \"Lộ trình xây dựng khả năng chống chịu\" và \"Hành trình khử carbon\", cùng các giải pháp chính ở giữa.",
+   "transcription": "Khối trên: Việt Nam hiện nay\nKhối dưới: Việt Nam năm 2045\nNhánh bên trái (vòng cung hướng xuống): Lộ trình xây dựng khả năng chống chịu\nNhánh bên phải (vòng cung hướng xuống): Hành trình khử carbon\nCác điểm hành động ở giữa:\n• Xây dựng cơ sở hạ tầng có khả năng chống chịu\n• Bảo vệ những đối tượng bị tổn thương nhất\n• Cải cách cơ cấu để khuyến khích nông dân và doanh nghiệp\n• Định giá carbon\n• Huy động nguồn vốn",
+   "notes": "Ngân hàng Thế giới.",
+   "units": "",
+   "crop": "p013_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2333,
+  "output_tokens": 317,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 10.63,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.005877,
+ "seconds": 10.7
+}

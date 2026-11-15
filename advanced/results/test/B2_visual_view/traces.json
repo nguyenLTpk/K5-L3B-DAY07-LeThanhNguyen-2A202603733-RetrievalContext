@@ -1,0 +1,5246 @@
+[
+ {
+  "query_id": "at01",
+  "question": "Theo Bảng 1 (So sánh phát thải giữa các nước), nước nào có phát thải carbon trên một triệu USD GDP cao nhất và giá trị là bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 1 (trang 9), trong số các quốc gia được liệt kê, Đông Timor là nước có phát thải carbon trên một triệu USD GDP cao nhất với giá trị là 4.271,0 tCO2e/triệu $GDP [ccdr:p019:t0]. [ccdr:p019:page]",
+  "citations": [
+   "ccdr:p019:t0",
+   "ccdr:p019:page"
+  ],
+  "note": "đã nối citation: ['ccdr:p019:page']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 1 So sánh phát thải giữa các nước",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p098:v0",
+      "page": 98,
+      "kind": "table",
+      "label": "",
+      "score": 0.030579,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p018:t1",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.030282,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029236,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4069
+   },
+   {
+    "event": "view_page",
+    "page": 19,
+    "question": "Đọc cột Phát thải Carbon (tCO2e/triệu $GDP) trong Bảng 1 trang 19 để xác định nước nào có giá trị cao nhất.",
+    "elapsed_s": 7.74,
+    "reading": "Dựa trên Bảng 1: So sánh phát thải giữa các nước, cột \"Phát thải Carbon (tCO2e/triệu $GDP)\":\n\n*   Giá trị cao nhất trong cột này là **4.271,0**.\n*   Nước tương ứng với giá trị này ở hàng **Đông Timor**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p019:t0",
+      "ccdr:p019:page"
+     ],
+     "status": "answered",
+     "answer": "Theo Bảng 1 (trang 9), trong số các quốc gia được liệt kê, Đông Timor là nước có phát thải carbon trên một triệu USD GDP cao nhất với giá trị là 4.271,0 tCO2e/triệu $GDP [ccdr:p019:t0]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p019:t0",
+   "ccdr:p098:v0",
+   "ccdr:p018:t1",
+   "ccdr:p006:t1",
+   "ccdr:p007:t2",
+   "ccdr:p019:page"
+  ],
+  "context_chars": 4313,
+  "elapsed_s": 58.3,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6014,
+   "output_tokens": 199,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 41.63,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1254,
+   "output_tokens": 72,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 7.13,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002858,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at02",
+  "question": "Theo Bảng 2, nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng giai đoạn 2022–2050 là bao nhiêu % GDP mỗi năm và bao nhiêu tỷ USD tính theo NPV?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 2, nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng giai đoạn 2022–2050 là 0,3–0,7% GDP mỗi năm, tương đương với 22,8–53,2 tỷ USD tính theo giá trị hiện tại thuần (NPV) [ccdr:p032:t0].",
+  "citations": [
+   "ccdr:p032:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 2 nhu cầu hỗ trợ tài chính 2022-2050",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.336,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p032:v0",
+      "page": 32,
+      "kind": "table",
+      "label": "Bảng 2",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p031:t3",
+      "page": 31,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p077:v0",
+      "page": 77,
+      "kind": "infographic",
+      "label": "Hình 21",
+      "score": 0.030366,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3924
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p032:t0"
+     ],
+     "answer": "Theo Bảng 2, nhu cầu hỗ trợ tài chính cho người dân và doanh nghiệp bị ảnh hưởng giai đoạn 2022–2050 là 0,3–0,7% GDP mỗi năm, tương đương với 22,8–53,2 tỷ USD tính theo giá trị hiện tại thuần (NPV) [ccdr:p032:t0].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p032:t0",
+   "ccdr:p032:v0",
+   "ccdr:p006:t1",
+   "ccdr:p031:t3",
+   "ccdr:p077:v0"
+  ],
+  "context_chars": 3924,
+  "elapsed_s": 50.7,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3228,
+   "output_tokens": 156,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 50.36,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001358,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at03",
+  "question": "Theo Bảng 3, tác động kinh tế ròng của Lộ trình NZP giai đoạn 2022–2040 là bao nhiêu khi không có và khi có những cải cách hỗ trợ?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 3 (trang 40), tác động kinh tế ròng (tính theo tỷ USD, giá trị hiện tại thuần - NPV) của Lộ trình phát thải carbon ròng bằng “0” (NZP) trong giai đoạn 2022–2040 như sau:\n- Khi **không có** cải cách hỗ trợ: Tác động kinh tế ròng là **-134,9 tỷ USD** [ccdr:p050:t0].\n- Khi **có những cải cách hỗ trợ**: Tác động kinh tế ròng là **-1,3 tỷ USD** [ccdr:p050:t0], [ccdr:p050:t1].",
+  "citations": [
+   "ccdr:p050:t0",
+   "ccdr:p050:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 3 tác động kinh tế ròng Lộ trình NZP 2022–2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.265,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p050:v0",
+      "page": 50,
+      "kind": "table",
+      "label": "Bảng 3",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.030303,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4010
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p050:t0",
+      "ccdr:p050:t1"
+     ],
+     "status": "answered",
+     "answer": "Theo Bảng 3 (trang 40), tác động kinh tế ròng (tính theo tỷ USD, giá trị hiện tại thuần - NPV) của Lộ trình phát thải carbon ròng bằng “0” (NZP) trong giai đoạn 2022–2040 như sau:\n- Khi **không có** cải cách hỗ trợ: Tác động kinh tế ròng là **-134,9 tỷ USD** [ccdr:p050:t0].\n- Khi **có những cải cách hỗ trợ**: Tác động kinh tế ròng là **-1,3 tỷ USD** [ccdr:p050:t0], [ccdr:p050:t1]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p050:t0",
+   "ccdr:p050:v0",
+   "ccdr:p006:t1",
+   "ccdr:p050:t1",
+   "ccdr:p049:t6"
+  ],
+  "context_chars": 4010,
+  "elapsed_s": 12.12,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3230,
+   "output_tokens": 248,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 11.86,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001589,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at04",
+  "question": "Theo Phụ lục 1, phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam năm 1990 và năm 2018 lần lượt là bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Phụ lục 1 trong báo cáo, lượng phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam là 4,88 triệu tấn CO2e vào năm 1990 và 109,13 triệu tấn CO2e vào năm 2018 [ccdr:p091:t1].",
+  "citations": [
+   "ccdr:p091:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 phát thải khí nhà kính lĩnh vực Điện/nhiệt 1990 2018",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.582,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p091:v0",
+      "page": 91,
+      "kind": "table",
+      "label": "Phụ lục 1",
+      "score": 0.031545,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p017:t2",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.030282,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6697
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Phụ lục 1 trong báo cáo, lượng phát thải khí nhà kính từ lĩnh vực Điện/nhiệt của Việt Nam là 4,88 triệu tấn CO2e vào năm 1990 và 109,13 triệu tấn CO2e vào năm 2018 [ccdr:p091:t1].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p091:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p091:t1",
+   "ccdr:p091:t0",
+   "ccdr:p091:v0",
+   "ccdr:p018:v0",
+   "ccdr:p017:t2"
+  ],
+  "context_chars": 6697,
+  "elapsed_s": 7.87,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 5049,
+   "output_tokens": 155,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 7.29,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001902,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at05",
+  "question": "Theo Phụ lục 1, phát thải năm 2030 theo kịch bản BAU và theo mục tiêu NDC có điều kiện (27% dưới BAU) là bao nhiêu triệu tấn CO2e?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo bảng dữ liệu trong Phụ lục 1 (trang in 82), dự báo phát thải của Việt Nam vào năm 2030 như sau:\n* Kịch bản phát thải thông thường (BAU) là 927,9 triệu tấn CO2e [ccdr:p092:t0].\n* Mục tiêu NDC có điều kiện (giảm 27% dưới BAU) là 677 triệu tấn CO2e [ccdr:p092:t0]. [ccdr:p092:page]",
+  "citations": [
+   "ccdr:p092:t0",
+   "ccdr:p092:page"
+  ],
+  "note": "đã nối citation: ['ccdr:p092:page']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 phát thải năm 2030 BAU NDC có điều kiện",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.062,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p092:t0",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p092:v0",
+      "page": 92,
+      "kind": "table",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029762,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p098:t4",
+      "page": 98,
+      "kind": "text",
+      "label": "",
+      "score": 0.029418,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6453
+   },
+   {
+    "event": "view_page",
+    "page": 92,
+    "question": "Đọc số liệu phát thải năm 2030 theo kịch bản BAU và NDC có điều kiện (27% dưới BAU) trong bảng ở trang 82.",
+    "elapsed_s": 3.93,
+    "reading": "Dựa trên bảng dữ liệu trong ảnh, số liệu phát thải năm 2030 được ghi nhận như sau:\n\n*   **Kịch bản BAU:** Tại hàng \"Kịch bản phát thải - BAU\", cột thứ 5 (giá trị) và cột thứ 6 (năm 2030), giá trị là **927,9** triệu tấn CO2e.\n*   **Kịch bản NDC có điều kiện (27% dưới BAU):** Tại hàng \"Mục tiêu NDC - 27% dưới BAU (có điều kiện)\", cột thứ 5 (giá trị) và cột thứ 6 (năm 2030), giá trị là **677** triệu tấn CO2e.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo bảng dữ liệu trong Phụ lục 1 (trang in 82), dự báo phát thải của Việt Nam vào năm 2030 như sau:\n* Kịch bản phát thải thông thường (BAU) là 927,9 triệu tấn CO2e [ccdr:p092:t0].\n* Mục tiêu NDC có điều kiện (giảm 27% dưới BAU) là 677 triệu tấn CO2e [ccdr:p092:t0].",
+     "citations": [
+      "ccdr:p092:t0",
+      "ccdr:p092:page"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p092:t0",
+   "ccdr:p092:v0",
+   "ccdr:p049:t6",
+   "ccdr:p007:t3",
+   "ccdr:p098:t4",
+   "ccdr:p092:page"
+  ],
+  "context_chars": 6905,
+  "elapsed_s": 83.78,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 8415,
+   "output_tokens": 250,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 79.79,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1255,
+   "output_tokens": 159,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.34,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003923,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at06",
+  "question": "Theo Bảng 4, kịch bản nào cho tỷ lệ thay đổi GDP năm 2040 cao nhất, và kịch bản đó làm phát thải khí nhà kính năm 2040 thay đổi bao nhiêu phần trăm?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 4, kịch bản có tỷ lệ thay đổi GDP năm 2040 cao nhất là \"NZP và tất cả các biện pháp hỗ trợ\", với mức tăng 3,3% so với đường cơ sở [ccdr:p053:t0]. Trong kịch bản này, tỷ lệ phát thải khí nhà kính năm 2040 thay đổi -71,9% so với đường cơ sở [ccdr:p053:t0], [ccdr:p053:v0].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, Bảng 4, trang 43.",
+  "citations": [
+   "ccdr:p053:t0",
+   "ccdr:p053:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 4 tỷ lệ thay đổi GDP năm 2040 phát thải khí nhà kính",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.446,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p053:t0",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p053:v0",
+      "page": 53,
+      "kind": "table",
+      "label": "Bảng 4",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p052:t5",
+      "page": 52,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p049:t6",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.029911,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4378
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p053:t0",
+      "ccdr:p053:v0"
+     ],
+     "answer": "Theo Bảng 4, kịch bản có tỷ lệ thay đổi GDP năm 2040 cao nhất là \"NZP và tất cả các biện pháp hỗ trợ\", với mức tăng 3,3% so với đường cơ sở [ccdr:p053:t0]. Trong kịch bản này, tỷ lệ phát thải khí nhà kính năm 2040 thay đổi -71,9% so với đường cơ sở [ccdr:p053:t0], [ccdr:p053:v0].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, Bảng 4, trang 43."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p053:t0",
+   "ccdr:p053:v0",
+   "ccdr:p052:t5",
+   "ccdr:p007:t3",
+   "ccdr:p049:t6"
+  ],
+  "context_chars": 4378,
+  "elapsed_s": 39.91,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3345,
+   "output_tokens": 231,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 39.46,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001581,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at07",
+  "question": "Hình 9 gồm ba bản đồ về ba loại thiên tai nào, và trên bản đồ bão lũ các tuyến đường bị ảnh hưởng tập trung ở khu vực nào?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Hình 9 (trang in 27) gồm ba bản đồ thể hiện mức độ dễ bị ảnh hưởng khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam đối với ba loại thiên tai: lở đất, lũ lụt 1.000 năm và bão lũ [ccdr:p037:v0].\n\nTrên bản đồ bão lũ, các tuyến đường bị ảnh hưởng nặng nề nhất (thể hiện bằng màu đỏ đậm, thuộc thang đo phơi nhiễm cao nhất từ 40% đến 100%) tập trung chủ yếu ở khu vực duyên hải miền Trung [ccdr:p037:page].",
+  "citations": [
+   "ccdr:p037:v0",
+   "ccdr:p037:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 các loại thiên tai bản đồ",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.249,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:v0",
+      "page": 25,
+      "kind": "chart",
+      "label": "Hình 6",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.030018,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4043
+   },
+   {
+    "event": "view_page",
+    "page": 37,
+    "question": "Quan sát Hình 9 (trang in 27) về mức độ dễ bị ảnh hưởng của các tuyến đường giao thông. Hình này gồm 3 bản đồ về 3 loại thiên tai nào? Trên bản đồ bão lũ, các tuyến đường bị ảnh hưởng tập trung ở khu vực nào (đâu là vùng có màu đỏ/tím đậm biểu thị rủi ro cao)?",
+    "elapsed_s": 4.1,
+    "reading": "Dựa trên Hình 9 trong trang báo cáo:\n\n1.  **Ba loại thiên tai được thể hiện trong các bản đồ:**\n    *   Lở đất\n    *   Lũ lụt 1.000 năm\n    *   Bão lũ\n\n2.  **Khu vực có rủi ro cao trên bản đồ Bão lũ:**\n    *   Dựa vào chú giải của bản đồ Bão lũ, các tuyến đường có mức độ dễ bị ảnh hưởng cao nhất (màu đỏ đậm, tương ứng với thang đo \"40 to 100\") tập trung chủ yếu ở **khu vực duyên hải miền Trung** của Việt Nam.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Hình 9 (trang in 27) gồm ba bản đồ thể hiện mức độ dễ bị ảnh hưởng khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam đối với ba loại thiên tai: lở đất, lũ lụt 1.000 năm và bão lũ [ccdr:p037:v0].\n\nTrên bản đồ bão lũ, các tuyến đường bị ảnh hưởng nặng nề nhất (thể hiện bằng màu đỏ đậm, thuộc thang đo phơi nhiễm cao nhất từ 40% đến 100%) tập trung chủ yếu ở khu vực duyên hải miền Trung [ccdr:p037:page].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p037:v0",
+      "ccdr:p037:page"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p037:v0",
+   "ccdr:p007:t2",
+   "ccdr:p025:v0",
+   "ccdr:p007:t1",
+   "ccdr:p036:t3",
+   "ccdr:p037:page"
+  ],
+  "context_chars": 4498,
+  "elapsed_s": 7.6,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5707,
+   "output_tokens": 317,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.25,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1298,
+   "output_tokens": 144,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.51,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003254,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at08",
+  "question": "Chú giải trên các bản đồ của Hình 9 đo đại lượng gì và mức cao nhất trong chú giải là khoảng nào?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trên các bản đồ của Hình 9, chú giải đo lường đại lượng \"Percentage exposure\" (tỷ lệ phần trăm phơi nhiễm/dễ bị ảnh hưởng) của các tuyến đường quốc gia trước các rủi ro thiên tai (lở đất, lũ lụt 1.000 năm và bão lũ) [ccdr:p037:v0]. Mức cao nhất trong chú giải là khoảng từ 40% đến 100% [ccdr:p037:v0, ccdr:p037:page].\n\nNguồn: Hình 9 (trang in 27).",
+  "citations": [
+   "ccdr:p037:v0",
+   "ccdr:p037:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 bản đồ",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.045,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030303,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.029551,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:v0",
+      "page": 25,
+      "kind": "chart",
+      "label": "Hình 6",
+      "score": 0.028543,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p072:v0",
+      "page": 72,
+      "kind": "chart",
+      "label": "Hình 20",
+      "score": 0.028219,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:v0",
+      "page": 91,
+      "kind": "table",
+      "label": "Phụ lục 1",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6556
+   },
+   {
+    "event": "view_page",
+    "page": 37,
+    "question": "Xem chú giải của Hình 9 để xác định chính xác thang đo là gì và mức cao nhất là bao nhiêu.",
+    "elapsed_s": 25.36,
+    "reading": "Dựa vào hình ảnh được cung cấp (Hình 9), thông tin về thang đo được xác định như sau:\n\n*   **Phần tử:** Hình 9, chú giải (thang đo) của cả ba bản đồ (Lở đất, Lũ lụt 1.000 năm, Bão lũ).\n*   **Thang đo:** Thang đo thể hiện \"Percentage exposure\" (Tỷ lệ phần trăm bị ảnh hưởng/phơi nhiễm).\n*   **Các mức giá trị:** 0 to 10, 10 to 20, 20 to 30, 30 to 40, 40 to 100.\n*   **Mức cao nhất:** 40 to 100 (tương đương từ 40% đến 100%).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Trên các bản đồ của Hình 9, chú giải đo lường đại lượng \"Percentage exposure\" (tỷ lệ phần trăm phơi nhiễm/dễ bị ảnh hưởng) của các tuyến đường quốc gia trước các rủi ro thiên tai (lở đất, lũ lụt 1.000 năm và bão lũ) [ccdr:p037:v0]. Mức cao nhất trong chú giải là khoảng từ 40% đến 100% [ccdr:p037:v0, ccdr:p037:page].\n\nNguồn: Hình 9 (trang in 27).",
+     "citations": [
+      "ccdr:p037:v0",
+      "ccdr:p037:page"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p007:t2",
+   "ccdr:p037:v0",
+   "ccdr:p025:v0",
+   "ccdr:p072:v0",
+   "ccdr:p091:v0",
+   "ccdr:p037:page"
+  ],
+  "context_chars": 7022,
+  "elapsed_s": 89.98,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 8899,
+   "output_tokens": 250,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 28.5,
+   "retries": 3,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1242,
+   "output_tokens": 181,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.66,
+   "retries": 2,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00412,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at09",
+  "question": "Trên bản đồ rủi ro ngập lụt ven biển (Hình 11), trong các thành phố được ghi tên, thành phố nào nằm trong vùng có rủi ro ngập lụt tương đối cao nhất (màu đậm nhất)?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Dựa trên Hình 11 (trang in 32), trong các thành phố được ghi tên trên bản đồ, TP. Hồ Chí Minh và Cần Thơ là những thành phố nằm trong vùng có rủi ro ngập lụt tương đối cao nhất (thể hiện bằng tông màu đậm nhất trên bản đồ rủi ro ngập lụt ven biển). [ccdr:p042:page]",
+  "citations": [
+   "ccdr:p042:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 11 bản đồ rủi ro ngập lụt ven biển",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.339,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p042:v0",
+      "page": 42,
+      "kind": "map",
+      "label": "Hình 11",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p042:t0",
+      "page": 42,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3246
+   },
+   {
+    "event": "view_page",
+    "page": 42,
+    "question": "Xem Hình 11: Rủi ro ngập lụt tại các vùng ven biển. Xác định thành phố nào nằm trong vùng có rủi ro ngập lụt tương đối cao nhất (màu đậm nhất). Các thành phố được liệt kê là Hanoi, Haiphong, Da Nang, Ho Chi Minh City, Can Tho.",
+    "elapsed_s": 34.1,
+    "reading": "Dựa vào hình ảnh được cung cấp tại **Hình 11: Rủi ro ngập lụt tại các vùng ven biển**:\n\n*   **Cách đọc:** Quan sát bản đồ với chú giải (legend) \"Relative Flood Risk\", trong đó màu đậm nhất tương ứng với mức rủi ro cao nhất.\n*   **Kết quả:** Thành phố nằm trong vùng có màu đậm nhất (vùng có rủi ro ngập lụt tương đối cao nhất) trong số các thành phố được liệt kê là **Ho Chi Minh City** (TP. Hồ Chí Minh) và **Can Tho** (Cần Thơ).\n\nCác thành phố khác như Hanoi, Haiphong và Da Nang nằm ở các vùng có sắc thái màu nhạt hơn trên bản đồ.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p042:page"
+     ],
+     "answer": "Dựa trên Hình 11 (trang in 32), trong các thành phố được ghi tên trên bản đồ, TP. Hồ Chí Minh và Cần Thơ là những thành phố nằm trong vùng có rủi ro ngập lụt tương đối cao nhất (thể hiện bằng tông màu đậm nhất trên bản đồ rủi ro ngập lụt ven biển). [ccdr:p042:page]"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p042:v0",
+   "ccdr:p042:t0",
+   "ccdr:p007:t2",
+   "ccdr:p041:t5",
+   "ccdr:p016:t4",
+   "ccdr:p042:page"
+  ],
+  "context_chars": 3823,
+  "elapsed_s": 112.98,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5021,
+   "output_tokens": 242,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 78.54,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1287,
+   "output_tokens": 159,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 23.52,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002895,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at10",
+  "question": "Theo bản đồ sản xuất than nội địa (Hình 14), tỉnh nào được đánh dấu là tỉnh sản xuất than chính và hai địa điểm nào được khoanh tròn ở tỉnh đó?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 14 trong báo cáo, tỉnh được đánh dấu là tỉnh sản xuất than chính là Quảng Ninh. Hai địa điểm được khoanh tròn tại tỉnh này là Hòn Gai và Cẩm Phả [ccdr:p059:page].",
+  "citations": [
+   "ccdr:p059:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 14 bản đồ sản xuất than nội địa",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.067,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t0",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:v0",
+      "page": 59,
+      "kind": "map",
+      "label": "Hình 14",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p054:v0",
+      "page": 54,
+      "kind": "chart",
+      "label": "Hình 12",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p026:v0",
+      "page": 26,
+      "kind": "chart",
+      "label": "Hình 7",
+      "score": 0.03009,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4300
+   },
+   {
+    "event": "view_page",
+    "page": 59,
+    "question": "Trong Hình 14, tỉnh nào được đánh dấu là tỉnh sản xuất than chính và hai địa điểm nào được khoanh tròn ở tỉnh đó?",
+    "elapsed_s": 2.83,
+    "reading": "Dựa vào Hình 14 trên trang báo cáo:\n\n*   **Tỉnh được đánh dấu là tỉnh sản xuất than chính:** Quảng Ninh.\n*   **Hai địa điểm được khoanh tròn ở tỉnh đó:** Hòn Gai và Cẩm Phả.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p059:page"
+     ],
+     "status": "answered",
+     "answer": "Theo Hình 14 trong báo cáo, tỉnh được đánh dấu là tỉnh sản xuất than chính là Quảng Ninh. Hai địa điểm được khoanh tròn tại tỉnh này là Hòn Gai và Cẩm Phả [ccdr:p059:page]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p059:t0",
+   "ccdr:p059:v0",
+   "ccdr:p007:t2",
+   "ccdr:p054:v0",
+   "ccdr:p026:v0",
+   "ccdr:p059:page"
+  ],
+  "context_chars": 4516,
+  "elapsed_s": 54.47,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6026,
+   "output_tokens": 164,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 51.57,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1248,
+   "output_tokens": 55,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.56,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00273,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at11",
+  "question": "Theo sơ đồ Hình 21 về nhu cầu và nguồn tài chính 2022–2040, khu vực công và nguồn bên ngoài được kỳ vọng đóng góp bao nhiêu (tỷ USD và % GDP mỗi năm)?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 21, trong giai đoạn 2022–2040, các nguồn tài chính được kỳ vọng đóng góp như sau:\n\n*   **Khu vực công:** 130 tỷ USD, tương đương khoảng 2,4% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:page].\n*   **Nguồn bên ngoài:** 54 tỷ USD, tương đương khoảng 1% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:page].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, Hình 21, trang in 67.",
+  "citations": [
+   "ccdr:p077:v0",
+   "ccdr:p077:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 21 nhu cầu và nguồn tài chính 2022–2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.151,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:v0",
+      "page": 77,
+      "kind": "infographic",
+      "label": "Hình 21",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p077:t3",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p032:v0",
+      "page": 32,
+      "kind": "table",
+      "label": "Bảng 2",
+      "score": 0.031258,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3672
+   },
+   {
+    "event": "view_page",
+    "page": 77,
+    "question": "Đọc chính xác số liệu từ Hình 21 về đóng góp của khu vực công và nguồn bên ngoài (tỷ USD và % GDP mỗi năm).",
+    "elapsed_s": 5.76,
+    "reading": "Dựa trên **Hình 21** trong trang báo cáo, số liệu về đóng góp của khu vực công và nguồn bên ngoài như sau:\n\n*   **Khu vực công:**\n    *   Giá trị: **130 tỷ USD**\n    *   Tỷ trọng: **~2,4% GDP mỗi năm**\n\n*   **Bên ngoài:**\n    *   Giá trị: **54 tỷ USD**\n    *   Tỷ trọng: **~1% GDP mỗi năm**",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p077:v0",
+      "ccdr:p077:page"
+     ],
+     "answer": "Theo Hình 21, trong giai đoạn 2022–2040, các nguồn tài chính được kỳ vọng đóng góp như sau:\n\n*   **Khu vực công:** 130 tỷ USD, tương đương khoảng 2,4% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:page].\n*   **Nguồn bên ngoài:** 54 tỷ USD, tương đương khoảng 1% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:page].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, Hình 21, trang in 67."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p077:v0",
+   "ccdr:p077:t3",
+   "ccdr:p032:t0",
+   "ccdr:p007:t3",
+   "ccdr:p032:v0",
+   "ccdr:p077:page"
+  ],
+  "context_chars": 4005,
+  "elapsed_s": 36.29,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5908,
+   "output_tokens": 293,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 23.82,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1250,
+   "output_tokens": 108,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.21,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00315,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at12",
+  "question": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020, hạng mục nào có chi phí thấp nhất và là bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020, hạng mục có chi phí thấp nhất là **Du lịch** với giá trị **148 triệu USD** [ccdr:p017:v0].",
+  "citations": [
+   "ccdr:p017:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 3 chi phí ước tính do biến đổi khí hậu 2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.077,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:v0",
+      "page": 17,
+      "kind": "chart",
+      "label": "Hình 3",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p030:t0",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030798,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p029:t4",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.029274,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3432
+   },
+   {
+    "event": "view_page",
+    "page": 17,
+    "question": "Kiểm tra hình 3 để xác định hạng mục có chi phí thấp nhất trong biểu đồ.",
+    "elapsed_s": 84.71,
+    "reading": "Dựa trên Hình 3 trong trang báo cáo:\n\n*   **Hình 3: Chi phí ước tính do biến đổi khí hậu năm 2020 (triệu USD)**\n*   Các hạng mục và giá trị tương ứng được ghi trong biểu đồ như sau:\n    *   Thủy sản: 4219\n    *   Năng suất lao động: 2807\n    *   Mực nước biển dâng: 1474\n    *   Nông nghiệp: 837\n    *   Chi phí giải nhiệt: 518\n    *   Thiên tai: 447\n    *   Sức khỏe: 235\n    *   Nước: 218\n    *   Du lịch: 148\n\nHạng mục có chi phí thấp nhất trong biểu đồ là **Du lịch** với giá trị **148** triệu USD.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p017:v0"
+     ],
+     "answer": "Theo Hình 3 về chi phí ước tính do biến đổi khí hậu năm 2020, hạng mục có chi phí thấp nhất là **Du lịch** với giá trị **148 triệu USD** [ccdr:p017:v0].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p017:v0",
+   "ccdr:p007:t0",
+   "ccdr:p017:t1",
+   "ccdr:p030:t0",
+   "ccdr:p029:t4",
+   "ccdr:p017:page"
+  ],
+  "context_chars": 3976,
+  "elapsed_s": 167.95,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5070,
+   "output_tokens": 163,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 33.57,
+   "retries": 3,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1236,
+   "output_tokens": 201,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 84.5,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002802,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at13",
+  "question": "Theo Hình 4, phát thải ròng từ thay đổi mục đích sử dụng đất và lâm nghiệp trong giai đoạn 1990–2000 ở mức xấp xỉ bao nhiêu MtCO2e?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 4 (trang in 8), trong giai đoạn 1990–2000, lĩnh vực thay đổi mục đích sử dụng đất và lâm nghiệp đóng vai trò hấp thụ carbon (giá trị âm). Tại thời điểm năm 2000, giá trị này ở mức xấp xỉ -60 MtCO2e [ccdr:p018:page].",
+  "citations": [
+   "ccdr:p018:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "phát thải ròng từ thay đổi mục đích sử dụng đất và lâm nghiệp giai đoạn 1990–2000 Hình 4",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.172,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:t1",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.028205,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.026876,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4866
+   },
+   {
+    "event": "view_page",
+    "page": 18,
+    "question": "Đọc giá trị xấp xỉ của phần 'Thay đổi mục đích sử dụng đất và lâm nghiệp' tại năm 2000 trên biểu đồ Hình 4.",
+    "elapsed_s": 8.08,
+    "reading": "Dựa vào **Hình 4: Gia tăng mức phát thải GHG**:\n\n*   **Vùng dữ liệu:** \"Thay đổi mục đích sử dụng đất và lâm nghiệp\" tương ứng với vùng màu tím nhạt nằm ở phần dưới cùng của biểu đồ (giá trị âm).\n*   **Cách xác định:** Tại năm 2000, ranh giới phía trên của vùng màu tím nằm ở mức 0 trên trục tung, và ranh giới phía dưới của vùng màu tím nằm ở khoảng giữa -50 và -100.\n*   **Giá trị ước lượng:** Tại năm 2000, giá trị của vùng này là **≈ -60 MtCO₂e**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p018:page"
+     ],
+     "answer": "Theo Hình 4 (trang in 8), trong giai đoạn 1990–2000, lĩnh vực thay đổi mục đích sử dụng đất và lâm nghiệp đóng vai trò hấp thụ carbon (giá trị âm). Tại thời điểm năm 2000, giá trị này ở mức xấp xỉ -60 MtCO2e [ccdr:p018:page]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p018:v0",
+   "ccdr:p018:t0",
+   "ccdr:p096:t1",
+   "ccdr:p091:t1",
+   "ccdr:p067:t0",
+   "ccdr:p018:page"
+  ],
+  "context_chars": 5359,
+  "elapsed_s": 50.18,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6821,
+   "output_tokens": 223,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 12.51,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1253,
+   "output_tokens": 148,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 7.81,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00335,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at14",
+  "question": "Theo Hình 20, trong kịch bản NZP (không cải cách), lĩnh vực nào có mức giảm việc làm lớn nhất vào năm 2040 so với BAU và giảm bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 20, trong kịch bản NZP (không cải cách), lĩnh vực có mức giảm việc làm lớn nhất so với BAU vào năm 2040 là **Vận tải**, với mức giảm là **6,3%** (độ lệch so với BAU) [ccdr:p072:v0, ccdr:p072:page].\n\nNguồn: Hình 20, trang 62.",
+  "citations": [
+   "ccdr:p072:v0",
+   "ccdr:p072:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 20 việc làm kịch bản NZP BAU 2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.064,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:v0",
+      "page": 72,
+      "kind": "chart",
+      "label": "Hình 20",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p071:t3",
+      "page": 71,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p072:t2",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p070:v0",
+      "page": 70,
+      "kind": "chart",
+      "label": "Hình 18",
+      "score": 0.030077,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4306
+   },
+   {
+    "event": "view_page",
+    "page": 72,
+    "question": "Đọc giá trị giảm việc làm lớn nhất của kịch bản NZP (màu xanh) so với BAU từ Hình 20.",
+    "elapsed_s": 5.36,
+    "reading": "Dựa trên Hình 20: Những thay đổi về việc làm theo lĩnh vực vào năm 2040:\n\n*   Giá trị giảm việc làm lớn nhất của kịch bản **NZP** (cột màu xanh) so với BAU là **-6,3**.\n*   Giá trị này nằm tại vùng **Vận tải**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p072:v0",
+      "ccdr:p072:page"
+     ],
+     "answer": "Theo Hình 20, trong kịch bản NZP (không cải cách), lĩnh vực có mức giảm việc làm lớn nhất so với BAU vào năm 2040 là **Vận tải**, với mức giảm là **6,3%** (độ lệch so với BAU) [ccdr:p072:v0, ccdr:p072:page].\n\nNguồn: Hình 20, trang 62.",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p007:t3",
+   "ccdr:p072:v0",
+   "ccdr:p071:t3",
+   "ccdr:p072:t2",
+   "ccdr:p070:v0",
+   "ccdr:p072:page"
+  ],
+  "context_chars": 4559,
+  "elapsed_s": 64.3,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6167,
+   "output_tokens": 225,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 58.87,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1247,
+   "output_tokens": 73,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.81,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002969,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at15",
+  "question": "Theo Hình 22, dư nợ tín dụng xanh tăng từ bao nhiêu năm 2016 lên bao nhiêu năm 2020?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 22 (trang in 68), dư nợ tín dụng xanh tăng từ 3,7 tỷ USD vào năm 2016 lên 14,5 tỷ USD vào năm 2020 [ccdr:p078:v0], [ccdr:p078:t3].",
+  "citations": [
+   "ccdr:p078:v0",
+   "ccdr:p078:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 22 dư nợ tín dụng xanh",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.063,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:v0",
+      "page": 78,
+      "kind": "chart",
+      "label": "Hình 22",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3453
+   },
+   {
+    "event": "view_page",
+    "page": 78,
+    "question": "Kiểm tra Hình 22 để xác nhận giá trị dư nợ tín dụng xanh năm 2016 và 2020.",
+    "elapsed_s": 20.38,
+    "reading": "Dựa trên Hình 22 trong trang báo cáo:\n\n*   **Giá trị dư nợ tín dụng xanh năm 2016:** Được thể hiện trên biểu đồ cột bên trái tại cột năm 2016 là **3,7** (tỷ USD).\n*   **Giá trị dư nợ tín dụng xanh năm 2020:** Được thể hiện trên biểu đồ cột bên trái tại cột năm 2020 là **14,5** (tỷ USD).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 22 (trang in 68), dư nợ tín dụng xanh tăng từ 3,7 tỷ USD vào năm 2016 lên 14,5 tỷ USD vào năm 2020 [ccdr:p078:v0], [ccdr:p078:t3].",
+     "citations": [
+      "ccdr:p078:v0",
+      "ccdr:p078:t3"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p007:t4",
+   "ccdr:p078:v0",
+   "ccdr:p078:t3",
+   "ccdr:p078:t2",
+   "ccdr:p079:t5",
+   "ccdr:p078:page"
+  ],
+  "context_chars": 3783,
+  "elapsed_s": 130.33,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5461,
+   "output_tokens": 198,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 25.72,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1248,
+   "output_tokens": 107,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 19.87,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002775,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at16",
+  "question": "Theo Hình 12, năm 2020 khí đốt chiếm bao nhiêu phần trăm công suất lắp đặt và bao nhiêu phần trăm điện năng sản xuất?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 12 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 44), năm 2020:\n- Khí đốt chiếm **13%** công suất lắp đặt (tổng công suất 68 GW) [ccdr:p054:v0].\n- Khí đốt chiếm **17%** điện năng sản xuất (tổng sản lượng 200 TWh) [ccdr:p054:v0].",
+  "citations": [
+   "ccdr:p054:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 12 khí đốt 2020 công suất lắp đặt điện năng sản xuất",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.138,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p054:v0",
+      "page": 54,
+      "kind": "chart",
+      "label": "Hình 12",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p092:t1",
+      "page": 92,
+      "kind": "text",
+      "label": "",
+      "score": 0.02879,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4391
+   },
+   {
+    "event": "view_page",
+    "page": 54,
+    "question": "Đọc số liệu công suất lắp đặt và điện năng sản xuất cho Khí đốt từ Hình 12.",
+    "elapsed_s": 17.76,
+    "reading": "Dựa vào Hình 12 trong ảnh, số liệu cho Khí đốt được đọc như sau:\n\n*   **Công suất lắp đặt theo loại hình nhiên liệu hóa thạch (2020):** 13% của 68 GW (tương đương 8,84 GW).\n*   **Điện năng sản xuất từ nhiên liệu hóa thạch (2020):** 17% của 200 TWh (tương đương 34 TWh).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 12 trong Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang 44), năm 2020:\n- Khí đốt chiếm **13%** công suất lắp đặt (tổng công suất 68 GW) [ccdr:p054:v0].\n- Khí đốt chiếm **17%** điện năng sản xuất (tổng sản lượng 200 TWh) [ccdr:p054:v0].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p054:v0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p054:v0",
+   "ccdr:p054:t0",
+   "ccdr:p053:t2",
+   "ccdr:p053:t3",
+   "ccdr:p092:t1",
+   "ccdr:p054:page"
+  ],
+  "context_chars": 4703,
+  "elapsed_s": 109.35,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6500,
+   "output_tokens": 224,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 83.43,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1241,
+   "output_tokens": 107,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 8.17,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00315,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at17",
+  "question": "Theo Hình 4, phát thải từ thay đổi mục đích sử dụng đất và lâm nghiệp chuyển từ âm sang dương vào khoảng năm nào, và theo Phụ lục 1 giá trị của lĩnh vực này năm 2005 là bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hình 4 (trang in 8), lĩnh vực thay đổi mục đích sử dụng đất và lâm nghiệp của Việt Nam chuyển từ trạng thái hấp thụ (âm) sang phát thải (dương) vào khoảng năm 2010 [ccdr:p018:v0].\n\nTheo Phụ lục 1 (trang in 81), giá trị phát thải của lĩnh vực thay đổi sử dụng đất và lâm nghiệp năm 2005 là 19,69 triệu tấn CO2e [ccdr:p091:v0].",
+  "citations": [
+   "ccdr:p018:v0",
+   "ccdr:p091:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 4 phát thải thay đổi mục đích sử dụng đất và lâm nghiệp",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.283,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p018:t0",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p067:t0",
+      "page": 67,
+      "kind": "text",
+      "label": "",
+      "score": 0.030415,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p053:t1",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.028039,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4656
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 1 giá trị thay đổi mục đích sử dụng đất và lâm nghiệp năm 2005",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p096:t1",
+      "page": 96,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:v0",
+      "page": 91,
+      "kind": "table",
+      "label": "Phụ lục 1",
+      "score": 0.029236,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p005:t1",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.029031,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8940
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p018:v0",
+      "ccdr:p091:v0"
+     ],
+     "answer": "Theo Hình 4 (trang in 8), lĩnh vực thay đổi mục đích sử dụng đất và lâm nghiệp của Việt Nam chuyển từ trạng thái hấp thụ (âm) sang phát thải (dương) vào khoảng năm 2010 [ccdr:p018:v0].\n\nTheo Phụ lục 1 (trang in 81), giá trị phát thải của lĩnh vực thay đổi sử dụng đất và lâm nghiệp năm 2005 là 19,69 triệu tấn CO2e [ccdr:p091:v0].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 0,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p018:v0",
+   "ccdr:p096:t1",
+   "ccdr:p018:t0",
+   "ccdr:p067:t0",
+   "ccdr:p053:t1",
+   "ccdr:p091:t0",
+   "ccdr:p091:v0",
+   "ccdr:p005:t1"
+  ],
+  "context_chars": 8940,
+  "elapsed_s": 11.58,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 5618,
+   "output_tokens": 239,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.01,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002283,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at18",
+  "question": "Khu vực tư nhân được kỳ vọng đóng góp bao nhiêu trong nhu cầu tài chính khí hậu 2022–2040, và năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng bao nhiêu % GDP?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong giai đoạn 2022–2040, khu vực tư nhân được kỳ vọng sẽ đóng góp khoảng 184 tỷ USD cho nhu cầu tài chính khí hậu, tương đương khoảng 3,4% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:t3]. Năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng 20% GDP [ccdr:p078:t0].\n\nNguồn:\n- Hình 21, trang 67 (bản in).\n- Trang 68 (bản in).",
+  "citations": [
+   "ccdr:p077:v0",
+   "ccdr:p077:t3",
+   "ccdr:p078:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "nhu cầu tài chính khí hậu khu vực tư nhân 2022-2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 2.237,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:v0",
+      "page": 77,
+      "kind": "infographic",
+      "label": "Hình 21",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p032:v0",
+      "page": 32,
+      "kind": "table",
+      "label": "Bảng 2",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p077:t3",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.031514,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.029857,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p083:t5",
+      "page": 83,
+      "kind": "text",
+      "label": "",
+      "score": 0.029418,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3413
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "năng lực tiết kiệm khu vực tư nhân % GDP",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.123,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p078:t0",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p077:v0",
+      "page": 77,
+      "kind": "infographic",
+      "label": "Hình 21",
+      "score": 0.030777,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p077:t2",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.027598,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p060:t4",
+      "page": 60,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6279
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p077:v0",
+      "ccdr:p077:t3",
+      "ccdr:p078:t0"
+     ],
+     "answer": "Trong giai đoạn 2022–2040, khu vực tư nhân được kỳ vọng sẽ đóng góp khoảng 184 tỷ USD cho nhu cầu tài chính khí hậu, tương đương khoảng 3,4% GDP mỗi năm [ccdr:p077:v0, ccdr:p077:t3]. Năng lực tiết kiệm của khu vực tư nhân Việt Nam trong những năm qua đạt khoảng 20% GDP [ccdr:p078:t0].\n\nNguồn:\n- Hình 21, trang 67 (bản in).\n- Trang 68 (bản in).",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 0,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p077:v0",
+   "ccdr:p032:v0",
+   "ccdr:p077:t3",
+   "ccdr:p032:t0",
+   "ccdr:p083:t5",
+   "ccdr:p078:t0",
+   "ccdr:p077:t2",
+   "ccdr:p050:t1",
+   "ccdr:p060:t4"
+  ],
+  "context_chars": 6279,
+  "elapsed_s": 27.87,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 4175,
+   "output_tokens": 263,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.46,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00191,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at19",
+  "question": "Nhu cầu đầu tư của Lộ trình NZP giai đoạn 2022–2040 theo Bảng 3 là bao nhiêu, và khi cộng thêm chi phí cho các chương trình xã hội thì hành trình khử carbon cần tổng cộng bao nhiêu đến năm 2040?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Bảng 3, nhu cầu đầu tư cho Lộ trình phát thải carbon ròng bằng “0” (NZP) giai đoạn 2022–2040 là 81,3 tỷ USD (theo giá trị hiện tại ròng - NPV) [ccdr:p050:v0], [ccdr:p049:t2].\n\nKhi tính đến hành trình khử carbon nhằm đáp ứng các cam kết quốc tế, tổng chi phí yêu cầu là 114 tỷ USD đến năm 2040, bao gồm 81 tỷ USD chi phí đầu tư (theo Bảng 3) và 33 tỷ USD dành cho các chương trình xã hội hỗ trợ quá trình chuyển đổi [ccdr:p077:t0], [ccdr:p069:t4].",
+  "citations": [
+   "ccdr:p050:v0",
+   "ccdr:p049:t2",
+   "ccdr:p077:t0",
+   "ccdr:p069:t4"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "nhu cầu đầu tư Lộ trình NZP 2022-2040 Bảng 3",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.146,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p050:v0",
+      "page": 50,
+      "kind": "table",
+      "label": "Bảng 3",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p049:t2",
+      "page": 49,
+      "kind": "text",
+      "label": "",
+      "score": 0.030118,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.029851,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4020
+   },
+   {
+    "event": "view_page",
+    "page": 50,
+    "question": "Xem Bảng 3 để xác định số liệu chi phí cho các chương trình xã hội có nằm trong bảng này không.",
+    "elapsed_s": 48.23,
+    "reading": "Dựa trên hình ảnh được cung cấp, thông tin về \"số liệu chi phí cho các chương trình xã hội\" **không có** trong Bảng 3.\n\nBảng 3 chỉ liệt kê các dữ liệu về: \"Nhu cầu đầu tư\", \"Mức sản lượng tăng\" và \"Tác động kinh tế ròng\" cho hai kịch bản là \"NZP\" và \"NZP với những cải cách hỗ trợ\" trong các giai đoạn 2022–2030, 2031–2040 và 2022–2040.",
+    "context": "added"
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí chương trình xã hội khử carbon 2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.181,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p077:t0",
+      "page": 77,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:t1",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p074:t4",
+      "page": 74,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p069:t4",
+      "page": 69,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.030579,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7870
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p050:v0",
+      "ccdr:p049:t2",
+      "ccdr:p077:t0",
+      "ccdr:p069:t4"
+     ],
+     "answer": "Theo Bảng 3, nhu cầu đầu tư cho Lộ trình phát thải carbon ròng bằng “0” (NZP) giai đoạn 2022–2040 là 81,3 tỷ USD (theo giá trị hiện tại ròng - NPV) [ccdr:p050:v0], [ccdr:p049:t2].\n\nKhi tính đến hành trình khử carbon nhằm đáp ứng các cam kết quốc tế, tổng chi phí yêu cầu là 114 tỷ USD đến năm 2040, bao gồm 81 tỷ USD chi phí đầu tư (theo Bảng 3) và 33 tỷ USD dành cho các chương trình xã hội hỗ trợ quá trình chuyển đổi [ccdr:p077:t0], [ccdr:p069:t4]."
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 1,
+  "n_tool_calls": 3,
+  "context_ids": [
+   "ccdr:p050:v0",
+   "ccdr:p050:t0",
+   "ccdr:p006:t1",
+   "ccdr:p049:t2",
+   "ccdr:p050:t1",
+   "ccdr:p050:page",
+   "ccdr:p077:t0",
+   "ccdr:p056:t1",
+   "ccdr:p074:t4",
+   "ccdr:p069:t4",
+   "ccdr:p056:t4"
+  ],
+  "context_chars": 7870,
+  "elapsed_s": 193.15,
+  "usage": {
+   "calls": 4,
+   "prompt_tokens": 9799,
+   "output_tokens": 367,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 53.75,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1243,
+   "output_tokens": 129,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 47.98,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.004553,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at20",
+  "question": "Chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là bao nhiêu, và mỗi năm bao nhiêu sản lượng nuôi trồng thủy sản có nguy cơ bị ảnh hưởng bởi ngập lụt?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là 4.219 triệu USD (Hình 3, trang 7). Mỗi năm, ngành nuôi trồng thủy sản có 1,1 triệu tấn sản lượng nằm trong nguy cơ bị ảnh hưởng bởi ngập lụt, tương ứng với giá trị gần 1 tỷ USD kim ngạch xuất khẩu (trang 31). [ccdr:p017:v0] [ccdr:p041:t5]",
+  "citations": [
+   "ccdr:p017:v0",
+   "ccdr:p041:t5"
+  ],
+  "note": "đã nối citation: ['ccdr:p017:v0', 'ccdr:p041:t5']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí biến đổi khí hậu ngành thủy sản 2020 sản lượng nuôi trồng bị ngập lụt",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.106,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:v0",
+      "page": 17,
+      "kind": "chart",
+      "label": "Hình 3",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p041:t5",
+      "page": 41,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p030:t0",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t4",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.029469,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3555
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p017:v0",
+      "ccdr:p041:t5"
+     ],
+     "answer": "Chi phí ước tính do biến đổi khí hậu đối với ngành thủy sản năm 2020 là 4.219 triệu USD (Hình 3, trang 7). Mỗi năm, ngành nuôi trồng thủy sản có 1,1 triệu tấn sản lượng nằm trong nguy cơ bị ảnh hưởng bởi ngập lụt, tương ứng với giá trị gần 1 tỷ USD kim ngạch xuất khẩu (trang 31)."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p017:v0",
+   "ccdr:p041:t5",
+   "ccdr:p017:t1",
+   "ccdr:p030:t0",
+   "ccdr:p036:t4"
+  ],
+  "context_chars": 3555,
+  "elapsed_s": 86.42,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2935,
+   "output_tokens": 177,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 86.31,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001323,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at21",
+  "question": "Theo Hộp 7, ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam là gì?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Theo Hộp 7 trong báo cáo, ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam bao gồm:\n1. Sử dụng công cụ quy hoạch ngành điện (PDP8) làm nền tảng cho các quyết định đầu tư linh hoạt để thích ứng với biến động giá dầu.\n2. Ưu tiên phát triển các nguồn năng lượng sạch nội địa, ví dụ như năng lượng gió ngoài khơi.\n3. Hướng đến các dự án điện có công nghệ trung tính thông qua phương thức đấu thầu cạnh tranh.\n\nNguồn: Hộp 7, trang in 47. [ccdr:p057:v1]",
+  "citations": [
+   "ccdr:p057:v1"
+  ],
+  "note": "đã nối citation: ['ccdr:p057:v1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hộp 7 xung đột Ukraina ngành năng lượng Việt Nam",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.092,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p057:v1",
+      "page": 57,
+      "kind": "box",
+      "label": "Hộp 7",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p057:t1",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.029911,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t5",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.027651,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4749
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p057:v1"
+     ],
+     "answer": "Theo Hộp 7 trong báo cáo, ba biện pháp giảm thiểu tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam bao gồm:\n1. Sử dụng công cụ quy hoạch ngành điện (PDP8) làm nền tảng cho các quyết định đầu tư linh hoạt để thích ứng với biến động giá dầu.\n2. Ưu tiên phát triển các nguồn năng lượng sạch nội địa, ví dụ như năng lượng gió ngoài khơi.\n3. Hướng đến các dự án điện có công nghệ trung tính thông qua phương thức đấu thầu cạnh tranh.\n\nNguồn: Hộp 7, trang in 47.",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p057:v1",
+   "ccdr:p006:t1",
+   "ccdr:p057:t0",
+   "ccdr:p057:t1",
+   "ccdr:p036:t5"
+  ],
+  "context_chars": 4749,
+  "elapsed_s": 289.66,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3086,
+   "output_tokens": 195,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 34.52,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001413,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at22",
+  "question": "Trong số các tổ chức tín dụng do Ngân hàng Nhà nước quản lý, bao nhiêu tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh và bao nhiêu tổ chức thiếu quy trình thẩm định tín dụng xanh?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Trong số 85 tổ chức tín dụng do Ngân hàng Nhà nước quản lý, có 72 tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh và 74 tổ chức thiếu quy trình cụ thể về thẩm định tín dụng xanh (Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang in 68). [ccdr:p078:t2]",
+  "citations": [
+   "ccdr:p078:t2"
+  ],
+  "note": "đã nối citation: ['ccdr:p078:t2']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tổ chức tín dụng đơn vị kinh doanh chuyên trách tài chính xanh quy trình thẩm định tín dụng xanh",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.394,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.030579,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p078:v0",
+      "page": 78,
+      "kind": "chart",
+      "label": "Hình 22",
+      "score": 0.030536,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p102:v0",
+      "page": 102,
+      "kind": "table",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6296
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Trong số 85 tổ chức tín dụng do Ngân hàng Nhà nước quản lý, có 72 tổ chức chưa có đơn vị kinh doanh chuyên trách về tài chính xanh và 74 tổ chức thiếu quy trình cụ thể về thẩm định tín dụng xanh (Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang in 68).",
+     "citations": [
+      "ccdr:p078:t2"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p078:t2",
+   "ccdr:p078:t3",
+   "ccdr:p079:t5",
+   "ccdr:p078:v0",
+   "ccdr:p102:v0"
+  ],
+  "context_chars": 6296,
+  "elapsed_s": 149.56,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3846,
+   "output_tokens": 148,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 142.58,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001524,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at23",
+  "question": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là bao nhiêu và điều này đưa Việt Nam vào nhóm nào?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là 16,5 GW. Con số này đã đưa Việt Nam vào danh sách 10 quốc gia hàng đầu có công suất điện mặt trời lắp đặt lớn nhất thế giới [1].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 49 (trang in). [ccdr:p059:t1]",
+  "citations": [
+   "ccdr:p059:t1"
+  ],
+  "note": "đã nối citation: ['ccdr:p059:t1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "công suất điện mặt trời Việt Nam năm 2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.23,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p053:t3",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p054:t0",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p053:t2",
+      "page": 53,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p054:v0",
+      "page": 54,
+      "kind": "chart",
+      "label": "Hình 12",
+      "score": 0.03009,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4332
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p059:t1"
+     ],
+     "answer": "Tính đến năm 2020, công suất điện mặt trời lắp đặt của Việt Nam là 16,5 GW. Con số này đã đưa Việt Nam vào danh sách 10 quốc gia hàng đầu có công suất điện mặt trời lắp đặt lớn nhất thế giới [1].\n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam, trang 49 (trang in).",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p053:t3",
+   "ccdr:p059:t1",
+   "ccdr:p054:t0",
+   "ccdr:p053:t2",
+   "ccdr:p054:v0"
+  ],
+  "context_chars": 4332,
+  "elapsed_s": 114.86,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3241,
+   "output_tokens": 153,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 114.63,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001355,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at24",
+  "question": "Chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao là bao nhiêu cho mỗi km?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao là khoảng 1,5 triệu USD cho mỗi km [ccdr:p038:t1]. \n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (Ngân hàng Thế giới, 2022), trang 28.",
+  "citations": [
+   "ccdr:p038:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí nâng cấp quốc lộ cao tốc địa hình bằng phẳng mỗi km",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.089,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p057:t0",
+      "page": 57,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.029631,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p031:t2",
+      "page": 31,
+      "kind": "text",
+      "label": "",
+      "score": 0.029469,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p057:v0",
+      "page": 57,
+      "kind": "table",
+      "label": "",
+      "score": 0.029324,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4145
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Chi phí ước tính để nâng cấp một quốc lộ cao tốc điển hình trên địa hình bằng phẳng lên mức tiêu chuẩn rất cao là khoảng 1,5 triệu USD cho mỗi km [ccdr:p038:t1]. \n\nNguồn: Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (Ngân hàng Thế giới, 2022), trang 28.",
+     "citations": [
+      "ccdr:p038:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p038:t1",
+   "ccdr:p057:t0",
+   "ccdr:p037:t0",
+   "ccdr:p031:t2",
+   "ccdr:p057:v0"
+  ],
+  "context_chars": 4145,
+  "elapsed_s": 209.1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3133,
+   "output_tokens": 151,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 209.01,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001317,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "at25",
+  "question": "Chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch tại Phú Quốc là bao nhiêu?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp thông tin chi tiết về chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch tại Phú Quốc. Dữ liệu trong báo cáo chỉ nêu tổng chi phí thiệt hại ước tính của ngành du lịch trên phạm vi cả nước là 148 triệu USD vào năm 2020 [ccdr:p017:v0, ccdr:p017:t1].",
+  "citations": [
+   "ccdr:p017:v0",
+   "ccdr:p017:t1"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "thiệt hại biến đổi khí hậu du lịch Phú Quốc 2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.175,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p017:v0",
+      "page": 17,
+      "kind": "chart",
+      "label": "Hình 3",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p017:t0",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p017:t1",
+      "page": 17,
+      "kind": "text",
+      "label": "",
+      "score": 0.031754,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p024:t4",
+      "page": 24,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3727
+   },
+   {
+    "event": "view_page",
+    "page": 17,
+    "question": "Đọc Hình 3 để xem số liệu chi phí thiệt hại ngành du lịch có phân tách theo địa phương như Phú Quốc không?",
+    "elapsed_s": 3.06,
+    "reading": "Dựa trên Hình 3 trong trang báo cáo, thông tin về chi phí thiệt hại của ngành du lịch chỉ được ghi nhận dưới dạng một con số tổng quát là **148** (triệu USD). Trang báo cáo không cung cấp dữ liệu phân tách chi phí thiệt hại ngành du lịch theo các địa phương cụ thể như Phú Quốc.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p017:v0",
+      "ccdr:p017:t1"
+     ],
+     "answer": "Báo cáo không cung cấp thông tin chi tiết về chi phí thiệt hại do biến đổi khí hậu năm 2020 đối với ngành du lịch tại Phú Quốc. Dữ liệu trong báo cáo chỉ nêu tổng chi phí thiệt hại ước tính của ngành du lịch trên phạm vi cả nước là 148 triệu USD vào năm 2020 [ccdr:p017:v0, ccdr:p017:t1].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p017:v0",
+   "ccdr:p017:t0",
+   "ccdr:p017:t1",
+   "ccdr:p024:t4",
+   "ccdr:p030:t2",
+   "ccdr:p017:page"
+  ],
+  "context_chars": 4047,
+  "elapsed_s": 18.22,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5304,
+   "output_tokens": 223,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.97,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1244,
+   "output_tokens": 71,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.48,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002699,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at26",
+  "question": "Theo Bảng 1, phát thải trên đầu người của Hàn Quốc là bao nhiêu tCO2e?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp thông tin về phát thải trên đầu người của Hàn Quốc trong Bảng 1 (trang 9). Bảng này chỉ liệt kê dữ liệu của các quốc gia: Hoa Kỳ, Mông Cổ, Malaysia, các nước OECD, Đức, Trung Quốc, Papua New Guinea, Vương quốc Anh, Indonesia, Thái Lan, Lào, Pháp, Đông Timor, Thổ Nhĩ Kỳ, Myanmar, Campuchia, Việt Nam và Philippines. [ccdr:p019:t0]",
+  "citations": [
+   "ccdr:p019:t0"
+  ],
+  "note": "đã nối citation: ['ccdr:p019:t0']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 1 phát thải trên đầu người Hàn Quốc",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.056,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p019:t0",
+      "page": 19,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p019:v1",
+      "page": 19,
+      "kind": "chart",
+      "label": "Hình 5",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p015:t1",
+      "page": 15,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p018:t1",
+      "page": 18,
+      "kind": "text",
+      "label": "",
+      "score": 0.029572,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p097:v0",
+      "page": 97,
+      "kind": "table",
+      "label": "",
+      "score": 0.029514,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7048
+   },
+   {
+    "event": "view_page",
+    "page": 19,
+    "question": "Đọc Bảng 1 trang 9 để kiểm tra xem có thông tin về Hàn Quốc không.",
+    "elapsed_s": 1.74,
+    "reading": "Dựa trên Bảng 1: So sánh phát thải giữa các nước tại trang 9, không có thông tin về quốc gia \"Hàn Quốc\" trong danh sách các nước được liệt kê.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo không cung cấp thông tin về phát thải trên đầu người của Hàn Quốc trong Bảng 1 (trang 9). Bảng này chỉ liệt kê dữ liệu của các quốc gia: Hoa Kỳ, Mông Cổ, Malaysia, các nước OECD, Đức, Trung Quốc, Papua New Guinea, Vương quốc Anh, Indonesia, Thái Lan, Lào, Pháp, Đông Timor, Thổ Nhĩ Kỳ, Myanmar, Campuchia, Việt Nam và Philippines.",
+     "status": "answered",
+     "citations": [
+      "ccdr:p019:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p019:t0",
+   "ccdr:p019:v1",
+   "ccdr:p015:t1",
+   "ccdr:p018:t1",
+   "ccdr:p097:v0",
+   "ccdr:p019:page"
+  ],
+  "context_chars": 7232,
+  "elapsed_s": 5.53,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 10027,
+   "output_tokens": 200,
+   "thinking_tokens": 0,
+   "cached_tokens": 2019,
+   "llm_seconds": 3.74,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1238,
+   "output_tokens": 41,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.23,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003982,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at27",
+  "question": "Dư nợ tín dụng xanh của Việt Nam năm 2015 chính xác là bao nhiêu tỷ USD?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp con số chính xác về dư nợ tín dụng xanh của Việt Nam năm 2015. Báo cáo chỉ nêu rằng tín dụng xanh đã tăng gần gấp 5 lần kể từ năm 2015 và biểu đồ tại Hình 22 bắt đầu cung cấp số liệu từ năm 2016 với giá trị là 3,7 tỷ USD [ccdr:p078:t2, ccdr:p078:v0].",
+  "citations": [
+   "ccdr:p078:t2",
+   "ccdr:p078:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "dư nợ tín dụng xanh 2015 tỷ USD",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.13,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p078:v0",
+      "page": 78,
+      "kind": "chart",
+      "label": "Hình 22",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t4",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p078:t3",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p078:t2",
+      "page": 78,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p079:t5",
+      "page": 79,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3453
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Báo cáo không cung cấp con số chính xác về dư nợ tín dụng xanh của Việt Nam năm 2015. Báo cáo chỉ nêu rằng tín dụng xanh đã tăng gần gấp 5 lần kể từ năm 2015 và biểu đồ tại Hình 22 bắt đầu cung cấp số liệu từ năm 2016 với giá trị là 3,7 tỷ USD [ccdr:p078:t2, ccdr:p078:v0].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p078:t2",
+      "ccdr:p078:v0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p078:v0",
+   "ccdr:p007:t4",
+   "ccdr:p078:t3",
+   "ccdr:p078:t2",
+   "ccdr:p079:t5"
+  ],
+  "context_chars": 3453,
+  "elapsed_s": 121.45,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2995,
+   "output_tokens": 183,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 121.32,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001356,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at28",
+  "question": "Báo cáo ước tính ngành điện gió ngoài khơi sẽ tạo ra bao nhiêu việc làm đến năm 2030?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam của Ngân hàng Thế giới (2022) không đưa ra con số ước tính cụ thể về số lượng việc làm sẽ được tạo ra riêng bởi ngành điện gió ngoài khơi đến năm 2030. Báo cáo đề cập đến xu hướng chuyển dịch việc làm trong quá trình khử carbon, trong đó năng lượng tái tạo sẽ tạo ra nhiều việc làm mới trong khi một số ngành công nghiệp tiêu thụ nhiều carbon sẽ bị cắt giảm, nhưng không có dự báo chi tiết cho từng ngành năng lượng cụ thể [ccdr:p072:t4].",
+  "citations": [
+   "ccdr:p072:t4"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "điện gió ngoài khơi tạo ra việc làm đến năm 2030",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.061,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.029116,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p085:t7",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.02901,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p072:t0",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.027973,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3319
+   },
+   {
+    "event": "view_page",
+    "page": 72,
+    "question": "Tìm thông tin cụ thể về số lượng việc làm do điện gió ngoài khơi tạo ra đến năm 2030 (xem Hình 20 hoặc nội dung xung quanh)",
+    "elapsed_s": 2.99,
+    "reading": "Dựa trên hình ảnh được cung cấp, không có thông tin cụ thể về số lượng việc làm do \"điện gió ngoài khơi\" tạo ra đến năm 2030.\n\n*   **Hình 20:** Biểu đồ thể hiện \"% chuyển việc, (độ lệch so với BAU)\" theo các lĩnh vực kinh tế (Điện, Khai thác mỏ, Vận tải, Xây dựng, Công nghiệp, Dịch vụ, Thương mại, Nông nghiệp, Không hoạt động), không liệt kê chi tiết theo loại hình năng lượng cụ thể như điện gió ngoài khơi.\n*   **Văn bản xung quanh:** Chỉ đề cập đến các xu hướng chung về việc làm trong các ngành như khai thác than, xây dựng, khai thác mỏ, năng lượng tái tạo, nhưng không đưa ra con số cụ thể cho \"điện gió ngoài khơi\".",
+    "context": "added"
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"điện gió ngoài khơi\" \"việc làm\" \"2030\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.033,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.027072,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5762
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"việc làm\" \"điện gió\" 2030",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p072:t4",
+      "page": 72,
+      "kind": "text",
+      "label": "",
+      "score": 0.030018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p059:t1",
+      "page": 59,
+      "kind": "text",
+      "label": "",
+      "score": 0.029727,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p062:t2",
+      "page": 62,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p086:t4",
+      "page": 86,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p062:v0",
+      "page": 62,
+      "kind": "chart",
+      "label": "Hình 15",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 8245
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam của Ngân hàng Thế giới (2022) không đưa ra con số ước tính cụ thể về số lượng việc làm sẽ được tạo ra riêng bởi ngành điện gió ngoài khơi đến năm 2030. Báo cáo đề cập đến xu hướng chuyển dịch việc làm trong quá trình khử carbon, trong đó năng lượng tái tạo sẽ tạo ra nhiều việc làm mới trong khi một số ngành công nghiệp tiêu thụ nhiều carbon sẽ bị cắt giảm, nhưng không có dự báo chi tiết cho từng ngành năng lượng cụ thể [ccdr:p072:t4].",
+     "citations": [
+      "ccdr:p072:t4"
+     ]
+    }
+   }
+  ],
+  "n_search": 3,
+  "n_view_page": 1,
+  "n_tool_calls": 4,
+  "context_ids": [
+   "ccdr:p059:t1",
+   "ccdr:p072:t4",
+   "ccdr:p056:t0",
+   "ccdr:p085:t7",
+   "ccdr:p072:t0",
+   "ccdr:p072:page",
+   "ccdr:p030:t1",
+   "ccdr:p009:t0",
+   "ccdr:p062:t2",
+   "ccdr:p086:t4",
+   "ccdr:p062:v0"
+  ],
+  "context_chars": 8245,
+  "elapsed_s": 143.05,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 12284,
+   "output_tokens": 324,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 139.93,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1256,
+   "output_tokens": 185,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.75,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.005334,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at29",
+  "question": "Theo Hình 9, tổng chiều dài các tuyến quốc lộ bị phơi nhiễm lở đất là bao nhiêu km?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp thông tin về tổng chiều dài (km) các tuyến quốc lộ bị phơi nhiễm lở đất trong Hình 9 (trang in 27). Hình 9 là bản đồ thể hiện mức độ dễ bị ảnh hưởng (phần trăm phơi nhiễm) khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam [ccdr:p037:v0].",
+  "citations": [
+   "ccdr:p037:v0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 9 tổng chiều dài quốc lộ lở đất",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.037,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.03009,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.029437,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3782
+   },
+   {
+    "event": "view_page",
+    "page": 37,
+    "question": "Tìm trong Hình 9 hoặc nội dung xung quanh liệu có con số tổng chiều dài (km) các tuyến quốc lộ bị phơi nhiễm lở đất không?",
+    "elapsed_s": 22.29,
+    "reading": "Dựa trên hình ảnh và nội dung được cung cấp trong trang tài liệu, thông tin về con số tổng chiều dài (km) của các tuyến quốc lộ bị phơi nhiễm lở đất **không có sẵn**.\n\nHình 9 cung cấp các bản đồ thể hiện \"Mức độ dễ bị ảnh hưởng\" thông qua màu sắc (tỷ lệ phần trăm phơi nhiễm), nhưng không hiển thị số liệu cụ thể về tổng chiều dài (km) của các tuyến đường.",
+    "context": "added"
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chiều dài quốc lộ phơi nhiễm lở đất km",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.026,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.031514,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p038:t2",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.030777,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.02879,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5341
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"chiều dài\" \"quốc lộ\" \"lở đất\" km",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.03,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p038:t2",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.02967,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.029631,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5341
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"km\" \"lở đất\" quốc lộ",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.02,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p038:t1",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p038:t2",
+      "page": 38,
+      "kind": "text",
+      "label": "",
+      "score": 0.02967,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:t0",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.029412,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5341
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"tổng chiều dài\" \"lở đất\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.026,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p009:t0",
+      "page": 9,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p037:t1",
+      "page": 37,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.029857,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t3",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.029514,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7911
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p037:v0"
+     ],
+     "status": "answered",
+     "answer": "Báo cáo không cung cấp thông tin về tổng chiều dài (km) các tuyến quốc lộ bị phơi nhiễm lở đất trong Hình 9 (trang in 27). Hình 9 là bản đồ thể hiện mức độ dễ bị ảnh hưởng (phần trăm phơi nhiễm) khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt Nam [ccdr:p037:v0]."
+    }
+   }
+  ],
+  "n_search": 5,
+  "n_view_page": 1,
+  "n_tool_calls": 6,
+  "context_ids": [
+   "ccdr:p037:v0",
+   "ccdr:p037:t1",
+   "ccdr:p007:t2",
+   "ccdr:p037:t0",
+   "ccdr:p038:t1",
+   "ccdr:p037:page",
+   "ccdr:p038:t2",
+   "ccdr:p036:t3",
+   "ccdr:p009:t0",
+   "ccdr:p018:v0"
+  ],
+  "context_chars": 7911,
+  "elapsed_s": 198.58,
+  "usage": {
+   "calls": 7,
+   "prompt_tokens": 19046,
+   "output_tokens": 312,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 176.15,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1251,
+   "output_tokens": 98,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 22.07,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.007114,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "at30",
+  "question": "Lượng mưa trung bình năm ở Đồng bằng sông Cửu Long là bao nhiêu mm?",
+  "config": {
+   "name": "B2_visual_view",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": false
+  },
+  "status": "abstain",
+  "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (Ngân hàng Thế giới, 2022) không cung cấp số liệu cụ thể về lượng mưa trung bình năm tính bằng mm tại khu vực Đồng bằng sông Cửu Long. Báo cáo đề cập đến các thay đổi về lượng mưa như là một yếu tố rủi ro khí hậu cần được theo dõi, nhưng không nêu con số cụ thể cho khu vực này [12, 16, 30].",
+  "citations": [],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "lượng mưa trung bình năm Đồng bằng sông Cửu Long",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3095
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "lượng mưa Đồng bằng sông Cửu Long mm",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.019,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031514,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.029211,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 3095
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lượng mưa\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.019,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p043:t3",
+      "page": 43,
+      "kind": "text",
+      "label": "",
+      "score": 0.028992,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.028169,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p045:t4",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.027032,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.026847,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p012:t6",
+      "page": 12,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6500
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Đồng bằng sông Cửu Long\" mưa \"mm\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.023,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031054,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p040:t4",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6980
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lượng mưa trung bình\" Việt Nam mm",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.024,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p016:t3",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030214,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.026786,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9379
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lượng mưa trung bình năm\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p094:v0",
+      "page": 94,
+      "kind": "table",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p094:t1",
+      "page": 94,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.027651,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p030:t0",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.027212,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 12846
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"lượng mưa trung bình\" Việt Nam",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p016:t3",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.029643,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p016:t4",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.02904,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.026993,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 12846
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"mm\" Đồng bằng sông Cửu Long",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.033,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.030415,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.030303,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 12846
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "insufficient_evidence",
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (Ngân hàng Thế giới, 2022) không cung cấp số liệu cụ thể về lượng mưa trung bình năm tính bằng mm tại khu vực Đồng bằng sông Cửu Long. Báo cáo đề cập đến các thay đổi về lượng mưa như là một yếu tố rủi ro khí hậu cần được theo dõi, nhưng không nêu con số cụ thể cho khu vực này [12, 16, 30].",
+     "citations": [
+      "ccdr:p012:t6",
+      "ccdr:p016:t4",
+      "ccdr:p030:t1"
+     ]
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p040:v0",
+   "ccdr:p040:t2",
+   "ccdr:p040:t0",
+   "ccdr:p045:t2",
+   "ccdr:p100:t0",
+   "ccdr:p043:t3",
+   "ccdr:p030:t1",
+   "ccdr:p045:t4",
+   "ccdr:p016:t4",
+   "ccdr:p012:t6",
+   "ccdr:p040:t4",
+   "ccdr:p016:t3",
+   "ccdr:p030:t2",
+   "ccdr:p091:t0",
+   "ccdr:p094:v0",
+   "ccdr:p094:t1",
+   "ccdr:p030:t0"
+  ],
+  "context_chars": 12846,
+  "elapsed_s": 114.26,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 36732,
+   "output_tokens": 370,
+   "thinking_tokens": 0,
+   "cached_tokens": 8051,
+   "llm_seconds": 114.0,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.011945,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ }
+]

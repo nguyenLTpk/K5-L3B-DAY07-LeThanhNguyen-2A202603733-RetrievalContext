@@ -1,0 +1,47 @@
+{
+ "config": "A3_hybrid_strict",
+ "split": "dev",
+ "n": 21,
+ "errors": 0,
+ "status_counts": {
+  "answered": 17,
+  "abstain": 4
+ },
+ "tool_use": "21/21",
+ "search_calls_distribution": {
+  "1": 9,
+  "2": 2,
+  "3": 1,
+  "4": 1,
+  "5": 1,
+  "6": 7
+ },
+ "tool_calls_mean": 3.19,
+ "context_evidence_rate": "17/17",
+ "first_search_hit1": "15/17",
+ "first_search_hit3": "16/17",
+ "answered_on_answerable": "17/17",
+ "abstain_on_unanswerable": "4/4",
+ "answers_with_citation": "17/17",
+ "context_chars_mean": 3942.3,
+ "median_s": 61.2,
+ "total_s": 1191.9,
+ "llm_calls": 88,
+ "prompt_tokens": 229133,
+ "output_tokens": 5428,
+ "cost_usd": 0.08231,
+ "cost_usd_per_query": 0.003919,
+ "error_messages": [],
+ "config_detail": {
+  "retriever": "hybrid",
+  "top_k": 4,
+  "max_tool_calls": 6,
+  "budget_chars": 6000,
+  "allow_adjacent": false,
+  "strict_abstain": true,
+  "llm": "gemini-3.5-flash-lite",
+  "change": "A1 + trường bắt buộc tai_lieu_neu_truc_tiep trong final_answer (false -> abstain)",
+  "hypothesis": "Lỗi dev d24/d25: model viết 'không quy định' nhưng status=answered. Bắt model khai báo rõ sẽ đưa status abstain về 4/4, không tăng từ chối nhầm câu có đáp án."
+ },
+ "wall_s": 335.2
+}

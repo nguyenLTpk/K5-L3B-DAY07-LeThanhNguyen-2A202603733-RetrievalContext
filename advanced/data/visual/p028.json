@@ -1,0 +1,48 @@
+{
+ "page": 28,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "Ảnh minh họa trang bìa chương 3",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh chụp từ trên cao khung cảnh ruộng đồng và cây xanh, được sử dụng làm hình nền cho trang bìa chương 3 của báo cáo.",
+   "transcription": "© Nguyen Quang Ngoc Tonkin/Shutterstock",
+   "crop": "p028_e0.png"
+  },
+  {
+   "label": "",
+   "kind": "box",
+   "title": "3 Thích ứng với Biến đổi Khí hậu - Lộ trình xây dựng khả năng chống chịu",
+   "box_2d": [
+    637,
+    72,
+    910,
+    928
+   ],
+   "informative": true,
+   "description": "Đây là tiêu đề của chương 3 trong báo cáo, giới thiệu về chủ đề thích ứng với biến đổi khí hậu và lộ trình xây dựng khả năng chống chịu.",
+   "transcription": "3 Thích ứng với Biến đổi Khí hậu - Lộ trình xây dựng khả năng chống chịu",
+   "crop": "p028_e1.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1718,
+  "output_tokens": 286,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.03,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.004722,
+ "seconds": 4.7
+}

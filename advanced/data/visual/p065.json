@@ -1,0 +1,50 @@
+{
+ "page": 65,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 16",
+   "kind": "chart",
+   "title": "Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ sản xuất lúa gạo",
+   "box_2d": [
+    268,
+    115,
+    577,
+    883
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột thể hiện chi phí (đơn vị $/tCO2e) cho các biện pháp giảm phát thải từ sản xuất lúa gạo. Các biện pháp có giá trị âm thể hiện tiềm năng tiết kiệm chi phí, trong khi giá trị dương thể hiện chi phí đầu tư để thực hiện.",
+   "transcription": "Loại biểu đồ: cột. Trục tung: $/tCO2e, thang từ -200 đến 500. Trục hoành: Các biện pháp. Các cột bao gồm: Chuyển từ trồng lúa sang nuôi tôm (giá trị âm ≈ -150), Cải tạo đất trồng lúa thường thành đất trồng lúa nước (giá trị âm ≈ -100), Mô hình tưới lúa ướt khô xen kẽ (AWD) ở ĐB sông Cửu Long (giá trị âm ≈ -80), Mô hình AWD ở Đồng bằng sông Hồng (giá trị gần 0), Chuyển đổi từ trồng lúa sang hoa màu (giá trị ≈ 0), Cải thiện quản lý rơm rạ (giá trị ≈ 20), Quản lý cây trồng tổng hợp (ICM) cho lúa (giá trị ≈ 30), Mô hình AWD và Hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu vừa phải (giá trị ≈ 80), Mô hình AWD và Hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu hạn chế (giá trị ≈ 400), Chuyển từ trồng lúa sang ngô (giá trị ≈ 0).",
+   "units": "$/tCO2e",
+   "crop": "p065_e0.png"
+  },
+  {
+   "label": "Hình 17",
+   "kind": "chart",
+   "title": "Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ chăn nuôi",
+   "box_2d": [
+    616,
+    115,
+    867,
+    883
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột thể hiện chi phí (đơn vị $/tCO2e) cho các biện pháp giảm phát thải trong lĩnh vực chăn nuôi. Các cột âm cho thấy hiệu quả kinh tế của việc thu hồi khí sinh học và cải thiện chế độ ăn cho bò.",
+   "transcription": "Loại biểu đồ: cột. Trục tung: $/tCO2e, thang từ -200 đến 800. Trục hoành: Các biện pháp. Các cột bao gồm: Khẩu phần hỗn hợp hoàn chỉnh dành cho bò sữa (TMR) (giá trị ≈ -180), Bổ sung chế độ ăn uống cho bò nuôi lấy thịt (TMR) (giá trị ≈ -150), Ủ chất thải của lợn (giá trị ≈ 0), Thu khí ga sinh học từ chất thải chăn nuôi lợn (TMR) (giá trị ≈ 0), Xử lý chất thải gia súc khác (TMR) (giá trị ≈ 50), Cải thiện chất lượng khẩu phần ăn cho gia súc nhỏ (TMR) (giá trị ≈ 150), Cải thiện chất lượng khẩu phần ăn cho bò sữa (TMR) (giá trị ≈ 150), Cải thiện chất lượng khẩu phần ăn cho bò nuôi lấy thịt (TMR) (giá trị ≈ 300), Cải thiện chất lượng khẩu phần ăn cho trâu nuôi lấy thịt (TMR) (giá trị ≈ 700).",
+   "units": "$/tCO2e",
+   "crop": "p065_e1.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2415,
+  "output_tokens": 920,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 72.49,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.010523,
+ "seconds": 72.5
+}

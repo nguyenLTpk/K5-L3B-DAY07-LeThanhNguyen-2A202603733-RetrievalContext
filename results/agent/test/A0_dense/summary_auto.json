@@ -1,0 +1,42 @@
+{
+ "config": "A0_dense",
+ "split": "test",
+ "n": 17,
+ "errors": 0,
+ "status_counts": {
+  "answered": 16,
+  "abstain": 1
+ },
+ "tool_use": "17/17",
+ "search_calls_distribution": {
+  "1": 9,
+  "4": 8
+ },
+ "tool_calls_mean": 2.41,
+ "context_evidence_rate": "12/13",
+ "first_search_hit1": "11/13",
+ "first_search_hit3": "13/13",
+ "answered_on_answerable": "13/13",
+ "abstain_on_unanswerable": "1/4",
+ "answers_with_citation": "16/16",
+ "context_chars_mean": 2549.5,
+ "median_s": 7.35,
+ "total_s": 323.7,
+ "llm_calls": 56,
+ "prompt_tokens": 103285,
+ "output_tokens": 4009,
+ "cost_usd": 0.04101,
+ "cost_usd_per_query": 0.002412,
+ "error_messages": [],
+ "config_detail": {
+  "retriever": "dense",
+  "top_k": 3,
+  "max_tool_calls": 4,
+  "budget_chars": 4000,
+  "allow_adjacent": false,
+  "llm": "gemini-3.5-flash-lite",
+  "change": "baseline",
+  "hypothesis": "Dense top-3 đủ cho câu trực tiếp; dự đoán hụt ở câu diễn đạt lại (q14) và câu filter khi không có filter."
+ },
+ "wall_s": 185.2
+}

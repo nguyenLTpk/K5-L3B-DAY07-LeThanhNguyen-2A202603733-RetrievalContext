@@ -1,0 +1,34 @@
+{
+ "page": 97,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "table",
+   "title": "Các kết quả chính về phát thải và kinh tế vĩ mô từ CGE",
+   "box_2d": [
+    92,
+    110,
+    832,
+    886
+   ],
+   "informative": true,
+   "description": "Bảng dữ liệu thể hiện các chỉ số kinh tế vĩ mô, phát thải và thiệt hại theo ba kịch bản (Đường cơ sở, Phát thải ròng bằng 0, Phát thải ròng bằng 0 kèm cải cách) trong các năm 2022, 2030 và 2040. Dữ liệu bao gồm các chỉ số tăng trưởng GDP, thu nhập bình quân, các thành phần chi tiêu thực tế, đóng góp các khu vực, cân bằng xuất nhập khẩu, tài khóa, khí thải, thiệt hại và các chỉ số dân số.",
+   "transcription": "| | Đường cơ sở | | | Phát thải ròng bằng 0 | | | Phát thải ròng bằng 0 kèm cải cách | | |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| | 2022 | 2030 | 2040 | 2022 | 2030 | 2040 | 2022 | 2030 | 2040 |\n| Mức tăng trưởng trung bình, %(1) | | | | Sai số so với đường cơ sở (%) | | | Sai số so với đường cơ sở | | |\n| GPD thực tế | 7,29 | 5,45 | 4,41 | 0,03 | -0,08 | -0,26 | 1,25 | 0,12 | 0,21 |\n| GDP bình quân dầu người thực tế | 6,35 | 4,73 | 3,88 | 0,03 | -0,08 | -0,26 | 1,24 | 0,12 | 0,21 |\n| Mức thu nhập tiêu thụ tính bình quân đầu người | | | | | | | | | |\n| GDP bình quân đầu người thực tế (Đồng đô không đổi 2020)* | 3.329 | 5.162 | 7.588 | 0,03 | -0,67 | -2,32 | -0,29 | 0,95 | 2,90 |\n| Mức tiêu thụ hộ gia đình tính bình quân đầu người thực tế (Đồng đô không đổi 2020)* | 2.149 | 3.300 | 4.873 | -0,03 | -0,96 | -3,12 | -0,80 | 1,02 | 2,99 |\n| Các khoản chi tiêu thực tế trong GDP thực | | | | | | | | | |\n| Tổng chi tiêu doanh nghiệp | 64,54 | 63,93 | 64,22 | -0,03 | -0,19 | -0,53 | -0,33 | 0,04 | 0,06 |\n| Tổng chi tiêu chính quyền (% GDP) | 6,23 | 6,23 | 6,23 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |\n| Đầu tư doanh nghiệp (% GDP) | 16,76 | 18,38 | 18,97 | -0,01 | 0,05 | 0,15 | 0,27 | 0,03 | 0,07 |\n| Đầu tư công (% GDP) | 6,82 | 6,38 | 5,99 | 0,00 | 0,04 | 0,14 | 0,15 | 0,06 | 0,20 |\n| Xuất khẩu ròng (% GDP) | 3,43 | 3,73 | 3,74 | -0,01 | -0,06 | 0,02 | -0,16 | -0,27 | -0,50 |\n| Đóng góp của các khu vực trong GDP | | | | | | | | | |\n| Nông nghiệp | 13,51 | 11,97 | 10,80 | 0,01 | 0,10 | 0,22 | -0,38 | -0,91 | -1,02 |\n| Công nghiệp | 63,54 | 64,37 | 65,13 | -0,01 | -0,18 | -0,32 | 0,37 | 0,48 | -0,04 |\n| Dịch vụ | 22,94 | 23,65 | 24,07 | 0,00 | 0,08 | 0,10 | 0,02 | 0,44 | 1,06 |\n| Cân bằng xuất nhập khẩu | | | | | | | | | |\n| Cán cân vãng lai (% GDP) | -0,54 | -0,50 | -0,47 | -0,01 | -0,01 | -0,01 | -0,01 | 0,09 | 0,32 |\n| Báo cáo tài khóa tổng hợp | | | | | | | | | |\n| Doanh thu hoạt động tài chính (% GDP) | 27,74 | 27,74 | 27,08 | -0,18 | 1,10 | 1,93 | -0,22 | 0,86 | 1,84 |\n| Chi tiêu tài khóa | 20,51 | 20,51 | 20,19 | -0,08 | 0,54 | 0,93 | -0,11 | 0,41 | 0,92 |\n| Trả lãi (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Thâm hụt ngân sách (% GDP) | 0,39 | 0,91 | 1,01 | -0,25 | 0,33 | 0,64 | -0,33 | 0,16 | 0,53 |\n| Nợ công (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Nợ nước ngoài (% GDP) | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A | N.A |\n| Khí thải | | | | | | | | | |\n| Lượng khí thải (Triệu tấn CO2)* | 440 | 725 | 1.123,3 | -6,39 | -42,89 | -73,65 | -6,91 | -41,53 | -70,08 |\n| Lượng khí thải trên đơn vị đầu ra (tấn CO2) | 60,6 | 60,3 | 59,6 | -6,41 | -42,51 | -73,03 | -6,64 | -42,09 | -70,92 |\n| Thiệt hại | | | | | | | | | |\n| Tổng (% GDP) | NA | NA | NA | NA | NA | NA | NA | NA | NA |\n| Nông nghiệp (% GDP) | NA | NA | NA | NA | NA | NA | NA | NA | NA |\n| Nhiệt (% GDP) | | | | | | | | | |\n| Lũ lụt (% GDP) | | | | | | | | | |\n| Các mục ghi nhớ: | | | | | | | | | |\n| Dân số (Triệu dân) | 99 | 106 | 113 | - | - | - | - | - | - |\n| Dân số trong độ tuổi lao động (Triệu người) | 68 | 70 | 71 | - | - | - | - | - | - |",
+   "units": "Triệu tấn CO2, triệu dân, phần trăm (%), đô la không đổi 2020.",
+   "crop": "p097_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 3233,
+  "output_tokens": 2086,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 5.21,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.020494,
+ "seconds": 5.3
+}

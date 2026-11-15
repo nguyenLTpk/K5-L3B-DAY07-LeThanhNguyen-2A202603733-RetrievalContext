@@ -1,0 +1,248 @@
+[
+ {
+  "query_id": "q01",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Một năm học có 02 hoặc 03 học kỳ chính, tổng số tối thiểu 30 tuần lên lớp. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q02",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Tối đa 30% tổng khối lượng của chương trình đào tạo (áp dụng cho hình thức chính quy và vừa làm vừa học). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q03",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Được dự thi, đánh giá ở một đợt khác và được tính điểm lần đầu (vắng không có lý do chính đáng thì nhận điểm 0). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q04",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q05",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Từ 3,6 đến 4,0. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q06",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với cơ sở đào tạo. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q07",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q08",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Lần thứ nhất: đình chỉ học tập 01 năm; lần thứ hai: buộc thôi học. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q09",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Loại tốt (từ 80 đến dưới 90 điểm). Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q10",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Là trung bình cộng của điểm rèn luyện các học kỳ của năm học đó. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q11",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Từ 0 đến 25 điểm. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q12",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   false
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q13",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Sau 03 tháng kể từ ngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có vi phạm đến mức phải xử lý kỷ luật. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q14",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   false,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Cảnh cáo. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "q15",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true
+  ],
+  "citation_gold_hit": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Phải bồi hoàn học bổng, chi phí đào tạo theo quy định của Chính phủ. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "d21",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Cần kết quả học tập từ 3,6 (thang 4) hoặc từ 9,0 (thang 10) trở lên và xếp loại rèn luyện xuất sắc; loại xuất sắc là từ 90 đến 100 điểm rèn luyện. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "d22",
+  "config": "A3_hybrid_strict",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "citation_gold_hit": [
+   true,
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với đáp án: Có. Điểm 3,3 thuộc học lực Giỏi (từ 3,2 đến cận 3,6); 82 điểm rèn luyện là loại tốt (từ 80 đến dưới 90); danh hiệu Giỏi yêu cầu học tập từ giỏi trở lên và rèn luyện từ tốt trở lên. Citation đã đọc, hỗ trợ ý được gắn."
+ },
+ {
+  "query_id": "d23",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "d24",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "d25",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ },
+ {
+  "query_id": "d26",
+  "config": "A3_hybrid_strict",
+  "citation_support": [],
+  "citation_gold_hit": [],
+  "abstention_correct": true,
+  "reason": "status=abstain, nội dung nói rõ tài liệu không quy định thông tin được hỏi, không thêm số liệu -> từ chối đúng."
+ }
+]

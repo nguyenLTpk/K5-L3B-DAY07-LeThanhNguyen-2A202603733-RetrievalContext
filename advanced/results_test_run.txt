@@ -1,0 +1,1 @@
+{"config": "B2_visual_view", "errors": 0, "status_counts": {"answered": 29, "abstain": 1}, "context_page_coverage_all_groups": "24/24", "first_search_page_hit3": "24/24", "abstain_on_unanswerable": "1/6", "abstain_on_answerable": "0/24", "view_page_calls": 17, "median_s": 85.1, "cost_usd": 0.0925}

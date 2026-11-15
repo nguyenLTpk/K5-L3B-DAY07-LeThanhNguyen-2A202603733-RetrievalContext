@@ -1,0 +1,45 @@
+{
+ "config": "A1_hybrid",
+ "split": "dev",
+ "n": 21,
+ "errors": 0,
+ "status_counts": {
+  "answered": 19,
+  "abstain": 2
+ },
+ "tool_use": "21/21",
+ "search_calls_distribution": {
+  "1": 10,
+  "2": 3,
+  "3": 1,
+  "4": 2,
+  "6": 5
+ },
+ "tool_calls_mean": 2.71,
+ "context_evidence_rate": "17/17",
+ "first_search_hit1": "14/17",
+ "first_search_hit3": "16/17",
+ "answered_on_answerable": "17/17",
+ "abstain_on_unanswerable": "2/4",
+ "answers_with_citation": "19/19",
+ "context_chars_mean": 3792.7,
+ "median_s": 4.33,
+ "total_s": 968.8,
+ "llm_calls": 78,
+ "prompt_tokens": 184199,
+ "output_tokens": 4768,
+ "cost_usd": 0.06718,
+ "cost_usd_per_query": 0.003199,
+ "error_messages": [],
+ "config_detail": {
+  "retriever": "hybrid",
+  "top_k": 4,
+  "max_tool_calls": 6,
+  "budget_chars": 6000,
+  "allow_adjacent": false,
+  "llm": "gemini-3.5-flash-lite",
+  "change": "tool hybrid (dense+BM25, RRF) + top_k 4 + 6 lượt + budget 6000",
+  "hypothesis": "BM25 bắt thuật ngữ/con số mà dense bỏ lỡ; dev retrieval hybrid Hit@3 16/17 > dense 15/17. Dự đoán tăng Context Evidence Rate và grounded answer, chi phí token tăng nhẹ."
+ },
+ "wall_s": 244.5
+}

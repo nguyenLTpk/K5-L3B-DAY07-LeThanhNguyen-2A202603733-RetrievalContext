@@ -1,0 +1,34 @@
+{
+ "page": 82,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "",
+   "kind": "photo",
+   "title": "Ảnh minh họa trang chương",
+   "box_2d": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "informative": false,
+   "description": "Ảnh chụp từ trên cao thể hiện một cánh đồng điện gió kết hợp với trang trại điện mặt trời ở Việt Nam. Khung cảnh có các tuabin gió cao và các tấm pin năng lượng mặt trời trải dài trên diện tích đất lớn.",
+   "transcription": "Kết luận và Khuyến nghị",
+   "notes": "© Nguyen Quang Ngoc Tonkin/Shutterstock",
+   "crop": "p082_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 1699,
+  "output_tokens": 163,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.79,
+  "retries": 1,
+  "errors": []
+ },
+ "cost_usd": 0.003771,
+ "seconds": 49.2
+}

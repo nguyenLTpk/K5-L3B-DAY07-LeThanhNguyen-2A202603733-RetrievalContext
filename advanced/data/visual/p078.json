@@ -1,0 +1,34 @@
+{
+ "page": 78,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 22",
+   "kind": "chart",
+   "title": "Hình 22: Dư nợ cho vay tư nhân về vấn đề khí hậu và tín dụng xanh từ 2016 đến 2019 (tỷ USD)",
+   "box_2d": [
+    662,
+    117,
+    922,
+    856
+   ],
+   "informative": true,
+   "description": "Hình 22 gồm hai biểu đồ: (1) Biểu đồ cột thể hiện sự tăng trưởng dư nợ tín dụng xanh từ năm 2016 đến 2021:Q1, cho thấy xu hướng tăng liên tục. (2) Biểu đồ cột chồng thể hiện cơ cấu tín dụng xanh theo lĩnh vực (Nông nghiệp, Năng lượng tái tạo, Khác) trong các giai đoạn 2019, 2020, 2020:Q1.",
+   "transcription": "Biểu đồ trái (Dư nợ tín dụng xanh): Biểu đồ cột. Trục tung là giá trị (tỷ USD). Các năm: 2016 (3,7), 2017 (7,8), 2018 (10,3), 2019 (13,9), 2020 (14,5), 2021:Q1 (14,5). Biểu đồ phải (Tín dụng xanh theo lĩnh vực): Biểu đồ cột chồng. Trục tung thang đo từ 0 đến 188. Các năm trên trục hoành: 2019, 2020, 2020:Q1. Chú giải: Màu xanh dương đậm (Nông nghiệp xanh), màu vàng cam (Năng lượng tái tạo xanh), màu xanh dương nhạt (Khác bao gồm quản lý nước, lâm nghiệp bền vững).",
+   "units": "tỷ USD (cho dư nợ), đơn vị trục tung biểu đồ phải không rõ ràng (ghi chú 0-188). Nguồn: FiinResearch và NHNN.",
+   "crop": "p078_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2674,
+  "output_tokens": 490,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.13,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.007686,
+ "seconds": 3.2
+}

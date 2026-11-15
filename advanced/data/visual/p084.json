@@ -1,0 +1,33 @@
+{
+ "page": 84,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Bảng 6",
+   "kind": "table",
+   "title": "Tiêu chí ưu tiên",
+   "box_2d": [
+    542,
+    115,
+    882,
+    849
+   ],
+   "informative": true,
+   "description": "Bảng này mô tả khung ưu tiên hóa hành động dựa trên hai tiêu chí: mức độ khẩn cấp (cao/trung bình) và mức độ tác động (cao/trung bình). Mỗi ô trong ma trận giải thích đặc điểm của các hành động tương ứng với sự kết hợp của hai tiêu chí này.",
+   "transcription": "| Khẩn cấp | Tác động: Cao | Tác động: Trung bình |\n| :--- | :--- | :--- |\n| **Cao** (Trì hoãn hành động làm tăng chi phí đạt cùng mục tiêu) | Những hành động không thể trì hoãn và sẽ có tác động lớn và ngay lập tức (thắng nhanh). | Các hành động có thể cần lên kế hoạch dài hạn và huy động sự ủng hộ chính trị và nguồn tài chính |\n| **Trung bình** (Chậm trễ hành động không làm tăng chi phí đạt cùng mục tiêu.) | Các hành động cần thời gian để hình thành và thực hiện nhưng có thể mang lại tác động lớn | Những hành động cần thời gian để hình thành và thực hiện; tác động có thể không chắc chắn trong một số trường hợp |",
+   "crop": "p084_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2531,
+  "output_tokens": 340,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 2.68,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.006346,
+ "seconds": 2.7
+}

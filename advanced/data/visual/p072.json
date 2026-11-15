@@ -1,0 +1,34 @@
+{
+ "page": 72,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 20",
+   "kind": "chart",
+   "title": "Những thay đổi về việc làm theo lĩnh vực vào năm 2040",
+   "box_2d": [
+    399,
+    114,
+    650,
+    831
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột nhóm so sánh tỷ lệ thay đổi việc làm theo các lĩnh vực vào năm 2040 giữa hai kịch bản NZP và NZP đã cải cách. Các ngành như điện và khai thác mỏ có sự tăng trưởng việc làm rõ rệt, trong khi ngành vận tải và nông nghiệp chịu sự sụt giảm mạnh trong kịch bản NZP.",
+   "transcription": "Biểu đồ cột nhóm với trục tung là '% chuyển việc, (độ lệch so với BAU)', thang từ -9,4 đến 28,1. Trục hoành gồm các nhóm: Điện, Khai thác mỏ, Vận tải, Xây dựng, Công nghiệp, Dịch vụ, Thương mại, Nông nghiệp, Không hoạt động. Chú giải: Màu xanh là NZP, màu cam là NZP đã cải cách. Các giá trị số liệu tương ứng: Điện (NZP: 0, NZP đã cải cách: 23,6), Khai thác mỏ (NZP: 2,2, NZP đã cải cách: 18,4), Vận tải (NZP: -6,3, NZP đã cải cách: 7,9), Xây dựng (NZP: 1,7, NZP đã cải cách: 9,8), Công nghiệp (NZP: -0,4, NZP đã cải cách: 7,4), Dịch vụ (NZP: 0,1, NZP đã cải cách: 12,4), Thương mại (NZP: 0,4, NZP đã cải cách: -5,4), Nông nghiệp (NZP: 0, NZP đã cải cách: -5,4), Không hoạt động (NZP: 0,1, NZP đã cải cách: -0,7). Lưu ý: Dữ liệu bị trùng lặp số 28,1 ở đầu trục tung (trên biểu đồ).",
+   "units": "% chuyển việc, (độ lệch so với BAU)",
+   "crop": "p072_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2654,
+  "output_tokens": 537,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.72,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.008008,
+ "seconds": 3.7
+}

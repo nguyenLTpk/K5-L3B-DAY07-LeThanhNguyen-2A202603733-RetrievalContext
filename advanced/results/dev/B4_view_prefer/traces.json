@@ -1,0 +1,3329 @@
+[
+ {
+  "query_id": "ad01",
+  "question": "Trong Kịch bản tăng tốc khử carbon (ADS) giai đoạn 2022–2040, chi phí vốn để lưu trữ và phát điện mới thay đổi bao nhiêu so với CPS (tỷ USD và phần trăm)?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Trong Kịch bản tăng tốc khử carbon (ADS) giai đoạn 2022–2040, chi phí vốn để lưu trữ và phát điện mới tăng 44 tỷ USD so với Kịch bản chính sách hiện hành (CPS), tương đương mức tăng 52% [ccdr:p056:page, ccdr:p056:t4].\n\nNguồn: Bảng 5, Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang in 46).",
+  "citations": [
+   "ccdr:p056:page",
+   "ccdr:p056:t4"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí vốn lưu trữ và phát điện mới ADS CPS 2022-2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.407,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p056:v1",
+      "page": 56,
+      "kind": "table",
+      "label": "Bảng 5",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:t1",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:v0",
+      "page": 56,
+      "kind": "chart",
+      "label": "Hình 13",
+      "score": 0.03101,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2996
+   },
+   {
+    "event": "view_page",
+    "page": 56,
+    "question": "Kiểm tra Bảng 5 để xác nhận giá trị Chi phí vốn để lưu trữ và phát điện mới trong kịch bản ADS so với CPS.",
+    "elapsed_s": 2.73,
+    "reading": "Dựa trên Bảng 5 trong ảnh:\n\n*   **Phần tử:** Bảng 5.\n*   **Hàng:** \"Chi phí vốn để lưu trữ và phát điện mới\".\n*   **Cột:** \"tỷ USD\".\n*   **Giá trị:** +44",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Trong Kịch bản tăng tốc khử carbon (ADS) giai đoạn 2022–2040, chi phí vốn để lưu trữ và phát điện mới tăng 44 tỷ USD so với Kịch bản chính sách hiện hành (CPS), tương đương mức tăng 52% [ccdr:p056:page, ccdr:p056:t4].\n\nNguồn: Bảng 5, Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam (trang in 46).",
+     "status": "answered",
+     "citations": [
+      "ccdr:p056:page",
+      "ccdr:p056:t4"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p056:v1",
+   "ccdr:p056:t4",
+   "ccdr:p056:t0",
+   "ccdr:p056:t1",
+   "ccdr:p056:v0",
+   "ccdr:p056:page"
+  ],
+  "context_chars": 3192,
+  "elapsed_s": 7.88,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 5607,
+   "output_tokens": 249,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.23,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1248,
+   "output_tokens": 64,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.29,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002839,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad02",
+  "question": "Trong bảng các kịch bản khí hậu toàn cầu ở Phụ lục 3, 'trường hợp trung gian' tương ứng với kịch bản CMIP5/CMIP6 nào và giả định mực nước biển dâng trung bình toàn cầu năm 2100 là bao nhiêu?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Trong bảng \"Các kịch bản khí hậu toàn cầu: Các giả định và kết quả\" tại Phụ lục 3 (trang in 84), \"trường hợp trung gian\" tương ứng với các kịch bản CMIP5: RCP4.5 và CMIP6: SSP2-4.5 [ccdr:p094:v0]. Theo kịch bản này, giả định mực nước biển dâng trung bình toàn cầu vào năm 2100 là 50 cm [ccdr:p094:page].",
+  "citations": [
+   "ccdr:p094:v0",
+   "ccdr:p094:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 3 kịch bản khí hậu toàn cầu trường hợp trung gian CMIP5 CMIP6 mực nước biển dâng 2100",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.551,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p094:v0",
+      "page": 94,
+      "kind": "table",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p094:t0",
+      "page": 94,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p094:t1",
+      "page": 94,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p029:t1",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.030303,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5204
+   },
+   {
+    "event": "view_page",
+    "page": 94,
+    "question": "Đọc nội dung cột 'Kết quả khí hậu trung gian (trường hợp trung gian)' trong Bảng 'Các kịch bản khí hậu toàn cầu: Các giả định và kết quả' (Phụ lục 3).",
+    "elapsed_s": 3.66,
+    "reading": "Dựa trên nội dung bảng \"Các kịch bản khí hậu toàn cầu: Các giả định và kết quả\" trong ảnh, nội dung cột **\"Kết quả khí hậu trung gian (trường hợp trung gian)\"** bao gồm các thông tin sau:\n\n*   **Dòng \"Các kịch bản\":** CMIP5: RCP4.5; CMIP6: SSP2-4.5\n*   **Dòng \"Chính sách khí hậu\":** Đạt được các cam kết hiện tại về khí hậu và các mục tiêu năm 2030\n*   **Dòng \"Ứng phó khí hậu\":** Nhạy cảm với khí hậu ở mức trung bình\n*   **Dòng \"Mức độ ấm lên toàn cầu\":** Nhiệt độ trung bình toàn cầu tăng 2-3°C vào năm 2100\n*   **Dòng \"Những yếu tố khác\":** \n    *   Mực nước biển dâng trung bình toàn cầu vào năm 2100 là 50 cm\n    *   Bón phân CO2 gây thiệt hại năng suất cây trồng hạn chế (và mang lại lợi ích ở một số vùng)\n    *   Một số khả năng phục hồi của các hệ sinh thái chính",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p094:v0",
+      "ccdr:p094:page"
+     ],
+     "answer": "Trong bảng \"Các kịch bản khí hậu toàn cầu: Các giả định và kết quả\" tại Phụ lục 3 (trang in 84), \"trường hợp trung gian\" tương ứng với các kịch bản CMIP5: RCP4.5 và CMIP6: SSP2-4.5 [ccdr:p094:v0]. Theo kịch bản này, giả định mực nước biển dâng trung bình toàn cầu vào năm 2100 là 50 cm [ccdr:p094:page].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p094:v0",
+   "ccdr:p094:t0",
+   "ccdr:p094:t1",
+   "ccdr:p030:t2",
+   "ccdr:p029:t1",
+   "ccdr:p094:page"
+  ],
+  "context_chars": 6021,
+  "elapsed_s": 8.8,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 7045,
+   "output_tokens": 279,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.28,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1264,
+   "output_tokens": 266,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.21,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003855,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad03",
+  "question": "Trong Ma trận tác động khẩn cấp–ưu tiên (Phụ lục 4), hành động 'Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long' được xếp ở mức khẩn cấp và mức tác động nào?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Trong Ma trận tác động khẩn cấp–ưu tiên (Phụ lục 4), hành động \"Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long\" được xếp ở mức **Khẩn cấp Cao** và mức **Tác động Trung bình** [ccdr:p100:page].",
+  "citations": [
+   "ccdr:p100:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"Ma trận tác động khẩn cấp–ưu tiên\" \"Phụ lục 4\" \"Đồng bằng sông Cửu Long\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.111,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p100:v0",
+      "page": 100,
+      "kind": "table",
+      "label": "Phụ lục 4",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p005:t2",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p084:v0",
+      "page": 84,
+      "kind": "table",
+      "label": "Bảng 6",
+      "score": 0.03055,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p085:t0",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5578
+   },
+   {
+    "event": "view_page",
+    "page": 100,
+    "question": "Đọc trong bảng Phụ lục 4, hành động \"Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long\" nằm ở mức Khẩn cấp nào và mức Tác động nào?",
+    "elapsed_s": 1.92,
+    "reading": "Dựa trên hình ảnh \"Phụ lục 4. Ma trận tác động khẩn cấp-Ưu tiên\":\n\n*   **Hành động:** \"Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long\".\n*   **Vị trí:** Nằm trong ô giao giữa **Mức Khẩn cấp: Cao** và **Mức Tác động: Trung bình**.\n\nCụ thể:\n*   **Phần tử:** Bảng \"Phụ lục 4. Ma trận tác động khẩn cấp-Ưu tiên\".\n*   **Cột:** Tác động - Trung bình.\n*   **Hàng:** Khẩn cấp - Cao (dòng đầu tiên trong nhóm này).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Trong Ma trận tác động khẩn cấp–ưu tiên (Phụ lục 4), hành động \"Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long\" được xếp ở mức **Khẩn cấp Cao** và mức **Tác động Trung bình** [ccdr:p100:page].",
+     "citations": [
+      "ccdr:p100:page"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p100:t0",
+   "ccdr:p100:v0",
+   "ccdr:p005:t2",
+   "ccdr:p084:v0",
+   "ccdr:p085:t0",
+   "ccdr:p100:page"
+  ],
+  "context_chars": 6072,
+  "elapsed_s": 93.51,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6795,
+   "output_tokens": 232,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.95,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1273,
+   "output_tokens": 163,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.71,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003408,
+  "group": "table",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad04",
+  "question": "Theo Hình 8, vào năm 2050 kịch bản RCP 2.6 và RCP 4.5 có mức thiệt hại GDP khoảng bao nhiêu, kịch bản nào cao hơn và chênh lệch khoảng bao nhiêu điểm phần trăm?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hình 8 (trang 20), vào năm 2050, mức thiệt hại GDP dự báo như sau:\n*   Kịch bản RCP 2.6: khoảng 9,8% - 10% GDP [ccdr:p030:t2], [ccdr:p030:page].\n*   Kịch bản RCP 4.5: khoảng 12,3% - 12,5% GDP [ccdr:p030:t2], [ccdr:p030:page].\n\nKịch bản **RCP 4.5** gây ra thiệt hại GDP cao hơn [ccdr:p030:v0], [ccdr:p030:t2]. Sự chênh lệch giữa hai kịch bản này vào năm 2050 là khoảng **2,3 đến 2,5 điểm phần trăm** [ccdr:p030:t2], [ccdr:p030:page].",
+  "citations": [
+   "ccdr:p030:v0",
+   "ccdr:p030:t2",
+   "ccdr:p030:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 8 mức thiệt hại GDP năm 2050 RCP 2.6 RCP 4.5",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.041,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p030:v0",
+      "page": 30,
+      "kind": "chart",
+      "label": "Hình 8",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p029:t1",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p095:v0",
+      "page": 95,
+      "kind": "table",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7427
+   },
+   {
+    "event": "view_page",
+    "page": 30,
+    "question": "Xem Hình 8 để xác định giá trị thiệt hại GDP năm 2050 theo kịch bản RCP 2.6 và RCP 4.5.",
+    "elapsed_s": 91.51,
+    "reading": "Dựa trên Hình 8 trong trang báo cáo:\n\n*   **Hình 8:** Các tác động kinh tế ước tính khi nhiệt độ và lượng mưa cao hơn, thay đổi nhiều hơn, mực nước biển dâng cao - thiệt hại GDP.\n*   **Giá trị tại năm 2050:**\n    *   **Kịch bản RCP 2.6 (đường màu xanh dương):** Giá trị tại điểm cuối của đường biểu diễn tương ứng với giá trị trên trục tung là **≈ 10%**.\n    *   **Kịch bản RCP 4.5 (đường màu cam):** Giá trị tại điểm cuối của đường biểu diễn tương ứng với giá trị trên trục tung là **≈ 12,5%** (nằm giữa mức 12 và 14, gần mức 12,5).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p030:v0",
+      "ccdr:p030:t2",
+      "ccdr:p030:page"
+     ],
+     "answer": "Theo Hình 8 (trang 20), vào năm 2050, mức thiệt hại GDP dự báo như sau:\n*   Kịch bản RCP 2.6: khoảng 9,8% - 10% GDP [ccdr:p030:t2], [ccdr:p030:page].\n*   Kịch bản RCP 4.5: khoảng 12,3% - 12,5% GDP [ccdr:p030:t2], [ccdr:p030:page].\n\nKịch bản **RCP 4.5** gây ra thiệt hại GDP cao hơn [ccdr:p030:v0], [ccdr:p030:t2]. Sự chênh lệch giữa hai kịch bản này vào năm 2050 là khoảng **2,3 đến 2,5 điểm phần trăm** [ccdr:p030:t2], [ccdr:p030:page].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p030:v0",
+   "ccdr:p030:t1",
+   "ccdr:p030:t2",
+   "ccdr:p029:t1",
+   "ccdr:p095:v0",
+   "ccdr:p030:page"
+  ],
+  "context_chars": 8003,
+  "elapsed_s": 95.28,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 10982,
+   "output_tokens": 375,
+   "thinking_tokens": 0,
+   "cached_tokens": 2021,
+   "llm_seconds": 3.73,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1252,
+   "output_tokens": 179,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.45,
+   "retries": 2,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.005055,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad05",
+  "question": "Theo Hình 13, phát thải GHG của ngành điện năm 2040 trong kịch bản CPS và ADS lần lượt là bao nhiêu triệu tấn CO2e?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hình 13, phát thải GHG của ngành điện năm 2040 dự báo đạt 246 triệu tấn CO2e trong kịch bản CPS và 63 triệu tấn CO2e trong kịch bản ADS [ccdr:p056:page].",
+  "citations": [
+   "ccdr:p056:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 13 phát thải GHG ngành điện 2040 CPS ADS",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.146,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:v0",
+      "page": 56,
+      "kind": "chart",
+      "label": "Hình 13",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p054:t2",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p018:v0",
+      "page": 18,
+      "kind": "chart",
+      "label": "Hình 4",
+      "score": 0.030536,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.029958,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4505
+   },
+   {
+    "event": "view_page",
+    "page": 56,
+    "question": "Đọc giá trị phát thải GHG năm 2040 của ngành điện cho kịch bản CPS và ADS từ biểu đồ Hình 13.",
+    "elapsed_s": 2.18,
+    "reading": "Dựa trên biểu đồ bên phải của Hình 13 (\"Phát thải GHG ngành điện, triệu tấn CO2e, 2020-40\"):\n\n*   **Giá trị phát thải GHG năm 2040 của kịch bản CPS:** Được ghi chú trực tiếp tại điểm cuối của đường biểu diễn màu xanh dương là **246** (triệu tấn CO2e).\n*   **Giá trị phát thải GHG năm 2040 của kịch bản ADS:** Được ghi chú trực tiếp tại điểm cuối của đường biểu diễn màu vàng cam là **63** (triệu tấn CO2e).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 13, phát thải GHG của ngành điện năm 2040 dự báo đạt 246 triệu tấn CO2e trong kịch bản CPS và 63 triệu tấn CO2e trong kịch bản ADS [ccdr:p056:page].",
+     "citations": [
+      "ccdr:p056:page"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p056:t0",
+   "ccdr:p056:v0",
+   "ccdr:p054:t2",
+   "ccdr:p018:v0",
+   "ccdr:p007:t2",
+   "ccdr:p056:page"
+  ],
+  "context_chars": 4954,
+  "elapsed_s": 5.72,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6508,
+   "output_tokens": 177,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.39,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1249,
+   "output_tokens": 134,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.92,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003105,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad06",
+  "question": "Theo Hình 16, trong các biện pháp giảm phát thải từ sản xuất lúa gạo, biện pháp nào có chi phí giảm phát thải cao nhất và biện pháp nào có chi phí thấp nhất (âm nhiều nhất)?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hình 16 (trang 55), trong các biện pháp giảm phát thải từ sản xuất lúa gạo:\n- Biện pháp có chi phí thấp nhất (âm nhiều nhất) là **\"Chuyển từ trồng lúa sang nuôi tôm\"** với giá trị khoảng **-150 $/tCO2e** [ccdr:p065:page].\n- Biện pháp có chi phí cao nhất là **\"Chuyển từ trồng lúa sang ngô\"** với giá trị khoảng **400 $/tCO2e** [ccdr:p065:page].",
+  "citations": [
+   "ccdr:p065:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 16 giảm phát thải sản xuất lúa gạo",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.051,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p065:v0",
+      "page": 65,
+      "kind": "chart",
+      "label": "Hình 16",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p064:t5",
+      "page": 64,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p065:t0",
+      "page": 65,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p066:t4",
+      "page": 66,
+      "kind": "text",
+      "label": "",
+      "score": 0.030536,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4263
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Đọc số liệu chi phí ($/tCO2e) của các biện pháp giảm phát thải trong sản xuất lúa gạo từ Hình 16 để xác định biện pháp có chi phí cao nhất và thấp nhất (âm nhiều nhất).",
+    "elapsed_s": 1.89,
+    "reading": "Dựa trên Hình 16 (Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ sản xuất lúa gạo), số liệu chi phí ($/tCO2e) được ước lượng từ trục tung như sau:\n\n*   **Biện pháp có chi phí thấp nhất (âm nhiều nhất):** \"Chuyển từ trồng lúa sang nuôi tôm\" với giá trị **≈ -150 $/tCO2e**.\n*   **Biện pháp có chi phí cao nhất:** \"Chuyển từ trồng lúa sang ngô\" với giá trị **≈ 400 $/tCO2e**.",
+    "context": "added"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Xem kỹ lại Hình 16, đọc chính xác tên biện pháp có chi phí cao nhất (cột cao nhất) và biện pháp có chi phí âm nhiều nhất (cột âm sâu nhất).",
+    "elapsed_s": 1.96,
+    "reading": "Dựa trên Hình 16 trong ảnh, thông tin cụ thể như sau:\n\n*   **Biện pháp có chi phí cao nhất (cột cao nhất):**\n    *   Tên biện pháp: **Chuyển đổi từ trồng lúa sang ngô**\n    *   Giá trị (ước lượng từ trục): **≈ 400 $/tCO2e**\n*   **Biện pháp có chi phí âm nhiều nhất (cột âm sâu nhất):**\n    *   Tên biện pháp: **Chuyển từ trồng lúa sang nuôi tôm**\n    *   Giá trị (ước lượng từ trục): **≈ -150 $/tCO2e**",
+    "context": "appended"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Đọc lại các nhãn cột trên Hình 16 để kiểm tra lại tên biện pháp có chi phí cao nhất và thấp nhất. Nhìn vào biểu đồ, cột cao nhất (dương) là gì? Cột thấp nhất (âm) là gì?",
+    "elapsed_s": 103.75,
+    "reading": "Dựa trên Hình 16: Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ sản xuất lúa gạo, các thông tin được đọc như sau:\n\n*   **Cột cao nhất (chi phí dương lớn nhất):** Nằm ở phía ngoài cùng bên phải của biểu đồ.\n    *   **Tên biện pháp:** \"Chuyển từ trồng lúa sang ngô\".\n    *   **Giá trị ước lượng:** ≈ 400 $/tCO₂e.\n*   **Cột thấp nhất (chi phí âm lớn nhất/hiệu quả nhất):** Nằm ở phía ngoài cùng bên trái của biểu đồ.\n    *   **Tên biện pháp:** \"Chuyển từ trồng lúa sang nuôi tôm\".\n    *   **Giá trị ước lượng:** ≈ -150 $/tCO₂e.",
+    "context": "appended"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Kiểm tra lại kỹ Hình 16, đọc nhãn cho cột cao nhất (dương) và cột âm nhất một lần nữa. Cột cao nhất có nhãn gì? Cột âm nhất có nhãn gì?",
+    "elapsed_s": 5.34,
+    "reading": "Dựa trên Hình 16 trong ảnh:\n\n*   **Cột cao nhất (dương):** Có nhãn là \"Chuyển từ trồng lúa sang ngô\".\n*   **Cột âm nhất (thấp nhất phía dưới trục 0):** Có nhãn là \"Chuyển từ trồng lúa sang nuôi tôm\".",
+    "context": "appended"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Hãy kiểm tra lại kỹ nhãn của cột cao nhất ở Hình 16. Có phải là 'Mô hình AWD và hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu hạn chế' không? Hay là 'Chuyển từ trồng lúa sang ngô'? Nhìn kỹ lại Hình 16.",
+    "elapsed_s": 4.39,
+    "reading": "Dựa trên Hình 16 trong trang tài liệu:\n\n*   **Phần tử:** Hình 16.\n*   **Kiểm tra nhãn:** Nhãn của cột cao nhất (cột nằm ngoài cùng bên phải) là: **\"Chuyển từ trồng lúa sang ngô\"**.\n*   **Giải thích:** Cột có nhãn **\"Mô hình AWD và Hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu hạn chế\"** là cột cao thứ hai, nằm ngay bên trái của cột \"Chuyển từ trồng lúa sang ngô\".\n\nNhư vậy, thông tin bạn dự đoán ban đầu về cột cao nhất là chưa chính xác. Cột cao nhất là \"Chuyển từ trồng lúa sang ngô\".",
+    "context": "appended"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Đọc thật chậm nhãn trên Hình 16. Nhìn vào các cột từ trái sang phải. Cột đầu tiên (âm nhất) là gì? Cột cuối cùng (dương nhất) là gì? Đọc chính xác từng từ.",
+    "elapsed_s": 1.81,
+    "reading": "Dựa trên Hình 16 trong ảnh, các nhãn được đọc như sau:\n\n*   **Cột đầu tiên (cột có giá trị âm nhất):** \"Chuyển từ trồng lúa sang nuôi tôm\"\n*   **Cột cuối cùng (cột có giá trị dương nhất):** \"Chuyển từ trồng lúa sang ngô\"",
+    "context": "appended"
+   },
+   {
+    "event": "view_page",
+    "page": 65,
+    "question": "Nhìn thật kỹ hình 16. Cột cuối cùng bên phải có đúng là 'Chuyển từ trồng lúa sang ngô' không? Hay nó là 'Mô hình AWD và Hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu hạn chế'? Đọc chính xác lại.",
+    "elapsed_s": 5.45,
+    "reading": "Dựa trên hình 16 trong trang báo cáo:\n\n*   **Hình 16**, trục hoành liệt kê các biện pháp từ trái sang phải.\n*   Cột cuối cùng bên phải (cột thứ 8) có nhãn là: **\"Chuyển từ trồng lúa sang ngô\"**.\n*   Cột thứ 7 (kế bên trái của cột cuối cùng) có nhãn là: **\"Mô hình AWD và Hệ thống SRI/1M5R ở khu trồng lúa tưới tiêu hạn chế\"**.\n\nNhư vậy, tên gọi chính xác cho cột cuối cùng bên phải là **\"Chuyển từ trồng lúa sang ngô\"**.",
+    "context": "appended"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Theo Hình 16 (trang 55), trong các biện pháp giảm phát thải từ sản xuất lúa gạo:\n- Biện pháp có chi phí thấp nhất (âm nhiều nhất) là **\"Chuyển từ trồng lúa sang nuôi tôm\"** với giá trị khoảng **-150 $/tCO2e** [ccdr:p065:page].\n- Biện pháp có chi phí cao nhất là **\"Chuyển từ trồng lúa sang ngô\"** với giá trị khoảng **400 $/tCO2e** [ccdr:p065:page].",
+     "citations": [
+      "ccdr:p065:page"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 7,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p065:v0",
+   "ccdr:p007:t3",
+   "ccdr:p064:t5",
+   "ccdr:p065:t0",
+   "ccdr:p066:t4",
+   "ccdr:p065:page"
+  ],
+  "context_chars": 6980,
+  "elapsed_s": 143.64,
+  "usage": {
+   "calls": 9,
+   "prompt_tokens": 27318,
+   "output_tokens": 714,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 19.0,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 7,
+   "prompt_tokens": 8904,
+   "output_tokens": 941,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 21.41,
+   "retries": 2,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.015004,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad07",
+  "question": "Theo Hình 6 (khảo sát doanh nghiệp năm 2019), tác động nào có tỷ lệ doanh nghiệp trả lời 'Hầu như không' cao nhất và tỷ lệ đó là bao nhiêu?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Dựa trên Hình 6 (trang in 15), tác động có tỷ lệ doanh nghiệp trả lời 'Hầu như không' cao nhất là **\"Thiếu nguồn cung nguyên liệu đầu vào\"** với tỷ lệ là **33%** [ccdr:p025:t1, ccdr:p025:page].",
+  "citations": [
+   "ccdr:p025:t1",
+   "ccdr:p025:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 6 khảo sát doanh nghiệp 2019",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t1",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:v0",
+      "page": 25,
+      "kind": "chart",
+      "label": "Hình 6",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p025:t0",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.02971,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.027444,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4426
+   },
+   {
+    "event": "view_page",
+    "page": 25,
+    "question": "Đọc giá trị 'Hầu như không' (cột đầu tiên) cho từng hạng mục trong Hình 6 để xác định hạng mục nào có tỷ lệ cao nhất.",
+    "elapsed_s": 2.32,
+    "reading": "Dựa trên **Hình 6: Các tác động của biến đổi khí hậu và rủi ro thiên tai dưới sự quan sát của các doanh nghiệp (2019)**, giá trị của cột **\"Hầu như không\"** (phần màu xanh đậm bên trái nhất) cho từng hạng mục như sau:\n\n*   **Giai đoạn kinh doanh sản xuất:** 11\n*   **Giảm năng suất lao động:** 12\n*   **Doanh thu sụt giảm:** 12\n*   **Gián đoạn kênh vận chuyển:** 16\n*   **Tăng chi phí sản xuất:** 16\n*   **Trì hoãn mạng lưới phân phối:** 24\n*   **Giảm chất lượng sản phẩm/dịch vụ:** 27\n*   **Thiệt hại về cơ sở vật chất:** 21\n*   **Thiếu hụt nhân lực:** 24\n*   **Thiếu nguồn cung nguyên liệu đầu vào:** 33\n\n**Kết luận:** Hạng mục có tỷ lệ \"Hầu như không\" cao nhất là **\"Thiếu nguồn cung nguyên liệu đầu vào\"** với giá trị **33**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Dựa trên Hình 6 (trang in 15), tác động có tỷ lệ doanh nghiệp trả lời 'Hầu như không' cao nhất là **\"Thiếu nguồn cung nguyên liệu đầu vào\"** với tỷ lệ là **33%** [ccdr:p025:t1, ccdr:p025:page].",
+     "status": "answered",
+     "citations": [
+      "ccdr:p025:t1",
+      "ccdr:p025:page"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p025:t1",
+   "ccdr:p007:t1",
+   "ccdr:p025:v0",
+   "ccdr:p025:t0",
+   "ccdr:p006:t0",
+   "ccdr:p025:page"
+  ],
+  "context_chars": 5198,
+  "elapsed_s": 11.38,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6238,
+   "output_tokens": 206,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 9.01,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1254,
+   "output_tokens": 256,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.12,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003403,
+  "group": "chart",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad08",
+  "question": "Sơ đồ 'Mô hình phát triển mới cho Việt Nam' (Hình 1) thể hiện hai con đường nào dẫn từ 'Việt Nam hiện nay' đến 'Việt Nam năm 2045'?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hình 1 \"Mô hình phát triển mới cho Việt Nam\" (trang in 3), hai con đường dẫn từ \"Việt Nam hiện nay\" đến \"Việt Nam năm 2045\" bao gồm:\n\n1. **Lộ trình xây dựng khả năng chống chịu** (nằm ở phía bên trái sơ đồ) [ccdr:p013:v0], [ccdr:p013:page].\n2. **Hành trình khử carbon** (nằm ở phía bên phải sơ đồ) [ccdr:p013:v0], [ccdr:p013:page].\n\nHai lộ trình này được kết hợp để giúp Việt Nam cân bằng giữa mục tiêu phát triển và rủi ro khí hậu đang gia tăng [ccdr:p012:t2].",
+  "citations": [
+   "ccdr:p013:v0",
+   "ccdr:p013:page",
+   "ccdr:p012:t2"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Mô hình phát triển mới cho Việt Nam Hình 1",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.029,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p013:v0",
+      "page": 13,
+      "kind": "diagram",
+      "label": "Hình 1",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p013:t0",
+      "page": 13,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p012:t2",
+      "page": 12,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p014:t0",
+      "page": 14,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2116
+   },
+   {
+    "event": "view_page",
+    "page": 13,
+    "question": "Xem Hình 1 để xác nhận hai con đường trong sơ đồ.",
+    "elapsed_s": 1.78,
+    "reading": "Dựa trên Hình 1 trong ảnh, hai con đường trong sơ đồ là:\n\n- **Lộ trình xây dựng khả năng chống chịu** (nằm ở phía bên trái sơ đồ).\n- **Hành trình khử carbon** (nằm ở phía bên phải sơ đồ).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p013:v0",
+      "ccdr:p013:page",
+      "ccdr:p012:t2"
+     ],
+     "status": "answered",
+     "answer": "Theo Hình 1 \"Mô hình phát triển mới cho Việt Nam\" (trang in 3), hai con đường dẫn từ \"Việt Nam hiện nay\" đến \"Việt Nam năm 2045\" bao gồm:\n\n1. **Lộ trình xây dựng khả năng chống chịu** (nằm ở phía bên trái sơ đồ) [ccdr:p013:v0], [ccdr:p013:page].\n2. **Hành trình khử carbon** (nằm ở phía bên phải sơ đồ) [ccdr:p013:v0], [ccdr:p013:page].\n\nHai lộ trình này được kết hợp để giúp Việt Nam cân bằng giữa mục tiêu phát triển và rủi ro khí hậu đang gia tăng [ccdr:p012:t2]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p013:v0",
+   "ccdr:p007:t0",
+   "ccdr:p013:t0",
+   "ccdr:p012:t2",
+   "ccdr:p014:t0",
+   "ccdr:p013:page"
+  ],
+  "context_chars": 2345,
+  "elapsed_s": 7.1,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4372,
+   "output_tokens": 301,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.29,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1231,
+   "output_tokens": 59,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.55,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.002581,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad09",
+  "question": "Bản đồ Hình 10 trong báo cáo thể hiện dự báo về hiện tượng gì, cho năm nào và ở khu vực nào?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Hình 10 thể hiện dự báo về hiện tượng ngập mặn do triều cường tại khu vực sông Mekong (Đồng bằng sông Cửu Long) vào năm 2050 [ccdr:p040:page].\n\nNguồn: Hình 10 (trang in 30).",
+  "citations": [
+   "ccdr:p040:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hình 10",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.028,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p007:t2",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.028624,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.026585,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p082:t0",
+      "page": 82,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2924
+   },
+   {
+    "event": "view_page",
+    "page": 40,
+    "question": "Đọc thông tin chi tiết trên Hình 10: dự báo hiện tượng gì, năm nào, khu vực nào.",
+    "elapsed_s": 2.43,
+    "reading": "Dựa vào thông tin trên Hình 10 tại trang 30 của tài liệu:\n\n*   **Hiện tượng:** Dự báo tình trạng ngập mặn do triều cường.\n*   **Năm:** 2050.\n*   **Khu vực:** Khu vực sông Mekong (Đồng bằng sông Cửu Long).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Hình 10 thể hiện dự báo về hiện tượng ngập mặn do triều cường tại khu vực sông Mekong (Đồng bằng sông Cửu Long) vào năm 2050 [ccdr:p040:page].\n\nNguồn: Hình 10 (trang in 30).",
+     "status": "answered",
+     "citations": [
+      "ccdr:p040:page"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p007:t2",
+   "ccdr:p025:t1",
+   "ccdr:p006:t0",
+   "ccdr:p040:v0",
+   "ccdr:p082:t0",
+   "ccdr:p040:page"
+  ],
+  "context_chars": 3171,
+  "elapsed_s": 5.86,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 4982,
+   "output_tokens": 167,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 3.4,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1243,
+   "output_tokens": 74,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.19,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.00247,
+  "group": "image",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": false,
+   "first_search_hit3": false
+  }
+ },
+ {
+  "query_id": "ad10",
+  "question": "Hành động 'Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro' nằm ở ô nào của ma trận khẩn cấp–tác động (Phụ lục 4), và theo Bảng 6 thì ô đó mô tả loại hành động như thế nào?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Hành động \"Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro\" nằm ở ô có **Khẩn cấp: Trung bình** và **Tác động: Trung bình** trong ma trận tại Phụ lục 4 [ccdr:p100:page].\n\nTheo Bảng 6 (trang 74), ô (Khẩn cấp: Trung bình, Tác động: Trung bình) được mô tả là: \"Những hành động cần thời gian để hình thành và thực hiện; tác động có thể không chắc chắn trong một số trường hợp\" [ccdr:p084:page].",
+  "citations": [
+   "ccdr:p100:page",
+   "ccdr:p084:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Phụ lục 4 ma trận khẩn cấp tác động Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.046,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p100:v0",
+      "page": 100,
+      "kind": "table",
+      "label": "Phụ lục 4",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p100:t0",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.031514,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p005:t2",
+      "page": 5,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p085:t4",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.031258,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p084:t2",
+      "page": 84,
+      "kind": "text",
+      "label": "",
+      "score": 0.030077,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 5376
+   },
+   {
+    "event": "view_page",
+    "page": 84,
+    "question": "Xem nội dung Bảng 6: Tiêu chí ưu tiên để biết mô tả cho các ô trong ma trận khẩn cấp-tác động.",
+    "elapsed_s": 2.11,
+    "reading": "Dựa trên **Bảng 6: Tiêu chí ưu tiên** trong ảnh, nội dung mô tả cho các ô trong ma trận khẩn cấp-tác động như sau:\n\n*   **Ô (Khẩn cấp: Cao, Tác động: Cao):** \"Những hành động không thể trì hoãn và sẽ có tác động lớn và ngay lập tức (thắng nhanh).\"\n*   **Ô (Khẩn cấp: Cao, Tác động: Trung bình):** \"Các hành động có thể cần lên kế hoạch dài hạn và huy động sự ủng hộ chính trị và nguồn tài chính.\"\n*   **Ô (Khẩn cấp: Trung bình, Tác động: Cao):** \"Các hành động cần thời gian để hình thành và thực hiện nhưng có thể mang lại tác động lớn.\"\n*   **Ô (Khẩn cấp: Trung bình, Tác động: Trung bình):** \"Những hành động cần thời gian để hình thành và thực hiện; tác động có thể không chắc chắn trong một số trường hợp.\"",
+    "context": "added"
+   },
+   {
+    "event": "view_page",
+    "page": 100,
+    "question": "Xem Bảng Phụ lục 4 để xác định chính xác ô chứa 'Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro' (có nằm ở cột Tác động Trung bình và hàng Khẩn cấp Trung bình không?)",
+    "elapsed_s": 2.79,
+    "reading": "Dựa trên bảng \"Phụ lục 4. Ma trận tác động khẩn cấp-Ưu tiên\" trong ảnh:\n\nThông tin bạn hỏi nằm ở:\n- **Phần tử**: Bảng Phụ lục 4.\n- **Vị trí**: Ô nằm tại cột **\"Trung bình\"** (thuộc hàng ngang \"Tác động\") và hàng **\"Trung bình\"** (thuộc cột dọc \"Khẩn cấp\").\n- **Giá trị**: Đúng như in, nội dung ô này là: **\"Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro\"**.\n\nNhư vậy, nội dung \"Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro\" nằm ở cột **Tác động Trung bình** và hàng **Khẩn cấp Trung bình**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p100:page",
+      "ccdr:p084:page"
+     ],
+     "status": "answered",
+     "answer": "Hành động \"Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro\" nằm ở ô có **Khẩn cấp: Trung bình** và **Tác động: Trung bình** trong ma trận tại Phụ lục 4 [ccdr:p100:page].\n\nTheo Bảng 6 (trang 74), ô (Khẩn cấp: Trung bình, Tác động: Trung bình) được mô tả là: \"Những hành động cần thời gian để hình thành và thực hiện; tác động có thể không chắc chắn trong một số trường hợp\" [ccdr:p084:page]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 2,
+  "n_tool_calls": 3,
+  "context_ids": [
+   "ccdr:p100:v0",
+   "ccdr:p100:t0",
+   "ccdr:p005:t2",
+   "ccdr:p085:t4",
+   "ccdr:p084:t2",
+   "ccdr:p084:page",
+   "ccdr:p100:page"
+  ],
+  "context_chars": 6688,
+  "elapsed_s": 18.41,
+  "usage": {
+   "calls": 4,
+   "prompt_tokens": 9888,
+   "output_tokens": 348,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 13.47,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 2,
+   "prompt_tokens": 2520,
+   "output_tokens": 389,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.52,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.005565,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad11",
+  "question": "Trong kịch bản ADS, điện sản xuất từ than năm 2040 còn bao nhiêu TWh (Hình 13), và chi phí vốn cho than đá thay đổi bao nhiêu so với CPS (Bảng 5)?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Trong kịch bản ADS (Kịch bản Tăng tốc Khử carbon):\n*   Năm 2040, điện sản xuất từ than đá đạt **124 TWh** (Hình 13, tr. 46).\n*   Chi phí vốn cho than đá giảm **19 tỷ USD**, tương đương với mức giảm **72%** so với kịch bản cơ sở CPS (Bảng 5, tr. 46). [ccdr:p056:t0] [ccdr:p056:page] [ccdr:p056:v1]",
+  "citations": [
+   "ccdr:p056:t0",
+   "ccdr:p056:page",
+   "ccdr:p056:v1"
+  ],
+  "note": "đã nối citation: ['ccdr:p056:t0', 'ccdr:p056:page', 'ccdr:p056:v1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "điện sản xuất từ than năm 2040 kịch bản ADS Hình 13",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.025,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:v0",
+      "page": 56,
+      "kind": "chart",
+      "label": "Hình 13",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p058:t1",
+      "page": 58,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p055:t0",
+      "page": 55,
+      "kind": "text",
+      "label": "",
+      "score": 0.031099,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p054:t2",
+      "page": 54,
+      "kind": "text",
+      "label": "",
+      "score": 0.03055,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3690
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chi phí vốn cho than đá so sánh ADS và CPS Bảng 5",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.027,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p056:v1",
+      "page": 56,
+      "kind": "table",
+      "label": "Bảng 5",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p056:t1",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p056:v0",
+      "page": 56,
+      "kind": "chart",
+      "label": "Hình 13",
+      "score": 0.031498,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t0",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5348
+   },
+   {
+    "event": "view_page",
+    "page": 56,
+    "question": "Đọc con số điện sản xuất từ than năm 2040 trong kịch bản ADS từ Hình 13",
+    "elapsed_s": 1.74,
+    "reading": "Dựa trên Hình 13: So sánh nguồn điện và phát thải GHG giữa CPS và ADS, phần biểu đồ cột \"Điện được sản xuất năm 2040 (TWh)\":\n\n*   **Vị trí đọc:** Cột \"ADS\", phân đoạn màu nâu sẫm (tương ứng với chú giải \"Than\").\n*   **Giá trị:** 124 (TWh).",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p056:t0",
+      "ccdr:p056:page",
+      "ccdr:p056:v1"
+     ],
+     "answer": "Trong kịch bản ADS (Kịch bản Tăng tốc Khử carbon):\n*   Năm 2040, điện sản xuất từ than đá đạt **124 TWh** (Hình 13, tr. 46).\n*   Chi phí vốn cho than đá giảm **19 tỷ USD**, tương đương với mức giảm **72%** so với kịch bản cơ sở CPS (Bảng 5, tr. 46).",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 2,
+  "n_view_page": 1,
+  "n_tool_calls": 3,
+  "context_ids": [
+   "ccdr:p056:t0",
+   "ccdr:p056:v0",
+   "ccdr:p058:t1",
+   "ccdr:p055:t0",
+   "ccdr:p054:t2",
+   "ccdr:p056:v1",
+   "ccdr:p056:t4",
+   "ccdr:p056:t1",
+   "ccdr:p056:page"
+  ],
+  "context_chars": 5630,
+  "elapsed_s": 72.44,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 7364,
+   "output_tokens": 270,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 8.28,
+   "retries": 2,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1243,
+   "output_tokens": 88,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 1.6,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003477,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad12",
+  "question": "Vùng nào được dự báo là điểm nóng di cư đi do khí hậu lớn nhất vào năm 2050, và nếu không có biện pháp thích ứng thì khoảng bao nhiêu phần trăm diện tích vùng đó sẽ bị ngập mặn, với tổn thất bao nhiêu vào năm 2030?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Vùng được dự báo là điểm nóng di cư do khí hậu lớn nhất vào năm 2050 là Đồng bằng sông Cửu Long và các khu vực lân cận quanh Thành phố Hồ Chí Minh [ccdr:p045:t2]. Nếu không có các biện pháp thích ứng, khoảng 45% diện tích Đồng bằng sông Cửu Long sẽ bị ngập mặn, với tổn thất ước tính khoảng 17 tỷ USD vào năm 2030 [ccdr:p040:t2].",
+  "citations": [
+   "ccdr:p045:t2",
+   "ccdr:p040:t2"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "điểm nóng di cư khí hậu 2050 diện tích ngập mặn tổn thất 2030",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.123,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p045:t2",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p040:v0",
+      "page": 40,
+      "kind": "map",
+      "label": "Hình 10",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p045:t1",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p040:t2",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p040:t0",
+      "page": 40,
+      "kind": "text",
+      "label": "",
+      "score": 0.030622,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 2733
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Vùng được dự báo là điểm nóng di cư do khí hậu lớn nhất vào năm 2050 là Đồng bằng sông Cửu Long và các khu vực lân cận quanh Thành phố Hồ Chí Minh [ccdr:p045:t2]. Nếu không có các biện pháp thích ứng, khoảng 45% diện tích Đồng bằng sông Cửu Long sẽ bị ngập mặn, với tổn thất ước tính khoảng 17 tỷ USD vào năm 2030 [ccdr:p040:t2].",
+     "citations": [
+      "ccdr:p045:t2",
+      "ccdr:p040:t2"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p045:t2",
+   "ccdr:p040:v0",
+   "ccdr:p045:t1",
+   "ccdr:p040:t2",
+   "ccdr:p040:t0"
+  ],
+  "context_chars": 2733,
+  "elapsed_s": 5.24,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2891,
+   "output_tokens": 204,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 5.11,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001377,
+  "group": "multi_hop",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad13",
+  "question": "Theo Hộp 8, tốc độ tăng trưởng hàng năm của xuất khẩu pin mặt trời và pin heliostat của Việt Nam giai đoạn 2010–2020 là bao nhiêu?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hộp 8, tốc độ tăng trưởng hàng năm của xuất khẩu pin mặt trời và pin heliostat của Việt Nam giai đoạn 2010–2020 lần lượt là 81,6% và 71,2% [ccdr:p068:t0].",
+  "citations": [
+   "ccdr:p068:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hộp 8 xuất khẩu pin mặt trời pin heliostat 2010–2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p068:t0",
+      "page": 68,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.030077,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p068:t3",
+      "page": 68,
+      "kind": "text",
+      "label": "",
+      "score": 0.029828,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3719
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "answer": "Theo Hộp 8, tốc độ tăng trưởng hàng năm của xuất khẩu pin mặt trời và pin heliostat của Việt Nam giai đoạn 2010–2020 lần lượt là 81,6% và 71,2% [ccdr:p068:t0].",
+     "citations": [
+      "ccdr:p068:t0"
+     ]
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p068:t0",
+   "ccdr:p006:t1",
+   "ccdr:p006:t0",
+   "ccdr:p091:t0",
+   "ccdr:p068:t3"
+  ],
+  "context_chars": 3719,
+  "elapsed_s": 6.75,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3119,
+   "output_tokens": 138,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 6.7,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001281,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad14",
+  "question": "Theo bài học kinh nghiệm quốc tế về chương trình đào tạo lại (Hộp 9), thời điểm và độ dài chương trình đào tạo lại ảnh hưởng thế nào đến hiệu quả đối với người lao động?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Theo Hộp 9 về bài học kinh nghiệm quốc tế trong chương trình đào tạo lại (trang in 63), thời điểm và độ dài chương trình ảnh hưởng đến hiệu quả như sau:\n\n*   **Thời điểm:** Người lao động được đào tạo lại càng sớm sau khi mất việc làm thì tác động của chương trình đối với tiền lương và khả năng tái sử dụng lao động trong tương lai càng cao [ccdr:p073:t3].\n*   **Độ dài và cường độ:** Các chương trình đào tạo ngắn hạn và chuyên sâu mang lại tác động lớn hơn trong việc hỗ trợ người lao động chuyển dịch sang nghề nghiệp mới [ccdr:p073:t2, ccdr:p073:t3]. Ngoài ra, đào tạo ngắn hạn ngay sau khi mất việc còn là một chiến lược khả thi giúp giữ chân cá nhân trong thị trường lao động [ccdr:p073:t2].",
+  "citations": [
+   "ccdr:p073:t2",
+   "ccdr:p073:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Hộp 9 bài học kinh nghiệm quốc tế chương trình đào tạo lại",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.042,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p073:t1",
+      "page": 73,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p073:t2",
+      "page": 73,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p073:t5",
+      "page": 73,
+      "kind": "text",
+      "label": "",
+      "score": 0.030769,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p073:t3",
+      "page": 73,
+      "kind": "text",
+      "label": "",
+      "score": 0.028039,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3666
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p073:t2",
+      "ccdr:p073:t3"
+     ],
+     "status": "answered",
+     "answer": "Theo Hộp 9 về bài học kinh nghiệm quốc tế trong chương trình đào tạo lại (trang in 63), thời điểm và độ dài chương trình ảnh hưởng đến hiệu quả như sau:\n\n*   **Thời điểm:** Người lao động được đào tạo lại càng sớm sau khi mất việc làm thì tác động của chương trình đối với tiền lương và khả năng tái sử dụng lao động trong tương lai càng cao [ccdr:p073:t3].\n*   **Độ dài và cường độ:** Các chương trình đào tạo ngắn hạn và chuyên sâu mang lại tác động lớn hơn trong việc hỗ trợ người lao động chuyển dịch sang nghề nghiệp mới [ccdr:p073:t2, ccdr:p073:t3]. Ngoài ra, đào tạo ngắn hạn ngay sau khi mất việc còn là một chiến lược khả thi giúp giữ chân cá nhân trong thị trường lao động [ccdr:p073:t2]."
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p073:t1",
+   "ccdr:p006:t1",
+   "ccdr:p073:t2",
+   "ccdr:p073:t5",
+   "ccdr:p073:t3"
+  ],
+  "context_chars": 3666,
+  "elapsed_s": 4.43,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2857,
+   "output_tokens": 280,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 4.39,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001557,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad15",
+  "question": "Chiến lược khử carbon NZP cho ngành nông nghiệp dựa trên ba biện pháp chính nào và cần huy động khoảng bao nhiêu vốn đầu tư mới giai đoạn 2022–2040?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Chiến lược khử carbon NZP cho ngành nông nghiệp dựa trên ba biện pháp chính sau:\n1. Giảm 14% mức sử dụng phân bón và thuốc trừ sâu để giảm cường độ phát thải trong trồng trọt.\n2. Thay đổi thức ăn gia súc, cải thiện sức khỏe đàn gia súc và tập quán chăn nuôi để giảm 14% phát thải trên một đơn vị chăn nuôi.\n3. Tăng 50% trợ cấp cho các dịch vụ lâm nghiệp (so với kịch bản BAU) nhằm kích thích tái trồng rừng và tăng lượng hấp thụ carbon.\n\nĐể thực hiện các biện pháp này, Việt Nam cần huy động khoảng 15,6 tỷ USD vốn đầu tư mới từ cả khu vực tư nhân và nhà nước trong giai đoạn 2022–2040 [ccdr:p065:t0].",
+  "citations": [
+   "ccdr:p065:t0"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "chiến lược khử carbon NZP ngành nông nghiệp biện pháp vốn đầu tư 2022-2040",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.052,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p065:t0",
+      "page": 65,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p050:t1",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.031498,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p050:v0",
+      "page": 50,
+      "kind": "table",
+      "label": "Bảng 3",
+      "score": 0.029877,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p007:t3",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.028629,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p056:t4",
+      "page": 56,
+      "kind": "text",
+      "label": "",
+      "score": 0.028439,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3666
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "answer": "Chiến lược khử carbon NZP cho ngành nông nghiệp dựa trên ba biện pháp chính sau:\n1. Giảm 14% mức sử dụng phân bón và thuốc trừ sâu để giảm cường độ phát thải trong trồng trọt.\n2. Thay đổi thức ăn gia súc, cải thiện sức khỏe đàn gia súc và tập quán chăn nuôi để giảm 14% phát thải trên một đơn vị chăn nuôi.\n3. Tăng 50% trợ cấp cho các dịch vụ lâm nghiệp (so với kịch bản BAU) nhằm kích thích tái trồng rừng và tăng lượng hấp thụ carbon.\n\nĐể thực hiện các biện pháp này, Việt Nam cần huy động khoảng 15,6 tỷ USD vốn đầu tư mới từ cả khu vực tư nhân và nhà nước trong giai đoạn 2022–2040 [ccdr:p065:t0].",
+     "citations": [
+      "ccdr:p065:t0"
+     ],
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 0,
+  "n_tool_calls": 1,
+  "context_ids": [
+   "ccdr:p065:t0",
+   "ccdr:p050:t1",
+   "ccdr:p050:v0",
+   "ccdr:p007:t3",
+   "ccdr:p056:t4"
+  ],
+  "context_chars": 3666,
+  "elapsed_s": 2.33,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 3249,
+   "output_tokens": 264,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 2.27,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.001635,
+  "group": "text",
+  "auto_page_hits": {
+   "context_all_groups": true,
+   "citation_all_groups": true,
+   "first_search_hit1": true,
+   "first_search_hit3": true
+  }
+ },
+ {
+  "query_id": "ad16",
+  "question": "Báo cáo dự báo nhiệt độ trung bình năm của Hà Nội vào năm 2050 là bao nhiêu độ C?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp thông tin dự báo cụ thể về nhiệt độ trung bình năm của riêng thành phố Hà Nội vào năm 2050.\n\nBáo cáo chỉ đưa ra các dự báo mang tính quốc gia hoặc toàn cầu, ví dụ như:\n- Dự báo nhiệt độ trung bình toàn cầu tăng theo các kịch bản RCP vào năm 2100 [29:19].\n- Dự báo nền nhiệt độ trung bình của Việt Nam có thể tăng thêm từ 1–3,4°C so với mức cơ sở giai đoạn 1986–2005 vào thời kỳ 2080-2090 [16:6].\n- Hà Nội được nhắc đến là điểm nóng về di cư do khí hậu và chịu ảnh hưởng của ô nhiễm không khí, nhưng không có dữ liệu nhiệt độ cụ thể cho năm 2050 [45:35], [51:41]. [ccdr:p016:t3] [ccdr:p029:t1] [ccdr:p045:t1] [ccdr:p051:t1]",
+  "citations": [
+   "ccdr:p016:t3",
+   "ccdr:p029:t1",
+   "ccdr:p045:t1",
+   "ccdr:p051:t1"
+  ],
+  "note": "đã nối citation: ['ccdr:p016:t3', 'ccdr:p029:t1', 'ccdr:p045:t1', 'ccdr:p051:t1']",
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "dự báo nhiệt độ trung bình năm Hà Nội 2050",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.03,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p045:t1",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p094:t1",
+      "page": 94,
+      "kind": "text",
+      "label": "",
+      "score": 0.031545,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p016:t3",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p051:t2",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.030366,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p029:t1",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.03031,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3868
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"nhiệt độ\" Hà Nội 2050",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.02,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p030:v0",
+      "page": 30,
+      "kind": "chart",
+      "label": "Hình 8",
+      "score": 0.032018,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p045:t1",
+      "page": 45,
+      "kind": "text",
+      "label": "",
+      "score": 0.032018,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p051:t2",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p085:t5",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p029:t1",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.028543,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 5598
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"nhiệt độ\" Hà Nội \"độ C\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.025,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p006:t0",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.030886,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p051:t3",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.03009,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p085:t5",
+      "page": 85,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p051:t1",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.02837,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p051:t2",
+      "page": 51,
+      "kind": "text",
+      "label": "",
+      "score": 0.028125,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7446
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"2050\" \"nhiệt độ\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.028,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p030:v0",
+      "page": 30,
+      "kind": "chart",
+      "label": "Hình 8",
+      "score": 0.031514,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p030:t1",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.031281,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p029:t1",
+      "page": 29,
+      "kind": "text",
+      "label": "",
+      "score": 0.029877,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p028:t0",
+      "page": 28,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p030:t2",
+      "page": 30,
+      "kind": "text",
+      "label": "",
+      "score": 0.016393,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 9119
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p016:t3",
+      "ccdr:p029:t1",
+      "ccdr:p045:t1",
+      "ccdr:p051:t1"
+     ],
+     "status": "answered",
+     "answer": "Báo cáo \"Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam\" không cung cấp thông tin dự báo cụ thể về nhiệt độ trung bình năm của riêng thành phố Hà Nội vào năm 2050.\n\nBáo cáo chỉ đưa ra các dự báo mang tính quốc gia hoặc toàn cầu, ví dụ như:\n- Dự báo nhiệt độ trung bình toàn cầu tăng theo các kịch bản RCP vào năm 2100 [29:19].\n- Dự báo nền nhiệt độ trung bình của Việt Nam có thể tăng thêm từ 1–3,4°C so với mức cơ sở giai đoạn 1986–2005 vào thời kỳ 2080-2090 [16:6].\n- Hà Nội được nhắc đến là điểm nóng về di cư do khí hậu và chịu ảnh hưởng của ô nhiễm không khí, nhưng không có dữ liệu nhiệt độ cụ thể cho năm 2050 [45:35], [51:41]."
+    }
+   }
+  ],
+  "n_search": 4,
+  "n_view_page": 0,
+  "n_tool_calls": 4,
+  "context_ids": [
+   "ccdr:p045:t1",
+   "ccdr:p094:t1",
+   "ccdr:p016:t3",
+   "ccdr:p051:t2",
+   "ccdr:p029:t1",
+   "ccdr:p030:v0",
+   "ccdr:p085:t5",
+   "ccdr:p006:t0",
+   "ccdr:p051:t3",
+   "ccdr:p051:t1",
+   "ccdr:p030:t1",
+   "ccdr:p028:t0",
+   "ccdr:p030:t2"
+  ],
+  "context_chars": 9119,
+  "elapsed_s": 37.67,
+  "usage": {
+   "calls": 5,
+   "prompt_tokens": 14740,
+   "output_tokens": 407,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 20.3,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.005439,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "ad17",
+  "question": "Theo Bảng 3, nhu cầu đầu tư của Lộ trình NZP giai đoạn 2041–2050 là bao nhiêu tỷ USD?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Báo cáo không cung cấp thông tin về nhu cầu đầu tư của Lộ trình NZP cho giai đoạn 2041–2050. Bảng 3 (trang in 40) chỉ trình bày dữ liệu cho các giai đoạn 2022–2030, 2031–2040 và tổng hợp 2022–2040 [ccdr:p050:v0, ccdr:p050:page].",
+  "citations": [
+   "ccdr:p050:v0",
+   "ccdr:p050:page"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "Bảng 3 nhu cầu đầu tư Lộ trình NZP 2041-2050",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.046,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p050:v0",
+      "page": 50,
+      "kind": "table",
+      "label": "Bảng 3",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p006:t1",
+      "page": 6,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p050:t0",
+      "page": 50,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p032:t0",
+      "page": 32,
+      "kind": "text",
+      "label": "",
+      "score": 0.03101,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p032:v0",
+      "page": 32,
+      "kind": "table",
+      "label": "Bảng 2",
+      "score": 0.030331,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3962
+   },
+   {
+    "event": "view_page",
+    "page": 50,
+    "question": "Bảng 3 có hiển thị giai đoạn 2041-2050 không?",
+    "elapsed_s": 23.53,
+    "reading": "Dựa vào hình ảnh được cung cấp:\n\nBảng 3 không hiển thị giai đoạn 2041-2050. Bảng chỉ bao gồm các cột giai đoạn: **2022-2030**, **2031-2040** và **2022-2040**.",
+    "context": "added"
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "citations": [
+      "ccdr:p050:v0",
+      "ccdr:p050:page"
+     ],
+     "answer": "Báo cáo không cung cấp thông tin về nhu cầu đầu tư của Lộ trình NZP cho giai đoạn 2041–2050. Bảng 3 (trang in 40) chỉ trình bày dữ liệu cho các giai đoạn 2022–2030, 2031–2040 và tổng hợp 2022–2040 [ccdr:p050:v0, ccdr:p050:page].",
+     "status": "answered"
+    }
+   }
+  ],
+  "n_search": 1,
+  "n_view_page": 1,
+  "n_tool_calls": 2,
+  "context_ids": [
+   "ccdr:p050:v0",
+   "ccdr:p006:t1",
+   "ccdr:p050:t0",
+   "ccdr:p032:t0",
+   "ccdr:p032:v0",
+   "ccdr:p050:page"
+  ],
+  "context_chars": 4163,
+  "elapsed_s": 67.36,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 6482,
+   "output_tokens": 237,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 43.78,
+   "retries": 0,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 1,
+   "prompt_tokens": 1239,
+   "output_tokens": 74,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 14.88,
+   "retries": 1,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.003094,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ },
+ {
+  "query_id": "ad18",
+  "question": "Tỷ lệ che phủ rừng của Việt Nam năm 2020 là bao nhiêu phần trăm?",
+  "config": {
+   "name": "B4_view_prefer",
+   "llm": "gemini-3.1-flash-lite",
+   "vision": "gemini-3.1-flash-lite",
+   "retriever": "hybrid",
+   "top_k": 5,
+   "max_tool_calls": 8,
+   "budget_chars": 14000,
+   "allow_view_page": true,
+   "scope_lock": null,
+   "prefer_view": true
+  },
+  "status": "answered",
+  "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam không cung cấp số liệu cụ thể về tỷ lệ che phủ rừng của Việt Nam trong năm 2020. \n\nBáo cáo có đề cập rằng độ che phủ rừng của Việt Nam tiếp tục tăng, nhưng chủ yếu là do việc mở rộng diện tích trồng rừng và cách định nghĩa chính thức về \"rừng\" (bao gồm cả các khu vực trồng cọ và tre), trong khi chất lượng rừng tự nhiên vẫn tiếp tục suy giảm [ccdr:p034:t3].",
+  "citations": [
+   "ccdr:p034:t3"
+  ],
+  "note": null,
+  "error": null,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tỷ lệ che phủ rừng 2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.118,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.02938,
+      "context": "added"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p034:t4",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p066:t6",
+      "page": 66,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 3249
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"tỷ lệ che phủ rừng\" 2020",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.043,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.032266,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p025:t1",
+      "page": 25,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p034:t4",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.015625,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 3965
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"tỷ lệ che phủ\" rừng",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.024,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032258,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p034:t4",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.030159,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p066:t6",
+      "page": 66,
+      "kind": "text",
+      "label": "",
+      "score": 0.02781,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 4509
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "tỷ lệ che phủ rừng Việt Nam",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.044,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p016:t1",
+      "page": 16,
+      "kind": "text",
+      "label": "",
+      "score": 0.029324,
+      "context": "added"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p034:t1",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.028893,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.028783,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 6082
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "phần trăm độ che phủ rừng",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.035,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.031746,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.031319,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.028893,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p034:t4",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.028787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p037:v0",
+      "page": 37,
+      "kind": "map",
+      "label": "Hình 9",
+      "score": 0.028778,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 6748
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"tỷ lệ che phủ\" rừng là bao nhiêu",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.361,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.032787,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032002,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p066:t6",
+      "page": 66,
+      "kind": "text",
+      "label": "",
+      "score": 0.028139,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p098:t0",
+      "page": 98,
+      "kind": "text",
+      "label": "",
+      "score": 0.016129,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.015873,
+      "context": "duplicate"
+     }
+    ],
+    "context_chars_after": 7440
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"che phủ rừng\" \"2020\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.022,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.032522,
+      "context": "duplicate"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.03125,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p034:t3",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.029214,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p034:t5",
+      "page": 34,
+      "kind": "text",
+      "label": "",
+      "score": 0.027651,
+      "context": "duplicate"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p100:t3",
+      "page": 100,
+      "kind": "text",
+      "label": "",
+      "score": 0.027032,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 7518
+   },
+   {
+    "event": "search",
+    "tool": "search_report",
+    "retriever": "hybrid",
+    "query": "\"độ che phủ\" \"2020\"",
+    "scope": "any",
+    "scope_locked": false,
+    "elapsed_s": 0.026,
+    "results": [
+     {
+      "rank": 1,
+      "id": "ccdr:p091:t0",
+      "page": 91,
+      "kind": "text",
+      "label": "",
+      "score": 0.030077,
+      "context": "added"
+     },
+     {
+      "rank": 2,
+      "id": "ccdr:p036:t2",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.02938,
+      "context": "duplicate"
+     },
+     {
+      "rank": 3,
+      "id": "ccdr:p036:t6",
+      "page": 36,
+      "kind": "text",
+      "label": "",
+      "score": 0.028718,
+      "context": "duplicate"
+     },
+     {
+      "rank": 4,
+      "id": "ccdr:p091:v0",
+      "page": 91,
+      "kind": "table",
+      "label": "Phụ lục 1",
+      "score": 0.026389,
+      "context": "added"
+     },
+     {
+      "rank": 5,
+      "id": "ccdr:p007:t0",
+      "page": 7,
+      "kind": "text",
+      "label": "",
+      "score": 0.026357,
+      "context": "added"
+     }
+    ],
+    "context_chars_after": 11658
+   },
+   {
+    "event": "invalid_citations",
+    "args": {
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam không cung cấp số liệu cụ thể về tỷ lệ che phủ rừng của Việt Nam trong năm 2020. \n\nBáo cáo có đề cập rằng độ che phủ rừng của Việt Nam tiếp tục tăng, nhưng chủ yếu là do việc mở rộng diện tích trồng rừng và cách định nghĩa chính thức về \"rừng\" (bao gồm cả các khu vực trồng cọ và tre), trong khi chất lượng rừng tự nhiên vẫn tiếp tục suy giảm [ccdr:p034:t3:trang 24].",
+     "citations": [
+      "ccdr:p034:t3:trang 24"
+     ],
+     "status": "answered"
+    },
+    "feedback": {
+     "error": "Citation không hợp lệ: ['ccdr:p034:t3:trang 24']. Chỉ trích các id đã có: ['ccdr:p036:t2', 'ccdr:p034:t3', 'ccdr:p036:t6', 'ccdr:p034:t4', 'ccdr:p066:t6', 'ccdr:p025:t1', 'ccdr:p034:t5', 'ccdr:p016:t1', 'ccdr:p034:t1', 'ccdr:p037:v0', 'ccdr:p098:t0', 'ccdr:p100:t3', 'ccdr:p091:t0', 'ccdr:p091:v0', 'ccdr:p007:t0']. Gọi lại final_answer."
+    }
+   },
+   {
+    "event": "final_answer",
+    "args": {
+     "status": "answered",
+     "citations": [
+      "ccdr:p034:t3"
+     ],
+     "answer": "Báo cáo Quốc gia về Khí hậu và Phát triển cho Việt Nam không cung cấp số liệu cụ thể về tỷ lệ che phủ rừng của Việt Nam trong năm 2020. \n\nBáo cáo có đề cập rằng độ che phủ rừng của Việt Nam tiếp tục tăng, nhưng chủ yếu là do việc mở rộng diện tích trồng rừng và cách định nghĩa chính thức về \"rừng\" (bao gồm cả các khu vực trồng cọ và tre), trong khi chất lượng rừng tự nhiên vẫn tiếp tục suy giảm [ccdr:p034:t3]."
+    }
+   }
+  ],
+  "n_search": 8,
+  "n_view_page": 0,
+  "n_tool_calls": 8,
+  "context_ids": [
+   "ccdr:p036:t2",
+   "ccdr:p034:t3",
+   "ccdr:p036:t6",
+   "ccdr:p034:t4",
+   "ccdr:p066:t6",
+   "ccdr:p025:t1",
+   "ccdr:p034:t5",
+   "ccdr:p016:t1",
+   "ccdr:p034:t1",
+   "ccdr:p037:v0",
+   "ccdr:p098:t0",
+   "ccdr:p100:t3",
+   "ccdr:p091:t0",
+   "ccdr:p091:v0",
+   "ccdr:p007:t0"
+  ],
+  "context_chars": 11658,
+  "elapsed_s": 99.86,
+  "usage": {
+   "calls": 10,
+   "prompt_tokens": 39255,
+   "output_tokens": 523,
+   "thinking_tokens": 0,
+   "cached_tokens": 8156,
+   "llm_seconds": 39.93,
+   "retries": 1,
+   "errors": []
+  },
+  "vision_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0,
+   "cached_tokens": 0,
+   "llm_seconds": 0.0,
+   "retries": 0,
+   "errors": []
+  },
+  "retriever_llm_usage": {
+   "calls": 0,
+   "prompt_tokens": 0,
+   "output_tokens": 0,
+   "thinking_tokens": 0
+  },
+  "cost_usd": 0.013084,
+  "group": "unanswerable",
+  "auto_page_hits": {}
+ }
+]

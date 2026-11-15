@@ -1,0 +1,976 @@
+[
+ {
+  "page": 1,
+  "chars": 62,
+  "images": 0,
+  "drawings": 48,
+  "labels": [],
+  "head": "ĐÔNG Á THÁI BÌNH DƯƠNG Tháng 7, 2022 VIỆT NAM World Bank Group"
+ },
+ {
+  "page": 2,
+  "chars": 1704,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "© 2022 Ngân hàng Tái thiết và Phát triển Quốc tế / Ngân hàng Thế giới 1818 H Street NW Washington DC 20433 Telephone: 202-473-1000 Internet: www.worldbank.org B"
+ },
+ {
+  "page": 3,
+  "chars": 42,
+  "images": 0,
+  "drawings": 0,
+  "labels": [],
+  "head": "BÁO CÁO QUỐC GIA VỀ KHÍ HẬU VÀ PHÁT TRIỂN"
+ },
+ {
+  "page": 4,
+  "chars": 1904,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "iv Việt Nam: Báo cáo về Khí hậu và Phát triển Lời cảm ơn..................................................viii Danh sách từ viết tắt............................"
+ },
+ {
+  "page": 5,
+  "chars": 2200,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "v Việt Nam: Báo cáo về Khí hậu và Phát triển 6. Kết luận và Khuyến nghị.............73 6.1. Đặt thứ tự ưu tiên là chìa khóa...............73 6.2. Các con đường "
+ },
+ {
+  "page": 6,
+  "chars": 1989,
+  "images": 0,
+  "drawings": 1,
+  "labels": [
+   "Hộp 1: Mô tả ngắn gọn về mô hình CGE và giả định cơ bản..........................................................19",
+   "Hộp 2: Đánh giá tính dễ bị tổn thương của các doanh nghiệp xuất khẩu khi đối mặt với lũ lụt hoặc các",
+   "Hộp 3: Xây dựng vốn con người có khả năng chống chịu...............................................................34",
+   "Hộp 4: Di cư do biến đổi khí hậu ở Việt Nam...............................................................................35",
+   "Hộp 5: Ô nhiễm không khí ở Hà Nội: Hành động có mục tiêu có thể tối đa hóa lợi ích kép như thế nào....41",
+   "Hộp 6: 10 điểm nổi bật trên phương diện kỹ thuật của Kịch bản Tăng tốc Khử carbon (ADS)...........45",
+   "Hộp 7: Tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam ....................................47",
+   "Hộp 8: Việt Nam chuyển hướng sang xuất khẩu hàng hóa môi trường và các cơ hội mới nổi............58"
+  ],
+  "head": "vi Việt Nam: Báo cáo về Khí hậu và Phát triển Hộp Hộp 1: Mô tả ngắn gọn về mô hình CGE và giả định cơ bản......................................................."
+ },
+ {
+  "page": 7,
+  "chars": 3323,
+  "images": 0,
+  "drawings": 1,
+  "labels": [
+   "Hình 1: Mô hình phát triển mới cho Việt Nam................................................................................. 3",
+   "Hình 2: Để trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần đạt được tốc độ tăng trưởng",
+   "Hình 3: Chi phí ước tính do biến đổi khí hậu năm 2020 (triệu USD).................................................. 7",
+   "Hình 4: Gia tăng mức phát thải GHG..............................................................................................",
+   "Hình 5: Phát thải GHG trên đầu người (tấnn/đầu người) (Chấm đỏ là Việt Nam)................................. 9",
+   "Hình 6: Các tác động của biến đổi khí hậu và rủi ro thiên tai dưới sự quan sát của các doanh nghiệp",
+   "Hình 7: Biến thiên tỷ trọng sản lượng của các DNNN trong các ngành công nghiệp sử dụng nhiều carbon",
+   "Hình 8: Các tác động kinh tế ước tính khi nhiệt độ và lượng mưa cao hơn, thay đổi nhiều hơn, mực nước"
+  ],
+  "head": "vii Việt Nam: Báo cáo về Khí hậu và Phát triển Hình Hình 1: Mô hình phát triển mới cho Việt Nam................................................................."
+ },
+ {
+  "page": 8,
+  "chars": 3958,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "viii Việt Nam: Báo cáo về Khí hậu và Phát triển Lời cảm ơn Báo cáo Quốc gia về Khí hậu và Phát triển (CCDR) là nỗ lực hợp tác của Ngân hàng Thế giới, Tổ chức Tà"
+ },
+ {
+  "page": 9,
+  "chars": 947,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "ix Việt Nam: Báo cáo về Khí hậu và Phát triển Danh sách từ viết tắt 1M5R Một phải Năm giảm ADS Kịch bản khử carbon tăng cường ASEAN Hiệp hội các Quốc gia Đông N"
+ },
+ {
+  "page": 10,
+  "chars": 698,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "x Việt Nam: Báo cáo về Khí hậu và Phát triển IFPRI Viện nghiên cứu Chính sách Thực phẩm Quốc tế ILO Tổ chức Lao động Quốc tế IMF Quỹ Tiền tệ Quốc tế IPCC Ủy ban"
+ },
+ {
+  "page": 11,
+  "chars": 1695,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "1 Việt Nam: Báo cáo về Khí hậu và Phát triển Như hầu hết các quốc gia trên toàn thế giới, Việt Nam đang phải đối mặt với những tác động của biến đổi khí hậu lên"
+ },
+ {
+  "page": 12,
+  "chars": 4078,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hình 1: ):"
+  ],
+  "head": "2 Việt Nam: Báo cáo về Khí hậu và Phát triển Việt Nam hiện đang đối mặt với những câu hỏi quan trọng về cách thức ứng phó với biến đổi khí hậu: Việt Nam phải nỗ"
+ },
+ {
+  "page": 13,
+  "chars": 2307,
+  "images": 0,
+  "drawings": 10,
+  "labels": [
+   "Hình 1: Mô hình phát triển mới cho Việt Nam"
+  ],
+  "head": "3 Việt Nam: Báo cáo về Khí hậu và Phát triển Hình 1: Mô hình phát triển mới cho Việt Nam Nguồn: Ngân hàng Thế giới. Đối với mỗi lộ trình, CCDR xác định các hành"
+ },
+ {
+  "page": 14,
+  "chars": 132,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "4 Việt Nam: Báo cáo về Khí hậu và Phát triển Mô hình phát triển của Việt Nam và những thách thức về khí hậu 1 © Vietnam News Agency"
+ },
+ {
+  "page": 15,
+  "chars": 2492,
+  "images": 0,
+  "drawings": 17,
+  "labels": [
+   "Hình 2: ).",
+   "Hình 2: Để trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần đạt được tốc độ tăng"
+  ],
+  "head": "5 Việt Nam: Báo cáo về Khí hậu và Phát triển 1. Mô hình phát triển của Việt Nam và những thách thức về khí hậu 1.1. Việt Nam đứng trước ngã rẽ Sau hơn hai thập "
+ },
+ {
+  "page": 16,
+  "chars": 3567,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "6 Việt Nam: Báo cáo về Khí hậu và Phát triển nay đã tiêu tốn vốn tự nhiên của Việt Nam với tốc độ không bền vững, dẫn đến tài nguyên thiên nhiên đang dần cạn ki"
+ },
+ {
+  "page": 17,
+  "chars": 2522,
+  "images": 0,
+  "drawings": 21,
+  "labels": [
+   "Hình 3: ).5 Quy mô của những thiệt hại này, được dự đoán sẽ tăng nhanh, nhấn mạnh sự",
+   "Hình 3: Chi phí ước tính do biến đổi khí hậu năm 2020 (triệu USD)",
+   "Hình 4: ). Mức độ phát thải đã tăng lên đáng kể trong một thập kỷ vừa qua, và Việt Nam đã khóa ngành điện"
+  ],
+  "head": "7 Việt Nam: Báo cáo về Khí hậu và Phát triển gần đây cho thấy năm 2020 Việt Nam đã thiệt hại 10 tỷ USD, tương đương 3,2% GDP, do tác động của biến đổi khí hậu ("
+ },
+ {
+  "page": 18,
+  "chars": 2090,
+  "images": 2,
+  "drawings": 20,
+  "labels": [
+   "Hình 4: Gia tăng mức phát thải GHG",
+   "Bảng 1: và Hình 5)."
+  ],
+  "head": "8 Việt Nam: Báo cáo về Khí hậu và Phát triển vào với các công nghệ phát thải cao trong thập kỷ tới. Năm 2020, năng lượng chiếm khoảng 65% lượng phát thải GHG củ"
+ },
+ {
+  "page": 19,
+  "chars": 1023,
+  "images": 0,
+  "drawings": 524,
+  "labels": [
+   "Bảng 1: So sánh phát thải giữa các nước",
+   "Hình 5: Phát thải GHG trên đầu người (tấnn/đầu người) (Chấm đỏ là Việt Nam)"
+  ],
+  "head": "9 Việt Nam: Báo cáo về Khí hậu và Phát triển Bảng 1: So sánh phát thải giữa các nước Nước Phát thải trên đầu người (tCO2e trên đầu người) Phát thải Carbon (tCO2"
+ },
+ {
+  "page": 20,
+  "chars": 2305,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "10 Việt Nam: Báo cáo về Khí hậu và Phát triển Sự gia tăng lượng phát thải GHG nhanh chóng trong hai thập kỷ qua có tương quan đến tình trạng ô nhiễm không khí n"
+ },
+ {
+  "page": 21,
+  "chars": 45,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "11 Việt Nam: Báo cáo về Khí hậu và Phát triển"
+ },
+ {
+  "page": 22,
+  "chars": 178,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "12 Việt Nam: Báo cáo về Khí hậu và Phát triển Khu vực công và khu vực tư nhân không được chuẩn bị đồng đều để đối phó với rủi ro biến đổi khí hậu 2 © Ho Cau/Vie"
+ },
+ {
+  "page": 23,
+  "chars": 3754,
+  "images": 0,
+  "drawings": 4,
+  "labels": [],
+  "head": "13 Việt Nam: Báo cáo về Khí hậu và Phát triển 2. Khu vực công và khu vực tư nhân không được chuẩn bị đồng đều để đối phó với rủi ro biến đổi khí hậu 2.1. Cam kế"
+ },
+ {
+  "page": 24,
+  "chars": 4531,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hình 6: ).21 Một phân tích năm 2020 cho thấy những thiệt hại liên quan đến khí"
+  ],
+  "head": "14 Việt Nam: Báo cáo về Khí hậu và Phát triển yy Cần có sự thống nhất cao hơn trong các văn bản chính sách khí hậu quan trọng. Các cam kết và chiến lược mới do "
+ },
+ {
+  "page": 25,
+  "chars": 3210,
+  "images": 0,
+  "drawings": 48,
+  "labels": [
+   "Hình 6: Các tác động của biến đổi khí hậu và rủi ro thiên tai dưới sự quan sát của các doanh",
+   "Hình 3.3: tại VCCI, 2020.23",
+   "Hình 7: ), lấn át đầu tư tư nhân. Là một phần trong chiến lược"
+  ],
+  "head": "15 Việt Nam: Báo cáo về Khí hậu và Phát triển Các lĩnh vực dễ bị tổn thương nhất do biến đổi khí hâu là khai khoáng, công nghiệp chế biến, chế tạo, nông nghiệp,"
+ },
+ {
+  "page": 26,
+  "chars": 2456,
+  "images": 0,
+  "drawings": 24,
+  "labels": [
+   "Hình 7: Biến thiên tỷ trọng sản lượng của các DNNN trong các ngành công nghiệp sử dụng nhiều"
+  ],
+  "head": "16 Việt Nam: Báo cáo về Khí hậu và Phát triển xảy ra trong các lĩnh vực do DNNN chi phối nếu không thúc đẩy cạnh tranh hơn nữa cả ở thời điểm hiện tại và trong "
+ },
+ {
+  "page": 27,
+  "chars": 588,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "17 Việt Nam: Báo cáo về Khí hậu và Phát triển Tương tự, rủi ro đối với các ngân hàng cũng chưa được đánh giá. Chính phủ nên xem xét đánh giá rủi ro liên quan đế"
+ },
+ {
+  "page": 28,
+  "chars": 160,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "18 Việt Nam: Báo cáo về Khí hậu và Phát triển Thích ứng với Biến đổi Khí hậu - Lộ trình xây dựng khả năng chống chịu 3 © Nguyen Quang Ngoc Tonkin/Shutterstock"
+ },
+ {
+  "page": 29,
+  "chars": 3756,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 1: ). Thứ hai là mô hình xác suất thảm họa để ước lượng các tác động kinh tế liên quan đến các hiện",
+   "Hình 8: ). Chịu thiệt hại nghiêm trọng",
+   "Hộp 1: Mô tả ngắn gọn về mô hình CGE và giả định cơ bản"
+  ],
+  "head": "19 Việt Nam: Báo cáo về Khí hậu và Phát triển 3. Thích ứng với Biến đổi Khí hậu - Lộ trình xây dựng khả năng chống chịu 3.1. Xây dựng nền kinh tế có khả năng ch"
+ },
+ {
+  "page": 30,
+  "chars": 2696,
+  "images": 0,
+  "drawings": 9,
+  "labels": [
+   "Hình 8: Các tác động kinh tế ước tính khi nhiệt độ và lượng mưa cao hơn, thay đổi nhiều hơn, mực",
+   "Hình 8: ). Đồng"
+  ],
+  "head": "20 Việt Nam: Báo cáo về Khí hậu và Phát triển thu thập cho giai đoạn gần nhất mà có số liệu (trong phần lớn trường hợp là năm 2020). Việc ước lượng sự thay đổi "
+ },
+ {
+  "page": 31,
+  "chars": 3987,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Bảng 2: ). Ước tính này dựa trên sự chênh lệch giữa nhu cầu tài chính đã nêu ở trên và các khoản chi hiện có"
+  ],
+  "head": "21 Việt Nam: Báo cáo về Khí hậu và Phát triển Giảm thiểu những tác động đó sẽ đòi hỏi sự đầu tư đáng kể từ cả khu vực tư nhân và nhà nước. Rất khó định lượng cá"
+ },
+ {
+  "page": 32,
+  "chars": 3401,
+  "images": 0,
+  "drawings": 55,
+  "labels": [
+   "Bảng 2: Ước tính nhu cầu tài chính tăng thêm cho các biện pháp thích ứng, 2022–2050"
+  ],
+  "head": "22 Việt Nam: Báo cáo về Khí hậu và Phát triển Bảng 2. Ước tính nhu cầu tài chính tăng thêm cho các biện pháp thích ứng, 2022–2050 Trung bình mỗi năm (% GDP) Giá"
+ },
+ {
+  "page": 33,
+  "chars": 3456,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "23 Việt Nam: Báo cáo về Khí hậu và Phát triển trong các hoạt động thiết kế, triển khai và cung cấp nguồn lực cho những dự án cơ sở hạ tầng. Cần có sự phối hợp t"
+ },
+ {
+  "page": 34,
+  "chars": 4510,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "24 Việt Nam: Báo cáo về Khí hậu và Phát triển Thiệt hại nông nghiệp do biến đổi khí hậu ở Việt Nam được dự báo sẽ lên tới 5,6–6,2% vào năm 2030 và 7,6–10,6% vào"
+ },
+ {
+  "page": 35,
+  "chars": 4344,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "25 Việt Nam: Báo cáo về Khí hậu và Phát triển Khuyến nghị Cần ưu tiên và thúc đẩy khả năng thích ứng để tăng khả năng chống chịu với biến đổi khí hậu của người "
+ },
+ {
+  "page": 36,
+  "chars": 4146,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hình 9: ). Theo kịch bản"
+  ],
+  "head": "26 Việt Nam: Báo cáo về Khí hậu và Phát triển thông minh với khí hậu (CSA). Những hộ nông dân nhỏ lẻ cũng sẽ được hưởng lợi từ việc áp dụng chính sách tạo điều "
+ },
+ {
+  "page": 37,
+  "chars": 2346,
+  "images": 3,
+  "drawings": 3,
+  "labels": [
+   "Hình 9: Mức độ dễ bị ảnh hưởng khi gặp thiên tai của các tuyến đường có quy mô quốc gia tại Việt"
+  ],
+  "head": "27 Việt Nam: Báo cáo về Khí hậu và Phát triển dài và làm giảm độ tin cậy của hệ thống, ảnh hưởng đến hoạt động sản xuất và kinh doanh. Các khu vực miền núi, "
+ },
+ {
+  "page": 38,
+  "chars": 4214,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 2: )."
+  ],
+  "head": "28 Việt Nam: Báo cáo về Khí hậu và Phát triển Khuyến nghị yy Nâng cấp đường bộ và cơ sở vật chất ngành điện theo các tiêu chuẩn thiết kế có khả năng chống "
+ },
+ {
+  "page": 39,
+  "chars": 3917,
+  "images": 0,
+  "drawings": 3,
+  "labels": [
+   "Hộp 2: Đánh giá tính dễ bị tổn thương của các doanh nghiệp xuất khẩu khi đối mặt với lũ lụt"
+  ],
+  "head": "29 Việt Nam: Báo cáo về Khí hậu và Phát triển Tính dễ bị tổn thương của thương mại quốc tế và công nghiệp chế biến, chế tạo thể hiện đặc biệt rõ trong trường"
+ },
+ {
+  "page": 40,
+  "chars": 3249,
+  "images": 1,
+  "drawings": 3,
+  "labels": [
+   "Hình 10: ).45 Nếu không có các biện pháp",
+   "Hình 10: Đồng bằng sông Cửu Long có nguy"
+  ],
+  "head": "30 Việt Nam: Báo cáo về Khí hậu và Phát triển chú ý đến các khu vực còn hạn chế về khả năng dự đoán và thích ứng với biến đổi khí hậu. Ví dụ, các địa điểm dễ "
+ },
+ {
+  "page": 41,
+  "chars": 3973,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "31 Việt Nam: Báo cáo về Khí hậu và Phát triển Nghị quyết chú trọng vào (i) thiết lập các tiểu vùng sinh thái và xây dựng kế hoạch sử dụng đất phù hợp với đặc đi"
+ },
+ {
+  "page": 42,
+  "chars": 3137,
+  "images": 1,
+  "drawings": 3,
+  "labels": [
+   "Hình 11: ).",
+   "Hình 11: Rủi ro ngập lụt tại các vùng ven"
+  ],
+  "head": "32 Việt Nam: Báo cáo về Khí hậu và Phát triển cao, với 42% khách sạn nằm gần các bờ biển bị xói mòn. Ngành công nghiệp lớn của Việt Nam đã phát triển tại các k"
+ },
+ {
+  "page": 43,
+  "chars": 4085,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 3: )."
+  ],
+  "head": "33 Việt Nam: Báo cáo về Khí hậu và Phát triển yy Xây dựng một phương pháp tiếp cận có hệ thống cho việc sử dụng các giải pháp dựa vào thiên nhiên (giải pháp th"
+ },
+ {
+  "page": 44,
+  "chars": 4015,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 3: Xây dựng vốn con người có khả năng chống chịu"
+  ],
+  "head": "34 Việt Nam: Báo cáo về Khí hậu và Phát triển Hộp 3: Xây dựng vốn con người có khả năng chống chịu Đối với Việt Nam, tăng cường đầu tư hơn nữa vào vốn con người"
+ },
+ {
+  "page": 45,
+  "chars": 3658,
+  "images": 0,
+  "drawings": 3,
+  "labels": [
+   "Hộp 4: ).50 Tần suất xảy ra thảm hoạ thiên nhiên và hiện",
+   "Hộp 4: Di cư do biến đổi khí hậu ở Việt Nam"
+  ],
+  "head": "35 Việt Nam: Báo cáo về Khí hậu và Phát triển tăng tỷ lệ di cư ở Việt Nam và trên toàn thế giới (Hộp 4).50 Tần suất xảy ra thảm hoạ thiên nhiên và hiện tượng th"
+ },
+ {
+  "page": 46,
+  "chars": 1648,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "36 Việt Nam: Báo cáo về Khí hậu và Phát triển yy Đầu tư vào công nghệ thông tin và các công nghệ số khác để cải thiện hệ thống dự báo rủi ro thời tiết và cảnh b"
+ },
+ {
+  "page": 47,
+  "chars": 45,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "37 Việt Nam: Báo cáo về Khí hậu và Phát triển"
+ },
+ {
+  "page": 48,
+  "chars": 115,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "38 Việt Nam: Báo cáo về Khí hậu và Phát triển Giảm thiểu Biến đổi Khí hậu - Lộ trình khử carbon 4 © The World Bank"
+ },
+ {
+  "page": 49,
+  "chars": 4232,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Bảng 3: ). Hơn 80% sẽ dành để hỗ trợ quá trình chuyển dịch năng lượng và phần còn lại dành cho nông nghiệp,"
+  ],
+  "head": "39 Việt Nam: Báo cáo về Khí hậu và Phát triển 4. Giảm thiểu Biến đổi Khí hậu - Lộ trình khử carbon 4.1. Những cam kết táo bạo cần những hành động táo bạo Việt N"
+ },
+ {
+  "page": 50,
+  "chars": 2684,
+  "images": 0,
+  "drawings": 87,
+  "labels": [
+   "Bảng 3: ). Tác động ròng lên",
+   "Bảng 3: Nhu cầu đầu tư và lợi nhuận đầu ra theo Lộ trình phát thải carbon ròng bằng “0” (NZP)",
+   "Bảng 3: , với tác động kinh tế ròng của NZP có cải cách được đánh giá là gần"
+  ],
+  "head": "40 Việt Nam: Báo cáo về Khí hậu và Phát triển khoảng 135 tỷ USD, phản ánh sản lượng giảm và chi phí đầu tư phát sinh (Bảng 3). Tác động ròng lên lĩnh vực năng l"
+ },
+ {
+  "page": 51,
+  "chars": 3898,
+  "images": 0,
+  "drawings": 3,
+  "labels": [
+   "Bảng 4: , điều đó sẽ giúp GDP trong kịch",
+   "Hộp 5: ).",
+   "Hộp 5: Ô nhiễm không khí ở Hà Nội: Hành động có mục tiêu có thể tối đa hóa lợi ích kép như"
+  ],
+  "head": "41 Việt Nam: Báo cáo về Khí hậu và Phát triển khí. Làm được như vậy có thể cải thiện sức khỏe con người và năng suất lao động.54 Lợi ích kép được kỳ vọng này đã"
+ },
+ {
+  "page": 52,
+  "chars": 4036,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Bảng 4: đã chỉ ra, bằng cách thực hiện NZP cùng với tất cả các biện pháp hỗ trợ này, Việt Nam có thể",
+   "Bảng 3: Trong khi sản lượng của ngành"
+  ],
+  "head": "42 Việt Nam: Báo cáo về Khí hậu và Phát triển yy Nâng cao hiệu quả sử dụng năng lượng: Việt Nam đã và đang nỗ lực tăng hiệu quả sử dụng năng lượng và cam kết đó"
+ },
+ {
+  "page": 53,
+  "chars": 2725,
+  "images": 0,
+  "drawings": 106,
+  "labels": [
+   "Bảng 4: Các chính sách hỗ trợ chính sẽ ảnh hưởng như thế nào đến tác động của NZP đối với phát",
+   "Hình 12: ). Đây là kết quả của các chính sách quốc gia định hướng tập trung cung cấp dịch vụ từ cấp cơ"
+  ],
+  "head": "43 Việt Nam: Báo cáo về Khí hậu và Phát triển Bảng 4. Các chính sách hỗ trợ chính sẽ ảnh hưởng như thế nào đến tác động của NZP đối với phát thải khí nhà kính v"
+ },
+ {
+  "page": 54,
+  "chars": 2798,
+  "images": 0,
+  "drawings": 20,
+  "labels": [
+   "Hình 12: Ngành điện Việt Nam phụ thuộc rất nhiều vào than",
+   "Hình 13: ).",
+   "Hình 13: ). Mặc dù đó là một"
+  ],
+  "head": "44 Việt Nam: Báo cáo về Khí hậu và Phát triển điện sẽ cần phải tăng gấp đôi sau mỗi giai đoạn 10 năm để đáp ứng nhu cầu điện cho phụ tải cơ bản và phụ tải giờ c"
+ },
+ {
+  "page": 55,
+  "chars": 2590,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 6: ). Mô hình do Ngân hàng Thế giới thực hiện không tính",
+   "Hộp 6: 10 điểm nổi bật trên phương diện kỹ thuật của Kịch bản Tăng tốc Khử carbon (ADS)"
+  ],
+  "head": "45 Việt Nam: Báo cáo về Khí hậu và Phát triển mức giảm đáng kể nhưng vẫn cần phải có các biện pháp bổ sung để đạt được mức phát thải ròng bằng “0” trên toàn nền"
+ },
+ {
+  "page": 56,
+  "chars": 2611,
+  "images": 0,
+  "drawings": 73,
+  "labels": [
+   "Hình 13: So sánh nguồn điện và phát thải GHG giữa CPS và ADS",
+   "Bảng 5: ). Lý do là chi phí",
+   "Hộp 7: ).",
+   "Bảng 5: Nhu cầu đầu tư và Chi phí kinh tế: Kịch bản tăng tốc khử carbon (ADS), 2022–2040"
+  ],
+  "head": "46 Việt Nam: Báo cáo về Khí hậu và Phát triển Hình 13: So sánh nguồn điện và phát thải GHG giữa CPS và ADS Điện được sản xuất năm 2040 (TWh) Phát thải GHG ngành"
+ },
+ {
+  "page": 57,
+  "chars": 2964,
+  "images": 0,
+  "drawings": 96,
+  "labels": [
+   "Hộp 7: Tác động của xung đột tại Ukraina lên ngành năng lượng Việt Nam"
+  ],
+  "head": "47 Việt Nam: Báo cáo về Khí hậu và Phát triển Mặt trời +21 + 429% Gió (trên bờ) +8 + 55% Gió (ngoài khơi) +39 + 402% Thủy điện và các năng lượng tái tạo khác ~0"
+ },
+ {
+  "page": 58,
+  "chars": 3683,
+  "images": 0,
+  "drawings": 1,
+  "labels": [
+   "Hình 14: ), về"
+  ],
+  "head": "48 Việt Nam: Báo cáo về Khí hậu và Phát triển giá có tính chiến lược các tác động, chi phí và lợi ích của việc khai thác các kim loại này cần được tiến hành để "
+ },
+ {
+  "page": 59,
+  "chars": 2605,
+  "images": 0,
+  "drawings": 50,
+  "labels": [
+   "Hình 14: Sản xuất than nội địa của Việt Nam tập trung ở các vùng núi phía Bắc"
+  ],
+  "head": "49 Việt Nam: Báo cáo về Khí hậu và Phát triển Hình 14: Sản xuất than nội địa của Việt Nam tập trung ở các vùng núi phía Bắc Hà Nội Na Dương Thái Nguyên Hòn Gai "
+ },
+ {
+  "page": 60,
+  "chars": 4370,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "50 Việt Nam: Báo cáo về Khí hậu và Phát triển chính để thu hút nguồn vốn quốc tế giá rẻ hơn cho ngành này. Còn có thêm các cơ hội để khu vực tư nhân tham gia và"
+ },
+ {
+  "page": 61,
+  "chars": 3841,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "51 Việt Nam: Báo cáo về Khí hậu và Phát triển liệu hóa thạch. Cần sửa đổi và phê duyệt dự thảo PDP8 kịp thời để đưa ngành điện vào lộ trình đạt phát thải ròng b"
+ },
+ {
+  "page": 62,
+  "chars": 2350,
+  "images": 0,
+  "drawings": 28,
+  "labels": [
+   "Hình 15: ),63 thông qua các biện pháp sau:",
+   "Hình 15: Giảm phát thải CO2 vào năm 2030 trong kịch bản giảm nhẹ, so với BAU"
+  ],
+  "head": "52 Việt Nam: Báo cáo về Khí hậu và Phát triển Để khử carbon trong lĩnh vực giao thông vận tải, cần thực hiện một cách có hệ thống các nguyên tắc “Tránh-Chuyển d"
+ },
+ {
+  "page": 63,
+  "chars": 4521,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "53 Việt Nam: Báo cáo về Khí hậu và Phát triển Khuyến nghị yy Đưa ra các tiêu chuẩn tiết kiệm nhiên liệu cho các loại xe động cơ đốt trong mới: Từ năm 2016 đến n"
+ },
+ {
+  "page": 64,
+  "chars": 4249,
+  "images": 0,
+  "drawings": 4,
+  "labels": [
+   "Hình 16: và 17). Sự kết hợp giữa mức giảm phát thải và chi phí tiềm năng"
+  ],
+  "head": "54 Việt Nam: Báo cáo về Khí hậu và Phát triển đẩy hơn nữa bằng cách cung cấp miễn phí hoặc giảm giá vé xe buýt, tàu hoặc phương tiện giao thông công cộng. Đồng "
+ },
+ {
+  "page": 65,
+  "chars": 2014,
+  "images": 0,
+  "drawings": 40,
+  "labels": [
+   "Hình 16: Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ sản xuất lúa",
+   "Hình 17: Các biện pháp hiệu quả về mặt chi phí để giảm phát thải khí nhà kính từ chăn nuôi"
+  ],
+  "head": "55 Việt Nam: Báo cáo về Khí hậu và Phát triển nông dân thì những biện pháp giảm phát thải trong ngành mới không có nguy cơ thất bại về trung hạn. Chiến lược khử"
+ },
+ {
+  "page": 66,
+  "chars": 4133,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "56 Việt Nam: Báo cáo về Khí hậu và Phát triển Khuyến nghị yy Tái định hướng chi tiêu công trong nông nghiệp sang hỗ trợ đưa vào sử dụng các giống cây trồng và c"
+ },
+ {
+  "page": 67,
+  "chars": 3508,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 8: ). Năm 2020, Việt Nam là nước xuất khẩu hàng"
+  ],
+  "head": "57 Việt Nam: Báo cáo về Khí hậu và Phát triển đất và lâm nghiệp có chi phí tương đối thấp so với các biện pháp trong lĩnh vực công nghiệp, giao thông vận tải và"
+ },
+ {
+  "page": 68,
+  "chars": 3973,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 8: Việt Nam chuyển hướng sang xuất khẩu hàng hóa môi trường và các cơ hội mới nổi"
+  ],
+  "head": "58 Việt Nam: Báo cáo về Khí hậu và Phát triển Hộp 8: Việt Nam chuyển hướng sang xuất khẩu hàng hóa môi trường và các cơ hội mới nổi Xuất nhập khẩu các sản phẩm "
+ },
+ {
+  "page": 69,
+  "chars": 4073,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "59 Việt Nam: Báo cáo về Khí hậu và Phát triển thải và đạt được mục tiêu phát thải ròng bằng “0” của quốc gia. Ví dụ, ở Thổ Nhĩ Kỳ, dự kiến việc chuyển các khu c"
+ },
+ {
+  "page": 70,
+  "chars": 2225,
+  "images": 0,
+  "drawings": 5,
+  "labels": [
+   "Hình 18: ). Bất bình đẳng (được đo bằng Chỉ số Gini) sẽ tăng nhẹ so với BAU vào năm 2040.",
+   "Hình 18: Tác động của NZP đối với tình trạng đói nghèo, an ninh kinh tế và bất bình đẳng (sai lệch",
+   "Hình 19: ). Các hộ gia đình"
+  ],
+  "head": "60 Việt Nam: Báo cáo về Khí hậu và Phát triển phần lớn người nghèo hiện sinh sống ở các vùng sâu vùng xa và không bị ảnh hưởng nhiều bởi các nỗ lực khử carbon ("
+ },
+ {
+  "page": 71,
+  "chars": 2685,
+  "images": 0,
+  "drawings": 18,
+  "labels": [
+   "Hình 19: Chỉ số giá theo nhóm hàng hóa, 2022–2040 (% lệch so với BAU)"
+  ],
+  "head": "61 Việt Nam: Báo cáo về Khí hậu và Phát triển tin từ cuộc khảo sát hộ gia đình năm 2018 cho thấy các hộ gia đình nghèo hơn có chi cho năng lượng chiếm tỷ trọng "
+ },
+ {
+  "page": 72,
+  "chars": 3249,
+  "images": 0,
+  "drawings": 10,
+  "labels": [
+   "Hình 20: ):81",
+   "Hình 20: Những thay đổi về việc làm theo lĩnh vực vào năm 2040"
+  ],
+  "head": "62 Việt Nam: Báo cáo về Khí hậu và Phát triển 60.000 việc làm mới mỗi năm) nhưng cũng đủ cho thấy những chuyển biến đáng kể trong nhiều lĩnh vực (Hình 20):81 yy"
+ },
+ {
+  "page": 73,
+  "chars": 3859,
+  "images": 0,
+  "drawings": 2,
+  "labels": [
+   "Hộp 9: trình bày tóm tắt các bài học quan trọng đúc rút từ kinh nghiệm",
+   "Hộp 9: Bài học từ kinh nghiệm quốc tế về các chương trình đào tạo lại"
+  ],
+  "head": "63 Việt Nam: Báo cáo về Khí hậu và Phát triển thì tác động phúc lợi của quá trình chuyển đổi sẽ trở nên nghiêm trọng hơn và tốc độ tăng trưởng của năng lượng tá"
+ },
+ {
+  "page": 74,
+  "chars": 3281,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "64 Việt Nam: Báo cáo về Khí hậu và Phát triển Khuyến nghị yy Thiết kế một chương trình phát triển kỹ năng quốc gia toàn diện để tăng năng suất lao động và khắc "
+ },
+ {
+  "page": 75,
+  "chars": 45,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "65 Việt Nam: Báo cáo về Khí hậu và Phát triển"
+ },
+ {
+  "page": 76,
+  "chars": 91,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "66 Việt Nam: Báo cáo về Khí hậu và Phát triển Huy động tài chính 5 © Huy Thoai/Shutterstock"
+ },
+ {
+  "page": 77,
+  "chars": 2822,
+  "images": 0,
+  "drawings": 12,
+  "labels": [
+   "Hình 21: Phương pháp tiến hành được áp dụng ở đây là nguồn tài chính công có thể được huy động nhanh chóng",
+   "Hình 21: Nhu cầu và các nguồn tài chính tiềm năng giai đoạn 2022–2040"
+  ],
+  "head": "67 Việt Nam: Báo cáo về Khí hậu và Phát triển 5. Huy động tài chính Theo đuổi một lộ trình phát triển kết hợp khả năng chống chịu và phát thải ròng bằng 0 (RNZP"
+ },
+ {
+  "page": 78,
+  "chars": 3277,
+  "images": 0,
+  "drawings": 12,
+  "labels": [
+   "Hình 22: ). Những lĩnh vực hưởng lợi chính là nông nghiệp,",
+   "Hình 22: Dư nợ cho vay tư nhân về vấn đề khí hậu và tín dụng xanh từ 2016 đến 2019 (tỷ USD)"
+  ],
+  "head": "68 Việt Nam: Báo cáo về Khí hậu và Phát triển 5.1. Khu vực tư nhân sẽ là nòng cốt Khu vực tư nhân sẽ không nhất thiết phải tiết kiệm thêm nguồn thu, mà thay vào"
+ },
+ {
+  "page": 79,
+  "chars": 4095,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "69 Việt Nam: Báo cáo về Khí hậu và Phát triển Chính sách công phải đóng vai trò hỗ trợ khu vực tài chính vượt qua những rào cản này và phát triển một thị trường"
+ },
+ {
+  "page": 80,
+  "chars": 4329,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "70 Việt Nam: Báo cáo về Khí hậu và Phát triển thị trường hiện tại mà không gây nguy hiểm cho nợ công và tính bền vững tài khóa theo thời gian.87 Cũng có thể tiế"
+ },
+ {
+  "page": 81,
+  "chars": 810,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "71 Việt Nam: Báo cáo về Khí hậu và Phát triển cho các dự án liên quan đến khí hậu, bao gồm cả việc sử dụng các khoản trợ cấp tiềm năng để thúc đẩy nhiều bên tha"
+ },
+ {
+  "page": 82,
+  "chars": 111,
+  "images": 1,
+  "drawings": 46,
+  "labels": [],
+  "head": "72 Việt Nam: Báo cáo về Khí hậu và Phát triển Kết luận và Khuyến nghị 6 © Nguyen Quang Ngoc Tonkin/Shutterstock"
+ },
+ {
+  "page": 83,
+  "chars": 3980,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "73 Việt Nam: Báo cáo về Khí hậu và Phát triển 6. Kết luận và Khuyến nghị 6.1. Đặt thứ tự ưu tiên là chìa khóa CCDR này được thực hiện vào thời điểm quan trọng đ"
+ },
+ {
+  "page": 84,
+  "chars": 2963,
+  "images": 0,
+  "drawings": 42,
+  "labels": [
+   "Bảng 6: tóm tắt khung ưu tiên hoá được sử dụng để lựa chọn các lĩnh vực can thiệp chính, sắp xếp các",
+   "Bảng 6: Tiêu chí ưu tiên"
+  ],
+  "head": "74 Việt Nam: Báo cáo về Khí hậu và Phát triển động và chuỗi giá trị cũng như bù đắp lượng phát thải còn lại thông qua việc mua tín chỉ carbon. Chính phủ có thể "
+ },
+ {
+  "page": 85,
+  "chars": 4456,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "75 Việt Nam: Báo cáo về Khí hậu và Phát triển Kết quả của thực nghiệm lựa chọn này được tổng kết trong Phụ lục 4. Báo cáo này đưa ra các gói hính sách 5-ưu tiên"
+ },
+ {
+  "page": 86,
+  "chars": 4494,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "76 Việt Nam: Báo cáo về Khí hậu và Phát triển theo các chuẩn quốc tế với tính khả thi cao về tài chính có thể giúp huy động vốn đầu tư tư nhân rất cần cho ngành"
+ },
+ {
+  "page": 87,
+  "chars": 4485,
+  "images": 0,
+  "drawings": 2,
+  "labels": [],
+  "head": "77 Việt Nam: Báo cáo về Khí hậu và Phát triển 6.2. Các con đường phía trước Vì Việt Nam muốn đạt tiêu chí quốc gia thu nhập cao vào năm 2045, Việt Nam cần phải "
+ },
+ {
+  "page": 88,
+  "chars": 2522,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "78 Việt Nam: Báo cáo về Khí hậu và Phát triển KHĐT, cũng như các bộ ngành chiến lược như Tài chính, Nông nghiệp và Phát triển Nông thôn, Giao thông vận tải và C"
+ },
+ {
+  "page": 89,
+  "chars": 45,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "79 Việt Nam: Báo cáo về Khí hậu và Phát triển"
+ },
+ {
+  "page": 90,
+  "chars": 53,
+  "images": 0,
+  "drawings": 46,
+  "labels": [],
+  "head": "80 Việt Nam: Báo cáo về Khí hậu và Phát triển Phụ lục"
+ },
+ {
+  "page": 91,
+  "chars": 1797,
+  "images": 0,
+  "drawings": 445,
+  "labels": [],
+  "head": "81 Việt Nam: Báo cáo về Khí hậu và Phát triển Phụ lục 1. Dữ liệu Khí hậu và Phát triển chính của Việt Nam Đơn vị # Năm # Năm # Năm Nguồn BỐI CẢNH KINH TẾ VĨ MÔ "
+ },
+ {
+  "page": 92,
+  "chars": 2043,
+  "images": 0,
+  "drawings": 383,
+  "labels": [],
+  "head": "82 Việt Nam: Báo cáo về Khí hậu và Phát triển Đơn vị # Năm # Năm # Năm Nguồn Kịch bản phát thải - BAU Triệu tấn CO2e 528,4 2020 726,2 2025 927,9 2030 VN NDC Mục"
+ },
+ {
+  "page": 93,
+  "chars": 1881,
+  "images": 0,
+  "drawings": 3,
+  "labels": [],
+  "head": "83 Việt Nam: Báo cáo về Khí hậu và Phát triển Phụ lục 2. Một số tài liệu cơ bản Báo cáo CCDR này được xây dựng dựa trên một số nghiên cứu hiện có của Nhóm Ngân "
+ },
+ {
+  "page": 94,
+  "chars": 1806,
+  "images": 0,
+  "drawings": 61,
+  "labels": [],
+  "head": "84 Việt Nam: Báo cáo về Khí hậu và Phát triển Phụ lục 3. Phương pháp luận, kết quả mô hình hóa và vấn đề về dữ liệu A. Các kịch bản khí hậu toàn cầu và ước tính"
+ },
+ {
+  "page": 95,
+  "chars": 3410,
+  "images": 0,
+  "drawings": 64,
+  "labels": [],
+  "head": "85 Việt Nam: Báo cáo về Khí hậu và Phát triển Những thiệt hại chính và kết quả kinh tế vĩ mô từ mô hình CGE Sai số so với đường cơ sở (%)* Sai số so với đường c"
+ },
+ {
+  "page": 96,
+  "chars": 2443,
+  "images": 0,
+  "drawings": 1,
+  "labels": [],
+  "head": "86 Việt Nam: Báo cáo về Khí hậu và Phát triển B. Các giả định của mô hình CGE đối với NZP và các kết quả kinh tế vĩ mô chính yy Chuyển đổi năng lượng: Kịch bản "
+ },
+ {
+  "page": 97,
+  "chars": 2578,
+  "images": 0,
+  "drawings": 51,
+  "labels": [],
+  "head": "87 Việt Nam: Báo cáo về Khí hậu và Phát triển Các kết quả chính về phát thải và kinh tế vĩ mô từ CGE Đường cơ sở Phát thải ròng bằng 0 Phát thải ròng bằng 0 kèm"
+ },
+ {
+  "page": 98,
+  "chars": 3494,
+  "images": 0,
+  "drawings": 34,
+  "labels": [],
+  "head": "88 Việt Nam: Báo cáo về Khí hậu và Phát triển C. Sử dụng tỷ lệ chiết khấu CCDR sử dụng tỷ lệ chiết khấu là 6% theo hướng dẫn của Ngân hàng Thế giới đối với phân"
+ },
+ {
+  "page": 99,
+  "chars": 594,
+  "images": 0,
+  "drawings": 3,
+  "labels": [],
+  "head": "89 Việt Nam: Báo cáo về Khí hậu và Phát triển xem xét tất cả các yếu tố liên quan như Xác định Hoạt động (AD), Yếu tố Phát thải (EF) và Khả năng ấm lên toàn cầu"
+ },
+ {
+  "page": 100,
+  "chars": 2701,
+  "images": 0,
+  "drawings": 45,
+  "labels": [],
+  "head": "90 Việt Nam: Báo cáo về Khí hậu và Phát triển Phụ lục 4. Ma trận tác động khẩn cấp-Ưu tiên Tác động Khẩn capKhẩn cấp Cao Trung bình LỘ TRÌNH XÂY DỰNG KHẢ NĂNG C"
+ },
+ {
+  "page": 101,
+  "chars": 3112,
+  "images": 0,
+  "drawings": 31,
+  "labels": [],
+  "head": "91 Việt Nam: Báo cáo về Khí hậu và Phát triển LỘ TRÌNH KHỬ CARBON Cao Giảm thiểu ô nhiễm không khí ở Hà Nội bằng cách nhắm vào các nguồn gây ô nhiễm quan trọng "
+ },
+ {
+  "page": 102,
+  "chars": 2631,
+  "images": 0,
+  "drawings": 30,
+  "labels": [],
+  "head": "92 Việt Nam: Báo cáo về Khí hậu và Phát triển Khẩn cấp HÀNH ĐỘNG XUYÊN SUỐT Cao Kết hợp hài hòa các chiến lược khí hậu hiện có (NDC, VGG) và việc thực hiện các "
+ },
+ {
+  "page": 103,
+  "chars": 0,
+  "images": 0,
+  "drawings": 0,
+  "labels": [],
+  "head": ""
+ },
+ {
+  "page": 104,
+  "chars": 0,
+  "images": 0,
+  "drawings": 45,
+  "labels": [],
+  "head": ""
+ }
+]

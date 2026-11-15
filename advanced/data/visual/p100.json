@@ -1,0 +1,33 @@
+{
+ "page": 100,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Phụ lục 4",
+   "kind": "table",
+   "title": "Phụ lục 4. Ma trận tác động khẩn cấp-Ưu tiên",
+   "box_2d": [
+    122,
+    115,
+    913,
+    882
+   ],
+   "informative": true,
+   "description": "Bảng ma trận phân loại các hành động theo mức độ tác động (Cao, Trung bình) và mức độ khẩn cấp (Cao, Trung bình). Nội dung liệt kê lộ trình xây dựng khả năng chống chịu thông qua các giải pháp cụ thể trong nhiều lĩnh vực.",
+   "transcription": "| | Tác động | | |\n| :--- | :--- | :--- |\n| | Cao | Trung bình |\n| **LỘ TRÌNH XÂY DỰNG KHẢ NĂNG CHỐNG CHỊU** | | |\n| **Khẩn cấp** | **Cao** | Khẩn trương thực hiện chương trình phối hợp đầu tư cấp vùng tại Đồng bằng sông Cửu Long. <br> Xây dựng chương trình đầu tư tích hợp về khả năng chống chịu ven biển cho các trung tâm đô thị chính và cơ sở hạ tầng kết nối. <br> Cải tạo hoặc nâng cấp cơ sở hạ tầng thủy lợi. <br> Đầu tư vào trồng rừng và tái trồng rừng, trọng tâm là rừng ngập mặn. <br> Thực hiện chương trình lưới an sinh xã hội thích ứng, hiện đại hóa và nhân rộng. <br> Thúc đẩy thị trường đất đai tích cực hơn bằng cách loại bỏ các rào cản pháp lý, quy định và hành chính, đồng thời hạn chế hoạt động phát triển mới quá rủi ro, bao gồm cả ở các vùng đệm, bằng cách sửa đổi luật đất đai. <br> Nâng cấp đường sá và cơ sở vật chất ngành điện lên các tiêu chuẩn thiết kế có khả năng chống chịu với khí hậu cao hơn. | Bù đắp thiếu hụt trong đầu tư công tích tụ trong nhiều năm gần đây ở Đồng bằng sông Cửu Long <br> Chuyển các khoản trợ cấp đầu vào nông nghiệp (nước, phân bón, v.v.) sang hỗ trợ áp dụng các phương thức sản xuất nông nghiệp có khả năng chống chịu. <br> Đầu tư vào công nghệ thông tin và kỹ thuật số để cải thiện hệ thống dự báo rủi ro thời tiết và cảnh báo sớm. <br> Áp dụng tái phân bổ sinh thái để hạn chế mở rộng nông nghiệp sang các khu vực có rừng. |\n| | **Trung bình** | Tăng cường, thực thi các chính sách và quy định về khả năng chống chịu của ngành công nghiệp, bao gồm cả trong các khu công nghiệp. <br> Mở rộng sử dụng các công cụ bảo hiểm và phòng ngừa rủi ro <br> Cải thiện khả năng tiếp cận tài chính cho nông nghiệp quy mô nhỏ bằng cách loại bỏ các mức trần trong hoạt động cho vay của ngân hàng và cho phép lấy biên nhận lưu kho và cây trồng làm tài sản thế chấp. <br> Bắt buộc sử dụng các đánh giá rủi ro khí hậu cho tất cả các quyết định đầu tư công. | Hỗ trợ đầu tư quy mô lớn vào nông nghiệp bằng cách củng cố các mô hình trang trại hợp tác và tạo điều kiện cho các nhà khai thác lớn tham gia. <br> Thúc đẩy quan hệ đối tác công - tư trong nghiên cứu và phát triển các công nghệ nông nghiệp thông minh và có khả năng chống chịu. <br> Đưa ra cách tiếp cận quản lý tài sản vòng đời cho cơ sở hạ tầng. <br> Đầu tư vào các biện pháp an toàn sinh học (bảo vệ khỏi sâu bệnh, vi rút, v.v.) để ngăn ngừa hiệu quả dịch bệnh trên gia súc lây lan. <br> Lập mô hình và lập kế hoạch đầu tư vào cơ sở hạ tầng và dịch vụ xã hội ở các khu vực sẽ bị ảnh hưởng bởi di cư do khí hậu. <br> Lập mô hình và lập kế hoạch các địa điểm và kênh giao dịch thay thế cho hầu hết các ngành dễ bị tổn thương trước khí hậu. <br> Thực hiện các biện pháp quản lý rừng bền vững và có sự tham gia của người dân. |",
+   "crop": "p100_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2521,
+  "output_tokens": 944,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 4.54,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.010861,
+ "seconds": 4.6
+}

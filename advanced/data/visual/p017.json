@@ -1,0 +1,34 @@
+{
+ "page": 17,
+ "model": "gemini-3.1-flash-lite",
+ "elements": [
+  {
+   "label": "Hình 3",
+   "kind": "chart",
+   "title": "Chi phí ước tính do biến đổi khí hậu năm 2020 (triệu USD)",
+   "box_2d": [
+    430,
+    115,
+    664,
+    885
+   ],
+   "informative": true,
+   "description": "Biểu đồ cột chồng thể hiện các lĩnh vực chịu thiệt hại kinh tế do biến đổi khí hậu tại Việt Nam năm 2020. Thủy sản và năng suất lao động là hai lĩnh vực chịu thiệt hại lớn nhất.",
+   "transcription": "Biểu đồ dạng cột tích lũy ngang gồm các danh mục: Thủy sản: 4219 triệu USD, Năng suất lao động: 2807 triệu USD, Mực nước biển dâng: 1474 triệu USD, Nông nghiệp: 837 triệu USD, Chi phí giải nhiệt: 518 triệu USD, Thiên tai: 447 triệu USD, Sức khỏe: 235 triệu USD, Nước: 218 triệu USD, Du lịch: 148 triệu USD.",
+   "units": "triệu USD",
+   "crop": "p017_e0.png"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "prompt_tokens": 2466,
+  "output_tokens": 294,
+  "thinking_tokens": 0,
+  "cached_tokens": 0,
+  "llm_seconds": 3.1,
+  "retries": 0,
+  "errors": []
+ },
+ "cost_usd": 0.005904,
+ "seconds": 3.2
+}

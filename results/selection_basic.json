@@ -1,0 +1,21 @@
+{
+ "decided_at": "2026-11-15, sau khi chấm dev, TRƯỚC khi chạy bất kỳ cấu hình nào trên test",
+ "benchmark_sha256": "ba441760942200ec9f0f345cb959178f9c87d3697db63d1da81714d21871dc00",
+ "criteria_preregistered": [
+  "1. Grounded answer trung bình /2 trên câu có đáp án của dev.",
+  "2. Abstention đúng trên câu thiếu evidence của dev, rồi số câu có đáp án bị từ chối nhầm.",
+  "3. Context Evidence Rate trên dev.",
+  "4. Chi phí và thời gian trung vị mỗi câu.",
+  "Chênh lệch <= 1 câu ở một tiêu chí coi là hòa và xét tiêu chí kế tiếp."
+ ],
+ "criterion_2_definition": "Từ chối đúng = status abstain VÀ nội dung không bịa (định nghĩa của starter/agent_metrics.py). Tiêu chí ghi trước không nói rõ status hay nội dung; nếu tính theo nội dung, A1/A2/A3 cùng 4/4 và A1 rẻ hơn A3 ~18% -> sẽ chọn A1.",
+ "dev_results": {
+  "A0_dense": {"grounded_mean": 1.941, "abstention": "2/4", "false_abstention": "0/17", "context_evidence_rate": "16/17", "cost_usd": 0.04661},
+  "A1_hybrid": {"grounded_mean": 2.0, "abstention": "2/4", "false_abstention": "0/17", "context_evidence_rate": "17/17", "cost_usd": 0.06718},
+  "A2_rerank_adj": {"grounded_mean": 2.0, "abstention": "2/4", "false_abstention": "0/17", "context_evidence_rate": "17/17", "cost_usd": 0.18303},
+  "A3_hybrid_strict": {"grounded_mean": 2.0, "abstention": "4/4", "false_abstention": "0/17", "context_evidence_rate": "17/17", "cost_usd": 0.08231}
+ },
+ "selected": "A3_hybrid_strict",
+ "baseline_for_test": "A0_dense",
+ "reason": "Hòa A1/A2 ở tiêu chí 1 (2,0); thắng ở tiêu chí 2 (4/4 so với 2/4) và không tăng từ chối nhầm (0/17). A2 bị loại vì đắt gấp ~2,2 lần mà không hơn ở tiêu chí nào."
+}
